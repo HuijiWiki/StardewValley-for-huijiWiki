@@ -1,8 +1,8 @@
 {
     "bundles" : {
-        "4":{
+        "4": {
             "nameEN": 0,
-            "discription": 1,
+            "description": 1, 
             "ingredient": {
                 "ingredient_index": 2,
                 "itemId": 0,
@@ -11,6 +11,19 @@
             }, 
             "colorIndex": 3,
             "displayName": 4
+        },
+        "5": {
+            "nameEN": 0,
+            "description": 1,
+            "ingredient": {
+                "ingredient_index": 2,
+                "itemId": 0,
+                "itemAmount": 1,
+                "itemQuality": 2
+            },
+            "colorIndex": 3,
+            "ingredientSlots": 4,
+            "displayName": 5
         }
     },
     "boots" : {
