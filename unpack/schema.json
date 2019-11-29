@@ -1,14 +1,17 @@
 {
     "bundles" : {
-        "8":[
-            "nameEN",
-            "discription",
-            "undefined_1", 
-            "undefined_2",
-            "colorIndex",
-            "number",
-            "displayName"
-            ]
+        "4":{
+            "nameEN": 0,
+            "discription": 1,
+            "ingredient": {
+                "ingredient_index": 2,
+                "itemId": 0,
+                "itemAmount": 1,
+                "itemQuality": 2
+            }, 
+            "colorIndex": 3,
+            "displayName": 4
+        }
     },
     "boots" : {
         "7":[
@@ -85,7 +88,7 @@
             "undefined_2",
             "undefined_3",
             "source",
-            "displayName",
+            "displayName"
             ]
     },
     "craftingrecipes" : {
