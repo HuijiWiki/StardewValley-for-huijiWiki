@@ -33,109 +33,128 @@
         }
     },
     "boots" : {
-        "7":[
-            "nameEN",
-            "discription",
-            "sellPrice",
-            "undefined_1",
-            "undefined_2",
-            "undefined_3",
-            "displayName"
-            ]
+        "7":{
+          "nameEN": 0,
+          "description": 1,
+          "sellPrice": 2,
+          "defense": 3,
+          "immunity": 4,
+          "colorIndex": 5,
+          "displayName": 6
+        }
     },
     "bigcraftablesinformation" : {
-        "10":[
-            "nameEN",
-            "price",
-            "edibility",
-            "type",
-            "description",
-            "outdoors",
-            "indoors",
-            "fragility",
-            "isLamp",
-            "displayName"
-            ]
+        "10": {
+          "nameEN": 0,
+          "price": 1,
+          "edibility": 2,
+          "type": {
+            "name": 0,
+            "categoryId": 1
+          },
+          "description": 4,
+          "isOutdoors": 5,
+          "isIndoors": 6,
+          "fragility": 7,
+          "isLamp": 8,
+          "displayName": 9
+        }
     },
     "blueprints" : {
-        "18":[
-            "itemsRequired",
-            "tilesWidth",
-            "tilesHeight",
-            "humanDoor-x",
-            "humanDoor-y",
-            "animalDoor-x",
-            "animalDoor-y",
-            "displayName",
-            "description",
-            "blueprintType",
-            "nameOfBuildingToUpgrade",
-            "undefined_1",
-            "undefined_2",
-            "maxOccupants",
-            "actionBehavior",
-            "namesOfOkBuildingLocations",
-            "moneyRequired",
-            "isMagical"
-            ],
-        "8":[
-            "animal",
-            "moneyRequired",
-            "undifined_1",
-            "undifined_2",
-            "displayName",
-            "description",
-            "undifined_3",
-            "undifined_4"
-        ]
+        "18": {
+          "itemsRequired": 0,
+          "tilesWidth": 1,
+          "tilesHeight": 2,
+          "humanDoor-x": 3,
+          "humanDoor-y": 4,
+          "animalDoor-x": 5,
+          "animalDoor-y": 6,
+          "displayName": 7,
+          "description": 8,
+          "blueprintType": 9,
+          "nameOfBuildingToUpgrade": 10,
+          "undefined_1": 11,
+          "undefined_2": 12,
+          "maxOccupants": 13,
+          "actionBehavior": 14,
+          "namesOfOkBuildingLocations": 15,
+          "moneyRequired": 16,
+          "isMagical": 17
+        },
+        "8": {
+          "animal": 0,
+          "moneyRequired": 1,
+          "sourceRectForMenuView1": 2,
+          "sourceRectForMenuView2": 3,
+          "displayName": 4,
+          "description": 5,
+          "undefined_1": 6,
+          "undefined_2": 7
+        }
     },
     "clothinginfomation" : {
-        "8":[
-            "nameEN",
-            "displayName",
-            "discription",
-            "undefined_1",
-            "undefined_2",
-            "color",
-            "dyeable",
-            "type"
-            ]
+        "8":{
+          "nameEN": 0,
+          "displayName": 1,
+          "description": 2,
+          "indexInTileSheetMale": 3,
+          "indexInTileSheetFemale": 4,
+          "color": {
+            "r": 0,
+            "g": 1,
+            "b": 2
+          },
+          "dyeable": 7,
+          "type": 8
+        }
     },
     "cookingrecipes" : {
-        "5":[
-            "undefined_1",
-            "undefined_2",
-            "undefined_3",
-            "source",
-            "displayName"
-            ]
+        "5":{
+          "recipeList": {
+            "itemId": 0,
+            "itemAmount": 1
+          },
+          "undefined_1": 1,
+          "productItemId": 2,
+          "source": 3,
+          "displayName": 4
+        }
     },
     "craftingrecipes" : {
-        "6":[
-            "undefined_1",
-            "location",
-            "undefined_2",
-            "isProduction",
-            "source",
-            "displayName"
-            ]
+        "6": {
+          "recipeList": {
+            "itemId": 0,
+            "itemAmount": 1
+          },
+          "type": 1,
+          "craftItem": {
+            "itemId": 0,
+            "itemAmount": 1
+          },
+          "isBigCraftItem": 3,
+          "skillDemand": {
+            "skillName": 0,
+            "skillLevel": 1
+          },
+          "displayName": 5
+        }
     },
     "crops" : {
-        "9":[
-            "days",
-            "growthSeasons",
-            "spriteIndex",
-            "harvestIndex",
-            "regrowAfterHarvest",
-            "chanceForExtraHarvest",
-            "raisedSeeds",
-            "tintColor"
-            ]
+        "9": {
+          "days": 0,
+          "growthSeasons": 1,
+          "spriteIndex": 2,
+          "harvestIndex": 3,
+          "regrowAfterHarvest": 4,
+          "chanceForExtraHarvest": 5,
+          "raisedSeeds": 6,
+          "tintColor": 7
+        }
     },
     "engagementdialogue" : {
-        "1":[
-            "text"
-            ]
+        "1":{
+          "text": 0
+        }
     },
     "farmanimals" : {
         "27":[
