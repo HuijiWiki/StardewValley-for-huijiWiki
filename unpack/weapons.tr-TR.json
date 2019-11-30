@@ -1,0 +1,78 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.Int32Reader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "0": "Rusty Sword/Kör ve paslı bir kılıç./2/5/1/0/0/0/3/-1/-1/0/.02/3/Paslı Kılıç",
+        "1": "Silver Saber/Pası def etmek için gümüş ile kaplanmış./8/15/1/0/1/1/0/50/45/0/.02/3/Gümüş Kılıç",
+        "2": "Dark Sword/Gizemli enerjisi sayesinde parıldıyor./30/45/1.5/-10/0/0/0/-1/-1/2/.04/3/Kara Kılıç",
+        "3": "Holy Blade/İnsan bunu kuşandığında umutla doluyor./18/24/1.2/0/5/0/3/-1/-1/0/.02/3/Kutsal Kılıç",
+        "4": "Galaxy Sword/Görülen hiçbir şeye benzemiyor./60/80/1/8/0/0/0/-1/-1/0/.02/3/Galaksi Kılıcı",
+        "5": "Bone Sword/Çok hafif ve keskin bir kemik parçası./20/30/.8/8/5/0/0/74/50/0/.02/3/Kemik Kılıç",
+        "6": "Iron Edge/Ağır bir pala./12/25/1.2/-4/0/1/3/44/-1/0/.02/3/Demirkenar",
+        "7": "Templar's Blade/Eskiden saygın bir şövalyeye aitmiş./22/29/1/0/10/1/3/90/50/0/0/3/Tapınakçı Kılıcı",
+        "8": "Obsidian Edge/İnanılmaz derecede keskin./30/45/1/-2/0/0/0/121/100/0/.02/3.2/Obsidyenkenar",
+        "9": "Lava Katana/Lavların çalkalandığı bir havuzda dövülmüş./55/64/1.2/0/0/3/0/-1/-1/2/.015/3.5/Lav Kılıcı",
+        "10": "Claymore/Aşırı ağır./20/32/1.3/-8/0/2/3/86/50/0/.02/3/Çiftağızlı Kılıç",
+        "11": "Steel Smallsword/Sıradan metal bir kılıç./4/8/1/4/0/0/0/26/-1/0/.02/3/Çelik Küçükkılıç",
+        "12": "Wooden Blade/Oyulmuş bir odun parçası için hiç fena değil./3/7/1/0/0/0/0/3/-1/0/.02/3/Ahşap Kılıç",
+        "13": "Insect Head/Kuşanması pek hoş değil./10/20/1/4/9/0/0/-1/-1/0/.04/3/Böcekkafası",
+        "14": "Neptune's Glaive/Mücevher Denizi'nin ötesinden gelme bir hatıra./18/35/1.4/-2/6/2/3/-1/-1/0/.02/3/Neptün'ün Keskinağzı",
+        "15": "Forest Sword/Ormanın büyüsü ile güçlendirilmiş./8/18/1/4/5/1/0/-1/-1/0/.02/3/Orman Kılıcı",
+        "16": "Carving Knife/Küçük, hafif bir bıçak./1/3/.5/0/0/0/1/18/-1/0/.04/3/Oyma Bıçağı",
+        "17": "Iron Dirk/Herkeste görülebilecek bir kama./2/4/.5/0/0/0/1/62/50/0/.03/3/Demir Kama",
+        "18": "Burglar's Shank/Sessizlerin ve gizlenenlerin tercih ettiği silah./7/12/.5/0/5/0/1/114/100/0/.04/3.5/Hırsız Hançeri",
+        "19": "Shadow Dagger/Kulağa tutulduğunda 1000 ruhun çığlığı duyulur./10/20/.5/0/0/0/1/80/50/0/.04/3/Gölge Hançer",
+        "20": "Elf Blade/Yalnızca bir elfin çevik ellerinden çıkmış olabilir./3/5/.5/0/5/0/1/-1/-1/0/.04/3/Elf Kılıcı",
+        "21": "Crystal Dagger/Bu hançer işlenmiş kuvarstan yapılmış./4/10/1/0/10/0/1/-1/-1/0/.03/4/Kristal Hançer",
+        "22": "Wind Spire/Ufak, hafif bir hançer./1/5/1/0/0/0/1/-1/-1/0/.02/3.2/Rüzgar Tırtığı",
+        "23": "Galaxy Dagger/Bugüne kadar görülen hiçbir şeye benzemez./30/40/1/3/0/0/1/-1/-1/0/.02/3/Galaksi Hançeri",
+        "24": "Wood Club/Sağlam bir odun parçasının gürz şekline oyulmuş hali./9/16/1.5/-8/0/0/2/32/-1/0/.02/3/Ahşap Gürz",
+        "25": "Alex's Bat/Topa en çok temas eden kısımda Alex'in katıldığı turnuvanın izleri yer alıyor./1/3/1/-8/0/0/2/-1/-1/0/.02/3/Alex'in Sopası",
+        "26": "Lead Rod/İnanılmaz ağır./18/27/1.5/-16/0/0/2/56/50/1/.02/3/Kurşun Sopa",
+        "27": "Wood Mallet/Sağlam tarafının vuruşu ağırdır. Gürze göre hafif kalır./15/24/1.3/-4/1/0/2/68/50/0/.02/3/Ahşap Tokmak",
+        "28": "The Slammer/Bu aşırı ağır çekiç düşmanları havaya uçurur./40/55/1.5/-12/0/0/2/128/100/2/.02/3/Çırpıcı",
+        "29": "Galaxy Hammer/Daha önce görülen aşırı hafif materyallerden yapılmıştır./70/90/1/-4/0/0/2/-1/-1/0/.02/3/Galaksi Çekici",
+        "30": "Sam's Old Guitar/Daha iyi günler geçirmişliği vardır./1/3/1/-6/0/0/2/-1/-1/0/.02/3/Sam'in Eski Gitarı",
+        "31": "Femur/Ağır, eski ve pis./6/11/1.5/-4/0/0/2/10/-1/0/.02/3/Kemik",
+        "32": "Slingshot/Mühimmat olarak taş kullanılır./1/3/1/308/0/0/4/-1/-1/0/.02/3/Sapan",
+        "33": "Master Slingshot/Mühimmat olarak taş kullanılır./1/3/1/308/0/0/4/-1/-1/0/.02/3/Usta Sapanı",
+        "34": "Galaxy Slingshot/Gerçekten güçlü görünüyor./1/3/1/308/0/0/4/-1/-1/0/.02/3/Galaksi Sapanı",
+        "35": "Elliott's Pencil/Elliot bunu kitabını yazmada kullanmıştı. Fazlasıyla keskinmiş!/1/3/1/308/0/0/1/-1/-1/0/.02/3/Elliot'ın Kalemi",
+        "36": "Maru's Wrench/Metalden yapılma büyük bir ingiliz anahtarı. Maru gibi kokuyor./1/3/1/308/0/0/2/-1/-1/0/.02/3/Maru'nun İngiliz Anahtarı",
+        "37": "Harvey's Mallet/Harvey'nin sağlık ocağını anımsatıyor./1/3/1/308/0/0/2/-1/-1/0/.02/3/Harvey'nin Çekici",
+        "38": "Penny's Fryer/Penny'nin en sevdiği kızartma tavası. İç kısmına lastiksi bir şey yapışmış./1/3/1/308/0/0/2/-1/-1/0/.02/3/Penny'nin Tavası",
+        "39": "Leah's Whittler/Leah'ın odun şekillendirmede kullandığı hançer./1/3/1/308/0/0/1/-1/-1/0/.02/3/Leah'ın Hançeri",
+        "40": "Abby's Planchette/Sağlam ahşaptan yapılmış./1/3/1/308/0/0/1/-1/-1/0/.02/3/Abby'nin Keskisi",
+        "41": "Seb's Lost Mace/Sebastian'ın çakma eserlerinden birisi./1/3/1/308/0/0/2/-1/-1/0/.02/3/Seb'in Kayıp Gürzü",
+        "42": "Haley's Iron/Aşırı sıcak, Haley'nin saçı gibi kokuyor./1/3/1/308/0/0/0/-1/-1/0/.02/3/Haley'nin Sopası",
+        "43": "Pirate's Sword/Anlaşılan eskiden bir korsana aitmiş./8/14/1/4/0/0/3/40/-1/0/.02/3/Korsan Kılıcı",
+        "44": "Cutlass/Ustalıkla dövülmüş bir kılıç./9/17/1/4/0/0/0/-1/-1/0/.02/3/Pala",
+        "45": "Wicked Kris/İridyum alaşımından yapılmış bir kılıç./24/30/.5/0/8/0/1/-1/-1/2/.06/3/Uğursuz Kama",
+        "46": "Kudgel/Zorbaların can dostu./27/40/1.6/-10/0/0/2/107/100/0/.02/3.1/Savrulaç",
+        "47": "Scythe/Silo kurulduktan sonra otları samana döndürmede kullanılır./1/3/1/0/0/0/0/-1/-1/0/.02/3/Tırpan",
+        "48": "Yeti Tooth/Aşırı soğuk./26/42/1/0/0/4/0/-1/-1/0/.02/3.2/Yeti Dişi",
+        "49": "Rapier/Zarif bir kılıç./15/25/1/4/0/0/0/100/95/2/.02/3/Meç",
+        "50": "Steel Falchion/Hafif ve güçlü./28/46/1/8/5/0/0/142/100/0/.02/3.4/Çelik Orakkılıç",
+        "51": "Broken Trident/Denizden çıkmasına rağmen keskin kalmış./15/26/.5/0/8/0/1/-1/-1/2/.02/3/Kırık Mızrak",
+        "52": "Tempered Broadsword/Her şeye dayanabilirmiş gibi duruyor./29/44/1.2/-6/0/3/0/135/100/1/.02/3/Dertli Kılıç",
+        "53": "Golden Scythe/Normal bir tırpandan daha güçlü./13/13/1/0/0/0/0/-1/-1/2/.02/4/Altın Tırpan"
+    }
+}

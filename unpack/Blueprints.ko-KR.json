@@ -1,0 +1,52 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "Silo": "390 100 330 10 334 5/3/3/-1/-1/-2/-1/null/저장고/잔디를 잘라서 사료로 쓰기 위해 저장할 수 있습니다./Buildings/none/48/128/-1/null/Farm/100/false",
+        "Mill": "388 150 390 50 428 4/4/2/-1/-1/-2/-1/null/풍차/밀로 밀가루를 만들고, 사탕무로 설탕을 만들 수 있습니다./Buildings/none/64/128/-1/null/Farm/2500/false",
+        "Earth Obelisk": "337 10 86 10/3/2/-1/-1/-2/-1/null/대지의 오벨리스크/산으로 순간이동할 수 있습니다./Buildings/none/48/128/-1/null/Farm/1000000/true",
+        "Water Obelisk": "337 5 372 10 393 10/3/2/-1/-1/-2/-1/null/물의 오벨리스크/해변으로 순간이동할 수 있습니다./Buildings/none/48/128/-1/null/Farm/1000000/true",
+        "Junimo Hut": "390 200 268 9 771 100/3/2/-1/-1/-2/-1/null/주니모 오두막/오두막 근처의 작물을 주니모가 수확해 줍니다./Buildings/none/48/64/-1/null/Farm/20000/true",
+        "Gold Clock": "/3/2/-1/-1/-2/-1/null/황금 시계/바위 파편이 나타나는 것을 막아줍니다. 울타리가 더 이상 풍화되지 않습니다./Buildings/none/48/80/-1/null/Farm/10000000/true",
+        "Stable": "709 100 335 5/4/2/-1/-1/-2/-1/null/마굿간/말이 지낼 수 있는 건물로, 말을 탈 수 있게 해줍니다. 말이 포함되어있습니다./Buildings/none/64/96/-1/null/Farm/10000/false",
+        "Well": "390 75/3/3/-1/-1/-1/-1/null/우물/우물에서 물뿌리개를 채울 수 있습니다./Buildings/none/32/32/-1/null/Farm/1000/false",
+        "Shipping Bin": "388 150/2/1/-1/-1/-1/-1/null/배송 상자/밤사이 안에 넣어둔 아이템이 팔립니다./Buildings/none/48/80/-1/null/Farm/250/false/0",
+        "Coop": "388 300 390 100/6/3/1/2/2/2/Coop/닭장/닭을 최대 4마리 사육할 수 있습니다./Buildings/none/64/96/4/null/Farm/4000/false",
+        "Big Coop": "388 400 390 150/6/3/1/2/2/2/Coop2/큰 닭장/닭장에서 지내는 동물을 최대 8마리 사육 가능합니다. 부화기가 포함되어 있습니다. 오리가 사육 가능해집니다./Upgrades/Coop/64/96/8/null/Farm/10000/false",
+        "Deluxe Coop": "388 500 390 200/6/3/1/2/2/2/Coop3/디럭스 닭장/닭장에서 지내는 동물을 최대 12마리 사육 가능합니다. 자동 사료 지급 시스템이 포함되어 있습니다. 토끼가 사육 가능해집니다./Upgrades/Big Coop/64/96/12/null/Farm/20000/false",
+        "Barn": "388 350 390 150/7/4/1/3/3/3/Barn/외양간/젖소를 최대 4마리 사육할 수 있습니다./Buildings/none/96/96/4/null/Farm/6000/false",
+        "Big Barn": "388 450 390 200/7/4/1/3/4/3/Barn2/큰 외양간/외양간에서 지내는 가축을 최대 8마리 사육할 수 있습니다. 동물들이 출산할 수 있게 됩니다. 염소가 사육 가능해집니다./Upgrades/Barn/96/96/8/null/Farm/12000/false",
+        "Deluxe Barn": "388 550 390 300/7/4/1/3/4/3/Barn3/디럭스 외양간/외양간에서 지내는 가축을 최대 12마리 사육할 수 있습니다. 자동 사료 지급 시스템이 포함되어 있습니다. 양과 돼지가 사육 가능해집니다./Upgrades/Big Barn/96/96/12/null/Farm/25000/false",
+        "Slime Hutch": "390 500 338 10 337 1/11/6/5/5/-1/-1/SlimeHutch/슬라임 장/슬라임을 최대 20마리 기를 수 있습니다. 여물통에 물을 채우면 슬라임들이 슬라임볼을 생성합니다./Buildings/none/96/96/20/null/Farm/10000/false",
+        "Shed": "388 300/7/3/3/2/-1/-1/Shed/헛간/비어있는 건물입니다. 원하는 대로 꾸며보세요!/Buildings/none/96/96/20/null/Farm/15000/false",
+        "Stone Cabin": "390 10/5/3/2/1/-1/-1/Cabin/오두막/친구를 위한 집! 마을의 농업 보조금의 지원을 받았습니다./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Plank Cabin": "388 5 771 10/5/3/2/1/-1/-1/Cabin/오두막/친구를 위한 집! 마을의 농업 보조금의 지원을 받았습니다./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Log Cabin": "388 10/5/3/2/1/-1/-1/Cabin/오두막/친구를 위한 집! 마을의 농업 보조금의 지원을 받았습니다./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Greenhouse": "388 500 390 200 337 1/4/2/2/1/-1/-1/FarmGreenHouse/온실/일 년 내내 계절에 구애받지 않고 작물을 기를 수 있습니다!/Buildings/none/64/96/-1/null/Farm",
+        "Mine Elevator": "388 30 390 15 334 5/4/2/1/1/-1/-1/null/광산 엘리베이터/설치한 엘리베이터를 이용해 광산 내에서 빠르게 이동할 수 있습니다. 광산 한 층당 하나씩만 설치할 수 있습니다./Buildings/none/64/64/-1/MineElevator/UndergroundMine",
+        "Chicken": "animal/500/64/64/닭/맛있는 달걀을 낳습니다. 두가지 종류의 색이 있습니다./null/Farm",
+        "Duck": "animal/1000/64/64/오리/알을 낳고 가끔 깃털을 흘립니다./null/Farm",
+        "Rabbit": "animal/1500/64/64/토끼/털이 복슬복슬한 토끼입니다!/null/Farm",
+        "Cow": "animal/1000/64/96/소/진하고 영양가 높은 우유를 생산합니다./null/Farm",
+        "Sheep": "animal/1500/64/96/양/털을 깎아서 양털을 채집할 수 있습니다./null/Farm",
+        "Goat": "animal/1500/64/96/염소/맛있는 염소 우유를 생산합니다!/null/Farm",
+        "Pig": "animal/2000/64/96/돼지/송로 버섯을 찾아낼 수 있게 훈련되어 있습니다./null/Farm",
+        "Fish Pond": "390 200 152 5 153 5/5/5/-1/-1/-2/-1/null/물고기 연못/물고기를 기르고 생산품을 수확할 수 있습니다. 물고기는 시간이 갈수록 수가 늘어납니다./Buildings/none/76/78/10/null/Farm/5000/false/2",
+        "Big Shed": "388 550 390 300/7/3/3/2/-1/-1/Shed2/큰 헛간/헛간의 크기를 두 배로 늘립니다. 실내를 장식할 수 있습니다./Upgrades/Shed/96/96/20/null/Farm/20000/false",
+        "Desert Obelisk": "337 20 88 10 90 10/3/2/-1/-1/-2/-1/null/사막의 오벨리스크/사막으로 순간이동할 수 있습니다./Buildings/none/48/128/-1/null/Farm/1000000/true"
+    }
+}

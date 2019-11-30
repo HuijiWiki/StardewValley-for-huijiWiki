@@ -1,0 +1,1 @@
+{"index": "20", "main_category": "weapons", "nameEN": "Elf Blade", "sub_category": "dagger", "description": "唯有精灵的巧手才能打造出这件物品。", "damageMin": "3", "damageMax": "5", "knockback": ".5", "speed": "0", "type": "1", "baseMineLevel": "-1", "critChance": ".04", "displayName": "精灵之刃", "minMineLevel": "50", "critMultiplier": "3", "addedPrecision": "5", "addedAOE": "0", "addDefense": "2"}

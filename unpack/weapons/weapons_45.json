@@ -1,0 +1,1 @@
+{"index": "45", "main_category": "weapons", "nameEN": "Wicked Kris", "sub_category": "dagger", "description": "使用铱合金打造的刀刃。", "damageMin": "24", "damageMax": "30", "knockback": ".5", "speed": "0", "type": "1", "baseMineLevel": "-1", "critChance": ".06", "displayName": "蛇形邪剑", "minMineLevel": "-1", "critMultiplier": "3", "addedPrecision": "8", "addedAOE": "2", "addDefense": "0"}

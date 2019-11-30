@@ -1,0 +1,1 @@
+{"index": "24", "main_category": "weapons", "nameEN": "Wood Club", "sub_category": "stunt", "description": "沉重的木，粗糙地打造成棍子的型状。", "damageMin": "9", "damageMax": "16", "knockback": "1.5", "speed": "-8", "type": "2", "baseMineLevel": "32", "critChance": ".02", "displayName": "木棒", "minMineLevel": "-1", "critMultiplier": "3", "addedPrecision": "0", "addedAOE": "0", "addDefense": "2"}

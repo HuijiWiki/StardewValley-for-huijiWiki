@@ -1,0 +1,1 @@
+{"index": "48", "main_category": "weapons", "nameEN": "Yeti Tooth", "sub_category": "stabbing", "description": "寒冷冻人。", "damageMin": "26", "damageMax": "42", "knockback": "1", "speed": "0", "type": "2", "baseMineLevel": "-1", "critChance": ".02", "displayName": "雪怪之牙", "minMineLevel": "100", "critMultiplier": "3.2", "addedPrecision": "0", "addedAOE": "2", "addDefense": "4"}

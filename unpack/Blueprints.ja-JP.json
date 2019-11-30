@@ -1,0 +1,52 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "Silo": "390 100 330 10 334 5/3/3/-1/-1/-2/-1/null/サイロ/刈った草を動物のエサとしてたくわえられる。/Buildings/none/48/128/-1/null/Farm/100/false",
+        "Mill": "388 150 390 50 428 4/4/2/-1/-1/-2/-1/null/製粉機/コムギからコムギ粉を、ビーツから砂糖をつくれる。/Buildings/none/64/128/-1/null/Farm/2500/false",
+        "Earth Obelisk": "337 10 86 10/3/2/-1/-1/-2/-1/null/地球のオベリスク/山にワープできる。/Buildings/none/48/128/-1/null/Farm/1000000/true",
+        "Water Obelisk": "337 5 372 10 393 10/3/2/-1/-1/-2/-1/null/水のオベリスク/浜辺にワープできる。/Buildings/none/48/128/-1/null/Farm/1000000/true",
+        "Junimo Hut": "390 200 268 9 771 100/3/2/-1/-1/-2/-1/null/ジュニモ小屋/小屋のまわりの作物を、ジュニモが収穫してくれる。/Buildings/none/48/64/-1/null/Farm/20000/true",
+        "Gold Clock": "/3/2/-1/-1/-2/-1/null/金時計/岩や倒木、雑草の発生や、フェンスの劣化をふせいでくれる。/Buildings/none/48/80/-1/null/Farm/10000000/true",
+        "Stable": "709 100 335 5/4/2/-1/-1/-2/-1/null/馬小屋/乗ることができるウマを飼える。建てると、ウマがセットでついてくる。/Buildings/none/64/96/-1/null/Farm/10000/false",
+        "Well": "390 75/3/3/-1/-1/-1/-1/null/井戸/ジョウロに水をくめる。/Buildings/none/32/32/-1/null/Farm/1000/false",
+        "Coop": "388 300 390 100/6/3/1/2/2/2/Coop/小屋/トリ小屋用の動物を4匹飼える。/Buildings/none/64/96/4/null/Farm/4000/false",
+        "Big Coop": "388 400 390 150/6/3/1/2/2/2/Coop2/大型の小屋/トリ小屋用の動物を8匹飼える。ふ卵器つき。アヒルが飼えるようになる。/Upgrades/Coop/64/96/8/null/Farm/10000/false",
+        "Deluxe Coop": "388 500 390 200/6/3/1/2/2/2/Coop3/デラックス小屋/トリ小屋用の動物を12匹飼える。自動エサやり装置つき。ウサギが飼えるようになる。/Upgrades/Big Coop/64/96/12/null/Farm/20000/false",
+        "Barn": "388 350 390 150/7/4/1/3/3/3/Barn/家畜小屋/動物小屋用の動物を4頭飼える。/Buildings/none/96/96/4/null/Farm/6000/false",
+        "Big Barn": "388 450 390 200/7/4/1/3/4/3/Barn2/大型の家畜小屋/動物小屋用の動物を8頭飼える。動物が子どもを産むようになる。ヤギが飼えるようになる。/Upgrades/Barn/96/96/8/null/Farm/12000/false",
+        "Deluxe Barn": "388 550 390 300/7/4/1/3/4/3/Barn3/デラックス家畜小屋/動物小屋用の動物を12頭飼える。自動エサやり装置つき。ヒツジとブタが飼えるようになる。/Upgrades/Big Barn/96/96/12/null/Farm/25000/false",
+        "Slime Hutch": "390 500 338 10 337 1/11/6/5/5/-1/-1/SlimeHutch/スライムハッチ/スライムを20匹まで飼える。エサ箱に水を満たしておくと、スライムがスライムボールをつくる。/Buildings/none/96/96/20/null/Farm/10000/false",
+        "Shed": "388 300/7/3/3/2/-1/-1/Shed/納屋/からっぽの小屋。好きなものを入れよう！なかには家具を設置できる。/Buildings/none/96/96/20/null/Farm/15000/false",
+        "Greenhouse": "388 500 390 200 337 1/4/2/2/1/-1/-1/FarmGreenHouse/温室/どんな季節でも一年中、好きな作物を育てられる！/Buildings/none/64/96/-1/null/Farm",
+        "Mine Elevator": "388 30 390 15 334 5/4/2/1/1/-1/-1/null/採鉱場エレベーター/鉱山エレベーターを建てたところなら、どこでもすぐに移動できる。鉱山の階層1つにつき、建てられるのは1個だけ。/Buildings/none/64/64/-1/MineElevator/UndergroundMine",
+        "Chicken": "animal/500/64/64/ニワトリ4/おいしいタマゴをうむ。体の色は2種類。/null/Farm",
+        "Duck": "animal/1000/64/64/カモ/おいしいタマゴをうむ。ときどきハネを落とす。/null/Farm",
+        "Rabbit": "animal/1500/64/64/ウサギ/かわいいウサギ。毛はフワフワ！These are wooly rabbits!/null/Farm",
+        "Cow": "animal/1000/64/96/ウシ/濃厚でクリーミーなミルクを出す。/null/Farm",
+        "Sheep": "animal/1500/64/96/ヒツジ/役にたつ羊毛を刈りとれる。/null/Farm",
+        "Goat": "animal/1500/64/96/ヤギ/おいしいヤギのミルクを出す。/null/Farm",
+        "Pig": "animal/2000/64/96/ブタ/トリュフを探すよう、特別に訓練されている。/null/Farm",
+        "Log Cabin": "388 10/5/3/2/1/-1/-1/Cabin/小屋/お友達のお家！町の農業基金の助成によって建てられる。/Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Plank Cabin": "388 5 771 10/5/3/2/1/-1/-1/Cabin/小屋/お友達のお家！町の農業基金の助成によって建てられる。/Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Shipping Bin": "388 150/2/1/-1/-1/-1/-1/null/出荷箱/アイテムを中に入れておくと一晩で売れる/Buildings/none/48/80/-1/null/Farm/250/false/0",
+        "Stone Cabin": "390 10/5/3/2/1/-1/-1/Cabin/小屋/お友達のお家！町の農業基金の助成によって建てられる。/Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Fish Pond": "390 200 152 5 153 5/5/5/-1/-1/-2/-1/null/魚のいる池/魚を育てて、彼らの農産物を収穫するの。時間が経つと魚は増殖するよ。/Buildings/none/76/78/10/null/Farm/5000/false/2",
+        "Big Shed": "388 550 390 300/7/3/3/2/-1/-1/Shed2/ビッグシェッド/小屋のサイズを2倍にします。インテリアを飾ることができます。/Upgrades/Shed/96/96/20/null/Farm/20000/false",
+        "Desert Obelisk": "337 20 88 10 90 10/3/2/-1/-1/-2/-1/null/砂漠のオベリスク/砂漠にワープします。/Buildings/none/48/128/-1/null/Farm/1000000/true"
+    }
+}

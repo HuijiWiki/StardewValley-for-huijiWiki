@@ -1,0 +1,52 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "Silo": "390 100 330 10 334 5/3/3/-1/-1/-2/-1/null/Silo/Permet de couper et de stocker de l’herbe pour l’alimentation des animaux./Buildings/none/48/128/-1/null/Farm/100/false",
+        "Mill": "388 150 390 50 428 4/4/2/-1/-1/-2/-1/null/Moulin/Permet de faire de la farine à partir de blé et de sucre de betterave./Buildings/none/64/128/-1/null/Farm/2500/false",
+        "Earth Obelisk": "337 10 86 10/3/2/-1/-1/-2/-1/null/Obélisque terrestre/Vous téléporte à la montagne./Buildings/none/48/128/-1/null/Farm/1000000/true",
+        "Water Obelisk": "337 5 372 10 393 10/3/2/-1/-1/-2/-1/null/Obélisque aquatique/Vous téléporte à la mer./Buildings/none/48/128/-1/null/Farm/1000000/true",
+        "Junimo Hut": "390 200 268 9 771 100/3/2/-1/-1/-2/-1/null/Hutte de Junimo/Les Junimos ramassent les récoltes autour de la hutte pour vous./Buildings/none/48/64/-1/null/Farm/20000/true",
+        "Gold Clock": "/3/2/-1/-1/-2/-1/null/Horloge dorée/Empêche les débris d’apparaître sur votre ferme. Empêche les clôtures de se délabrer./Buildings/none/48/80/-1/null/Farm/10000000/true",
+        "Stable": "709 100 335 5/4/2/-1/-1/-2/-1/null/Étable/Vous permet de garder et de monter un cheval. Cheval inclus./Buildings/none/64/96/-1/null/Farm/10000/false",
+        "Well": "390 75/3/3/-1/-1/-1/-1/null/Puits/Un endroit pour remplir votre arrosoir./Buildings/none/32/32/-1/null/Farm/1000/false",
+        "Shipping Bin": "388 150/2/1/-1/-1/-1/-1/null/Bac d’expédition/Mettre des objets à l’intérieur pour les vendre pendant la nuit./Buildings/none/48/80/-1/null/Farm/250/false/0",
+        "Coop": "388 300 390 100/6/3/1/2/2/2/Coop/Poulailler/Peut abriter jusqu’à 4 animaux./Buildings/none/64/96/4/null/Farm/4000/false",
+        "Big Coop": "388 400 390 150/6/3/1/2/2/2/Coop2/Grand poulailler/Peut abriter jusqu’à 8 animaux. Livré avec un incubateur. Débloque les canards./Upgrades/Coop/64/96/8/null/Farm/10000/false",
+        "Deluxe Coop": "388 500 390 200/6/3/1/2/2/2/Coop3/Poulailler de luxe/Peut abriter jusqu’à 12 animaux. Livré avec un système d'alimentation automatique. Débloque les lapins./Upgrades/Big Coop/64/96/12/null/Farm/20000/false",
+        "Barn": "388 350 390 150/7/4/1/3/3/3/Barn/Grange/Peut abriter jusqu’à 4 animaux./Buildings/none/96/96/4/null/Farm/6000/false",
+        "Big Barn": "388 450 390 200/7/4/1/3/4/3/Barn2/Grande grange/Peut abriter jusqu’à 8 animaux. Les animaux pourront mettre bas. Débloque les chèvres./Upgrades/Barn/96/96/8/null/Farm/12000/false",
+        "Deluxe Barn": "388 550 390 300/7/4/1/3/4/3/Barn3/Grange de luxe/Peut abriter jusqu’à 12 animaux. Livré avec un système d'alimentation automatique. Débloque les moutons et les cochons./Upgrades/Big Barn/96/96/12/null/Farm/25000/false",
+        "Slime Hutch": "390 500 338 10 337 1/11/6/5/5/-1/-1/SlimeHutch/Clapier pour Slime/Peut contenir jusqu’à 20 Slimes. Remplissez les abreuvoirs d'eau et les Slimes créeront des boules de Slimes./Buildings/none/96/96/20/null/Farm/10000/false",
+        "Shed": "388 300/7/3/3/2/-1/-1/Shed/Cabanon/Une construction vide. Faites-en ce que vous voulez ! L’intérieur peut être décoré./Buildings/none/96/96/20/null/Farm/15000/false",
+        "Stone Cabin": "390 10/5/3/2/1/-1/-1/Cabin/Cabane/Une maison pour les amis ! Subventionnée par le fonds agricole du village./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Plank Cabin": "388 5 771 10/5/3/2/1/-1/-1/Cabin/Cabane/Une maison pour les amis ! Subventionnée par le fonds agricole du village./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Log Cabin": "388 10/5/3/2/1/-1/-1/Cabin/Cabane/Une maison pour les amis ! Subventionnée par le fonds agricole du village./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Greenhouse": "388 500 390 200 337 1/4/2/2/1/-1/-1/FarmGreenHouse/Serre/Un endroit pour faire pousser des récoltes de n’importe quelle saison, toute l’année !/Buildings/none/64/96/-1/null/Farm",
+        "Mine Elevator": "388 30 390 15 334 5/4/2/1/1/-1/-1/null/Monte-charge de mine/Déplacez-vous rapidement entre les monte-charges de mine que vous construisez. Vous ne pouvez construire qu’un monte-charge par niveau de mine./Buildings/none/64/64/-1/MineElevator/UndergroundMine",
+        "Chicken": "animal/500/64/64/Poule/Ponds des oeufs délicieux. Existe en deux couleurs différentes./null/Farm",
+        "Duck": "animal/1000/64/64/Cane/Ponds des oeufs et donne des plumes de temps en temps./null/Farm",
+        "Rabbit": "animal/1500/64/64/Lapin/Ce sont des lapins laineux !/null/Farm",
+        "Cow": "animal/1000/64/96/Vache/Produis un lait riche et crémeux./null/Farm",
+        "Sheep": "animal/1500/64/96/Mouton/Peut-être tondu pour récolter de la laine précieuse./null/Farm",
+        "Goat": "animal/1500/64/96/Chèvre/Produis du lait de chèvre savoureux !/null/Farm",
+        "Pig": "animal/2000/64/96/Cochon/Ceux-ci sont spécialement dressés pour trouver des truffes./null/Farm",
+        "Fish Pond": "390 200 152 5 153 5/5/5/-1/-1/-2/-1/null/Étang à poissons/Élevez des poissons et récoltez ce qu’ils produisent. Au fil du temps, les poissons se multiplient./Buildings/none/76/78/10/null/Farm/5000/false/2",
+        "Big Shed": "388 550 390 300/7/3/3/2/-1/-1/Shed2/Grand cabanon/Double la taille de la remise. L'intérieur peut être décoré./Upgrades/Shed/96/96/20/null/Farm/20000/false",
+        "Desert Obelisk": "337 20 88 10 90 10/3/2/-1/-1/-2/-1/null/Obélisque du désert/Vous téléporte dans le désert./Buildings/none/48/128/-1/null/Farm/1000000/true"
+    }
+}

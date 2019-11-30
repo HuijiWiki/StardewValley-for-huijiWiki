@@ -1,0 +1,52 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "Silo": "390 100 330 10 334 5/3/3/-1/-1/-2/-1/null/Siló/Segítségével levághatod és etetéshez raktározhatod el a füvet./Buildings/none/48/128/-1/null/Farm/100/false",
+        "Mill": "388 150 390 50 428 4/4/2/-1/-1/-2/-1/null/Malom/Segítségével búzából lisztet, céklából cukrot készíthetsz./Buildings/none/64/128/-1/null/Farm/2500/false",
+        "Earth Obelisk": "337 10 86 10/3/2/-1/-1/-2/-1/null/Föld obeliszk/Elteleportál a hegyekbe./Buildings/none/48/128/-1/null/Farm/1000000/true",
+        "Water Obelisk": "337 5 372 10 393 10/3/2/-1/-1/-2/-1/null/Víz obeliszk/Elteleportál a strandra./Buildings/none/48/128/-1/null/Farm/1000000/true",
+        "Junimo Hut": "390 200 268 9 771 100/3/2/-1/-1/-2/-1/null/Junimo kunyhó/A kunyhó körül Junimok jelennek meg és learatják a termést neked./Buildings/none/48/64/-1/null/Farm/20000/true",
+        "Gold Clock": "/3/2/-1/-1/-2/-1/null/Arany óra/Nem jelenik meg szemét a farmodon. A kerítések nem rongálódnak maguktól./Buildings/none/48/80/-1/null/Farm/10000000/true",
+        "Stable": "709 100 335 5/4/2/-1/-1/-2/-1/null/Istálló/Segítségével lovat tarthatsz és meglovagolhatod. Ló is jár hozzá./Buildings/none/64/96/-1/null/Farm/10000/false",
+        "Well": "390 75/3/3/-1/-1/-1/-1/null/Kút/Egy olyan helyet épít ki, ahol újratöltheted az öntözőkannádat./Buildings/none/32/32/-1/null/Farm/1000/false",
+        "Shipping Bin": "388 150/2/1/-1/-1/-1/-1/null/Szállítós láda/Dobj bele tárgyakat, hogy az este alatt eladd őket./Buildings/none/48/80/-1/null/Farm/250/false/0",
+        "Coop": "388 300 390 100/6/3/1/2/2/2/Coop/Csűr/4 csűrös állatnak./Buildings/none/64/96/4/null/Farm/4000/false",
+        "Big Coop": "388 400 390 150/6/3/1/2/2/2/Coop2/Nagy csűr/8 csűrös állatnak. Inkubátor jár hozzá. Vehetsz kacsát./Upgrades/Coop/64/96/8/null/Farm/10000/false",
+        "Deluxe Coop": "388 500 390 200/6/3/1/2/2/2/Coop3/Luxus csűr/12 csűrös állatnak. Automata etetővel. Vehetsz nyulat./Upgrades/Big Coop/64/96/12/null/Farm/20000/false",
+        "Barn": "388 350 390 150/7/4/1/3/3/3/Barn/Istálló/4 istállós állatnak./Buildings/none/96/96/4/null/Farm/6000/false",
+        "Big Barn": "388 450 390 200/7/4/1/3/4/3/Barn2/Nagy istálló/8 istállós állatnak. Az állatok vemhesek lehetnek. Vehetsz kecskét./Upgrades/Barn/96/96/8/null/Farm/12000/false",
+        "Deluxe Barn": "388 550 390 300/7/4/1/3/4/3/Barn3/Luxus istálló/12 istállós állatnak. Automata etetővel. Vehetsz birkát és disznót./Upgrades/Big Barn/96/96/12/null/Farm/25000/false",
+        "Slime Hutch": "390 500 338 10 337 1/11/6/5/5/-1/-1/SlimeHutch/Ragacs ketrec/Maximum 20 ragacsnak. A vályút vízzel megtöltve ragacs labdákat készítenek./Buildings/none/96/96/20/null/Farm/10000/false",
+        "Shed": "388 300/7/3/3/2/-1/-1/Shed/Raktár/Egy üres épület. Azt raksz bele, amit csak akarsz! A belseje dekorálható./Buildings/none/96/96/20/null/Farm/15000/false",
+        "Stone Cabin": "390 10/5/3/2/1/-1/-1/Cabin/Kunyhó/Otthon egy barátod számára! A város mezőgazdasági tőkéje által támogatva./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Plank Cabin": "388 5 771 10/5/3/2/1/-1/-1/Cabin/Kunyhó/Otthon egy barátod számára! A város mezőgazdasági tőkéje által támogatva./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Log Cabin": "388 10/5/3/2/1/-1/-1/Cabin/Kunyhó/Otthon egy barátod számára! A város mezőgazdasági tőkéje által támogatva./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Greenhouse": "388 500 390 200 337 1/4/2/2/1/-1/-1/FarmGreenHouse/Üvegház/Egy hely ahol egész évben bármilyen szezonú növényt termeszthetsz!/Buildings/none/64/96/-1/null/Farm",
+        "Mine Elevator": "388 30 390 15 334 5/4/2/1/1/-1/-1/null/Bányalift/Gyorsan utazhatsz az általad készített bányás liftek között. Bányaszintenként csak egyet építhetsz./Buildings/none/64/64/-1/MineElevator/UndergroundMine",
+        "Chicken": "animal/500/64/64/Csirke/Finom tojásokat tojik. Két színben kapható./null/Farm",
+        "Duck": "animal/1000/64/64/Kacsa/Finom tojásokat tojik és néha tollakat hullat./null/Farm",
+        "Rabbit": "animal/1500/64/64/Nyúl/Ezek gyapjas nyulak!/null/Farm",
+        "Cow": "animal/1000/64/96/Tehén/Bőséges, krémes tejet ad./null/Farm",
+        "Sheep": "animal/1500/64/96/Birka/Lenyírhatóak, értékes gyapjút szerezve belőlük./null/Farm",
+        "Goat": "animal/1500/64/96/Kecske/Finom kecsketejet adnak!/null/Farm",
+        "Pig": "animal/2000/64/96/Disznó/Szarvasgomba keresésre vannak kiképezve./null/Farm",
+        "Fish Pond": "390 200 152 5 153 5/5/5/-1/-1/-2/-1/null/Halas tó/Nevelj halakat és gyűjtsd be a terméküket. A halak idővel szaporodnak./Buildings/none/76/78/10/null/Farm/5000/false/2",
+        "Big Shed": "388 550 390 300/7/3/3/2/-1/-1/Shed2/Nagy raktár/Megduplázza a raktár méretét. A belseje dekorálható./Upgrades/Shed/96/96/20/null/Farm/20000/false",
+        "Desert Obelisk": "337 20 88 10 90 10/3/2/-1/-1/-2/-1/null/Sivatagi obeliszk/Elteleportál a sivatagba./Buildings/none/48/128/-1/null/Farm/1000000/true"
+    }
+}

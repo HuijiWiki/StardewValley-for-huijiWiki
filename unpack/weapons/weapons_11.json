@@ -1,0 +1,1 @@
+{"index": "11", "main_category": "weapons", "nameEN": "Steel Smallsword", "sub_category": "stabbing", "description": "一把标准的金属刀。", "damageMin": "4", "damageMax": "8", "knockback": "1", "speed": "-8", "type": "3", "baseMineLevel": "26", "critChance": ".02", "displayName": "钢制轻剑", "minMineLevel": "-1", "critMultiplier": "3", "addedPrecision": "0", "addedAOE": "2", "addDefense": "2"}

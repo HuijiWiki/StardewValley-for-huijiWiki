@@ -1,0 +1,1 @@
+{"index": "22", "main_category": "weapons", "nameEN": "Wind Spire", "sub_category": "dagger", "description": "轻便的小刀。", "damageMin": "1", "damageMax": "5", "knockback": "1", "speed": "0", "type": "1", "baseMineLevel": "-1", "critChance": ".02", "displayName": "疾风利剑", "minMineLevel": "50", "critMultiplier": "3.2", "addedPrecision": "5", "addedAOE": "0", "addDefense": "2"}

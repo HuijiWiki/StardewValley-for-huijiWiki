@@ -1,0 +1,78 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.Int32Reader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "0": "Rusty Sword/Uma espada enferrujada e cega./2/5/1/0/0/0/3/-1/-1/0/.02/3/Espada enferrujada",
+        "1": "Silver Saber/Folheado com prata para reduzir a ferrugem./8/15/1/0/1/1/0/50/45/0/.02/3/Sabre de prata",
+        "2": "Dark Sword/Brilha com uma energia misteriosa./30/45/1.5/-10/0/0/0/-1/-1/2/.04/3/Espada das trevas",
+        "3": "Holy Blade/Dá esperança ao segurar./18/24/1.2/0/5/0/3/-1/-1/0/.02/3/Espada sagrada",
+        "4": "Galaxy Sword/Diferente de tudo que você já viu./60/80/1/8/0/0/0/-1/-1/0/.02/3/Espada da galáxia",
+        "5": "Bone Sword/Muito leve. Feita de osso polido./20/30/.8/8/5/0/0/74/50/0/.02/3/Espada de ossos",
+        "6": "Iron Edge/Uma espada pesada./12/25/1.2/-4/0/1/3/44/-1/0/.02/3/Lâmina de ferro",
+        "7": "Templar's Blade/Já pertenceu a um honrado cavaleiro./22/29/1/0/10/1/3/90/50/0/0/3/Espada do templário",
+        "8": "Obsidian Edge/Incrivelmente afiada./30/45/1/-2/0/0/0/121/100/0/.02/3.2/Espada de Obsidiana",
+        "9": "Lava Katana/Uma lâmina poderosa, forjada em uma piscina de lava./55/64/1.2/0/0/3/0/-1/-1/2/.015/3.5/Katana de lava",
+        "10": "Claymore/É muito pesada./20/32/1.3/-8/0/2/3/86/50/0/.02/3/Espada Escocesa",
+        "11": "Steel Smallsword/Uma espada padrão./4/8/1/4/0/0/0/26/-1/0/.02/3/Espada de aço",
+        "12": "Wooden Blade/Nada mal para um pedaço de madeira./3/7/1/0/0/0/0/3/-1/0/.02/3/Espada de metal",
+        "13": "Insect Head/Não muito agradável de segurar./10/20/1/4/9/0/0/-1/-1/0/.04/3/Cabeça de inseto",
+        "14": "Neptune's Glaive/Herança de além do Mar de Joias./18/35/1.4/-2/6/2/3/-1/-1/0/.02/3/Gládio de Netuno",
+        "15": "Forest Sword/Feita poderosa mágica da floresta./8/18/1/4/5/1/0/-1/-1/0/.02/3/Espada da Floresta",
+        "16": "Carving Knife/Lâmina pequena e leve./1/3/.5/0/0/0/1/18/-1/0/.04/3/Faca de entalhe",
+        "17": "Iron Dirk/Uma adaga comum./2/4/.5/0/0/0/1/62/50/0/.03/3/Punhal de ferro",
+        "18": "Burglar's Shank/Arma de escolha para os rápidos e silenciosos./7/12/.5/0/5/0/1/114/100/0/.04/3.5/Espada do ladrão",
+        "19": "Shadow Dagger/Ao segurar a espada próximo da orelha, você ouve 1.000 almas gritando./10/20/.5/0/0/0/1/80/50/0/.04/3/Adaga das sombras",
+        "20": "Elf Blade/Só as mãos ágeis de um elfo seriam capazes de criá-la./3/5/.5/0/5/0/1/-1/-1/0/.04/3/Espada élfica",
+        "21": "Crystal Dagger/A lâmina é feita de quartzo purificado./4/10/1/0/10/0/1/-1/-1/0/.03/4/Adaga de cristal",
+        "22": "Wind Spire/Uma pequena e ágil espada./1/5/1/0/0/0/1/-1/-1/0/.02/3.2/Espada de vento",
+        "23": "Galaxy Dagger/Diferente de tudo que você já viu./30/40/1/3/0/0/1/-1/-1/0/.02/3/Adaga da galáxia",
+        "24": "Wood Club/Feito de madeira pouco maciça./9/16/1.5/-8/0/0/2/32/-1/0/.02/3/Taco de madeira",
+        "25": "Alex's Bat/Seu ponto mais forte possui um entalhe por causa do Grand Slam do Alex./1/3/1/-8/0/0/2/-1/-1/0/.02/3/Bastão do Alex",
+        "26": "Lead Rod/Incrivelmente pesado./18/27/1.5/-16/0/0/2/56/50/1/.02/3/Taco de chumbo",
+        "27": "Wood Mallet/A cabeça maciça causa um estrago... Muito leve para um malho./15/24/1.3/-4/1/0/2/68/50/0/.02/3/Malho de Madeira",
+        "28": "The Slammer/Martelo tão pesado que manda inimigos voando./40/55/1.5/-12/0/0/2/128/100/2/.02/3/O Arremessador",
+        "29": "Galaxy Hammer/Feito de um material ultraleve que você nunca viu antes./70/90/1/-4/0/0/2/-1/-1/0/.02/3/Martelo da Galáxia",
+        "30": "Sam's Old Guitar/Já viu dias melhores./1/3/1/-6/0/0/2/-1/-1/0/.02/3/Guitarra antiga do Sam",
+        "31": "Femur/Um osso velho e pesado coberto por décadas de sujeira./6/11/1.5/-4/0/0/2/10/-1/0/.02/3/Fêmur",
+        "32": "Slingshot/Requer pedras como munição./1/3/1/308/0/0/4/-1/-1/0/.02/3/Estilingue",
+        "33": "Master Slingshot/Requer pedras como munição./1/3/1/308/0/0/4/-1/-1/0/.02/3/Estilingue-mester",
+        "34": "Galaxy Slingshot/Parece muito poderoso./1/3/1/308/0/0/4/-1/-1/0/.02/3/Estilingue da galáxia",
+        "35": "Elliott's Pencil/Elliott utilizava isto para escrever seu livro. Está apontado!/1/3/1/308/0/0/1/-1/-1/0/.02/3/Lápis do Elliott",
+        "36": "Maru's Wrench/Uma chave grande de metal. Está com o cheiro da Maru./1/3/1/308/0/0/2/-1/-1/0/.02/3/Chave a Maru",
+        "37": "Harvey's Mallet/Faz você se lembrar da clínica do Harvey./1/3/1/308/0/0/2/-1/-1/0/.02/3/Martelo do Harvey",
+        "38": "Penny's Fryer/A fritadeira favorita da Penny. Tem algo emborrachado preso à parte de dentro./1/3/1/308/0/0/2/-1/-1/0/.02/3/Fritadeira da Penny",
+        "39": "Leah's Whittler/A ferramenta favorita da Leah para esculpir madeira./1/3/1/308/0/0/1/-1/-1/0/.02/3/Cinzel da Leah",
+        "40": "Abby's Planchette/É feita de mármore fina./1/3/1/308/0/0/1/-1/-1/0/.02/3/Prancheta da Abby",
+        "41": "Seb's Lost Mace/Uma das réplicas medievais do Sebastian./1/3/1/308/0/0/2/-1/-1/0/.02/3/Maça perdida do Sebastian",
+        "42": "Haley's Iron/Muito quente. Está com cheiro de cabelo da Haley./1/3/1/308/0/0/0/-1/-1/0/.02/3/Ferro de passar da Haley",
+        "43": "Pirate's Sword/Parece que um pirata a possuía./8/14/1/4/0/0/3/40/-1/0/.02/3/Espada de pirata",
+        "44": "Cutlass/Um sabre muito bem feito./9/17/1/4/0/0/0/-1/-1/0/.02/3/Sabre",
+        "45": "Wicked Kris/Lâmina feita com minério de irídio./24/30/.5/0/8/0/1/-1/-1/2/.06/3/Espada maligna",
+        "46": "Kudgel/A companhia de um bruto./27/40/1.6/-10/0/0/2/107/100/0/.02/3.1/Clava",
+        "47": "Scythe/Transforma grama em palha se você construiu um silo./1/3/1/0/0/0/0/-1/-1/0/.02/3/Foice",
+        "48": "Yeti Tooth/Muito frios ao toque./26/42/1/0/0/4/0/-1/-1/0/.02/3.2/Dentes de iete",
+        "49": "Rapier/Uma arma elegante./15/25/1/4/0/0/0/100/95/2/.02/3/Florete",
+        "50": "Steel Falchion/Leve e poderosa./28/46/1/8/5/0/0/142/100/0/.02/3.4/Cimitarra de metal",
+        "51": "Broken Trident/Veio do mar, mas ainda está pontudo./15/26/.5/0/8/0/1/-1/-1/2/.02/3/Tridente quebrado",
+        "52": "Tempered Broadsword/Parece aguentar qualquer impacto./29/44/1.2/-6/0/3/0/135/100/1/.02/3/Espada temperada",
+        "53": "Golden Scythe/É mais poderoso que uma foice comum./13/13/1/0/0/0/0/-1/-1/2/.02/4/Foice de Ouro"
+    }
+}

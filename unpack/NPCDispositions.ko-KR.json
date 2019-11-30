@@ -1,0 +1,54 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "Abigail": "teen/rude/outgoing/neutral/female/datable/Sebastian/Town/fall 13/Caroline '엄마' Pierre '아빠'/SeedShop 1 9/애비게일",
+        "Caroline": "adult/polite/neutral/neutral/female/not-datable/Pierre/Town/winter 7/Pierre '남편' Abigail ''/SeedShop 22 5/캐롤라인",
+        "Clint": "adult/rude/shy/negative/male/not-datable/Emily/Town/winter 26/Emily ''/Blacksmith 3 13/클린트",
+        "Demetrius": "adult/polite/neutral/positive/male/not-datable/Robin/Town/summer 19/Robin '아내' Maru ''/ScienceHouse 19 4/드미트리우스",
+        "Willy": "adult/neutral/neutral/neutral/male/not-datable/null/Town/summer 24/Elliott ''/FishShop 5 4/윌리",
+        "Elliott": "adult/polite/neutral/neutral/male/datable/Leah/Town/fall 5/Willy ''/ElliottHouse 1 5/엘리엇",
+        "Emily": "adult/polite/outgoing/positive/female/datable/null/Town/spring 27/Haley '언니'/HaleyHouse 16 5/에밀리",
+        "Evelyn": "adult/polite/outgoing/positive/female/not-datable/George/Town/winter 20/George '남편' Alex '손자'/JoshHouse 2 17/에블린",
+        "George": "adult/rude/neutral/negative/male/not-datable/Evelyn/Town/fall 24/Evelyn '아내' Alex '손자'/JoshHouse 16 22/조지",
+        "Gus": "adult/neutral/outgoing/positive/male/not-datable/null/Town/summer 8/Emily '' Pam ''/Saloon 18 6/거스",
+        "Haley": "adult/rude/outgoing/neutral/female/datable/Alex/Town/spring 14/Emily '여동생'/HaleyHouse 8 7/헤일리",
+        "Harvey": "adult/polite/shy/positive/male/datable/Maru/Town/winter 14//HarveyRoom 13 4/하비",
+        "Jas": "child/neutral/shy/positive/female/not-datable/Vincent/Town/summer 4/Vincent ''/AnimalShop 4 6/재스",
+        "Jodi": "adult/polite/neutral/neutral/female/not-datable/Kent/Town/fall 11/Sam '맏아들' Vincent '막내아들' Kent '남편'/SamHouse 4 5/조디",
+        "Alex": "adult/rude/outgoing/positive/male/datable/Haley/Town/summer 13/George '할아버지' Evelyn '할머니'/JoshHouse 19 5/알렉스",
+        "Kent": "adult/neutral/shy/negative/male/not-datable/Jodi/Town/spring 4/Jodi '아내' Sam '맏아들' Vincent '막내아들'/SamHouse 22 5/켄트",
+        "Leah": "adult/polite/neutral/positive/female/datable/Elliott/Town/winter 23//LeahHouse 3 7/레아",
+        "Lewis": "adult/neutral/outgoing/positive/male/not-datable/null/Town/spring 7/Marnie ''/ManorHouse 8 5/루이스",
+        "Linus": "adult/neutral/shy/positive/male/not-datable/null/Town/winter 3//Tent 2 2/라이너스",
+        "Marlon": "adult/neutral/outgoing/neutral/male/not-datable/Marnie/Town///AdventureGuild 5 11/말론",
+        "Marnie": "adult/polite/outgoing/positive/female/not-datable/Lewis/Town/fall 18/Lewis '' Shane '조카' Jas '조카딸'/AnimalShop 12 14/마니",
+        "Maru": "teen/neutral/outgoing/positive/female/datable/Harvey/Town/summer 10/Robin '엄마' Demetrius '아빠' Sebastian '이부형제'/ScienceHouse 2 4/마루",
+        "Pam": "adult/rude/outgoing/negative/female/not-datable/Gus/Town/spring 18/Penny '작은_딸_아이' Gus ''/Trailer 15 4/팸",
+        "Penny": "teen/polite/shy/positive/female/datable/Sam/Town/fall 2/Pam '어머니'/Trailer 4 9/페니",
+        "Pierre": "adult/neutral/outgoing/positive/male/not-datable/Caroline/Town/spring 26/Abigail '딸' Caroline '아내'/SeedShop 4 17/피에르",
+        "Robin": "adult/neutral/outgoing/positive/female/not-datable/Demetrius/Town/fall 21/Demetrius '남편' Maru '딸' Sebastian '아들'/ScienceHouse 21 4/로빈",
+        "Sam": "teen/neutral/outgoing/positive/male/datable/Penny/Town/summer 17/Vincent '남동생' Jodi '엄마' Kent '아빠' Sebastian ''/SamHouse 22 13/샘",
+        "Sebastian": "teen/rude/shy/negative/male/datable/Abigail/Town/winter 10/Robin '엄마' Maru '이부동생' Sam ''/SebastianRoom 10 9/세바스찬",
+        "Shane": "adult/rude/shy/negative/male/datable/null/Town/spring 20/Marnie '이모'/AnimalShop 25 6/셰인",
+        "Vincent": "child/neutral/outgoing/positive/male/not-datable/Jas/Town/spring 10/Jas ''/SamHouse 10 23/빈센트",
+        "Wizard": "adult/rude/neutral/negative/male/not-datable/null/Other/winter 17//WizardHouse 3 17/마법사",
+        "Dwarf": "adult/neutral/outgoing/positive/undefined/not-datable/null/Other/summer 22//Mine 43 6/드워프",
+        "Sandy": "adult/neutral/outgoing/positive/female/not-datable/null/Desert/fall 15/Emily ''/SandyHouse 2 5/샌디",
+        "Krobus": "adult/polite/shy/neutral/male/secret/null/Other/winter 1//Sewer 31 17/크로버스"
+    }
+}

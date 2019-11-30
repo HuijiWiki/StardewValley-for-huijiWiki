@@ -1,0 +1,54 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "Abigail": "teen/rude/outgoing/neutral/female/datable/Sebastian/Town/fall 13/Caroline '母さん' Pierre '父さん'/SeedShop 1 9/アビゲイル",
+        "Caroline": "adult/polite/neutral/neutral/female/not-datable/Pierre/Town/winter 7/Pierre '夫' Abigail ''/SeedShop 22 5/キャロライン",
+        "Clint": "adult/rude/shy/negative/male/not-datable/Emily/Town/winter 26/Emily ''/Blacksmith 3 13/クリント",
+        "Demetrius": "adult/polite/neutral/positive/male/not-datable/Robin/Town/summer 19/Robin '妻' Maru ''/ScienceHouse 19 4/ディメトリウス",
+        "Willy": "adult/neutral/neutral/neutral/male/not-datable/null/Town/summer 24/Elliott ''/FishShop 5 4/ウィリー",
+        "Elliott": "adult/polite/neutral/neutral/male/datable/Leah/Town/fall 5/Willy ''/ElliottHouse 1 5/エリオット",
+        "Emily": "adult/polite/outgoing/positive/female/datable/null/Town/spring 27/Haley '姉'/HaleyHouse 16 5/エミリー",
+        "Evelyn": "adult/polite/outgoing/positive/female/not-datable/George/Town/winter 20/George '夫' Alex '孫'/JoshHouse 2 17/エブリン",
+        "George": "adult/rude/neutral/negative/male/not-datable/Evelyn/Town/fall 24/Evelyn '妻' Alex '孫'/JoshHouse 16 22/ジョージ",
+        "Gus": "adult/neutral/outgoing/positive/male/not-datable/null/Town/summer 8/Emily '' Pam ''/Saloon 18 6/ガス",
+        "Haley": "adult/rude/outgoing/neutral/female/datable/Alex/Town/spring 14/Emily '姉'/HaleyHouse 8 7/ヘイリー",
+        "Harvey": "adult/polite/shy/positive/male/datable/Maru/Town/winter 14//HarveyRoom 13 4/ハーヴィー",
+        "Jas": "child/neutral/shy/positive/female/not-datable/Vincent/Town/summer 4/Vincent ''/AnimalShop 4 6/ジャス",
+        "Jodi": "adult/polite/neutral/neutral/female/not-datable/Kent/Town/fall 11/Sam '長男' Vincent '末っ子' Kent '夫'/SamHouse 4 5/ジョディ",
+        "Alex": "adult/rude/outgoing/positive/male/datable/Haley/Town/summer 13/George 'おじいさん' Evelyn 'おばあさん'/JoshHouse 19 5/アレックス",
+        "Kent": "adult/neutral/shy/negative/male/not-datable/Jodi/Town/spring 4/Jodi '妻' Sam '長男' Vincent '末男'/SamHouse 22 5/ケント",
+        "Leah": "adult/polite/neutral/positive/female/datable/Elliott/Town/winter 23//LeahHouse 3 7/リア",
+        "Lewis": "adult/neutral/outgoing/positive/male/not-datable/null/Town/spring 7/Marnie ''/ManorHouse 8 5/ルイス",
+        "Linus": "adult/neutral/shy/positive/male/not-datable/null/Town/winter 3//Tent 2 2/ライナス",
+        "Marlon": "adult/neutral/outgoing/neutral/male/not-datable/Marnie/Town///AdventureGuild 5 11/マーロン",
+        "Marnie": "adult/polite/outgoing/positive/female/not-datable/Lewis/Town/fall 18/Lewis '' Shane 'おい' Jas 'めい'/AnimalShop 12 14/マーニー",
+        "Maru": "teen/neutral/outgoing/positive/female/datable/Harvey/Town/summer 10/Robin '母さん' Demetrius '父さん' Sebastian '異父兄'/ScienceHouse 2 4/マル",
+        "Pam": "adult/rude/outgoing/negative/female/not-datable/Gus/Town/spring 18/Penny '小さい女の子' Gus ''/Trailer 15 4/パム",
+        "Penny": "teen/polite/shy/positive/female/datable/Sam/Town/fall 2/Pam '母親'/Trailer 4 9/ペニー",
+        "Pierre": "adult/neutral/outgoing/positive/male/not-datable/Caroline/Town/spring 26/Abigail '娘' Caroline '妻'/SeedShop 4 17/ピエール",
+        "Robin": "adult/neutral/outgoing/positive/female/not-datable/Demetrius/Town/fall 21/Demetrius '夫' Maru '娘' Sebastian '息子'/ScienceHouse 21 4/ロビン",
+        "Sam": "teen/neutral/outgoing/positive/male/datable/Penny/Town/summer 17/Vincent '弟' Jodi '母さん' Kent '父さん' Sebastian ''/SamHouse 22 13/サム",
+        "Sebastian": "teen/rude/shy/negative/male/datable/Abigail/Town/winter 10/Robin '母さん' Maru '異父兄' Sam ''/SebastianRoom 10 9/セバスチャン",
+        "Shane": "adult/rude/shy/negative/male/datable/null/Town/spring 20/Marnie 'おば'/AnimalShop 25 6/シェーン",
+        "Vincent": "child/neutral/outgoing/positive/male/not-datable/Jas/Town/spring 10/Jas ''/SamHouse 10 23/ヴィンセント",
+        "Wizard": "adult/rude/neutral/negative/male/not-datable/null/Other/winter 17//WizardHouse 3 17/魔術師",
+        "Dwarf": "adult/neutral/outgoing/positive/undefined/not-datable/null/Other/summer 22//Mine 43 6/ドワーフ",
+        "Sandy": "adult/neutral/outgoing/positive/female/not-datable/null/Desert/fall 15/Emily ''/SandyHouse 2 5/サンディ",
+        "Krobus": "adult/polite/shy/neutral/male/secret/null/Other/winter 1//Sewer 31 17/クロバス"
+    }
+}

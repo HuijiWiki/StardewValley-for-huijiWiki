@@ -1,0 +1,52 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "Silo": "390 100 330 10 334 5/3/3/-1/-1/-2/-1/null/Silo/Te permite segar y acumular hierba para alimentar a tus animales./Buildings/none/48/128/-1/null/Farm/100/false",
+        "Mill": "388 150 390 50 428 4/4/2/-1/-1/-2/-1/null/Molino/Te permite crear harina a partir de trigo y azúcar a partir de remolachas./Buildings/none/64/128/-1/null/Farm/2500/false",
+        "Earth Obelisk": "337 10 86 10/3/2/-1/-1/-2/-1/null/Obelisco terrestre/Te teletransporta a la montaña./Buildings/none/48/128/-1/null/Farm/1000000/true",
+        "Water Obelisk": "337 5 372 10 393 10/3/2/-1/-1/-2/-1/null/Obelisco marino/Te teletransporta a la playa./Buildings/none/48/128/-1/null/Farm/1000000/true",
+        "Junimo Hut": "390 200 268 9 771 100/3/2/-1/-1/-2/-1/null/Cabaña junimo/Los junimos cosecharán por ti los cultivos que haya junto a la cabaña./Buildings/none/48/64/-1/null/Farm/20000/true",
+        "Gold Clock": "/3/2/-1/-1/-2/-1/null/Reloj de oro/Mantiene el suelo de tu granja libre de molestias. También impide que las vallas se deterioren./Buildings/none/48/80/-1/null/Farm/10000000/true",
+        "Stable": "709 100 335 5/4/2/-1/-1/-2/-1/null/Cuadra/Te permite tener un caballo y montar en él. Caballo incluido./Buildings/none/64/96/-1/null/Farm/10000/false",
+        "Well": "390 75/3/3/-1/-1/-1/-1/null/Pozo/Te proporciona un lugar para rellenar tu regadera./Buildings/none/32/32/-1/null/Farm/1000/false",
+        "Coop": "388 300 390 100/6/3/1/2/2/2/Coop/Corral/Alberga 4 animales de corral./Buildings/none/64/96/4/null/Farm/4000/false",
+        "Big Coop": "388 400 390 150/6/3/1/2/2/2/Coop2/Corral grande/Alberga 8 animales de corral. Incluye una incubadora. Desbloquea los patos./Upgrades/Coop/64/96/8/null/Farm/10000/false",
+        "Deluxe Coop": "388 500 390 200/6/3/1/2/2/2/Coop3/Corral de lujo/Alberga 12 animales de corral. Incluye un sistema de autoalimentación. Desbloquea los conejos./Upgrades/Big Coop/64/96/12/null/Farm/20000/false",
+        "Barn": "388 350 390 150/7/4/1/3/3/3/Barn/Establo/Alberga 4 animales de establo./Buildings/none/96/96/4/null/Farm/6000/false",
+        "Big Barn": "388 450 390 200/7/4/1/3/4/3/Barn2/Establo grande/Alberga 8 animales de establo. Permite a los animales dar a luz. Desbloquea las cabras./Upgrades/Barn/96/96/8/null/Farm/12000/false",
+        "Deluxe Barn": "388 550 390 300/7/4/1/3/4/3/Barn3/Establo de lujo/Alberga 12 animales de establo. Incluye un sistema de autoalimentación. Desbloquea las ovejas y los cerdos./Upgrades/Big Barn/96/96/12/null/Farm/25000/false",
+        "Slime Hutch": "390 500 338 10 337 1/11/6/5/5/-1/-1/SlimeHutch/Criadero de babas/Cría hasta 20 babas. Llena los abrevaderos y las babas crearán bolas de baba./Buildings/none/96/96/20/null/Farm/10000/false",
+        "Shed": "388 300/7/3/3/2/-1/-1/Shed/Cabaña/Un edificio vacío. ¡Llénalo con lo que quieras! El interior se puede decorar./Buildings/none/96/96/20/null/Farm/15000/false",
+        "Greenhouse": "388 500 390 200 337 1/4/2/2/1/-1/-1/FarmGreenHouse/Invernadero/¡Un lugar para plantar cultivos de cualquier estación durante todo el año!/Buildings/none/64/96/-1/null/Farm",
+        "Mine Elevator": "388 30 390 15 334 5/4/2/1/1/-1/-1/null/Ascensor de la mina/Viaja rápidamente entre cualquier ascensor de mina que construyas. Solo puedes construir uno en cada piso de la mina./Buildings/none/64/64/-1/MineElevator/UndergroundMine",
+        "Chicken": "animal/500/64/64/Gallina/Pone deliciosos huevos. Hay dos colores disponibles./null/Farm",
+        "Duck": "animal/1000/64/64/Pato/Pone huevos y de vez en cuando deja caer plumas./null/Farm",
+        "Rabbit": "animal/1500/64/64/Conejo/¡Un conejo lanudo!/null/Farm",
+        "Cow": "animal/1000/64/96/Vaca/Produce una leche rica y cremosa./null/Farm",
+        "Sheep": "animal/1500/64/96/Oveja/Esquílala para obtener valiosa lana./null/Farm",
+        "Goat": "animal/1500/64/96/Cabra/¡Produce deliciosa leche de cabra!/null/Farm",
+        "Pig": "animal/2000/64/96/Cerdo/Esta especie está entrenada para encontrar trufas./null/Farm",
+        "Log Cabin": "388 10/5/3/2/1/-1/-1/Cabin/Cabaña/¡Un hogar para un amigo! Subvencionado por el fondo agrícola municipal./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Plank Cabin": "388 5 771 10/5/3/2/1/-1/-1/Cabin/Cabaña/¡Un hogar para un amigo! Subvencionado por el fondo agrícola municipal./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Shipping Bin": "388 150/2/1/-1/-1/-1/-1/null/Cubo de entrega/Mete objetos en su interior para venderlos durante la noche./Buildings/none/48/80/-1/null/Farm/250/false/0",
+        "Stone Cabin": "390 10/5/3/2/1/-1/-1/Cabin/Cabaña/¡Un hogar para un amigo! Subvencionado por el fondo agrícola municipal./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Fish Pond": "390 200 152 5 153 5/5/5/-1/-1/-2/-1/null/Estanque de peces/Cría peces para recolectar su producción. Los peces se multiplican con el tiempo./Buildings/none/76/78/10/null/Farm/5000/false/2",
+        "Big Shed": "388 550 390 300/7/3/3/2/-1/-1/Shed2/Cobertizo grande/Dobla el tamaño del cobertizo. El interior puede decorarse./Upgrades/Shed/96/96/20/null/Farm/20000/false",
+        "Desert Obelisk": "337 20 88 10 90 10/3/2/-1/-1/-2/-1/null/Obelisco del desierto/Te teletransporta al desierto./Buildings/none/48/128/-1/null/Farm/1000000/true"
+    }
+}

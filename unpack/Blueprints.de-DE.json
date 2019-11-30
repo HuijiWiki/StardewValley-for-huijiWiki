@@ -1,0 +1,52 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "Silo": "390 100 330 10 334 5/3/3/-1/-1/-2/-1/null/Silo/Ermöglicht es, Gras zu schneiden und als Futter aufzubewahren./Buildings/none/48/128/-1/null/Farm/100/false",
+        "Mill": "388 150 390 50 428 4/4/2/-1/-1/-2/-1/null/Mühle/Ermöglicht es, Mehl aus Weizen und Zucker aus Rüben herzustellen./Buildings/none/64/128/-1/null/Farm/2500/false",
+        "Earth Obelisk": "337 10 86 10/3/2/-1/-1/-2/-1/null/Erdobelisk/Teleportiert dich in die Berge./Buildings/none/48/128/-1/null/Farm/1000000/true",
+        "Water Obelisk": "337 5 372 10 393 10/3/2/-1/-1/-2/-1/null/Wasserobelisk/Teleportiert dich an den Strand./Buildings/none/48/128/-1/null/Farm/1000000/true",
+        "Junimo Hut": "390 200 268 9 771 100/3/2/-1/-1/-2/-1/null/Junimo-Hütte/Junimos ernten die von dir angebauten Pflanzen um die Hütte herum./Buildings/none/48/64/-1/null/Farm/20000/true",
+        "Gold Clock": "/3/2/-1/-1/-2/-1/null/Goldene Uhr/Verhindert das Auftauchen von Unkraut, kleinen Steinen und Holzscheiten auf deinem Hof. Hindert Zäune daran zu verfallen./Buildings/none/48/80/-1/null/Farm/10000000/true",
+        "Stable": "709 100 335 5/4/2/-1/-1/-2/-1/null/Pferdestall/Ermöglicht es, ein Pferd zu halten und zu reiten. Pferd inklusive./Buildings/none/64/96/-1/null/Farm/10000/false",
+        "Well": "390 75/3/3/-1/-1/-1/-1/null/Brunnen/Gibt dir die Möglichkeit, deine Gießkanne wieder aufzufüllen./Buildings/none/32/32/-1/null/Farm/1000/false",
+        "Coop": "388 300 390 100/6/3/1/2/2/2/Coop/Hühnerstall/Bietet Platz für 4 Kleintiere./Buildings/none/64/96/4/null/Farm/4000/false",
+        "Big Coop": "388 400 390 150/6/3/1/2/2/2/Coop2/Großer Hühnerstall/Bietet Platz für 8 Kleintiere. Kommt mit einer Brutstätte. Schaltet Enten frei./Upgrades/Coop/64/96/8/null/Farm/10000/false",
+        "Deluxe Coop": "388 500 390 200/6/3/1/2/2/2/Coop3/Luxus-Hühnerstall/Bietet Platz für 12 Kleintiere. Kommt mit einem Auto-Füttersystem. Schaltet Hasen frei./Upgrades/Big Coop/64/96/12/null/Farm/20000/false",
+        "Barn": "388 350 390 150/7/4/1/3/3/3/Barn/Stall/Bietet Platz für 4 Stalltiere./Buildings/none/96/96/4/null/Farm/6000/false",
+        "Big Barn": "388 450 390 200/7/4/1/3/4/3/Barn2/Großer Stall/Bietet Platz für 8 Stalltiere. Ermöglicht Tieren, Nachwuchs zu bekommen. Schaltet Ziegen frei./Upgrades/Barn/96/96/8/null/Farm/12000/false",
+        "Deluxe Barn": "388 550 390 300/7/4/1/3/4/3/Barn3/Luxus-Stall/Bietet Platz für 12 Stalltiere. Kommt mit einem Auto-Füttersystem. Schaltet Schafe und Schweine frei./Upgrades/Big Barn/96/96/12/null/Farm/25000/false",
+        "Slime Hutch": "390 500 338 10 337 1/11/6/5/5/-1/-1/SlimeHutch/Schleim-Stall/Züchte bis zu 20 Schleime. Fülle die Wassertroge und die Schleime werden Schleimbälle produzieren./Buildings/none/96/96/20/null/Farm/10000/false",
+        "Shed": "388 300/7/3/3/2/-1/-1/Shed/Schuppen/Ein leeres Gebäude. Fülle es mit was auch immer du willst! Der Innenraum kann eingerichtet werden./Buildings/none/96/96/20/null/Farm/15000/false",
+        "Greenhouse": "388 500 390 200 337 1/4/2/2/1/-1/-1/FarmGreenHouse/Gewächshaus/Ein Ort, um Nutzpflanzen jeder Saison das ganze Jahr über zu züchten!/Buildings/none/64/96/-1/null/Farm",
+        "Mine Elevator": "388 30 390 15 334 5/4/2/1/1/-1/-1/null/Minenlift/Reise schnell zwischen allen Minenliften, die du einrichtest. Du kannst nur einen pro Minenebene haben./Buildings/none/64/64/-1/MineElevator/UndergroundMine",
+        "Chicken": "animal/500/64/64/Huhn/Legt leckere Eier. Gibt es in zwei Farben!./null/Farm",
+        "Duck": "animal/1000/64/64/Ente/Legt Eier und lässt hin und wieder Federn fallen./null/Farm",
+        "Rabbit": "animal/1500/64/64/Hase/Das sind fluffige Hasen!/null/Farm",
+        "Cow": "animal/1000/64/96/Kuh/Produziert üppige, cremige Milch./null/Farm",
+        "Sheep": "animal/1500/64/96/Schaf/Kann für wertvolle Wolle geschoren werden./null/Farm",
+        "Goat": "animal/1500/64/96/Ziege/Produziert leckere Ziegenmilch!/null/Farm",
+        "Pig": "animal/2000/64/96/Schwein/Sie sind speziell darauf trainiert, Trüffel zu finden./null/Farm",
+        "Log Cabin": "388 10/5/3/2/1/-1/-1/Cabin/Hütte/Ein Heim für einen Freund! Wird aus landwirtschaftlichen Geldmitteln subventioniert./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Plank Cabin": "388 5 771 10/5/3/2/1/-1/-1/Cabin/Hütte/Ein Heim für einen Freund! Wird aus landwirtschaftlichen Geldmitteln subventioniert./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Shipping Bin": "388 150/2/1/-1/-1/-1/-1/null/Versandbehälter/Wirf Gegenstände hinein, um sie über Nacht zu verkaufen./Buildings/none/48/80/-1/null/Farm/250/false/0",
+        "Stone Cabin": "390 10/5/3/2/1/-1/-1/Cabin/Hütte/Ein Heim für einen Freund! Wird aus landwirtschaftlichen Geldmitteln subventioniert./Buildings/none/96/96/20/null/Farm/100/false/0",
+        "Fish Pond": "390 200 152 5 153 5/5/5/-1/-1/-2/-1/null/Fischteich/Züchte Fisch und ernte ihre Produkte. Fische vermehren sich mit der Zeit./Buildings/none/76/78/10/null/Farm/5000/false/2",
+        "Big Shed": "388 550 390 300/7/3/3/2/-1/-1/Shed2/Großer Schuppen/Verdoppelt die Größe des Schuppens. Der Innenraum kann dekoriert werden./Upgrades/Shed/96/96/20/null/Farm/20000/false",
+        "Desert Obelisk": "337 20 88 10 90 10/3/2/-1/-1/-2/-1/null/Wüsten Obelisk/Teleportiert dich in die Wüste./Buildings/none/48/128/-1/null/Farm/1000000/true"
+    }
+}

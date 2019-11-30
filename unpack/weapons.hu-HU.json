@@ -1,0 +1,78 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.Int32Reader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "0": "Rusty Sword/Egy rozsdás, régi, kopott kard./2/5/1/0/0/0/3/-1/-1/0/.02/3/Rozsdás kard",
+        "1": "Silver Saber/Ezüsttel van befedve, hogy védjen a rozsda ellen./8/15/1/0/1/1/0/50/45/0/.02/3/Ezüst kard",
+        "2": "Dark Sword/Rejtélyes energiától ragyog./30/45/1.5/-10/0/0/0/-1/-1/2/.04/3/Sötét kard",
+        "3": "Holy Blade/Reménnyel tölt el a használata./18/24/1.2/0/5/0/3/-1/-1/0/.02/3/Szent penge",
+        "4": "Galaxy Sword/Ehhez foghatót még nem láthattál./60/80/1/8/0/0/0/-1/-1/0/.02/3/Galaxis kard",
+        "5": "Bone Sword/Egy nagyon könnyű élezett csont./20/30/.8/8/5/0/0/74/50/0/.02/3/Csont kard",
+        "6": "Iron Edge/Egy nehéz pallos./12/25/1.2/-4/0/1/3/44/-1/0/.02/3/Vas él",
+        "7": "Templar's Blade/Valaha egy megbecsült lovaghoz tartozott./22/29/1/0/10/1/3/90/50/0/0/3/Templomos pengéje",
+        "8": "Obsidian Edge/Hihetetlenül éles./30/45/1/-2/0/0/0/121/100/0/.02/3.2/Obszidián él",
+        "9": "Lava Katana/Egy erős penge, amit forró lávában készítettek./55/64/1.2/0/0/3/0/-1/-1/2/.015/3.5/Láva katana",
+        "10": "Claymore/Nagyon nehéz./20/32/1.3/-8/0/2/3/86/50/0/.02/3/Klémór",
+        "11": "Steel Smallsword/Egy alap fémes penge./4/8/1/4/0/0/0/26/-1/0/.02/3/Kicsi acél",
+        "12": "Wooden Blade/Fából készült létére nem is olyan rossz./3/7/1/0/0/0/0/3/-1/0/.02/3/Fa penge",
+        "13": "Insect Head/Nem túl kellemes használni./10/20/1/4/9/0/0/-1/-1/0/.04/3/Rovarfej",
+        "14": "Neptune's Glaive/Egy családi ereklye a Drágakő Tengeren túlról./18/35/1.4/-2/6/2/3/-1/-1/0/.02/3/Neptun pallosa",
+        "15": "Forest Sword/Erdei varázslat teszi erőssé./8/18/1/4/5/1/0/-1/-1/0/.02/3/Erdei kard",
+        "16": "Carving Knife/Egy kicsi, könnyű penge./1/3/.5/0/0/0/1/18/-1/0/.04/3/Faragó kés",
+        "17": "Iron Dirk/Egy alap tőr./2/4/.5/0/0/0/1/62/50/0/.03/3/Vas tőr",
+        "18": "Burglar's Shank/A gyorsak és csendesek fegyvere./7/12/.5/0/5/0/1/114/100/0/.04/3.5/Tolvajok bökője",
+        "19": "Shadow Dagger/Ha a füledhez emeled, akkor több ezer lelket hallasz üvölteni./10/20/.5/0/0/0/1/80/50/0/.04/3/Árnyék tőr",
+        "20": "Elf Blade/Csak egy ügyes kezű elf készíthette ezt./3/5/.5/0/5/0/1/-1/-1/0/.04/3/Elf penge",
+        "21": "Crystal Dagger/Pengéje tisztított kvarcból készült./4/10/1/0/10/0/1/-1/-1/0/.03/4/Kristály tőr",
+        "22": "Wind Spire/Egy kicsi és gyors penge./1/5/1/0/0/0/1/-1/-1/0/.02/3.2/Szél spirál",
+        "23": "Galaxy Dagger/Ehhez foghatót még nem láthattál./30/40/1/3/0/0/1/-1/-1/0/.02/3/Galaxis tőr",
+        "24": "Wood Club/Egy elég kemény fadarab, ami durva módon lett ütővé formálva./9/16/1.5/-8/0/0/2/32/-1/0/.02/3/Fa bunkósbot",
+        "25": "Alex's Bat/A közepe be van horpadva Alex híres Nagy Ütésétől./1/3/1/-8/0/0/2/-1/-1/0/.02/3/Alex ütője",
+        "26": "Lead Rod/Hihetetlenül nehéz./18/27/1.5/-16/0/0/2/56/50/1/.02/3/Ólomrúd",
+        "27": "Wood Mallet/Kemény fejével nagyokat lehet ütni. Ütőfegyverhez képest könnyű./15/24/1.3/-4/1/0/2/68/50/0/.02/3/Fa kalapács",
+        "28": "The Slammer/Egy extrém nehéz kalapács, ami elrepíti az ellenfeleket./40/55/1.5/-12/0/0/2/128/100/2/.02/3/A Csapó",
+        "29": "Galaxy Hammer/Olyan ultrakönnyű anyagból készült, amihez foghatót még nem láthattál./70/90/1/-4/0/0/2/-1/-1/0/.02/3/Galaxis kalapács",
+        "30": "Sam's Old Guitar/Látott már jobb napokat is./1/3/1/-6/0/0/2/-1/-1/0/.02/3/Sam régi gitárja",
+        "31": "Femur/Egy régi, nehéz csont, amit több századnyi kosz lep el./6/11/1.5/-4/0/0/2/10/-1/0/.02/3/Combcsont",
+        "32": "Slingshot/A lövéshez kövekre van szükség./1/3/1/308/0/0/4/-1/-1/0/.02/3/Csúzli",
+        "33": "Master Slingshot/A lövéshez kövekre van szükség./1/3/1/308/0/0/4/-1/-1/0/.02/3/Mester csúzli",
+        "34": "Galaxy Slingshot/Nagyon erősnek tűnik./1/3/1/308/0/0/4/-1/-1/0/.02/3/Galaxis csúzli",
+        "35": "Elliott's Pencil/Elliott ezzel írta meg a könyvét. Éles!/1/3/1/308/0/0/1/-1/-1/0/.02/3/Elliott ceruzája",
+        "36": "Maru's Wrench/Egy nagy, fémes csavarkulcs. Maru-illata van./1/3/1/308/0/0/2/-1/-1/0/.02/3/Maru csavarkulcsa",
+        "37": "Harvey's Mallet/Harvey klinikájáról idéz fel emlékeket./1/3/1/308/0/0/2/-1/-1/0/.02/3/Harvey kalapácsa",
+        "38": "Penny's Fryer/Penny kedvenc serpenyője. Valamilyen gumis cucc van a közepére ragadva./1/3/1/308/0/0/2/-1/-1/0/.02/3/Penny sütője",
+        "39": "Leah's Whittler/Leah kedvenc eszköze, amivel a fákat szokta alakítgatni./1/3/1/308/0/0/1/-1/-1/0/.02/3/Leah faragója",
+        "40": "Abby's Planchette/Szép márványfából készült./1/3/1/308/0/0/1/-1/-1/0/.02/3/Abby írótáblája",
+        "41": "Seb's Lost Mace/Ez egyike Sebastian középkori replikájának./1/3/1/308/0/0/2/-1/-1/0/.02/3/Seb elveszett ütője",
+        "42": "Haley's Iron/Perzselően forró, és Haley hajának illatára emlékeztet./1/3/1/308/0/0/0/-1/-1/0/.02/3/Haley vasalója",
+        "43": "Pirate's Sword/Úgy tűnik ez valaha egy kalózé volt./8/14/1/4/0/0/3/40/-1/0/.02/3/Kalóz kard",
+        "44": "Cutlass/Egy szépen megmunkált penge./9/17/1/4/0/0/0/-1/-1/0/.02/3/Rövid kard",
+        "45": "Wicked Kris/A pengéje irídium ötvözetből készült./24/30/.5/0/8/0/1/-1/-1/2/.06/3/Görcsös tőr",
+        "46": "Kudgel/A kegyetlenek jó társa./27/40/1.6/-10/0/0/2/107/100/0/.02/3.1/Bunkósbot",
+        "47": "Scythe/A levágott fűből szénát készít, ha felépítettél egy silót./1/3/1/0/0/0/0/-1/-1/0/.02/3/Kasza",
+        "48": "Yeti Tooth/Jéghideg az érintése./26/42/1/0/0/4/0/-1/-1/0/.02/3.2/Jeti fog",
+        "49": "Rapier/Egy elegáns penge./15/25/1/4/0/0/0/100/95/2/.02/3/Vívótőr",
+        "50": "Steel Falchion/Könnyű és erős./28/46/1/8/5/0/0/142/100/0/.02/3.4/Acél pallos",
+        "51": "Broken Trident/A tengerből származik, de még mindig éles./15/26/.5/0/8/0/1/-1/-1/2/.02/3/Törött háromágú szigony",
+        "52": "Tempered Broadsword/Úgy néz ki, mint ami bárminek ellenáll./29/44/1.2/-6/0/3/0/135/100/1/.02/3/Meggyúrt vaskard",
+        "53": "Golden Scythe/Ez erősebb, mint egy normál kasza./13/13/1/0/0/0/0/-1/-1/2/.02/4/Arany Kasza"
+    }
+}
