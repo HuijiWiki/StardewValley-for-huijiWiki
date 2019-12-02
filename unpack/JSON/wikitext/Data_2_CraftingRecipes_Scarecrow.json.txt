@@ -1,1 +1,1 @@
-{"index": "Scarecrow", "main_category": "CraftingRecipes", "undefined_1": "388 50 382 1 771 20", "location": "Home", "undefined_2": "8", "isProduction": "true", "source": "Farming 1", "displayName": "稻草人"}
+{"index": "Scarecrow", "main_category": "CraftingRecipes", "recipeItem": "388 50 382 1 771 20", "type": "Home", "craftItem": "8", "isBigCraftItem": "true", "skill": "Farming 1", "displayName": "稻草人"}

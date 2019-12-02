@@ -1,1 +1,1 @@
-{"index": "Treasure Hunter", "main_category": "CraftingRecipes", "undefined_1": "336 2", "location": "Home", "undefined_2": "693", "isProduction": "false", "source": "Fishing 7", "displayName": "寻宝者"}
+{"index": "Treasure Hunter", "main_category": "CraftingRecipes", "recipeItem": "336 2", "type": "Home", "craftItem": "693", "isBigCraftItem": "false", "skill": "Fishing 7", "displayName": "寻宝者"}

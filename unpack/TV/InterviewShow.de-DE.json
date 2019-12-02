@@ -1,0 +1,24 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "6": "Sa",
+        "name": "Samstag - Im Rampenlicht",
+        "intro": "0/Hallo, liebe Zuschauer. Ich ziehe jede Woche durch das Land und treffe alle möglichen Leute in unterschiedlichen Lebenssituationen. Lasst uns gemeinsam unseren Horizont erweitern und mehr über ungewöhnliche Karrieren, Lebensstile und Perspektiven erfahren. Ich bin Tom Laminar und dies ist \"Samstag - Im Rampenlicht\".",
+        "day": "Sa"
+    }
+}

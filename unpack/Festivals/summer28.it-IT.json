@@ -1,0 +1,57 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Danza delle meduse lunari",
+        "conditions": "Beach/2200 2400",
+        "set-up": "ocean/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Jellies/loadActors Set-Up/advancedMove Vincent true 0 12 3 3000 2 0 1 3000 0 -12 -2 0 3 3000/advancedMove Jas true 0 2 3 5000 0 -2 3 5000/advancedMove Clint false 2 50000 -2 0 3 500 2 1000 3 1000 1 0 2 1000/advancedMove Harvey True 0 -12 -10 0 0 6 2 25000 0 -6 10 0 0 12 2 25000/viewport 38 2 clamp true/pause 1000/playerControl jellies",
+        "mainEvent": "pause 500/globalFade/viewport -1000 -1000/changeLocation Beach/warp farmer1 28 36/warp spouse 29 36/positionOffset farmer 0 16/faceDirection spouse 2/warp farmer2 29 35/warp farmer3 34 36/warp farmer4 35 36/faceDirection farmer1 2/faceDirection farmer2 2/faceDirection farmer3 2/faceDirection farmer4 2/specificTemporarySprite candleBoat/viewport 26 36 true/pause 2000/move Lewis 0 1 2/move Lewis -2 0 3/pause 400/showFrame Lewis 16 true/animate Lewis false false 200 25 16 17 17/pause 800/playSound parry/specificTemporarySprite candleBoatMove/pause 500/showFrame Lewis 0 true/animate Lewis false false 200 25 12/pause 400/faceDirection Lewis 2/pause 6000/specificTemporarySprite moonlightJellies/pause 10000/playMusic moonlightJellies/pause 30000/viewport move -1 0 8000/pause 10000/viewport move 1 0 20000/pause 18000/globalFade/viewport -1000 -1000/pause 2000/pause 1000/message \"Il bagliore estivo si è spento, ormai... e le meduse lunari proseguono verso il grande ignoto.\"/playMusic none/pause 2000/waitForOtherPlayers festivalEnd/end",
+        "Leah_spouse": "Ehi. Sto porgendo i miei saluti a un'altra estate terminata. Ci rivediamo al lancio delle barche a candela.",
+        "Abigail": "Che cosa insolita ed eccitante... ",
+        "Robin": "*sbadiglia*... A quest'ora sono già a letto, di solito.$s#$e#Ehi, hai visto quella barca a candela? L'ho creata io stessa.$h",
+        "Demetrius": "La 'Medusa Lunare'... che specie intrigante! Che grande fortuna per noi, che si fermino qui nel loro viaggio verso sud.#$e#Non si sa perchè siano attratte dalla luce... davvero curioso.",
+        "Maru": "Fa piuttosto freddo, in realtà. Mi sa che l'autunno è proprio dietro l'angolo.",
+        "Sebastian": "Mi è sembrato di vedere qualcosa muoversi, lì... qualcosa di grosso, di scuro.#$e#Cerco solo di spaventarti...$h",
+        "Pierre": "Psst... Ricordati di passare all'emporio, domani, per i tuoi semi autunnali!",
+        "Caroline": "Queste candele sono romantiche, vero?",
+        "Linus": "Mi avvicinerò di soppiatto quando arrivano le meduse... Non voglio infastidire nessuno.",
+        "Alex": "Non ci credo che è finita l'estate... Mi sembra che sia appena cominciata.$s",
+        "George": "Che c'è, perché mi guardi in quel modo? Pensi che sia troppo vecchio per gustarmi questo tipo di cose?",
+        "Evelyn": "Ricordo d'aver visto le meduse una volta, da bambina. Oh, ho saltato dalla gioia quando le ho scorte!#$e#Ma è stato tanto tempo fa... Adesso ho molte meno energie.",
+        "Lewis": "Buonasera, @. Le meduse lunari sono vicine... Ne ho già vista una brillare in lontananza.#$b#Una volta lanciate le barche a candela, verranno vicino al molo a salutarci.",
+        "Clint": "Oggi mi ero messo le mie scarpe speciali... Non l'ha notato nessuno.$s",
+        "Emily": "Guarda là fuori, verso il mare sterminato. Sott'acqua, nel profondo, svariate forme di vita si muovono nel buio.#$b#Da brividi, vero?",
+        "Penny": "La vita è così facile per una medusa... Basta lasciarsi trasportare dalle onde, per sempre.",
+        "Pam": "Non dirlo a Gus, ma sono un po' delusa che non c'è un buffet, stasera.",
+        "Haley": "Dovevo portare la macchina fotografica! Me la dimentico sempre.$s",
+        "Jodi": "Là! Ho visto una cosa che brillava!#$b#Oh... È sparita.$s",
+        "Kent": "Buonasera, @. Spero che troverai del tempo per rilassarti prima della stagione del raccolto.",
+        "Sam": "Chissà se sono velenose?#$e#Forse è meglio non spingere Sebastian in acqua, dopotutto...$h",
+        "Leah": "Ehi. Sto porgendo i miei saluti ad un'altra estate terminata. ",
+        "Shane": "Le meduse sono passate un anno fa, e tra un anno ripasseranno... La natura è incredibile.",
+        "Marnie": "È un bel carico di gente per un vecchio molo di legno! Io resto qui, vicino alla spiaggia.",
+        "Elliott": "Se persistiamo ad inquinare l'oceano, le meduse si estingueranno senz'altro. È un processo già in attuazione.#$e#Disdicevole... non v'è più rispetto per la natura.",
+        "Gus": "'Meduse lunari'... Che sapore avranno?$h#$b#Non le assaggerei mai, ovviamente!$u",
+        "Dwarf": "Dici che piove in superficie? *sussulta*#$e#La pioggia... Per noi è quasi un mito. Alcuni non ne fanno mai esperienza per tutta la vita.",
+        "Wizard": "Come mi hai trovato qui dietro? Credevo d'essermi nascosto bene.#$b#Può darsi che tu possieda il dono della chiaroveggenza.#$e#Sono qui per osservare i Lunalù... o 'meduse lunari', come le chiamate voi. Posseggono un'aura magica insolitamente potente per una forma di vita acquatica.",
+        "Harvey": "Beh, fine dell'estate. Onestamente, sarò felice di dire addio a queste maledette zanzare!",
+        "Sandy": "Ho sentito che a casa sta piovendo. È per quello che sei qui?$h#$e#Un po' mi manca la pioggia, in realtà...$s",
+        "Jas": "Spero che quest'anno ci siano i piccoli!",
+        "Vincent": "Voglio vedere la rara medusa verde!",
+        "Willy": "A molti pesci notturni la luce farebbe paura... Che strani, questi."
+    }
+}

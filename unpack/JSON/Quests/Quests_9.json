@@ -1,1 +1,1 @@
-{"index": "9", "main_category": "Quests", "type": "Social", "displayName": "介绍", "description": "跟镇子上的人自我介绍是很重要的。有些人会很好奇想认识新来的农夫。", "objective": ".", "undefined_1": "null", "undefined_2": "25", "undefined_3": "0", "undefined_5": "true", "undefined_4": "-1"}
+{"index": "9", "main_category": "Quests", "type": "Social", "displayName": "介绍", "description": "跟镇子上的人自我介绍是很重要的。有些人会很好奇想认识新来的农夫。", "objective": ".", "objectiveID": "null", "undefined_2": "25", "moneyReward": "0", "canbeCancled": "true", "rewardDescription": "-1"}

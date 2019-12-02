@@ -1,1 +1,1 @@
-{"index": "10", "main_category": "Quests", "type": "Basic", "displayName": "铜矿石", "description": "你发现了一块铜矿石。你不确定它有何用处，但是本地的铁匠应该有所见闻。", "objective": "把铜矿石带到克林特的铁匠铺。", "undefined_1": ".", "undefined_2": "-1", "undefined_3": "0", "undefined_5": "false", "undefined_4": "-1"}
+{"index": "10", "main_category": "Quests", "type": "Basic", "displayName": "铜矿石", "description": "你发现了一块铜矿石。你不确定它有何用处，但是本地的铁匠应该有所见闻。", "objective": "把铜矿石带到克林特的铁匠铺。", "objectiveID": ".", "undefined_2": "-1", "moneyReward": "0", "canbeCancled": "false", "rewardDescription": "-1"}

@@ -1,1 +1,1 @@
-{"index": "Wicked Statue", "main_category": "CraftingRecipes", "undefined_1": "382 5 390 25", "location": "Home", "undefined_2": "83", "isProduction": "true", "source": "null", "displayName": "邪恶雕像"}
+{"index": "Wicked Statue", "main_category": "CraftingRecipes", "recipeItem": "382 5 390 25", "type": "Home", "craftItem": "83", "isBigCraftItem": "true", "skill": "null", "displayName": "邪恶雕像"}

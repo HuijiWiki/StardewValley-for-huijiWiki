@@ -1,1 +1,1 @@
-{"index": "Gate", "main_category": "CraftingRecipes", "undefined_1": "388 10", "location": "Home", "undefined_2": "325", "isProduction": "false", "source": "l 0", "displayName": "大门"}
+{"index": "Gate", "main_category": "CraftingRecipes", "recipeItem": "388 10", "type": "Home", "craftItem": "325", "isBigCraftItem": "false", "skill": "l 0", "displayName": "大门"}

@@ -1,0 +1,68 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "A Jég Fesztiválja",
+        "conditions": "Forest/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 68 0 1/changeToTemporaryMap Forest-IceFestival/loadActors Set-Up/animate Robin false true 100 24 25 26 24 25 26 24 25 26 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27/advancedMove Pierre true -1 0 0 -1 1 5000 0 1 1 0 4 5000/advancedMove Vincent true 0 3 3 0 2 5000 0 -5 2 0 1 5000 -5 0 0 2 3 5000/advancedMove Pam true -5 0 0 1 2 5000 0 -1 5 0 2 7000/playerControl iceFestival",
+        "mainEvent": "globalFade/viewport -1000 -1000/playMusic none/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/loadActors Main-Event/faceDirection Pam 1/faceDirection Elliott 0/faceDirection Willy 0/viewport 71 35 true/pause 2000/speak Lewis \"Rendben van. Kezdjük hát el az idei jéghorgászat versenyünket.\"/pause 200/faceDirection Lewis 3/pause 300/faceDirection Lewis 2/faceDirection Lewis 1/pause 300/faceDirection Lewis 2/pause 400/speak Lewis \"Versenyzők, a ti feladatotok a lehető legtöbb halat kifogni két perc alatt a megadott horgászbottal.#$b#A halakat az itteni lékelt lyukakon át kell kifognotok.\"/pause 600/speak Lewis \"Nos, mindenki készen áll?\"/pause 500/waitForOtherPlayers startContest/jump Lewis/faceDirection Pam 2 true/faceDirection Elliott 1 true/faceDirection Willy 2 true/speak Lewis \"Mehet!\"/advancedMove Lewis false 0 -4 2 1000/advancedMove Marnie true 4 6000 -2 0 4 5000 2 0/advancedMove Maru true 3 4000 0 2 3 7000 0 -2/advancedMove Jas true 2 0 0 -9 -4 0 2 20000 4 0 0 9 -2 0 3 15000/advancedMove Jodi true 1 6000 -1 0 0 2 1 8000 0 -1 1 6000 0 -1 1 0/jump Willy/shake Pam 700/showFrame Pam 16/extendSourceRect Pam 0 32/showFrame Elliott 40/extendSourceRect Elliott 16 0/shake Elliott 400/pause 300/showFrame Willy 16/extendSourceRect Willy 0 32/playMusic fallFest/playerControl iceFishing",
+        "afterIceFishing": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/restoreStashedItem/globalFade/viewport -1000 -1000/extendSourceRect Pam reset/extendSourceRect Willy reset/extendSourceRect Elliott reset/specificTemporarySprite iceFishingCatch/faceDirection Pam 0/faceDirection Willy 0/faceDirection Elliott 0/playMusic event1/loadActors MainEvent/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/pause 1000/viewport 71 35 true/pause 2000/move Lewis 0 4 2/speak Lewis \"Váó, ez rengeteg hal!$h\"/pause 300/showFrame Lewis 18/shake Lewis 1000/speak Lewis \"*Uhhh*... ez a szag...$s\"/pause 500/showFrame Lewis 0/pause 600/move Lewis 0 1 2/speak Lewis \"És az idei jéghorgászat verseny győztese...\"/pause 800/playMusic none/pause 3000/cutscene iceFishingWinner/null/playMusic event1/pause 500/fork DickWin/move Lewis 0 1 2/speak Lewis \"Itt a jutalmad! Gratulálok.\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"Ennyi lett volna az idei Jég Fesztiválja. Mindenkinek köszönöm a részvételt! #$b#És most eresszük vissza szegény halakat...$s\"/move Lewis -3 0 0/move Lewis 0 -1 0/advancedMove Willy true 0 3 -2 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/cutscene iceFishingWinnerMP/fork OtherPlayerWin/message \"El se hiszem, hogy nyertem! Nos, akkor most hazamegyek.\"/waitForOtherPlayers festivalEnd/end",
+        "OtherPlayerWin": "message \"Sajnos nem én nyertem meg a versenyt, de attól még jó móka volt! Nos, akkor most hazamegyek.\"/waitForOtherPlayers festivalEnd/end",
+        "DickWin": "pause 100/jump Willy/faceDirection Elliott 3/pause 800/move Willy 0 -1 0/faceDirection Elliott 0/speak Lewis \"Itt a jutalmad Willy. Gratulálok.\"/pause 500/move Willy 0 -2 0/move Lewis -1 0 2/move Lewis 0 1 2/playSound coin/pause 400/move Lewis 0 -1 0/pause 500/speak Lewis \"Ennyi lett volna az idei Jég Fesztiválja. Mindenkinek köszönöm a részvételt! #$b#És most eresszük vissza szegény halakat...$s\"/move Lewis -2 0 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/message \"Habár nem én nyertem a versenyt, de jó móka volt! És most hazamegyek.\"/waitForOtherPlayers festivalEnd/end",
+        "Abigail_spouse": "Hé, szívem... nézd, te vagy az!$h",
+        "Penny_spouse": "Idén benevezel a horgászversenyre, @? Anyám nagyon komolyan nyerni akar.",
+        "Haley_spouse": "Brr... majd lefagynak az ujjaim a hóember készítésétől.$l",
+        "Sebastian_spouse": "Ne aggódj miattam, én sose fázok meg...",
+        "Sam_spouse": "Te nem fázol? Biztos, hogy nem kéred a kabátomat?",
+        "Alex_spouse": "Majd szurkolok neked a horgászversenyen.",
+        "Harvey_spouse": "Az otthoni meleg tűzről álmodozom...$l",
+        "Elliott_spouse": "Tudom, hogy le fogsz győzni engem a horgászversenyen, de ez nem számít. Csak a mókázás miatt vagyok itt.$h",
+        "Abigail": "Mit gondolsz a hófilkómról?",
+        "Robin": "Sajnálom, de a jeges korlátok faragásához nagy koncentrációra van szükségem!",
+        "Demetrius": "Tudod mit gondolok? Azt, hogy talán fel kellett volna vennem egy kabátot.",
+        "Maru": "Nem vagyok túl kreatív, ha hóemberekről van szó.$s",
+        "Sebastian": "Hideg? Á, én sose fázok.",
+        "Pierre": "Annyira hideg a hó, hogy nem érzem az ujjaimat...$s",
+        "Shane": "Ha rajtam múlna, én inkább pizza fesztivált rendeznék a szalonban...",
+        "Caroline": "No, milyen számodra a tél, @?$h",
+        "Linus": "A jégkunyhó építés olyan művészet, amit a fagyos tengeren túli tundra lakóktól tanultam.#$e#Ez több évvel ezelőtt volt.$h#$e#Egy jégkunyhó remek otthonnak bizonyul, de könnyebb egész évben a sátramban lenni.",
+        "Alex": "A hóemberekkel nincs problémám. De inkább várom már a tavaszt.",
+        "George": "Hmm... A feleségem ezért rángatott ki engem a hidegbe?",
+        "Evelyn": "Meséltem már neked, hogy George és én hogyan találkoztunk? Valójában ezen az ünnepen dobált meg hógolyóval.#$e#Igazi úriember volt akkoriban, még oda is jött megkérdezni, hogy jól vagyok-e.$h",
+        "Lewis": "Üdvözlünk a Jég Fesztiválján!#$e#A mai ünnepség fénypontja a jéghorgászat verseny. Felállítottunk egy 'fagyos tavat', és teleraktuk halakkal.#$b#Csak szólj, ha versenyezni szeretnél.",
+        "Clint": "Emily csak úgy magától kezdett segíteni nekem... ez talán jelent valamit? *nyel*$4",
+        "Emily": "Váó, ennek a hóembernek új arculat kell. Ki csinálta ezt?$s",
+        "Penny": "$y 'Hmm... Mégis milyen hóembert készítsünk?_Egy klasszikust. Répaorral, kalappal és sállal._Szóval jobb, ha a klasszikust válasszuk, mi?$h_Valami menőt. Jeges agancsot és fenyődoboz szemet._Oké! Ez mókásnak hangzik.$h_A hóemberek unalmasak. Gondolkozz valami másban!_Izé, rendben... Azt hiszem valami megszokottat fogok készíteni.'",
+        "Pam": "Azt tervezem, hogy megnyerem a jéghorgászat versenyt!#$e#Bár Willyt elég nehéz lesz legyőzni... Ő éjt-nappallá téve csak ezt csinálja.$s",
+        "Haley": "Azt hiszem a tél nem is olyan rossz... jó móka a hóban játszadozni!",
+        "Jodi": "Az erdő egész gyönyörűen fest így télen, nem igaz?",
+        "Kent": "Szeretem a telet. Olyan békés.",
+        "Sam": "Hé, @. Be fogsz nevezni a jéghorgászat versenyre?#$e#Ó, én nem. Én nem tudok horgászni.",
+        "Leah": "Ó, jég. Egy gyönyörűen megformálható anyag, de olyan változékony.#$e#De azt hiszem ettől csak jobb lesz a kész mű.",
+        "Marnie": "Annyira sajnálom azokat a szegény, fázós állatokat.$s",
+        "Elliott": "Ma én is benevezek a jéghorgászat versenybe. Miért is ne?#$e#Bár elég ritka, hogy Willy veszítene.",
+        "Gus": "Sajnálom, hogy ma nincs kaja.#$e#De várd csak ki a Téli Csillag Ünnepét. Ott napokig tömve leszel.",
+        "Willy": "$y 'Hé, @. Készen állsz egy kis jéghorgászatra?_Igen. Mindent beleadok!_Ez ám a beszéd!$h_Igen, és le foglak győzni!_No, azt majd meglátjuk.$h_Hogy őszinte legyek, nem. Nagyon rosszul horgászom._Nos, akkor vedd az egészet jó gyakorlásnak!$h'",
+        "Wizard": "Ellopódzol, hogy meglesd a furcsa tornyomat? Elég különös átlagember vagy.",
+        "Harvey": "Az extrém hőmérséklet rengeteg stressz alá teheti a testedet, szóval alaposan öltözz fel!#$e#Ó, és élvezd a fesztivált!$h",
+        "Sandy": "Úgy hallottam, hogy odahaza esik. Ezért jöttél ide?$h#$e#Nekem valójában kissé hiányzik az eső...$s",
+        "Jas": "Egy répaorrt akarok neki adni!$h",
+        "Vincent": "Láttam egy nagy halat odalent!",
+        "Marlon": "Hé, kellemes délutánt."
+    }
+}

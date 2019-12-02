@@ -1,1 +1,1 @@
-{"index": "Crafts Room/16", "main_category": "Bundles", "nameEN": "Winter Foraging", "discription": "O 498 30", "undefined_1": "412 1 0 414 1 0 416 1 0 418 1 0", "undefined_2": "6", "colorIndex": "冬季觅食", "number": "工匠"}
+{"index": "Crafts Room/16", "main_category": "Bundles", "nameEN": "Winter Foraging", "reward": "O 498 30", "ingredient": "412 1 0 414 1 0 416 1 0 418 1 0", "colorIndex": "6", "displayName": "冬季觅食", "ingredientSlots": "6"}

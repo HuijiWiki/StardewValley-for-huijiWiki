@@ -1,1 +1,1 @@
-{"index": "2", "main_category": "Quests", "type": "Basic", "displayName": "神秘的齐", "description": "在一个隐秘的加密箱里，你发现了一张写着指示的纸条。署名者是齐先生的纸条。", "objective": "在火车站台的箱子里留下一个彩虹贝壳。", "undefined_1": "null", "undefined_2": "-1", "undefined_3": "0", "undefined_5": "false"}
+{"index": "2", "main_category": "Quests", "type": "Basic", "displayName": "神秘的齐", "description": "在一个隐秘的加密箱里，你发现了一张写着指示的纸条。署名者是齐先生的纸条。", "objective": "在火车站台的箱子里留下一个彩虹贝壳。", "objectiveID": "null", "undefined_2": "-1", "moneyReward": "0", "canbeCancled": "false"}

@@ -1,1 +1,1 @@
-{"index": "Barbed Hook", "main_category": "CraftingRecipes", "undefined_1": "334 1 335 1 336 1", "location": "Home", "undefined_2": "691", "isProduction": "false", "source": "Fishing 8", "displayName": "倒刺钩"}
+{"index": "Barbed Hook", "main_category": "CraftingRecipes", "recipeItem": "334 1 335 1 336 1", "type": "Home", "craftItem": "691", "isBigCraftItem": "false", "skill": "Fishing 8", "displayName": "倒刺钩"}

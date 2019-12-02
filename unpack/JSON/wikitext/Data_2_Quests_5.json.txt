@@ -1,1 +1,1 @@
-{"index": "5", "main_category": "Quests", "type": "Basic", "displayName": "神秘的齐", "description": "你发现又一张齐先生的纸条。这位齐先生的奇怪要求终于到达尾声了。", "objective": "检查你房子旁边的木材堆。", "undefined_1": "null", "undefined_2": "-1", "undefined_3": "0", "undefined_5": "false"}
+{"index": "5", "main_category": "Quests", "type": "Basic", "displayName": "神秘的齐", "description": "你发现又一张齐先生的纸条。这位齐先生的奇怪要求终于到达尾声了。", "objective": "检查你房子旁边的木材堆。", "objectiveID": "null", "undefined_2": "-1", "moneyReward": "0", "canbeCancled": "false"}

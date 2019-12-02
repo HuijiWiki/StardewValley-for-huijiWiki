@@ -1,0 +1,68 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Festival des Glaces",
+        "conditions": "Forest/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 68 0 1/changeToTemporaryMap Forest-IceFestival/loadActors Set-Up/animate Robin false true 100 24 25 26 24 25 26 24 25 26 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27/advancedMove Pierre true -1 0 0 -1 1 5000 0 1 1 0 4 5000/advancedMove Vincent true 0 3 3 0 2 5000 0 -5 2 0 1 5000 -5 0 0 2 3 5000/advancedMove Pam true -5 0 0 1 2 5000 0 -1 5 0 2 7000/playerControl iceFestival",
+        "mainEvent": "globalFade/viewport -1000 -1000/playMusic none/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/loadActors Main-Event/faceDirection Pam 1/faceDirection Elliott 0/faceDirection Willy 0/viewport 71 35 true/pause 2000/speak Lewis \"Bien... Il est temps de commencer le concours de pêche sur glace de cette année.\"/pause 200/faceDirection Lewis 3/pause 300/faceDirection Lewis 2/faceDirection Lewis 1/pause 300/faceDirection Lewis 2/pause 400/speak Lewis \"À tous les concurrents, votre objectif est d’attraper le plus de poissons possible en deux minutes à l’aide des cannes à pêche fournies.#$b#Vous devez attraper vos poissons dans les trous faits dans la glace juste ici.\"/pause 600/speak Lewis \"Tout le monde est prêt ?\"/pause 500/waitForOtherPlayers startContest/jump Lewis/faceDirection Pam 2 true/faceDirection Elliott 1 true/faceDirection Willy 2 true/speak Lewis \"C’est parti !\"/advancedMove Lewis false 0 -4 2 1000/advancedMove Marnie true 4 6000 -2 0 4 5000 2 0/advancedMove Maru true 3 4000 0 2 3 7000 0 -2/advancedMove Jas true 2 0 0 -9 -4 0 2 20000 4 0 0 9 -2 0 3 15000/advancedMove Jodi true 1 6000 -1 0 0 2 1 8000 0 -1 1 6000 0 -1 1 0/jump Willy/shake Pam 700/showFrame Pam 16/extendSourceRect Pam 0 32/showFrame Elliott 40/extendSourceRect Elliott 16 0/shake Elliott 400/pause 300/showFrame Willy 16/extendSourceRect Willy 0 32/playMusic fallFest/playerControl iceFishing",
+        "afterIceFishing": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/restoreStashedItem/globalFade/viewport -1000 -1000/extendSourceRect Pam reset/extendSourceRect Willy reset/extendSourceRect Elliott reset/specificTemporarySprite iceFishingCatch/faceDirection Pam 0/faceDirection Willy 0/faceDirection Elliott 0/playMusic event1/loadActors MainEvent/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/pause 1000/viewport 71 35 true/pause 2000/move Lewis 0 4 2/speak Lewis \"Waouh, ça fait beaucoup de poissons !$h\"/pause 300/showFrame Lewis 18/shake Lewis 1000/speak Lewis \"*Haut-le-coeur*... cette odeur...$s\"/pause 500/showFrame Lewis 0/pause 600/move Lewis 0 1 2/speak Lewis \"Et maintenant, voici le gagnant du concours de pêche sur glace de cette année...\"/pause 800/playMusic none/pause 3000/cutscene iceFishingWinner/null/playMusic event1/pause 500/fork DickWin/move Lewis 0 1 2/speak Lewis \"Voici votre prix ! Félicitations !\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"Eh bien, le festival des glaces de cette année touche à sa fin. Merci à tous d’être venu !#$b#Relâchons maintenant ces pauvres poissons...$s\"/move Lewis -3 0 0/move Lewis 0 -1 0/advancedMove Willy true 0 3 -2 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/cutscene iceFishingWinnerMP/fork OtherPlayerWin/message \"Je n’arrive pas à croire que j’ai gagné ! Eh bien, je pense qu’il est temps de rentrer à la maison.\"/waitForOtherPlayers festivalEnd/end",
+        "OtherPlayerWin": "message \"Je n’ai pas gagné le concours, mais c’était quand même très amusant ! Il est temps de rentrer à la maison.\"/waitForOtherPlayers festivalEnd/end",
+        "DickWin": "pause 100/jump Willy/faceDirection Elliott 3/pause 800/move Willy 0 -1 0/faceDirection Elliott 0/speak Lewis \"Voici votre prix, Willy. Félicitations !\"/pause 500/move Willy 0 -2 0/move Lewis -1 0 2/move Lewis 0 1 2/playSound coin/pause 400/move Lewis 0 -1 0/pause 500/speak Lewis \"Eh bien, le festival des glaces de cette année touche à sa fin. Merci à tous d’être venu !#$b#Relâchons maintenant ces pauvres poissons...$s\"/move Lewis -2 0 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/message \"Je n’ai pas gagné le concours, mais c’était quand même très amusant ! Il est temps de rentrer à la maison.\"/waitForOtherPlayers festivalEnd/end",
+        "Abigail_spouse": "Hé, mon coeur... regarde, c’est toi !$h",
+        "Penny_spouse": "Est-ce que tu participes au concours de pêche cette année, @ ? Ma mère veut gagner coûte que coûte.",
+        "Haley_spouse": "Brrr... mes mains sont gelées après avoir fait ce bonhomme de neige. ",
+        "Sebastian_spouse": "Ne t’inquiète pas pour moi, je n'attrape jamais froid...",
+        "Sam_spouse": "Tu n’as pas froid ? Tu es sûr de ne pas vouloir ma veste ?",
+        "Alex_spouse": "Je t’encouragerais pendant la compétition de pêche.",
+        "Harvey_spouse": "J’ai hâte de retrouver notre feu de cheminée à la maison...$l",
+        "Elliott_spouse": "Je sais que tu vas me battre à la compétition de pêche, mais ça ne me dérange pas. Je suis juste là pour m’amuser.$h",
+        "Abigail": "Que penses-tu de mon \"bonhomme de main\" ?",
+        "Robin": "Je suis désolée, mais faire des parapets sur la glace nécessite toute mon attention !",
+        "Demetrius": "Tu sais quoi ? J’aurais probablement dû mettre une veste.",
+        "Maru": "Je ne suis pas très créative quand il s’agit de faire des bonshommes de neige.$s",
+        "Sebastian": "Froid, moi ? Jamais !",
+        "Pierre": "Cette neige est si froide que je ne sens plus mes doigts ...$s",
+        "Shane": "Si cela ne tenait qu’à moi, j’aurais probablement fait un festival de pizza au saloon à la place...",
+        "Caroline": "Comment se passe cette saison hivernale pour toi, @ ?$h",
+        "Linus": "Construire un igloo est un art que j’ai appris parmi les habitants de la toundra qui vivent au-delà de la mer gelée.#$e#C’était il y a bien longtemps.$h#$e#Un igloo est une belle maison, mais c’est plus facile de rester dans ma tente toute l’année.",
+        "Alex": "C'est pas mal de faire des bonshommes de neige. Cependant, j’attends le printemps avec impatience.",
+        "George": "Mmff... Ma femme m’a traîné dans le froid pour ça ?",
+        "Evelyn": "Est-ce que je t’ai déjà raconté comment George et moi nous sommes rencontrés ? Et bien, il m’a lancé une boule de neige pendant ce festival.#$e#C’était un gentleman à l’époque alors il est venu voir si j’allais bien.$h",
+        "Lewis": "Bienvenue au festival des glaces !#$e#Le concours de pêche sur glace est le clou du festival. Nous avons aménagé ce \"lac gelé\" et l’avons rempli de poissons.#$b#Faites-moi savoir quand vous serez prêt à participer à la compétition.",
+        "Clint": "Emily m’a aidé sans me provoquer une seule fois... ça veut dire quelque chose ? *Déglutit*$4",
+        "Emily": "Waouh, ce bonhomme de neige a besoin d’un relooking express. Qui a fait celui-là ?$s",
+        "Penny": "$y \"Mmm... Quel genre de bonhomme de neige devrions-nous faire ?_Genre classique. Nez de carotte, chapeau haut-de-forme, écharpe._ J’imagine que c’est peut-être préférable de s’en tenir aux classiques, non ?$h_Quelque chose d’un peu drôle. Des antennes en stalagmites, yeux en pomme de pin._D'accord ! Cela semble amusant.$h_Les bonshommes de neige sont ennuyeux. Il faut faire preuve d’originalité !_Euh, d’accord... Je pense que je vais m’en tenir à quelque chose de plus conventionnel.\"",
+        "Pam": "J'ai l'intention de gagner le concours de pêche sur glace !#$e#Willy va être assez difficile à battre... Il fait ce genre de choses jour et nuit.$s",
+        "Haley": "Je suppose que l’hiver n’est pas si mal... jouer dans la neige peut être amusant !",
+        "Jodi": "La forêt est magnifique en hiver, n’est-ce pas ?",
+        "Kent": "J’aime l’hiver. C’est si paisible.",
+        "Sam": "Salut, @. Est-ce que tu participes à la compétition de pêche sur glace ?#$e#Oh, pas moi. Je ne sais pas pêcher.",
+        "Leah": "Oh, de la glace. C’est quelque chose de superbe à sculpter, mais tellement éphémère.#$e#Mais je suppose que c'est ce qui rend cet art encore meilleur.",
+        "Marnie": "J'ai de la peine pour les pauvres animaux qui restent dehors dans le froid.$s",
+        "Elliott": "Je participe au concours de pêche sur glace aujourd’hui. Après tout, pourquoi pas ?#$e#Par contre, c’est rare que Willy perde.",
+        "Gus": "Désolé, il n'y a rien à manger.#$e#Attends la fête de l’étoile hivernale. Tu seras rassasié pendant des jours.",
+        "Willy": "$y \"Salut, @. Tu participes au concours de pêche sous glace ?_Oui. Je ferai de mon mieux !_C’est une bonne mentalité !$h_Oui, et je vais te battre !_C’est ce que nous verrons.$h_Pour être honnête, non. Je ne sais pas très bien pêcher. Eh bien, considère ça comme un bon entraînement !$h\"",
+        "Wizard": "Se faufiler en douce pour visiter ma tour bizarre ? Tu es vraiment étrange pour quelqu’un d’aussi ordinaire.",
+        "Harvey": "Les températures extrêmes peuvent causer beaucoup de stress à ton corps, alors assure-toi de bien te couvrir !$h#$e#Oh, et profite bien du festival !$s",
+        "Sandy": "J’ai entendu dire qu’il pleut souvent là où tu habitais avant. Est-ce la raison pour laquelle tu es venu vivre ici ?$h#$e#La pluie me manque un peu, en fait...$s",
+        "Jas": "Je vais lui mettre une carotte en guise de nez !$h",
+        "Vincent": "J’ai vu un gros poisson là-bas !",
+        "Marlon": "Tiens, bonjour."
+    }
+}

@@ -1,1 +1,1 @@
-{"index": "Stump Brazier", "main_category": "CraftingRecipes", "undefined_1": "709 5 382 1", "location": "Home", "undefined_2": "147", "isProduction": "true", "source": "null", "displayName": "树桩火炬"}
+{"index": "Stump Brazier", "main_category": "CraftingRecipes", "recipeItem": "709 5 382 1", "type": "Home", "craftItem": "147", "isBigCraftItem": "true", "skill": "null", "displayName": "树桩火炬"}

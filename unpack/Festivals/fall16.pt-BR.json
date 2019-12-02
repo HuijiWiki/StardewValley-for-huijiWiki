@@ -1,0 +1,66 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Feira do Vale do Orvalho",
+        "conditions": "Town/900 1500",
+        "set-up": "fallFest/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Fair/viewport -1000 -1000/loadActors Set-Up/advancedMove Vincent true -3 0 2 5000 3 0 2 5000/advancedMove Jas true 2 0 4 5000 -2 0 4 5000/advancedMove Marnie true -2 0 4 5000 2 0 2 5000/advancedMove Abigail true 4 6000 5 0 0 3 2 6000 0 -3 -5 0/advancedMove Robin true 0 1 1 5000 0 -2 3 5000 0 1 1 5000/animate Sebastian false true 200 16 16 16 16 16 16 16 16 16 16 16 16 17 18 19 20 21 21 21 21 20 22 22 23/addTemporaryActor BabyPig 32 32 65 68 2 false Animal/addTemporaryActor Pig 32 32 65 70 3 false Animal/addTemporaryActor White_Chicken 16 16 59 67 2 false Animal/addTemporaryActor Brown_Chicken 16 16 61 67 2 false Animal/addTemporaryActor White_Cow 32 32 59 72 0 false Animal/addTemporaryActor BabyWhite_Cow 32 32 61 72 1 false Animal/advancedMove BabyPig true 0 1 3 5000 0 -1 0 7000/advancedMove Pig true 3 5000 0 1 1 5000 0 -1 3 5000/advancedMove White_Chicken true 1 0 2 7000 -1 0 2 10000/animate Brown_Chicken false true 500 16 17/viewport 22 22 true unfreeze/globalFadeToClear/pause 2000/playerControl fair",
+        "Abigail_spouse": "Eu zerei todos esses jogos no ano passado!$h",
+        "Leah_spouse": "Aprendi todas as técnicas da Robin no ano passado, mas ela está sempre um passo na minha frente!",
+        "Maru_spouse": "Mmmf! Esta é a minha única chance de cair matando nos sanduíches de carne.",
+        "Penny_spouse": "Espero que possamos vencer a exibição de sítios!",
+        "Haley_spouse": "Você se lembrou de trazer coisas legais para nossa exibição? Espero que ganhemos este ano.",
+        "Sebastian_spouse": "Ei, @. Estava colocando o papo em dia com o Sam. Vá se divertir um pouco.",
+        "Sam_spouse": "Sebastian continua o mesmo. Você está se divertindo no festival?",
+        "Alex_spouse": "Estou conversando com alguns amigos... vá se divertir.",
+        "Harvey_spouse": "Vou esperar aqui até que esteja pronto para voltar para a casa...",
+        "Elliott_spouse": "O aroma defumado me trouxe até aqui, mas o que selou o meu destino foi o molho apimentado... (*glub*, *glub*)$s",
+        "Abigail": "Já venci todos os jogos... e agora?",
+        "Robin": "A marcenaria é uma tradição antiga da qual fico feliz em fazer parte.$h",
+        "Demetrius": "Robin é uma marceneira muito esforçada... ela merece um pouco de reconhecimento de vez em quando.",
+        "Maru": "(*Glub*) huum... este molho de churrasco é incrível.$h",
+        "Sebastian": "Aqui está bem movimentado hoje... Vou dar uma volta por aí.",
+        "Pierre": "Minha loja possui os melhores produtos de todo o vale. Dê uma boa olhada na minha exibição e julgue por si mesmo!",
+        "Caroline": "Pierre não está brincando quando fala da exibição do sítio dele. Ele está procurando pelas melhores frutas e verduras há semanas para a exibição.#$e#Ei, se for participar, boa sorte para você!",
+        "Linus": "Estes animais nunca julgam as pessoas pela aparência. Já os humanos...",
+        "Alex": "Joguei o jogo de testar a força várias vezes e agora meus braços parecem borracha.",
+        "George": "Huum... lombo de peru defumado? Acho que este festival não é tão ruim assim.$h",
+        "Evelyn": "Gostaria que o Gus incluísse pratos vegetarianos. Quem sabe abobrinhas no espeto?",
+        "Lewis": "Bem @, hoje é o grande dia... O festival mais importante do ano, a \"Feira do Vale do Orvalho\".#$b#Se você quiser participar com uma exibição do seu sítio, deixei um espaço vazio para você. É só me avisar quando terminar de arrumá-lo e começaremos o julgamento.",
+        "Clint": "Eu reclamo do meu trabalho às vezes, mas tenho orgulho dele.#$b#Estas são algumas das minhas mais belas obras. Espero que goste.",
+        "Emily": "Sabe, eu seria um bom palhaço. Acho que não estou exercendo minha vocação.",
+        "Penny": "Eu ganhei na roda da fortuna dez vezes seguidas e agora o cara não me deixa jogar mais...$s",
+        "Pam": "Apresse-se... Antes que a dona Pam acabe com todos os peixões! He, he.$h",
+        "Haley": "Você já consultou a vidente? Ela colocou uma barraquinha no cemitério.#$e#Eu já a vi... ela me falou algo... interessante. Hi, hi, hi... $h",
+        "Jodi": "Ele não parece muito feliz... Acho que o prefeito Lewis teve que cortar custos no orçamento do palhaço este ano.",
+        "Kent": "Estou esperando que esse palhaço comece a fazer algo engraçado.#$e#Que chato!",
+        "Sam": "Ei, @. Está se divertindo? #$e#A barraquinha do estilingue é muito divertida, e você poderá colecionar estrelinhas.",
+        "Leah": "Eu admiro bastante a habilidade da Robin em carpintaria. Eu uso muitas técnicas parecidas na minha profissão.",
+        "Shane": "Muitos desses animais são amigáveis e adoram massagens.",
+        "Marnie": "Tentei o máximo que pude, mas minha exibição é muito fraca se comparada com a do Pierre.$s#$e#Bem, talvez os juízes me deem uma pontuação extra pela roda de queijo gigante.",
+        "Elliott": "Estou tentando convencer o Gus a me passar a receita do molho, mas ele está irredutível.",
+        "Gus": "Coma o quanto quiser! É tudo de graça hoje... cortesia do prefeito Lewis.$h#$e#Ah! Não se esqueça de provar um pouco do meu molho secreto ali.",
+        "Dwarf": "Você disse que está chovendo lá em cima? (*Gasp*)#$e#A chuva... É quase mítica para nós. Alguns de nós vivem suas vidas sem nunca saber o que é.",
+        "Wizard": "Welwick e eu nos conhecemos há um bom tempo... ela é uma vidente incrível e uma ótima amiga.#$e#...#$e#Aquele palhaço... Conheço ele de algum lugar.#$e#Será da escola de ilusionismo? Ou talvez do Circo dos Segredos? Huum...",
+        "Harvey": "E a alguns passos dali, Gus está grelhando mais uma rodada de costeletas de porco... Ai!$s#$e#Eu tenho que pesquisar umas almas...$11",
+        "Sandy": "Ouvi dizer que está chovendo lá em casa. É por isso que você veio aqui?$h#$e#Na verdade, sinto falta da chuva...$s",
+        "Jas": "Au! Uma galinha bicou o meu dedinho!$u",
+        "Vincent": "Muuuu!",
+        "Marlon": "As facas do Clint ficam mais afiadas a cada ano.#$e#E os preços dele também...",
+        "Willy": "Então você está preparando uma exibição de seu sítio, @? É sua chance de mostrar todos os produtos da %farm!"
+    }
+}

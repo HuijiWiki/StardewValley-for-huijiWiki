@@ -1,1 +1,1 @@
-{"index": "Garden Pot", "main_category": "CraftingRecipes", "undefined_1": "330 1 390 10 338 1", "location": "Home", "undefined_2": "62", "isProduction": "true", "source": "null", "displayName": "花盆"}
+{"index": "Garden Pot", "main_category": "CraftingRecipes", "recipeItem": "330 1 390 10 338 1", "type": "Home", "craftItem": "62", "isBigCraftItem": "true", "skill": "null", "displayName": "花盆"}

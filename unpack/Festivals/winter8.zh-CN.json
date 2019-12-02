@@ -1,0 +1,68 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "冰雪节",
+        "conditions": "Forest/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 68 0 1/changeToTemporaryMap Forest-IceFestival/loadActors Set-Up/animate Robin false true 100 24 25 26 24 25 26 24 25 26 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27/advancedMove Pierre true -1 0 0 -1 1 5000 0 1 1 0 4 5000/advancedMove Vincent true 0 3 3 0 2 5000 0 -5 2 0 1 5000 -5 0 0 2 3 5000/advancedMove Pam true -5 0 0 1 2 5000 0 -1 5 0 2 7000/playerControl iceFestival",
+        "mainEvent": "globalFade/viewport -1000 -1000/playMusic none/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/loadActors Main-Event/faceDirection Pam 1/faceDirection Elliott 0/faceDirection Willy 0/viewport 71 35 true/pause 2000/speak Lewis \"大家好，今年的冰钓比赛即将开始。\"/pause 200/faceDirection Lewis 3/pause 300/faceDirection Lewis 2/faceDirection Lewis 1/pause 300/faceDirection Lewis 2/pause 400/speak Lewis \"各位选手，你们的目标是在两分钟内用指定的钓具钓上尽可能多的鱼。#$b#鱼必须是从这些冰洞里钓上来的。\"/pause 600/speak Lewis \"都准备好了吗？\"/pause 500/waitForOtherPlayers startContest/jump Lewis/faceDirection Pam 2 true/faceDirection Elliott 1 true/faceDirection Willy 2 true/speak Lewis \"开始！\"/advancedMove Lewis false 0 -4 2 1000/advancedMove Marnie true 4 6000 -2 0 4 5000 2 0/advancedMove Maru true 3 4000 0 2 3 7000 0 -2/advancedMove Jas true 2 0 0 -9 -4 0 2 20000 4 0 0 9 -2 0 3 15000/advancedMove Jodi true 1 6000 -1 0 0 2 1 8000 0 -1 1 6000 0 -1 1 0/jump Willy/shake Pam 700/showFrame Pam 16/extendSourceRect Pam 0 32/showFrame Elliott 40/extendSourceRect Elliott 16 0/shake Elliott 400/pause 300/showFrame Willy 16/extendSourceRect Willy 0 32/playMusic fallFest/playerControl iceFishing",
+        "afterIceFishing": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/restoreStashedItem/globalFade/viewport -1000 -1000/extendSourceRect Pam reset/extendSourceRect Willy reset/extendSourceRect Elliott reset/specificTemporarySprite iceFishingCatch/faceDirection Pam 0/faceDirection Willy 0/faceDirection Elliott 0/playMusic event1/loadActors MainEvent/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/pause 1000/viewport 71 35 true/pause 2000/move Lewis 0 4 2/speak Lewis \"哇，这么多鱼！$h\"/pause 300/showFrame Lewis 18/shake Lewis 1000/speak Lewis \"*呕*……这味道……$s\"/pause 500/showFrame Lewis 0/pause 600/move Lewis 0 1 2/speak Lewis \"咳，本届冰钓比赛的胜利者会获得……\"/pause 800/playMusic none/pause 3000/cutscene iceFishingWinner/null/playMusic event1/pause 500/fork DickWin/move Lewis 0 1 2/speak Lewis \"这是你的奖品！祝贺你。\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"好了，今年的冰雪节到此为止！谢谢大家的光临！#$b#现在快把那些可怜的鱼儿放生吧……$s\"/move Lewis -3 0 0/move Lewis 0 -1 0/advancedMove Willy true 0 3 -2 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/cutscene iceFishingWinnerMP/fork OtherPlayerWin/message \"我居然赢了，难以置信！该回家了。\"/waitForOtherPlayers festivalEnd/end",
+        "OtherPlayerWin": "message \"我没有赢得比赛，但还是很好玩！该回家了。\"/waitForOtherPlayers festivalEnd/end",
+        "DickWin": "pause 100/jump Willy/faceDirection Elliott 3/pause 800/move Willy 0 -1 0/faceDirection Elliott 0/speak Lewis \"这是你的奖品，威利。尽情享受吧\"/pause 500/move Willy 0 -2 0/move Lewis -1 0 2/move Lewis 0 1 2/playSound coin/pause 400/move Lewis 0 -1 0/pause 500/speak Lewis \"好的，今年的冰雪节到此为止！谢谢大家的光临！#$b#现在快把那些可怜的鱼儿放生吧……$s\"/move Lewis -2 0 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/message \"我没有赢得比赛，但还是很好玩！该回家了。\"/waitForOtherPlayers festivalEnd/end",
+        "Abigail_spouse": "嘿，亲爱的……看，是你哦！$h",
+        "Penny_spouse": "你今年打算参加钓鱼大赛吗，@？我妈对今年的比赛志在必得。",
+        "Haley_spouse": "啊……我堆雪人堆得手都冻僵了。$l",
+        "Sebastian_spouse": "别担心，我从不会感冒的……",
+        "Sam_spouse": "你不冷吗？真的不要披上我的外套吗？",
+        "Alex_spouse": "我看好你赢得这次的钓鱼比赛。",
+        "Harvey_spouse": "我在想念着家里那温暖的炉火……$l",
+        "Elliott_spouse": "我知道这次的钓鱼比赛肯定会输给你，不过我不介意。我只是来体验参与的乐趣。$h",
+        "Abigail": "你觉得我的雪怪怎么样？",
+        "Robin": "抱歉，我得全心全意去雕刻这冰墙！",
+        "Demetrius": "唉，早知道就该穿上外套出门。",
+        "Maru": "我堆雪人不是很在行。$s",
+        "Sebastian": "冷吗？不，我从不会感冒的。",
+        "Pierre": "这场雪好冷，我手指都冻麻了……$s",
+        "Shane": "要我来说的话，我肯定会在酒吧举行一场披萨节庆，而不是……",
+        "Caroline": "这冬天过得还好吗，@？$h",
+        "Linus": "圆顶冰屋这种设计是我从海外冻原居民那里学习回来的。#$e#都是多年前的事了。$h#$e#圆顶冰屋是个很舒适的房子，但我还是比较喜欢住在帐篷里。",
+        "Alex": "雪人挺好玩的。但我还是更喜欢春天。",
+        "George": "啊……老婆大冬天把我拽出来就是为了这玩意？",
+        "Evelyn": "你知道我和乔治是怎么认识的吗？他就是在这一天扔雪球时不小心砸中我。#$e#他那时候还是很绅士的，还跑过来问我有没有受伤。$h",
+        "Lewis": "欢迎来到冰雪节！#$e#今天的重头戏是冰钓比赛！我们做了这个“冰冻之湖”并且在水中放满了鱼。#$b#你要是准备好了那就告诉我。",
+        "Clint": "艾米丽突然变得那么热心地帮助我……难道是意味着？*吞口水* ……$4",
+        "Emily": "哇塞，这个雪人堆得那么丑。是谁的杰作？$s",
+        "Penny": "$y '唔……要做个什么样的雪人好呢？_传统的雪人。胡萝卜鼻子、高帽子、围巾。_我想还是保持传统比较好，对吧？$h_有趣一点的。冰柱触角、松果眼睛。_对！这样才比较有意思。$h_雪人太没意思了，咱们不要思想僵化！_呃，好吧……我还是觉得保守一点好。'",
+        "Pam": "我想赢得冰钓比赛！#$e#可是威利不是吃素的……钓鱼对他来说是家常便饭。$s",
+        "Haley": "冬天也不是想象中那么的糟糕……在雪中玩耍也挺有意思的！",
+        "Jodi": "冬天的森林看起来很美，对不？",
+        "Kent": "我喜欢冬天。很宁静。",
+        "Sam": "嘿，@。想参加冰钓比赛不？#$e#我？我不行。我不会钓鱼的。",
+        "Leah": "冰，是种优秀的雕刻材料，可惜它不能长存。#$e#不过短暂而美丽的东西才更有艺术的气息。",
+        "Marnie": "我替外面那些又冷又饿的动物默哀。$s",
+        "Elliott": "我今天要去参加冰钓比赛。男子汉大丈夫，有什么好怕的？#$e#不过想战胜威利的确是很困难的。",
+        "Gus": "抱歉这儿没有吃的。#$e#请等待冬日星盛宴吧。保证你到时候吃到撑。",
+        "Willy": "$y '嘿，@。准备好去冰钓了吗？_是的。我会全力以赴！_要的就是这股精神！$h_是的，而且我会战胜你的！_那就拭目以待咯。$h_讲真，我没有信心。我钓鱼技术很烂。_那就当作一场训练呗！$h'",
+        "Wizard": "偷偷溜出来看我的怪塔？你这人真是非比寻常。",
+        "Harvey": "极端的寒冷会使身体饱受折磨，所以别忘了要穿得暖和暖和的！#$e#对了，节日快乐！$h",
+        "Sandy": "听说家乡在下雨。你是为避雨才跑来这里的吗？$h#$e#话说我有点怀念雨景了……$s",
+        "Jas": "我想给他添加个胡萝卜鼻子！$h",
+        "Vincent": "我看见那边有条大鱼！",
+        "Marlon": "嗨，下午好。"
+    }
+}

@@ -1,1 +1,1 @@
-{"index": "Hardwood Fence", "main_category": "CraftingRecipes", "undefined_1": "709 1", "location": "Field", "undefined_2": "298", "isProduction": "false", "source": "Farming 6", "displayName": "硬木围栏"}
+{"index": "Hardwood Fence", "main_category": "CraftingRecipes", "recipeItem": "709 1", "type": "Field", "craftItem": "298", "isBigCraftItem": "false", "skill": "Farming 6", "displayName": "硬木围栏"}

@@ -1,1 +1,1 @@
-{"index": "Stone Sign", "main_category": "CraftingRecipes", "undefined_1": "390 25", "location": "Home", "undefined_2": "38", "isProduction": "true", "source": "null", "displayName": "石牌"}
+{"index": "Stone Sign", "main_category": "CraftingRecipes", "recipeItem": "390 25", "type": "Home", "craftItem": "38", "isBigCraftItem": "true", "skill": "null", "displayName": "石牌"}

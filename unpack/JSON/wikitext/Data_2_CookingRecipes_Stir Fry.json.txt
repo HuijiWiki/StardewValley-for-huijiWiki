@@ -1,1 +1,1 @@
-{"index": "Stir Fry", "main_category": "CookingRecipes", "undefined_1": "78 1 404 1 250 1 247 1", "undefined_2": "1 10", "undefined_3": "606", "source": "l 100", "displayName": "蔬菜什锦盖饭"}
+{"index": "Stir Fry", "main_category": "CookingRecipes", "recipeItem": "78 1 404 1 250 1 247 1", "undefined_2": "1 10", "productItemId": "606", "source": "l 100", "displayName": "蔬菜什锦盖饭"}

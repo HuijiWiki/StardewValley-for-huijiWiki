@@ -1,0 +1,66 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Feria de Stardew Valley",
+        "conditions": "Town/900 1500",
+        "set-up": "fallFest/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Fair/viewport -1000 -1000/loadActors Set-Up/advancedMove Vincent true -3 0 2 5000 3 0 2 5000/advancedMove Jas true 2 0 4 5000 -2 0 4 5000/advancedMove Marnie true -2 0 4 5000 2 0 2 5000/advancedMove Abigail true 4 6000 5 0 0 3 2 6000 0 -3 -5 0/advancedMove Robin true 0 1 1 5000 0 -2 3 5000 0 1 1 5000/animate Sebastian false true 200 16 16 16 16 16 16 16 16 16 16 16 16 17 18 19 20 21 21 21 21 20 22 22 23/addTemporaryActor BabyPig 32 32 65 68 2 false Animal/addTemporaryActor Pig 32 32 65 70 3 false Animal/addTemporaryActor White_Chicken 16 16 59 67 2 false Animal/addTemporaryActor Brown_Chicken 16 16 61 67 2 false Animal/addTemporaryActor White_Cow 32 32 59 72 0 false Animal/addTemporaryActor BabyWhite_Cow 32 32 61 72 1 false Animal/advancedMove BabyPig true 0 1 3 5000 0 -1 0 7000/advancedMove Pig true 3 5000 0 1 1 5000 0 -1 3 5000/advancedMove White_Chicken true 1 0 2 7000 -1 0 2 10000/animate Brown_Chicken false true 500 16 17/viewport 22 22 true unfreeze/globalFadeToClear/pause 2000/playerControl fair",
+        "Abigail_spouse": "¡El año pasado gané en todos los juegos!$h",
+        "Leah_spouse": "Robin me enseñó todos sus trucos el año pasado, ¡pero siempre va un paso por delante de mí!",
+        "Maru_spouse": "Mmmm... Esta es mi única oportunidad de darme un atracón de bocadillos de barbacoa.",
+        "Penny_spouse": "¡Espero que ganemos el concurso de exposición agrícola!",
+        "Haley_spouse": "¿Te has acordado de traer productos de calidad para la exposición? Espero que ganemos este año.",
+        "Sebastian_spouse": "Ey, @. Me estoy poniendo al día con Sam. Ve tirando y diviértete.",
+        "Sam_spouse": "Sebastian sigue siendo el mismo de siempre. ¿Te lo estás pasando bien en el festival?",
+        "Alex_spouse": "Me estoy poniendo al día con viejos amigos... Adelántate y pásalo bien.",
+        "Harvey_spouse": "Esperare aquí hasta que quieras volver a casa...",
+        "Elliott_spouse": "Este aroma ahumado es lo que me ha traído hasta aquí, pero lo que ha sellado mi destino ha sido esta salsa cítrica... *Slurp*$s",
+        "Abigail": "Ya he ganado en todos los juegos... ¿Y ahora qué?",
+        "Robin": "La carpintería es una antigua tradición de la que me enorgullece formar parte.$h",
+        "Demetrius": "Robin trabaja muy duro en sus proyectos de carpintería... Se merece algo de reconocimiento de vez en cuando.",
+        "Maru": "*Ñom* Mmm... Esta salsa barbacoa es fantástica.$h",
+        "Sebastian": "Cuánto movimiento hay hoy... Voy a quedarme a pasar el rato por aquí.",
+        "Pierre": "Mi tienda tiene los productos con la mejor calidad de todo el valle. ¡Por favor, mira mi exposición y compruébalo personalmente!",
+        "Caroline": "Pierre se toma muy en serio su exposición agrícola. Ha estado apartando los productos con el mejor aspecto durante semanas.#$e#¡Mucha suerte si participas!",
+        "Linus": "Estos animales nunca juzgan a la gente por su aspecto. No se puede decir lo mismo de los humanos.",
+        "Alex": "He jugado demasiado al juego de fuerza y ahora mis brazos parecen de goma.",
+        "George": "Hmmm... ¿Muslos de pavo asados? Supongo que este festival no está tan mal.$h",
+        "Evelyn": "Ojalá Gus incluyera una alternativa vegetariana. Unos pinchitos de calabacín, ¿quizás?",
+        "Lewis": "Bueno, @. Ha llegado el gran día... Nuestro festival más importante del año, la feria de Stardew Valley.#$b#Te he dejado un puesto libre por si quieres participar montando una exposición. Avísame cuando esté todo listo para que podamos pasar a la valoración.",
+        "Clint": "A veces me quejo de mi trabajo, pero la verdad es que me enorgullece.#$b#Estas son algunas de mis mejores piezas. Espero que os gusten.",
+        "Emily": "¿Sabes? A mí se me habría dado bien ser payaso. Creo que dejé pasar una gran oportunidad.",
+        "Penny": "He ganado diez veces seguidas en la ruleta de la fortuna y el señor no me deja seguir jugando...$s",
+        "Pam": "Date prisa, joven... ¡Antes de que Pam acapare todos los peces de la carpa! Je, je.$h",
+        "Haley": "¿Has ido a ver a la pitonisa? Ha colocado su puesto en el cementerio.#$e#Yo ya la he visto... Me ha dicho algo... interesante. *Ji, ji*$h",
+        "Jodi": "No parece muy feliz... Supongo que el alcalde Lewis ha tenido que recortar el presupuesto para contratar al payaso de este año.",
+        "Kent": "Sigo esperando a que empiece a hacer algo divertido.#$e#Menuda decepción.",
+        "Sam": "Ey, @. ¿Te diviertes?#$e#La carpa del tirachinas es bastante divertida, y si le coges el tranquillo puedes acumular medallas estrella.",
+        "Leah": "Admiro mucho la habilidad de Robin con la carpintería. Utilizo muchas de sus técnicas adaptadas a mi propio trabajo.",
+        "Shane": "Estos animales son muy sociables y les encanta que les den masajes.",
+        "Marnie": "He hecho lo que he podido, pero mi exposición es bastante floja comparada con la de Pierre.$s#$e#Bueno, a lo mejor los jueces me dan puntos extra por el queso gigante.",
+        "Elliott": "Estoy intentando que Gus me dé la receta de su salsa, pero no hay manera.",
+        "Gus": "¡Come todo lo que quieras! Todo es gratis hoy... Dale las gracias al alcalde Lewis.$h#$e#¡Oh! Asegúrate de echarle un poco de mi salsa secreta a la comida.",
+        "Dwarf": "¿Dices que está lloviendo afuera? *Glups* #$e#Lluvia... Es algo casi mítico para nosotros. Algunos de mi raza se pasan toda la vida sin poder verla...",
+        "Wizard": "Welwick y yo nos conocemos desde hace bastante tiempo... Es una adivina excepcional y una buena amiga.#$e#...#$e#Ese payaso... Me suena de algo.#$e#¿Será de la escuela de ilusionismo? ¿O del carnaval de los secretos? Hmm...",
+        "Harvey": "Y justo aquí al lado, Gus está asando una montaña de costillas de cerdo... Ufff...$s#$e#Creo que necesito un examen de conciencia...$11",
+        "Sandy": "Dicen que en casa está lloviendo. ¿Por eso has venido aquí?$h#$e#De hecho, echo de menos la lluvia...$s",
+        "Jas": "¡Auch! ¡Una gallina me ha picado en el dedo meñique!$u",
+        "Vincent": "¡Muuuu!",
+        "Marlon": "Las hojas de Clint son más mortales cada año.#$e#Igual que sus precios...",
+        "Willy": "¿Vas a montar una exposición, @? ¡Es tu oportunidad para presumir de los productos de la granja %farm!"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Festival do Gelo",
+        "conditions": "Forest/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 68 0 1/changeToTemporaryMap Forest-IceFestival/loadActors Set-Up/animate Robin false true 100 24 25 26 24 25 26 24 25 26 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27/advancedMove Pierre true -1 0 0 -1 1 5000 0 1 1 0 4 5000/advancedMove Vincent true 0 3 3 0 2 5000 0 -5 2 0 1 5000 -5 0 0 2 3 5000/advancedMove Pam true -5 0 0 1 2 5000 0 -1 5 0 2 7000/playerControl iceFestival",
+        "mainEvent": "globalFade/viewport -1000 -1000/playMusic none/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/loadActors Main-Event/faceDirection Pam 1/faceDirection Elliott 0/faceDirection Willy 0/viewport 71 35 true/pause 2000/speak Lewis \"Certo, pessoal. Vamos começar a competição de pesca deste ano.\"/pause 200/faceDirection Lewis 3/pause 300/faceDirection Lewis 2/faceDirection Lewis 1/pause 300/faceDirection Lewis 2/pause 400/speak Lewis \"Participantes, o objetivo de vocês é pegar o maior número possível de peixes em dois minutos usando as varas de pescar fornecidas.#$b#Vocês precisam pegar os peixes destes buracos no gelo.\"/pause 600/speak Lewis \"Bem, está todo mundo pronto?\"/pause 500/waitForOtherPlayers startContest/jump Lewis/faceDirection Pam 2 true/faceDirection Elliott 1 true/faceDirection Willy 2 true/speak Lewis \"Comecem!\"/advancedMove Lewis false 0 -4 2 1000/advancedMove Marnie true 4 6000 -2 0 4 5000 2 0/advancedMove Maru true 3 4000 0 2 3 7000 0 -2/advancedMove Jas true 2 0 0 -9 -4 0 2 20000 4 0 0 9 -2 0 3 15000/advancedMove Jodi true 1 6000 -1 0 0 2 1 8000 0 -1 1 6000 0 -1 1 0/jump Willy/shake Pam 700/showFrame Pam 16/extendSourceRect Pam 0 32/showFrame Elliott 40/extendSourceRect Elliott 16 0/shake Elliott 400/pause 300/showFrame Willy 16/extendSourceRect Willy 0 32/playMusic fallFest/playerControl iceFishing",
+        "afterIceFishing": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/restoreStashedItem/globalFade/viewport -1000 -1000/extendSourceRect Pam reset/extendSourceRect Willy reset/extendSourceRect Elliott reset/specificTemporarySprite iceFishingCatch/faceDirection Pam 0/faceDirection Willy 0/faceDirection Elliott 0/playMusic event1/loadActors MainEvent/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/pause 1000/viewport 71 35 true/pause 2000/move Lewis 0 4 2/speak Lewis \"Nossa, é muito peixe! $h\"/pause 300/showFrame Lewis 18/shake Lewis 1000/speak Lewis \"(*Náusea*) O cheiro...$s\"/pause 500/showFrame Lewis 0/pause 600/move Lewis 0 1 2/speak Lewis \"Agora, o vencedor da competição de pesca no gelo deste ano é...\"/pause 800/playMusic none/pause 3000/cutscene iceFishingWinner/null/playMusic event1/pause 500/fork DickWin/move Lewis 0 1 2/speak Lewis \"Aqui vai seu prêmio! Aproveite.\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"Bem, e esse foi o Festival de Gelo deste ano. Obrigado a todos por virem!#$b#Agora vamos soltar estes pobres peixes...$s\"/move Lewis -3 0 0/move Lewis 0 -1 0/advancedMove Willy true 0 3 -2 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/cutscene iceFishingWinnerMP/fork OtherPlayerWin/message \"Não acredito que ganhei! Bem, hora de ir para casa.\"/waitForOtherPlayers festivalEnd/end",
+        "OtherPlayerWin": "message \"Não ganhei a competição, mas ainda assim foi divertido! Hora de ir para casa.\"/waitForOtherPlayers festivalEnd/end",
+        "DickWin": "pause 100/jump Willy/faceDirection Elliott 3/pause 800/move Willy 0 -1 0/faceDirection Elliott 0/speak Lewis \"Aqui está seu prêmio, Willy. Aproveite.\"/pause 500/move Willy 0 -2 0/move Lewis -1 0 2/move Lewis 0 1 2/playSound coin/pause 400/move Lewis 0 -1 0/pause 500/speak Lewis \"Bem, e esse foi o Festival de Gelo deste ano. Obrigado a todos por virem!#$b#Agora vamos soltar estes pobres peixes...$s\"/move Lewis -2 0 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/message \"Não ganhei a competição, mas ainda assim foi divertido! Hora de ir para casa.\"/waitForOtherPlayers festivalEnd/end",
+        "Abigail_spouse": "Ei, amor... olha, é você!$h",
+        "Penny_spouse": "Você vai entrar no festival de pesca deste ano, @? Minha mãe leva a vitória muito a sério.",
+        "Haley_spouse": "Brr! Minhas mãos estão congelando de fazer este boneco de neve.$l",
+        "Sebastian_spouse": "Não se preocupe comigo. Eu não sinto frio...",
+        "Sam_spouse": "E você, não está com frio? Tem certeza que não quer minha jaqueta?",
+        "Alex_spouse": "Vou torcer por você na competição de pesca.",
+        "Harvey_spouse": "Estou sonhando com nossa lareira quentinha em casa...$l",
+        "Elliott_spouse": "Sei que você vai me vencer na competição de pesca, mas não me importo. Só estou aqui pela diversão.$h",
+        "Abigail": "O que você acha do meu capanga de neve?",
+        "Robin": "Desculpe, mas fazer parapeitos de neve requer toda a minha atenção!",
+        "Demetrius": "Ah, sabe? Acho que deveria ter usado uma jaqueta.",
+        "Maru": "Não sou muito criativa quando se trata de bonecos de neve.$s",
+        "Sebastian": "Frio? Nah, eu não sinto frio.",
+        "Pierre": "Esta neve é tão fria que não consigo mais sentir meus dedos...$s",
+        "Shane": "Se dependesse de mim, provavelmente faria um festival de pizza em vez disso...",
+        "Caroline": "Como vai o seu inverno, @?$h",
+        "Linus": "Fazer iglus é uma arte que aprendi com os habitantes das tundras do longínquo mar congelado.#$e#Isso foi há muitos anos.$h#$e# Um iglu é uma ótima casa, mas é mais fácil ficar na minha tenda o ano todo.",
+        "Alex": "Não vejo problema em fazer bonecos de neve. Mas estou ansioso mesmo é pela primavera.",
+        "George": "Humf... Minha esposa me arrastou para fora no frio para isto?",
+        "Evelyn": "Eu já disse a você como eu e o George nos conhecemos? Ele me acertou com uma bola de neve neste mesmo festival.#$e#Naquela época ele era um cavalheiro, e veio perguntar se eu estava bem.$h",
+        "Lewis": "Bem-vindo ao Festival do Gelo!¦Bem-vinda ao Festival do Gelo!#$e#O destaque de hoje do festival é a competição de pesca no gelo. Nós arrumamos este \"lago congelado\" e o enchemos de peixes.#$b#Me avise quando estiver pronto para competir.¦Me avise quando estiver pronta para competir.",
+        "Clint": "A Emily começou a me ajudar sem eu pedir... será que isso significa alguma coisa? Gulp...$4",
+        "Emily": "Nossa, esse boneco de neve precisa de uma plástica. Quem fez isso?$s",
+        "Penny": "$y 'Huum... Que tipo de homem de neve devemos fazer?_Um clássico. Nariz de cenoura, gorro, cachecol..._Acho que é melhor ficar no clássico, né?$h_Algo descolado. Antenas de gelo, olhos de pinha..._Certo! Parece divertido.$h_Bonecos de neve são chatos. Mostre sua criatividade!_Hum, certo... Acho que vou ficar com algo mais convencional.'",
+        "Pam": "Eu planejo ganhar a competição de pesca no gelo!#$e#Se bem que vai ser difícil vencer o Willy... Ele faz isso dia e noite.$s",
+        "Haley": "Não acho o inverno tão ruim... brincar na neve pode ser divertido!",
+        "Jodi": "A floresta fica linda no inverno, não acha?",
+        "Kent": "Eu gosto do inverno. É calmo.",
+        "Sam": "Ei, @. Você vai entrar na competição de pesca no gelo?#$e#Ah, eu não. Não sei pescar.",
+        "Leah": "Ah, gelo. Um lindo material para esculpir, mas muito pouco durável.#$e#Mas acho que isso torna essa arte ainda melhor.",
+        "Marnie": "Sinto-me mal pelos pobres animais morrendo de frio por aí.$s",
+        "Elliott": "Vou entrar na competição de pesca no gelo hoje. Por que não?#$e#Mas é muito difícil o Willy perder.",
+        "Gus": "Desculpe por não ter comida.#$e#Espere até o Festival da Estrela Invernal. Você vai ficar cheio por dias.¦Espere até o Festival da Estrela Invernal. Você vai ficar cheia por dias.",
+        "Willy": "$y 'Ei, @. Pronto para a pesca no gelo?_Sim. Vou dar o meu melhor!_Esse é o espírito!$h_Sim, e vou derrotar você!_Vamos ver.$h_Para falar a verdade, não. Sou ruim de pesca._Bem, então pense nisso como um treino!$h'",
+        "Wizard": "Visitando minha torre esquisita escondido? Você é bem estranho para um mundano.",
+        "Harvey": "Temperaturas extremas podem desgastar muito o corpo, então aqueçam-se bem!#$e#Ah, e aproveitem o festival!$h",
+        "Sandy": "Ouvi dizer que está chovendo lá em casa. É por isso que você veio aqui?$h#$e#Na verdade, sinto falta da chuva...$s",
+        "Jas": "Quero dar a ele um nariz de cenoura!$h",
+        "Vincent": "Eu vi um peixe ali embaixo!",
+        "Marlon": "Ei, boa tarde."
+    }
+}

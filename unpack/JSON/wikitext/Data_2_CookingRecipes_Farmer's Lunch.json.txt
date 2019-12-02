@@ -1,1 +1,1 @@
-{"index": "Farmer's Lunch", "main_category": "CookingRecipes", "undefined_1": "195 1 24 1", "undefined_2": "60 1", "undefined_3": "240", "source": "s Farming 3", "displayName": "农夫午餐"}
+{"index": "Farmer's Lunch", "main_category": "CookingRecipes", "recipeItem": "195 1 24 1", "undefined_2": "60 1", "productItemId": "240", "source": "s Farming 3", "displayName": "农夫午餐"}

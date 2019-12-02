@@ -1,1 +1,1 @@
-{"index": "Jack-O-Lantern", "main_category": "CraftingRecipes", "undefined_1": "276 1 93 1", "location": "Home", "undefined_2": "746", "isProduction": "false", "source": "null", "displayName": "南瓜灯"}
+{"index": "Jack-O-Lantern", "main_category": "CraftingRecipes", "recipeItem": "276 1 93 1", "type": "Home", "craftItem": "746", "isBigCraftItem": "false", "skill": "null", "displayName": "南瓜灯"}

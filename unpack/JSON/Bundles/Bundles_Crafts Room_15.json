@@ -1,1 +1,1 @@
-{"index": "Crafts Room/15", "main_category": "Bundles", "nameEN": "Fall Foraging", "discription": "O 497 30", "undefined_1": "404 1 0 406 1 0 408 1 0 410 1 0", "undefined_2": "2", "colorIndex": "秋季觅食", "number": "工匠"}
+{"index": "Crafts Room/15", "main_category": "Bundles", "nameEN": "Fall Foraging", "reward": "O 497 30", "ingredient": "404 1 0 406 1 0 408 1 0 410 1 0", "colorIndex": "2", "displayName": "秋季觅食", "ingredientSlots": "6"}

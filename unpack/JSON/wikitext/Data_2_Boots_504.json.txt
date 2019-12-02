@@ -1,1 +1,1 @@
-{"index": "504", "main_category": "Boots", "nameEN": "Sneakers", "discription": "有点单薄……但是时尚嘛！", "sellPrice": "50", "undefined_1": "1", "undefined_2": "0", "displayName": "运动鞋"}
+{"index": "504", "main_category": "Boots", "nameEN": "Sneakers", "discription": "有点单薄……但是时尚嘛！", "sellPrice": "50", "denfense": "1", "immunity": "0", "displayName": "运动鞋"}

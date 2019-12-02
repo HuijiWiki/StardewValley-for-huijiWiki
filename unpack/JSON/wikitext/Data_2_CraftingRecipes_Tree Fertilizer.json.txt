@@ -1,1 +1,1 @@
-{"index": "Tree Fertilizer", "main_category": "CraftingRecipes", "undefined_1": "771 5 390 5", "location": "Field", "undefined_2": "805", "isProduction": "false", "source": "s Foraging 7", "displayName": "树肥"}
+{"index": "Tree Fertilizer", "main_category": "CraftingRecipes", "recipeItem": "771 5 390 5", "type": "Field", "craftItem": "805", "isBigCraftItem": "false", "skill": "s Foraging 7", "displayName": "树肥"}

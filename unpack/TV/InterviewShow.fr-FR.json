@@ -1,0 +1,24 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "6": "Sam",
+        "name": "Plein Feux du Samedi",
+        "intro": "0/Bonjour, mes chers téléspectateurs. Chaque semaine, je parcours le pays pour rencontrer des personnes de tous les horizons. Ensemble, nous élargirons notre vision du monde et nous découvrirons des métiers, des styles de vie et des points de vue uniques. Je suis Tom Laminar et vous regardez \"Pleins Feux du Samedi\".",
+        "day": "Sam"
+    }
+}

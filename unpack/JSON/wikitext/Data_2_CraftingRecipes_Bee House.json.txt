@@ -1,1 +1,1 @@
-{"index": "Bee House", "main_category": "CraftingRecipes", "undefined_1": "388 40 382 8 335 1 724 1", "location": "Home", "undefined_2": "10", "isProduction": "true", "source": "Farming 3", "displayName": "蜂房"}
+{"index": "Bee House", "main_category": "CraftingRecipes", "recipeItem": "388 40 382 8 335 1 724 1", "type": "Home", "craftItem": "10", "isBigCraftItem": "true", "skill": "Farming 3", "displayName": "蜂房"}

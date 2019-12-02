@@ -1,1 +1,1 @@
-{"index": "Maki Roll", "main_category": "CookingRecipes", "undefined_1": "-4 1 152 1 423 1", "undefined_2": "10 3", "undefined_3": "228", "source": "l 15", "displayName": "生鱼寿司"}
+{"index": "Maki Roll", "main_category": "CookingRecipes", "recipeItem": "-4 1 152 1 423 1", "undefined_2": "10 3", "productItemId": "228", "source": "l 15", "displayName": "生鱼寿司"}

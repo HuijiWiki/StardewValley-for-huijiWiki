@@ -1,1 +1,1 @@
-{"index": "Cranberry Candy", "main_category": "CookingRecipes", "undefined_1": "282 1 613 1 245 1", "undefined_2": "1 10", "undefined_3": "612", "source": "l 100", "displayName": "蔓越莓糖果"}
+{"index": "Cranberry Candy", "main_category": "CookingRecipes", "recipeItem": "282 1 613 1 245 1", "undefined_2": "1 10", "productItemId": "612", "source": "l 100", "displayName": "蔓越莓糖果"}

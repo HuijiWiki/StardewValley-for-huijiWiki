@@ -1,1 +1,1 @@
-{"index": "Wild Seeds (Fa)", "main_category": "CraftingRecipes", "undefined_1": "404 1 406 1 408 1 410 1", "location": "Field", "undefined_2": "497 10", "isProduction": "false", "source": "Foraging 6", "displayName": "野生种子（秋季）"}
+{"index": "Wild Seeds (Fa)", "main_category": "CraftingRecipes", "recipeItem": "404 1 406 1 408 1 410 1", "type": "Field", "craftItem": "497 10", "isBigCraftItem": "false", "skill": "Foraging 6", "displayName": "野生种子（秋季）"}

@@ -1,0 +1,28 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "spring13": "Яичный фестиваль",
+        "spring24": "Цветочные танцы",
+        "summer11": "Луау",
+        "summer28": "Танец полуночных медуз",
+        "fall16": "Ярмарка долины Стардью",
+        "fall27": "День всех духов",
+        "winter8": "Ледовый праздник",
+        "winter25": "Пир Зимней звезды"
+    }
+}

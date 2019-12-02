@@ -1,0 +1,71 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "复苏节",
+        "conditions": "Town/900 1400",
+        "shop": "BO 36 400 -1 BO 107 2000 1 O 745 100 -1 BO 184 350 -1 BO 188 350 -1",
+        "set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Pam true 0 -1 3 5000 0 2 3 5000 0 -1 3 4000/advancedMove Clint true 1 7000 0 1 3 7000 0 -1/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/advancedMove Shane true 4 40000 2 0 0 2 1 35000 0 -2 -2 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 18 0 0 -8 1 0 0 -11 -13 0 0 1 2 30000/playerControl eggFestival",
+        "afterEggHunt": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/globalFade/viewport -1000 -1000/playMusic event1/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 26 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true/pause 2000/speak Lewis \"哇，看这些蛋蛋！$h#$b#如果你们这些孩子捡垃圾也有这个效率的话，我们就是宝石之海这一带最干净的城市了！* 咯咯 *$h\"/pause 800/playMusic none/speak Lewis \"那么，今年彩蛋大寻宝的获胜者是……\"/playMusic none/pause 3000/cutscene eggHuntWinner/null/playMusic event1/pause 500/fork AbbyWin/move Lewis 0 1 2/speak Lewis \"这是你的奖品！希望你会喜欢。\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"好了，今年的蛋蛋节就此结束。谢谢大家捧场！\"/pause 600/viewport move 1 0 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+        "AbbyWin": "pause 100/jump Abigail/faceDirection Vincent 3/pause 800/move Abigail 0 -1 0/faceDirection Vincent 0/speak Lewis \"这是你的奖品，阿比盖尔。希望你会喜欢！\"/pause 500/move Abigail 0 -1 0/playSound coin/pause 400/move Abigail 0 2 0/faceDirection Lewis 0/speak Lewis \"好了，今年的蛋蛋节就此结束。谢谢大家捧场！\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+        "mainEvent": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 27 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true unfreeze/pause 2000/speak Lewis \"是时候开始今日庆典的压轴节目……年度春季彩蛋大寻宝了！$h\"/pause 100/jump Jas/jump Vincent/pause 1000/speak Lewis \"孩子们别那么激动。节省点力气以便待会儿多找点彩蛋吧。\"/pause 100/faceDirection Vincent 3 true/faceDirection Jas 1 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0 /pause 800/faceDirection Lewis 3/faceDirection Lewis 2/faceDirection Lewis 1/faceDirection Lewis 2/pause 800/speak Lewis \"那么……大家都准备好了吗？\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"彩蛋大寻宝正式开始！$h\"/advancedMove Maru false -2 0 0 6 -9 0 0 -2 -9 0 0 -1 2 0 0 -12 6 0 0 -7 3 0/advancedMove Abigail false 0 21 -20 0 0 3 7 0 0 -15 -9 0 9 0 0 18/advancedMove Jas false 0 12 8 0 0 10 3 0 0 4 14 0 0 -20 -6 0 0 3/advancedMove Sam false 4 0 0 -4 2 0 0 -4 12 0 0 -6 19 0 0 20 0 -20 0 20/advancedMove Vincent false 0 3 24 0 0 21 9 0 0 4 -20 0 20 0 -20 0/playSound whistle/playMusic tickTock/playerControl eggHunt",
+        "Abigail_spouse": "走开，在寻宝活动结束前，我们是竞争对手！$h",
+        "Leah_spouse": "我在城里没什么朋友，所以这些活动对我来说没有意义。不过我很喜欢活动准备的自助餐。",
+        "Maru_spouse": "我才刚赶上潘妮。你的进度如何？",
+        "Penny_spouse": "玛鲁试图说服我吃一粒辣椒粉蛋。我不觉得我能咽得下……",
+        "Haley_spouse": "我本来是打算跟鸡蛋展开大作战的，但突然想起最近在减肥。",
+        "Sebastian_spouse": "我看好你会赢得彩蛋寻宝。加油。$h",
+        "Sam_spouse": "还是往年的那班人参与。你玩得开心不？",
+        "Alex_spouse": "呜呃……我好像吃太多水煮蛋了……$s",
+        "Harvey_spouse": "大家的表现如何？我在休息一会儿。期待在彩蛋寻宝中跟你一决高下！",
+        "Elliott_spouse": "很高兴见到你这么快乐，亲爱的。$h",
+        "Abigail": "寻找彩蛋就犹如寻找宝藏。$h",
+        "Robin": "春季是全年最繁忙的季节……能休息一天和朋友聚聚感觉真不错。",
+        "Demetrius": "鸡蛋……不明白为什么那么多人喜欢吃。",
+        "Maru": "我一直很喜欢这种聚会……让星露谷变得不会那么死气沉沉。",
+        "Sebastian": "我们以前有个扔臭鸡蛋环节……#$b#不过很快就让刘易斯镇长给禁止了。",
+        "Linus": "很少人理会我……我只是为了吃辣椒粉蛋而来的。",
+        "Pierre": "咦！你怎么跑来这里了？$u#$b#不要乱碰任何东西。",
+        "Caroline": "阿比盖尔打从小时候就很喜欢彩蛋大寻宝。",
+        "Alex": "我在努力每天吃至少三粒鸡蛋。#$e#我的腿需要更多蛋白质。",
+        "George": "大家怎么都那么兴致勃勃的？呃……#$b#吃鸡蛋……不是吧？",
+        "Evelyn": "从我小时候开始这个节日就成了镇上不可分割的传统。#$b#传统把我们的过去与未来联系在一起……想想就有点小安慰。",
+        "Lewis": "玩得开心吗，@？$h",
+        "Clint": "还有更多食物不？$s",
+        "Penny": "孩子们盼着过节盼了好几个礼拜了。",
+        "Pam": "哈哈……我在潘趣酒里加了料。$h#$e#嘘……别告诉其他人哦，小伙子。",
+        "Emily": "我天一亮就爬起来给鸡蛋上色了……这是我整个季节最期待的一天。$h",
+        "Haley": "这个节日还不错……但我最喜欢的是花舞节。",
+        "Jodi": "文森特很喜欢这个节日……看到他那么高兴我也很开心。",
+        "Kent": "讲真，我不是很喜欢吃鸡蛋。",
+        "Marlon": "哪怕我行动不方便，镇上的节日我也一次不落。",
+        "Sam": "*吸气* ……噢……我的鼻子……过敏……$s",
+        "Leah": "嗯……这杯水果潘趣酒真是妙极了。$h",
+        "Shane": "为了准备这次节目我家的母鸡加班加点地下蛋。#$b#今晚我要犒劳它们大碗大碗的玉米谷粮！$h",
+        "Marnie": "欢迎来到复苏节……这个节日全靠我家母鸡下的蛋维持着。",
+        "Elliott": "从长远角度看工作时抽空休息一下能让你变得更有效率。",
+        "Gus": "希望大家吃得开心……这些食物花了我好几天的功夫。#$b#煎蛋、水煮蛋、荷包蛋、辣椒粉蛋、炒蛋、巧克力蛋……应有尽有！$h",
+        "Dwarf": "地面上下雨了？*喘气*#$e#下雨……这是个很陌生的概念。我们大部分人一辈子都没经历过下雨。",
+        "Wizard": "唔……那搭配黑骨髓的生蜥蜴蛋呢？",
+        "Harvey": "鸡蛋是健康饮食的重要成分。#$e#哈哈，不好意思……我的医生职业病又犯了。$11",
+        "Sandy": "听说家乡在下雨。你是为避雨才跑来这里的吗？$h#$e#话说我有点怀念雨景了……$s",
+        "Jas": "希望能赶在被文森特席卷一空前抢到一些鸡蛋……$s",
+        "Vincent": "彩蛋大寻宝什么时候开始啊？我好激动啊！！$h",
+        "Willy": "有时候我把蛋藏得太好，搞得大家都找不到……#$b#然后到夏季来临，热空气把鸡蛋的腐烂异味吹出来……那叫一个酸爽啊。 $h",
+        "???": "啊，今天下水道排水好快。这里将会变得十分潮湿……最喜欢这种天气了。"
+    }
+}

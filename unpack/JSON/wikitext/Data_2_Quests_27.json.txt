@@ -1,1 +1,1 @@
-{"index": "27", "main_category": "Quests", "type": "Basic", "displayName": "哥布林问题", "description": "有一个哥布林阻塞了去往女巫小屋的路。必须要想办法让他移开……或许我应该找出更多有关哥布林的信息。", "objective": "获得通往女巫小屋的入口。", "undefined_1": "-1", "undefined_2": "-1", "undefined_3": "0", "undefined_5": "true", "undefined_4": "-1"}
+{"index": "27", "main_category": "Quests", "type": "Basic", "displayName": "哥布林问题", "description": "有一个哥布林阻塞了去往女巫小屋的路。必须要想办法让他移开……或许我应该找出更多有关哥布林的信息。", "objective": "获得通往女巫小屋的入口。", "objectiveID": "-1", "undefined_2": "-1", "moneyReward": "0", "canbeCancled": "true", "rewardDescription": "-1"}

@@ -1,0 +1,67 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "A Téli Csillag Ünnepe",
+        "conditions": "Town/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/loadActors Set-Up/playerControl christmas",
+        "secretSanta": "none/-1000 -1000/farmer 30 69 0/warp Emily 37 59/warp Haley 35 74/warp secretSanta 29 75/faceDirection secretSanta 0/viewport 30 67 true/pause 2000/move secretSanta 0 -4 0/move secretSanta 1 0 0/pause 500/shake secretSanta 100/playSound stoneStep/specificTemporarySprite secretGift/pause 100/faceDirection farmer 2/pause 200/jump farmer/pause 700/emote farmer 16/pause 100/move secretSanta -1 0 0/move secretSanta 0 -2 0/pause 700/faceDirection farmer 3/pause 300/faceDirection farmer 0/pause 500/faceDirection secretSanta 1/pause 500/speak secretSanta \"dialogue1\"/pause 300/faceDirection farmer 2/pause 800/showFrame 4/pause 300/playSound cut/specificTemporarySprite secretGiftOpen/pause 400/stopAnimation farmer/faceDirection farmer 2/pause 1000/cutscene addSecretSantaItem/pause 3000/null/faceDirection farmer 3/speak secretSanta \"dialogue2\"/pause 600/eyes 1 -1500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Emily 29 72/warp Haley 30 72/warp secretSanta warpX warpY/faceDirection farmer 2/cutscene clearTempSprites/playMusic christmasTheme/viewport 30 67 true/playerControl christmas2",
+        "Abigail_spouse": "Vajon meg tudnám nyalni az egyik cukorkát...",
+        "Leah_spouse": "Hálás vagyok az egyszerű farmos életünkért.$h",
+        "Maru_spouse": "Szia, @. Bármikor hazamehetünk, ha kedved tartja.",
+        "Penny_spouse": "Hálás vagyok, hogy megismerhettelek...$l",
+        "Haley_spouse": "Én?... Ó, én hálás vagyok... mi lenne, ha megmutatnám, mikor ma este hazaérünk?$l",
+        "Sebastian_spouse": "Hé, @. Mint láthatod, épp a családi kötelességeimet teljesítem...",
+        "Sam_spouse": "*ásít*... Én az ajándékokért és sütikért jöttem.$h",
+        "Alex_spouse": "Hogy miért vagyok hálás? Majd megmutatom, ha hazaértünk...$l",
+        "Harvey_spouse": "Egy kicsit túl vagyok hajszolva... olyan hálás vagyok ezért a friss levegőért...$l",
+        "Elliott_spouse": "Nem kell semmit se szerezned nekem, mert már megadtad nekem a legcsodálatosabb ajándékot...$l",
+        "Abigail": "Semmi nem jobb egy tűzforró lakománál egy hideg téli éjszakán, nem?$h",
+        "Robin": "Szió, @. Ha társaságra lenne szükséged, csatlakozz hozzánk a családi vacsoránál.$h",
+        "Demetrius": "Valószínűleg idén is egy csavarkulcs készletet kapok majd... *sóhaj*",
+        "Maru": "Szia, @.$h",
+        "Shane": "Találkoztam pár emberrel, akik hisznek a lelkekben, és a varázslatban... de én? Még nem láttam olyat, amit ne lehetne tudományosan megmagyarázni.",
+        "Sebastian": "Néha fárasztó tud lenni a családdal töltött idő.",
+        "Pierre": "Mostanság fenomenálisak az eladási mutatóim... hála a Téli Csillag Ünnepének!$h#$e#Öregem, az ünnepek jót tesznek az üzletnek. Mi lenne, ha újakat találhatnék ki...",
+        "Caroline": "Ooohh... Azt hiszem túl sokat ittam.$h",
+        "Linus": "Csatlakoznék... de nem hiszem, hogy szívesen látnának.$s",
+        "Alex": "Oh, üdv.$s",
+        "George": "Egy ünnep valami buta csillagnak? Humbug!",
+        "Evelyn": "Oh, egek! Nem fázol, kedvesem? Fagyos az idő!",
+        "Lewis": "Ma hálásnak kell lennünk az idei év jó szerencséjének. Egy napra felejtsd el a bajt, és kapcsolódj ki!",
+        "Clint": "*sóhaj*... Ez a sok boldog család. De nekem ismét magányos az évem.",
+        "Emily": "$y '@! Te mit szeretnél találni a lélek fa alatt?_Egy új öntözőkannát._Csak a munkán jár az eszed? Az úgy nem mókás.$s_Egy korsó fűszeres nedűt._Ooo... az jól hangzik. Majd adj belőle kóstolót.$h_Egy pár stílusos cipőt._Értem. Az szép ajándék volna!'",
+        "Penny": "Milyen csodálatos fa.$h",
+        "Pam": "Hmm... Még mindig mérges vagyok, amiért nem nyertem meg a jéghorgászat versenyt.$4",
+        "Haley": "Remélem van számomra egy új kamera a lélek fa alatt!",
+        "Jodi": "Az év ezen szakasza nem igazán kedvez a diétázásnak...$s",
+        "Kent": "Jó estét, @. Kellemes ünnepeket.",
+        "Sam": "Hálás vagyok a gitáromért és a gördeszkámért. Ó, és azt hiszem a családomért is.",
+        "Leah": "Gus mesélt nekem a kézműves cukorkáiról. *ásít*$u#$e#Azt hiszem egyszerűen túl sok fahéjas italt fogyasztott.",
+        "Marnie": "Üdvözlünk a Téli Csillag Ünnepén!$h",
+        "Elliott": "Nocsak, üdv, @. Zord időnk van, nemde?",
+        "Gus": "Nagyon szép művészet cukorkákat készíteni. Sok helyütt kell kutakodnod, hogy a legjobb alapanyagokat gyűjtsd össze. Nem könnyű manapság beszerezni őket!$h#$e#Általában a Fern Sziget Gyűrűgyümölcsöst látogatom meg a prémium áruért. A világos vörös színezést nem győzheted le... És ez mind természetes!#$e#Ó, akarod tudni a dupla cukorkámnak a titkát? Oké, de titoktartási fogadalmat kell tenned. *suttogva* Egy apró vanília cseppet teszek a fehér cukorkába, hogy ellensúlyozza a cseresznyés ízt.$h#$e#Persze a borsmentás cukorkák alapnak számítanak, és azokból is szép számmal szoktam készíteni.#$e#Hé, nagyon álmosnak tűnsz. Minden rendben?$s",
+        "Willy": "$y 'Akarod hallani a Téli Csillag Legendáját?_Igen_A téli éjszakában van egy nagyon világos csillag, amit csak innen a völgyből lehet látni. Senki se tudja, hogy miért van ez így... de régóta jönnek ide emberek a világ minden részéből, hogy megcsodálják ezt.*Úgy hitték, hogy bárki is vet pillantást a Téli Csillagra, azt jó szerencsével ruházzák fel. Egyesek szerint egy rejtélyes gyümölcs, a =Csillaghulló valamilyen módon a Téli Csillaghoz fűződik._Nem, köszönöm_Te tudod.'",
+        "Wizard": "Ah, a rejtélyes Téli Csillag. Ez az egyik oka annak, amiért a völgyet választottam a... kutatásom helyszíneként.",
+        "Harvey": "Hálás vagyok, hogy idén nem volt sürgősségi esetem!",
+        "Sandy": "Úgy hallottam, hogy odahaza esik. Ezért jöttél ide?$h#$e#Nekem valójában kissé hiányzik az eső...$s",
+        "Jas": "Ohh! Ajándékok!$h",
+        "Vincent": "Most már kinyithatjuk az ajándékokat?!",
+        "Marlon": "Hé, szép délutánt."
+    }
+}

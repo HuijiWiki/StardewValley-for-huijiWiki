@@ -1,1 +1,1 @@
-{"index": "Torch", "main_category": "CraftingRecipes", "undefined_1": "388 1 92 2", "location": "Field", "undefined_2": "93", "isProduction": "false", "source": "l 0", "displayName": "火把"}
+{"index": "Torch", "main_category": "CraftingRecipes", "recipeItem": "388 1 92 2", "type": "Field", "craftItem": "93", "isBigCraftItem": "false", "skill": "l 0", "displayName": "火把"}

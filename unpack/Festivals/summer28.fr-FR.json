@@ -1,0 +1,57 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Danse des Méduses Clair de Lune",
+        "conditions": "Beach/2200 2400",
+        "set-up": "ocean/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Jellies/loadActors Set-Up/advancedMove Vincent true 0 12 3 3000 2 0 1 3000 0 -12 -2 0 3 3000/advancedMove Jas true 0 2 3 5000 0 -2 3 5000/advancedMove Clint false 2 50000 -2 0 3 500 2 1000 3 1000 1 0 2 1000/advancedMove Harvey True 0 -12 -10 0 0 6 2 25000 0 -6 10 0 0 12 2 25000/viewport 38 2 clamp true/pause 1000/playerControl jellies",
+        "mainEvent": "pause 500/globalFade/viewport -1000 -1000/changeLocation Beach/warp farmer1 28 36/warp spouse 29 36/positionOffset farmer 0 16/faceDirection spouse 2/warp farmer2 29 35/warp farmer3 34 36/warp farmer4 35 36/faceDirection farmer1 2/faceDirection farmer2 2/faceDirection farmer3 2/faceDirection farmer4 2/specificTemporarySprite candleBoat/viewport 26 36 true/pause 2000/move Lewis 0 1 2/move Lewis -2 0 3/pause 400/showFrame Lewis 16 true/animate Lewis false false 200 25 16 17 17/pause 800/playSound parry/specificTemporarySprite candleBoatMove/pause 500/showFrame Lewis 0 true/animate Lewis false false 200 25 12/pause 400/faceDirection Lewis 2/pause 6000/specificTemporarySprite moonlightJellies/pause 10000/playMusic moonlightJellies/pause 30000/viewport move -1 0 8000/pause 10000/viewport move 1 0 20000/pause 18000/globalFade/viewport -1000 -1000/pause 2000/pause 1000/message \"Les rayons de soleil de l’été disparaissent maintenant... les méduses clair de lune partent vers l’inconnu.\"/playMusic none/pause 2000/waitForOtherPlayers festivalEnd/end",
+        "Leah_spouse": "Salut. Je rends hommage à cette fin de saison. Je viendrai te chercher quand nous lancerons le bateau de bougies.",
+        "Abigail": "C'est une chose si rare et si excitante...",
+        "Robin": "*Bâille*... C’est normalement l’heure à laquelle je vais me coucher.$s#$e#Hé, as-tu vu ce bateau de bougies ? Je l’ai fabriqué moi-même.$h",
+        "Demetrius": "La \"méduse clair de lune\"... quelle espèce extraordinaire ! Nous avons de la chance qu'elles s'arrêtent ici avant de partir vers le sud.#$e#On ignore pourquoi elles sont attirées par la lumière... C'est très curieux.",
+        "Maru": "Il fait un peu froid. Je pense que l’automne ne va pas tarder.",
+        "Sebastian": "Je pensais avoir vu quelque chose bouger là dedans... quelque chose de grand et sombre.#$e#J’essaie juste de te faire peur...$h",
+        "Pierre": "Pss... Assure-toi de passer demain à la boutique pour récupérer tes graines d’automne !",
+        "Caroline": "Ces bougies sont romantiques, n’est-ce pas ?",
+        "Linus": "Je vais discrètement me frayer un chemin quand les méduses arriveront... Je ne veux déranger personne.",
+        "Alex": "Je n’arrive pas à croire que l’été touche à sa fin... J’ai l’impression que la saison vient tout juste de commencer.$s",
+        "George": "Pourquoi tu me regardes comme ça ? Tu penses peut-être que je suis trop vieux pour apprécier quelque chose comme ça ?",
+        "Evelyn": "Je me souviens d'avoir vu les méduses quand j’étais toute petite. Oh, je sautais de joie quand elles arrivaient !#$e#Mais c’était il y a longtemps... je suis beaucoup moins énergique maintenant.",
+        "Lewis": "Bonsoir, @. Les méduses clair de lune sont proches... J’en ai déjà vu une qui brillait au loin.#$b#Une fois que nous aurons lancé le bateau-chandelle, elles s’approcheront du ponton et nous pourrons les saluer.",
+        "Clint": "Je portais mes chaussures spéciales ce soir... mais personne ne l'a remarqué.$s",
+        "Emily": "Regarde là-bas, l’étendue sans fin de la mer. Au fond de l’eau, toutes sortes de formes de vie se déplacent dans l’obscurité.#$b#C'est un monde étrange, n’est-ce pas ?",
+        "Penny": "La vie est simple pour une méduse... elle se laisse porter sans fin par les vagues.",
+        "Pam": "Ne le dis pas à Gus, mais je suis un peu déçue qu’il n’y ait pas de buffet ce soir.",
+        "Haley": "J’aurais dû apporter mon appareil photo ! Je l’oublie toujours.$s",
+        "Jodi": "Là ! Je viens de voir quelque chose qui brille !#$b#Oh... ça a disparu.$s",
+        "Kent": "Bonsoir, @. J’espère que tu pourras trouver du temps pour te détendre avant la saison des récoltes.",
+        "Sam": "Je me demande s’il elles sont toxiques ?#$e#Peut-être que je ne devrais pas pousser Sebastian dans l’eau après tout...$h",
+        "Leah": "Salut. Je rends hommage à cette fin de saison.",
+        "Shane": "Les méduses étaient ici il y a un an, et elles seront de retour dans un an... La nature est incroyable.",
+        "Marnie": "Ça en fait du poids avec tout ce monde pour un ancien ponton en bois ! Je vais rester ici près de la plage.",
+        "Elliott": "Si nous continuons à polluer les océans, les méduses vont certainement disparaître. C’est déjà en train de se produire.#$e#Quel dommage... nous n’avons plus aucun respect pour la nature.",
+        "Gus": "\"Les méduses clair de lune\"... Je me demande qu’elles goût elles ont !$h#$b#Je n’en mangerais jamais, bien sûr !$u",
+        "Dwarf": "Tu dis qu’il peut pleuvoir ici ? *Cri de surprise*#$e#La pluie... C’est presque une légende pour nous. Certains d’entre nous vivent toute leur vie sans jamais en voir.",
+        "Wizard": "Comment m’as-tu trouvé ici ? Moi qui croyais être bien caché.#$b#Peut-être que tu possèdes un don de voyance.#$e#Je suis ici pour observer les Lunaloos... ou communément appelées \"Méduses clair de lune\". Elles possèdent une aura magique exceptionnellement puissante pour une forme de vie aquatique.",
+        "Harvey": "L’été touche à sa fin. Pour être honnête, je me ferai un plaisir de dire au revoir à ces satanés moustiques !",
+        "Sandy": "J’ai entendu dire qu’il pleut souvent là où tu habitais avant. Est-ce la raison pour laquelle tu es venu vivre ici ?$h#$e#La pluie me manque un peu, en fait...$s",
+        "Jas": "J’espère qu’il y aura des nouveau-nées au village cette année !",
+        "Vincent": "Je veux voir la méduse verte rare !",
+        "Willy": "La plupart des poissons de nuit ont peur de la lumière... Cette espèce est vraiment étrange."
+    }
+}

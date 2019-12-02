@@ -1,0 +1,24 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "6": "Sáb",
+        "name": "Especial sabatino",
+        "intro": "0/Hola, queridos espectadores. Cada semana viajo por todo el mundo para conocer a personas de todos los ámbitos. Juntos ampliaremos nuestros horizontes y aprenderemos más sobre trabajos, estilos de vida y perspectivas únicas. Soy Tom Laminar, y esto es «Informe sabatino».",
+        "day": "Sáb"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Tanz der Mondlichtquallen",
+        "conditions": "Beach/2200 2400",
+        "set-up": "ocean/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Jellies/loadActors Set-Up/advancedMove Vincent true 0 12 3 3000 2 0 1 3000 0 -12 -2 0 3 3000/advancedMove Jas true 0 2 3 5000 0 -2 3 5000/advancedMove Clint false 2 50000 -2 0 3 500 2 1000 3 1000 1 0 2 1000/advancedMove Harvey True 0 -12 -10 0 0 6 2 25000 0 -6 10 0 0 12 2 25000/viewport 38 2 clamp true/pause 1000/playerControl jellies",
+        "mainEvent": "pause 500/globalFade/viewport -1000 -1000/changeLocation Beach/warp farmer1 28 36/warp spouse 29 36/faceDirection spouse 2/warp farmer2 29 35/warp farmer3 34 36/warp farmer4 35 36/faceDirection farmer1 2/faceDirection farmer2 2/faceDirection farmer3 2/faceDirection farmer4 2/specificTemporarySprite candleBoat/viewport 26 36 true/pause 2000/move Lewis 0 1 2/move Lewis -2 0 3/pause 400/showFrame Lewis 16 true/animate Lewis false false 200 25 16 17 17/pause 800/playSound parry/specificTemporarySprite candleBoatMove/pause 500/showFrame Lewis 0 true/animate Lewis false false 200 25 12/pause 400/faceDirection Lewis 2/pause 6000/specificTemporarySprite moonlightJellies/pause 10000/playMusic moonlightJellies/pause 30000/viewport move -1 0 8000/pause 10000/viewport move 1 0 20000/pause 18000/globalFade/viewport -1000 -1000/pause 2000/playMusic none/pause 1000/message \"Das Leuchten des Sommers ist jetzt verblasst... und die Mondlichtquallen führen ihren Weg in das weite Unbekannte fort.\"/pause 1000/waitForOtherPlayers festivalEnd/end",
+        "Leah_spouse": "Hey. Ich zolle diesem vergangenen Sommer ein wenig Respekt. Treffen wir uns, wenn wir das Kerzenboot losschwimmen lassen.",
+        "Abigail": "Solch eine seltene und aufregende Sache.",
+        "Robin": "*gähn*... Ich sollte schon längst schlafen.$s#$e#Hey, hast du das Kerzenboot gesehen? Ich habe es selbst gebaut.$h",
+        "Demetrius": "Die 'Mondlichtqualle'... Was für eine bemerkenswerte Spezies! Wir haben sehr viel Glück, dass sie auf ihrer langen Reise in den Süden hier Halt machen.#$e#Keiner weiß, warum sie sich vom Licht angezogen fühlen. Sehr interessant.",
+        "Maru": "Irgendwie ist es ziemlich kalt. Wahrscheinlich weil der Herbst kurz bevorsteht.",
+        "Sebastian": "Ich dachte, dort hätte sich etwas bewegt... etwas Großes, etwas Dunkles.#$e#Wollte dir nur Angst einjagen...$h",
+        "Pierre": "Psst... Komm morgen auf jeden Fall beim Laden vorbei, um deine Herbstsaat abzuholen!",
+        "Caroline": "Diese Kerzen sind romantisch, nicht?",
+        "Linus": "Ich schleich mich einfach an, wenn die Quallen kommen... Ich will niemanden belästigen.",
+        "Alex": "Ich kann nicht glauben, dass der Sommer vorbei ist... Mir kommt es so vor, als hätte er gerade erst begonnen.$s",
+        "George": "Was? Warum schaust du mich so an? Denkst du, ich bin zu alt, um so etwas zu genießen?",
+        "Evelyn": "Ich erinnere mich daran, wie ich als junges Mädchen diese Quallen schon einmal gesehen habe. Oh, wie ich mich über ihre Ankunft gefreut habe!#$e#Aber das ist lange her... Ich bin nicht mehr so voller Energie wie früher.",
+        "Lewis": "Guten Abend, @. Die Mondlichtquallen sind nahe... Ich habe schon eine in der Ferne leuchten sehen.#$b#Sobald wir das Kerzenboot losschicken, kommen sie zur Anlegestelle und sagen 'Hallo'.",
+        "Clint": "Ich habe heute Abend extra meine besonderen Schuhe angezogen... Keinem ist es aufgefallen.$s",
+        "Emily": "Lass deinen Blick über diese endlose See schweifen. Tief unter der Wasseroberfläche existieren alle möglichen Lebensformen.#$b#Unheimlich, nicht?",
+        "Penny": "Das Leben ist für eine Qualle so einfach... Sich einfach für immer von den Wellen tragen lassen.",
+        "Pam": "Sag Gus nichts davon, aber ich bin ein wenig enttäuscht, dass es heute kein Büffet gibt.",
+        "Haley": "Ich hätte meine Kamera mitbringen sollen! Ich vergess sie jedes Mal.$s",
+        "Jodi": "Dort! Ich habe etwas leuchten sehen!#$b#Oh... Es ist weg.$s",
+        "Kent": "Guten Abend, @. Ich hoffe, du hast ein wenig Zeit, um dich vor der Erntezeit zu entspannen.",
+        "Sam": "Ich frage mich, ob die giftig sind?#$e#Vielleicht sollte ich Sebastian doch nicht ins Wasser schubsen...$h",
+        "Leah": "Hey. Ich zolle einem weiteren, vergangenen Sommer meinen Respekt.",
+        "Shane": "Die Quallen waren vor einem Jahr hier und nächstes werden sie es wieder sein. Die Natur ist schon beeindruckend.",
+        "Marnie": "Das ist eine ganz schön große Menschenmasse für eine alte Anlegestelle wie diese! Ich bleibe lieber hier drüben in der Nähe des Strands.",
+        "Elliott": "Wenn wir weiter den Ozean verschmutzen, werden diese Quallen sicher aussterben. Es passiert sogar schon.#$e#Es ist ungeheuerlich... Haben wir keinen Respekt mehr vor der Natur?",
+        "Gus": "'Mondlichtquallen'... Ich frage mich, wie die schmecken?$h#$b#Ich würde es natürlich nie versuchen!$u",
+        "Dwarf": "Was, es regnet oben? *schock*#$e#Regen... Er ist schon fast ein Mythos für uns. Manche von uns erleben ihn ihr ganzes Leben lang nicht.",
+        "Wizard": "Wie hast du mich hier hinten gefunden? Ich dachte, das wäre ein gutes Versteck.#$b#Vielleicht hast du hellseherische Fähigkeiten.#$e#Ich beobachte die Lunaloos... oder, wie ihr sie nennt, 'Mondlichtquallen'. Sie besitzen eine ungewöhnlich potente, magische Aura für eine aquatische Lebensform.",
+        "Harvey": "Nun, der Sommer ist vorbei. Um ehrlich zu sein, ich werde keine einzige dieser lästigen Mücken vermissen!",
+        "Sandy": "Ich habe gehört, dass es zu Hause regnet. Bist du deswegen hier?$h#$e#Ich vermisse den Regen irgendwie...$s",
+        "Jas": "Ich hoffe, dieses Jahr gibt es Babys!",
+        "Vincent": "Ich will den seltenen, grünen Wabbel sehen!",
+        "Willy": "Die meisten Nachtfische hätten Angst vor Licht... Diese hier sind eine seltsame Ausnahme."
+    }
+}

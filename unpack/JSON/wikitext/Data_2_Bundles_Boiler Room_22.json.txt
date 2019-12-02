@@ -1,1 +1,1 @@
-{"index": "Boiler Room/22", "main_category": "Bundles", "nameEN": "Adventurer's", "discription": "R 518 1", "undefined_1": "766 99 0 767 10 0 768 1 0 769 1 0", "undefined_2": "1", "colorIndex": "2", "number": "冒险家的"}
+{"index": "Boiler Room/22", "main_category": "Bundles", "nameEN": "Adventurer's", "reward": "R 518 1", "ingredient": "766 99 0 767 10 0 768 1 0 769 1 0", "colorIndex": "1", "displayName": "冒险家的", "ingredientSlots": "2"}

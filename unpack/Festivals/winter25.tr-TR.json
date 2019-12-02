@@ -1,0 +1,67 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Kış Yıldızı Şöleni",
+        "conditions": "Town/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/loadActors Set-Up/playerControl christmas",
+        "secretSanta": "none/-1000 -1000/farmer 30 69 0/warp Emily 37 59/warp Haley 35 74/warp secretSanta 29 75/faceDirection secretSanta 0/viewport 30 67 true/pause 2000/move secretSanta 0 -4 0/move secretSanta 1 0 0/pause 500/shake secretSanta 100/playSound stoneStep/specificTemporarySprite secretGift/pause 100/faceDirection farmer 2/pause 200/jump farmer/pause 700/emote farmer 16/pause 100/move secretSanta -1 0 0/move secretSanta 0 -2 0/pause 700/faceDirection farmer 3/pause 300/faceDirection farmer 0/pause 500/faceDirection secretSanta 1/pause 500/speak secretSanta \"dialogue1\"/pause 300/faceDirection farmer 2/pause 800/showFrame 4/pause 300/playSound cut/specificTemporarySprite secretGiftOpen/pause 400/stopAnimation farmer/faceDirection farmer 2/pause 1000/cutscene addSecretSantaItem/pause 3000/null/faceDirection farmer 3/speak secretSanta \"dialogue2\"/pause 600/eyes 1 -1500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Emily 29 72/warp Haley 30 72/warp secretSanta warpX warpY/faceDirection farmer 2/cutscene clearTempSprites/playMusic christmasTheme/viewport 30 67 true/playerControl christmas2",
+        "Abigail_spouse": "Acaba şu kamışlardan birisini yalayabilir miyim...",
+        "Leah_spouse": "Çiftlikteki sade hayatımızdan çok memnunum.$h",
+        "Maru_spouse": "Merhaba, @. Eve gitmeye hazır olduğunda dönebiliriz.",
+        "Penny_spouse": "Seninle tanıştığım için çok müteşekkirim...$l",
+        "Haley_spouse": "Ben mi?... Ah, ben şeye minnettarım... sana bunu akşam eve gittiğimizde göstersem olur mu?$l",
+        "Sebastian_spouse": "Selam, @. Gördüğün gibi, ailemin getirdiği yükümlülükleri yerine getiriyorum...",
+        "Sam_spouse": "*esner*... Ben buraya hediyeler ve kurabiyeler için geldim.$h",
+        "Alex_spouse": "Ne için mi müteşekkirim? Eve gittiğimizde sana göstereceğim...$l",
+        "Harvey_spouse": "Boğuluyor gibiydim... Bu temiz hava rahatlamamı sağladı...$l",
+        "Elliott_spouse": "Bana bir şey almana gerek yok, sen bana hediyelerin en harikasını verdin...$l",
+        "Abigail": "Soğuk bir kış gününde sımsıcak bir şölen gibisi yok, değil mi?$h",
+        "Robin": "Merhaba, @. Takılmak istersen aile masamıza buyur.$h",
+        "Demetrius": "Büyük ihtimalle bu sene de bir alet seti alırım... *iç çeker*",
+        "Maru": "Selam, @.$h",
+        "Shane": "Ruh ve büyüye inanan birkaç insan tanıyorum... Ben mi? Ben bilim ile açıklanamayacak bir şeye rastlamadım hiç.",
+        "Sebastian": "Aileyle vakit geçirmek zor olabiliyor bazen.",
+        "Pierre": "Satışlarım son zamanlarda olağanüstü gidiyor... Kış Yıldızı Şöleni sağolsun!$h#$e#Şölenlerde iyi iş oluyor evlat, acaba yeni şölenler uydurabilir miyim?...",
+        "Caroline": "Oh be... Çok fazla bira içtim.$h",
+        "Linus": "Katılırdım... ama hoş karşılanacağımı düşünmüyorum.$s",
+        "Alex": "Ah, merhaba.$s",
+        "George": "Aptal bir yıldız için şölen mi yapmışlar? Riyakarca!",
+        "Evelyn": "Aman tanrım, üşümüyor musun canım? Hava buz gibi!",
+        "Lewis": "Bugün güzel geçen yılımız için şükretme zamanı. Kaygılarını unut ve rahatla!",
+        "Clint": "*iç çeker*... Tüm bu mutlu aileler. Benim için yalnız geçen bir yıl daha demek.",
+        "Emily": "$y '@! Ruhluk ağacının altına ne bulmayı umuyorsun?_Yeni bir su kabı._Hep iş hep iş, oynamaz mısın hiç? Çok sıkıcı ama.$s_Bir kupa acı bira._Vay... İyiymiş, bana da bir yudum ver.$h_Bir çift modaya uygun bot._Anlıyorum. Bundan bir hediye olur!",
+        "Penny": "Ne kadar da güzel bir ağaç.$h",
+        "Pam": "Hım... Buzda balık tutma yarışmasını kazanamadığım için hala sinirliyim.$4",
+        "Haley": "Umarım ruhluk ağacının altında yeni bir kamera bulurum!",
+        "Jodi": "Diyet yapmak için iyi bir zaman değil...$s",
+        "Kent": "Tünaydın, @. Mutlu şölenler!",
+        "Sam": "Gitarım ve kaykayım olduğu için müteşekkirim. Ha bir de aile falan işte.",
+        "Leah": "Az önce Gus bana el yapımı şeker kamışlarından bahsediyordu. *esner*$u#$e#Sanırım çok fazla tarçınlı bira içtim...",
+        "Marnie": "Kış Yıldızı Şöleni'ne hoşgeldin!$h",
+        "Elliott": "Ah, Selam @. Hava soğuk, değil mi?",
+        "Gus": "Şeker kamışı yapmak güzeldir. En iyi malzemeler için ucu bucağı araman gerekiyor. Bugünlerde bulması hiç kolay değil!$h#$e#Birinci kalite şeker kamışlarım için Eğreltiotu Adası'nda yetişen çembermeyvesini kullanıyorum. O parlak kırmızı rengi başka bir şey geçemez... Üstelik hepsi organik!#$e#Ah, şatafatlı ikili şeker kamışlarımın sırrını öğrenmek mi istiyorsun? Tamam, ama bana tam gizlilik sözü vermelisin. *fısıldar* Beyaz şekerin içine kiraz aromasını tamamlamak için birazcık vanilya koyuyorum.$h#$e#Elbette nane şekeri kamışları standardımız. Onlardan her zaman bol bol yapıyorum.#$e#Hey, uyuyor gibisin. İyisin, değil mi?$s",
+        "Willy": "$y 'Kış Yıldızı Efsanesi'ni duymak mı istiyorsun?_Evet._Kıcın geceleyin yalnızca bu vadiden görünen bir yıldız çıkar. Kimse neden böyle bilmiyor... ama eskilerin döneminde insanlar uzaklardan onu görmeye gelirmiş.*Kış Yıldızı'nı görenler yıl boyunca iyi şans ile kutsandıklarına inanırlarmış. =Yıldızkaydı olarak bilinen gizemli meyvenin, bir şekilde Kış Yıldızı ile bağlantılı olduğunu iddia edenler var._Hayır, teşekkürler._Rahatına bak.'",
+        "Wizard": "Ah, gizemli Kış Yıldızı. Araştırmalarım için burayı seçmemin nedenlerinden birisi de bu...",
+        "Harvey": "Bu sene sağlık açısından acil bir durum yaşanmadığı için mutluyum!",
+        "Sandy": "Memlekette yağmur yağdığını duydum, sen bu yüzden mi buraya geldin?$h#$e#Aslında, yağmuru özlüyorum...$s",
+        "Jas": "Ah! Hediyeler!$h",
+        "Vincent": "Hediyeleri açabilir miyiz?!",
+        "Marlon": "Hey, tünaydın."
+    }
+}

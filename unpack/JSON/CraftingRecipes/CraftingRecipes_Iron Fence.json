@@ -1,1 +1,1 @@
-{"index": "Iron Fence", "main_category": "CraftingRecipes", "undefined_1": "335 1", "location": "Field", "undefined_2": "324 10", "isProduction": "false", "source": "Farming 4", "displayName": "铁围栏"}
+{"index": "Iron Fence", "main_category": "CraftingRecipes", "recipeItem": "335 1", "type": "Field", "craftItem": "324 10", "isBigCraftItem": "false", "skill": "Farming 4", "displayName": "铁围栏"}

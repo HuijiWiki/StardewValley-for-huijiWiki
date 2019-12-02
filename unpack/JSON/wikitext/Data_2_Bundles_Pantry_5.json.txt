@@ -1,1 +1,1 @@
-{"index": "Pantry/5", "main_category": "Bundles", "nameEN": "Artisan", "discription": "BO 12 1", "undefined_1": "432 1 0 428 1 0 426 1 0 424 1 0 340 1 0 344 1 0 613 1 0 634 1 0 635 1 0 636 1 0 637 1 0 638 1 0", "undefined_2": "1", "colorIndex": "6", "number": "工匠"}
+{"index": "Pantry/5", "main_category": "Bundles", "nameEN": "Artisan", "reward": "BO 12 1", "ingredient": "432 1 0 428 1 0 426 1 0 424 1 0 340 1 0 344 1 0 613 1 0 634 1 0 635 1 0 636 1 0 637 1 0 638 1 0", "colorIndex": "1", "displayName": "工匠", "ingredientSlots": "6"}

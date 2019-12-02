@@ -1,1 +1,1 @@
-{"index": "Chest", "main_category": "CraftingRecipes", "undefined_1": "388 50", "location": "Home", "undefined_2": "130", "isProduction": "true", "source": "null", "displayName": "宝箱"}
+{"index": "Chest", "main_category": "CraftingRecipes", "recipeItem": "388 50", "type": "Home", "craftItem": "130", "isBigCraftItem": "true", "skill": "null", "displayName": "宝箱"}

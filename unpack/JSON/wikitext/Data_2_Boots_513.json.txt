@@ -1,1 +1,1 @@
-{"index": "513", "main_category": "Boots", "nameEN": "Genie Shoes", "discription": "奇怪的能量围绕着鞋面。", "sellPrice": "250", "undefined_1": "1", "undefined_2": "6", "displayName": "神怪之鞋", "undefined_3": "9"}
+{"index": "513", "main_category": "Boots", "nameEN": "Genie Shoes", "discription": "奇怪的能量围绕着鞋面。", "sellPrice": "250", "denfense": "1", "immunity": "6", "displayName": "神怪之鞋", "colorIndex": "9"}

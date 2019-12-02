@@ -1,0 +1,68 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Fest des Eises",
+        "conditions": "Forest/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 68 0 1/changeToTemporaryMap Forest-IceFestival/loadActors Set-Up/animate Robin false true 100 24 25 26 24 25 26 24 25 26 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27/advancedMove Pierre true -1 0 0 -1 1 5000 0 1 1 0 4 5000/advancedMove Vincent true 0 3 3 0 2 5000 0 -5 2 0 1 5000 -5 0 0 2 3 5000/advancedMove Pam true -5 0 0 1 2 5000 0 -1 5 0 2 7000/playerControl iceFestival",
+        "mainEvent": "globalFade/viewport -1000 -1000/playMusic none/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/loadActors Main-Event/faceDirection Pam 1/faceDirection Elliott 0/faceDirection Willy 0/viewport 71 35 true/pause 2000/speak Lewis \"Okay, alle zusammen. Lasst uns das diesjährige Eisfischen beginnen.\"/pause 200/faceDirection Lewis 3/pause 300/faceDirection Lewis 2/faceDirection Lewis 1/pause 300/faceDirection Lewis 2/pause 400/speak Lewis \"Kandidaten, euer Ziel ist es, so viele Fische wie möglich in zwei Minuten mit den bereitgestellten Angeln zu fangen.#$b#Ihr müsst eure Fische hier aus diesen Eislöchern angeln.\"/pause 600/speak Lewis \"Gut, sind alle bereit?\"/pause 500/waitForOtherPlayers startContest/jump Lewis/faceDirection Pam 2 true/faceDirection Elliott 1 true/faceDirection Willy 2 true/speak Lewis \"Los!\"/advancedMove Lewis false 0 -4 2 1000/advancedMove Marnie true 4 6000 -2 0 4 5000 2 0/advancedMove Maru true 3 4000 0 2 3 7000 0 -2/advancedMove Jas true 2 0 0 -9 -4 0 2 20000 4 0 0 9 -2 0 3 15000/advancedMove Jodi true 1 6000 -1 0 0 2 1 8000 0 -1 1 6000 0 -1 1 0/jump Willy/shake Pam 700/showFrame Pam 16/extendSourceRect Pam 0 32/showFrame Elliott 40/extendSourceRect Elliott 16 0/shake Elliott 400/pause 300/showFrame Willy 16/extendSourceRect Willy 0 32/playMusic fallFest/playerControl iceFishing",
+        "afterIceFishing": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/restoreStashedItem/globalFade/viewport -1000 -1000/extendSourceRect Pam reset/extendSourceRect Willy reset/extendSourceRect Elliott reset/specificTemporarySprite iceFishingCatch/faceDirection Pam 0/faceDirection Willy 0/faceDirection Elliott 0/playMusic event1/loadActors MainEvent/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/pause 1000/viewport 71 35 true/pause 2000/move Lewis 0 4 2/speak Lewis \"Wow, das sind eine ganze Menge Fische!$h\"/pause 300/showFrame Lewis 18/shake Lewis 1000/speak Lewis \"*würg*... Dieser Geruch...$s\"/pause 500/showFrame Lewis 0/pause 600/move Lewis 0 1 2/speak Lewis \"Nun, kommen wir zum Gewinner des diesjährigen Eisfischens...\"/pause 800/playMusic none/pause 3000/cutscene iceFishingWinner/null/playMusic event1/pause 500/fork DickWin/move Lewis 0 1 2/speak Lewis \"Hier ist dein Preis! Viel Spaß damit.\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"Damit ist das Fest des Eises beendet. Danke für eure Teilnahme!#$b#Lasst uns jetzt noch diese armen Fische freilassen...$s\"/move Lewis -3 0 0/move Lewis 0 -1 0/advancedMove Willy true 0 3 -2 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/cutscene iceFishingWinnerMP/fork OtherPlayerWin/message \"Ich kann nicht glauben, dass ich gewonnen habe! Nun, dann mal ab nach Hause.\"/waitForOtherPlayers festivalEnd/end",
+        "OtherPlayerWin": "message \"Ich habe zwar nicht gewonnen, aber es war trotzdem lustig! Dann gehen wir wieder nach Hause.\"/waitForOtherPlayers festivalEnd/end",
+        "DickWin": "pause 100/jump Willy/faceDirection Elliott 3/pause 800/move Willy 0 -1 0/faceDirection Elliott 0/speak Lewis \"Hier ist dein Preis, Willy. Viel Spaß damit.\"/pause 500/move Willy 0 -2 0/move Lewis -1 0 2/move Lewis 0 1 2/playSound coin/pause 400/move Lewis 0 -1 0/pause 500/speak Lewis \"Damit ist das Fest des Eises beendet. Danke für eure Teilnahme!#$b#Lasst uns jetzt noch diese armen Fische freilassen...$s\"/move Lewis -2 0 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/message \"Ich habe zwar nicht gewonnen, aber es war trotzdem lustig! Dann gehen wir wieder nach Hause.\"/waitForOtherPlayers festivalEnd/end",
+        "Abigail_spouse": "Hey, Schatz... schau, da bist du!$h",
+        "Penny_spouse": "Nimmst du dieses Jahr am Fischwettbewerb teil, @? Meine Mama ist dieses Mal fest entschlossen zu gewinnen.",
+        "Haley_spouse": "Brr... Meine Hände sind ganz eingefroren vom Schneemann bauen.$l",
+        "Sebastian_spouse": "Kümmer dich nicht um mich, mir ist nie kalt...",
+        "Sam_spouse": "Ist dir nicht kalt? Bist du sicher, dass du nicht meine Jacke willst?",
+        "Alex_spouse": "Ich feuere dich beim Fischwettbewerb an.",
+        "Harvey_spouse": "Ich träume von unserem warmen Feuer zu Hause...$l",
+        "Elliott_spouse": "Ich weiß, dass du mich im Wettbewerb besiegen wirst, aber das ist mir egal. Ich bin nur hier, um Spaß zu haben.$h",
+        "Abigail": "Was hältst du von meinem Schneedingens?",
+        "Robin": "Tut mir leid, aber diese Eiszinnen verlangen meine volle Aufmerksamkeit.",
+        "Demetrius": "Weißt du was? Ich hätte vielleicht eine Jacke anziehen sollen.",
+        "Maru": "Ich bin nicht sonderlich kreativ, was Schneemänner betrifft.$s",
+        "Sebastian": "Kalt? Nee, mir wird nie kalt.",
+        "Pierre": "Der Schnee ist so kalt, dass ich meine Finger nicht mehr fühlen kann...$s",
+        "Shane": "Wenn es nach mir ginge, hätten wir stattdessen eher ein Pizzafest in der Kneipe...",
+        "Caroline": "Wie läuft der Winter für dich bisher, @?$h",
+        "Linus": "Iglubauen ist eine Kunst, die ich von Bewohnern der Tundra hinter der gefrorenen See gelernt habe.#$e#Das war vor vielen Jahren.$h#$e#Ein Iglu ist ein nettes Zuhause, aber es ist einfacher, das ganze Jahr in meinem Zelt zu bleiben.",
+        "Alex": "Schneemänner sind okay, denke ich. Aber ich freu mich hauptsächlich auf den Frühling.",
+        "George": "Hmmpf... Meine Frau zieht mich für das hier in die Kälte?",
+        "Evelyn": "Habe ich dir je erzählt, wie George und ich uns das erste Mal getroffen haben? Er hat mich tatsächlich mit einem Schneeball in diesem Fest hier abgeworfen.#$e#Er war damals ein Gentleman und hat sich sofort um mich gesorgt.$h",
+        "Lewis": "Willkommen zum Fest des Eises!#$e#Das heutige Highlight ist das Eisfischen. Wir haben diesen gefrorenen See vorbereitet und mit Fischen gefüllt.#$b#Lass es mich wissen, wenn du zur Teilnahme bereit bist.",
+        "Clint": "Emily hilft mir ganz ohne Anlass... bedeutet das etwas? *schluck*$4",
+        "Emily": "Wow, dieser Schneemann muss echt überarbeitet werden. Von wem ist er?$s",
+        "Penny": "$y 'Hmm... Was für eine Art Schneemann sollen wir machen?_Einen klassischen. Karottennase, Zylinder, Schal._Manchmal sind die Klassiker einfach ungeschlagen, nicht?$h_Etwas Abgefahrenes. Eis-Antennen, Kiefernzapfen für Augen._Okay! Das klingt lustig.$h_Schneemänner sind langweilig. Lass die Fantasie spielen!_Äh, hmm... Ich bleibe vielleicht doch bei etwas Bewährtem.'",
+        "Pam": "Dieses Mal gewinne ich beim Eisfischen!#$e#Willy zu schlagen könnte aber ein Problem werden... Er macht ja sonst nichts anderes.$s",
+        "Haley": "Winter ist nicht nur schlecht... Im Schnee zu spielen kann lustig sein!",
+        "Jodi": "Der Wald sieht im Winter wunderschön aus, nicht?",
+        "Kent": "Ich mag den Winter. Es ist so friedlich.",
+        "Sam": "Hey, @. Machst du beim Eisfischen mit?#$e#Oh, ich nicht. Ich habe keine Ahnung vom Angeln.",
+        "Leah": "Oh, Eis. Ein wunderschönes Material für Skulpturen, aber so vergänglich.#$e#Aber wenn du mich fragst, macht das die Kunst noch besser.",
+        "Marnie": "Mir tun all die armen, frierenden Tiere da draußen leid.$s",
+        "Elliott": "Ich mach heute beim Eisfischen mit. Warum nicht?#$e#Aber Willy ist kaum zu schlagen...",
+        "Gus": "Tut mir leid, dass es kein Essen gibt.#$e#Gedulde dich bis zum Fest des Wintersterns. Du wirst tagelang vollgefressen sein.",
+        "Willy": "$y 'Hey, @. Bereit für das Eisfischen?_Ja. Ich werde mein Bestes geben!_Das will ich hören!$h_Ja, und ich werde dich schlagen!_Wir werden sehen.$h_Um ehrlich zu sein, nein. Ich bin schlecht im Angeln._Nun, dann sieh es als gute Übung!$h'",
+        "Wizard": "Schleichst du dich davon, um meinen merkwürdigen Turm zu besuchen? Du bist etwas seltsam für einen bloßen Menschen.",
+        "Harvey": "Extreme Temperaturen können deinen Körper sehr belasten, also zieh dich warm an!#$e#Oh, und vergnüg dich gut auf dem Fest!$h",
+        "Sandy": "Ich habe gehört, dass es zu Hause regnet. Bist du deswegen hier?$h#$e#Ich vermisse den Regen irgendwie...$s",
+        "Jas": "Ich will ihm eine Karottennase verpassen!$h",
+        "Vincent": "Ich habe einen riesigen Fisch da unten gesehen!",
+        "Marlon": "Hallo, guten Abend."
+    }
+}

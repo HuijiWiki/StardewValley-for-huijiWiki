@@ -1,1 +1,1 @@
-{"index": "Stone Floor", "main_category": "CraftingRecipes", "undefined_1": "390 1", "location": "Field", "undefined_2": "329", "isProduction": "false", "source": "l 0", "displayName": "石头地板"}
+{"index": "Stone Floor", "main_category": "CraftingRecipes", "recipeItem": "390 1", "type": "Field", "craftItem": "329", "isBigCraftItem": "false", "skill": "l 0", "displayName": "石头地板"}

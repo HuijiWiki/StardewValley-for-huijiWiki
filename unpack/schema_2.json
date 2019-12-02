@@ -1,12 +1,18 @@
 {
     "bundles" : {
-        "8":[
+        "5":[
             "nameEN",
-            "discription",
-            "undefined_1", 
-            "undefined_2",
+            "reward", 
+            "ingredient",
             "colorIndex",
-            "number",
+            "displayName"
+            ],
+        "6":[
+            "nameEN",
+            "reward", 
+            "ingredient",
+            "colorIndex",
+            "ingredientSlots",
             "displayName"
             ]
     },
@@ -15,9 +21,9 @@
             "nameEN",
             "discription",
             "sellPrice",
-            "undefined_1",
-            "undefined_2",
-            "undefined_3",
+            "denfense",
+            "immunity",
+            "colorIndex",
             "displayName"
             ]
     },
@@ -125,8 +131,8 @@
             "nameEN",
             "displayName",
             "discription",
-            "undefined_1",
-            "undefined_2",
+            "indexInTileSheetMale",
+            "indexInTileSheetFemale",
             "color",
             "dyeable",
             "type"
@@ -134,20 +140,20 @@
     },
     "cookingrecipes" : {
         "5":[
-            "undefined_1",
+            "recipeItem",
             "undefined_2",
-            "undefined_3",
+            "productItemId",
             "source",
             "displayName"
             ]
     },
     "craftingrecipes" : {
         "6":[
-            "undefined_1",
-            "location",
-            "undefined_2",
-            "isProduction",
-            "source",
+            "recipeItem",
+            "type",
+            "craftItem",
+            "isBigCraftItem",
+            "skill",
             "displayName"
             ]
     },
@@ -259,17 +265,17 @@
         "15":[
             "baseHP",
             "baseDamage",
-            "undefined_1",
-            "undefined_2",
-            "isAir",
-            "undefined_3",
-            "undefined_4",
+            "coinsToDropMin",
+            "coinsToDropMax",
+            "isGlider",
+            "durationOfRandomMovements",
+            "toDrop",
             "baseDefence",
-            "undefined_5",
-            "undefined_6",
+            "jitteriness",
+            "moveTowardPlayer",
             "baseSpeed",
-            "undefined_7",
-            "killable",
+            "missChance",
+            "mineMonster",
             "baseEXP",
             "displayName"
             ]
@@ -300,12 +306,12 @@
             "loveIndex",
             "likeText",
             "likeIndex",
-            "nertralText",
-            "nertralIndex",
             "dislikeText",
             "dislikeIndex",
             "hateText",
-            "hateIndex"
+            "hateIndex",
+            "neutralText",
+            "neutralIndex"
             ]
     },
     "objectinformation":{
@@ -354,11 +360,11 @@
             "displayName",
             "description",
             "objective",
-            "undefined_1",
+            "objectiveID",
             "undefined_2",
-            "undefined_3",
-            "undefined_4",
-            "undefined_5"
+            "moneyReward",
+            "rewardDescription",
+            "canbeCancled"
             ]
     },
     "weapons":{
@@ -377,6 +383,13 @@
             "addedAOE",
             "critChance",
             "critMultiplier",
+            "displayName"
+            ]
+    },
+    "cookingchannel":{
+        "3":[
+            "nameEN",
+            "description",
             "displayName"
             ]
     },

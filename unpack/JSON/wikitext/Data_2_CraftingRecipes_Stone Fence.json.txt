@@ -1,1 +1,1 @@
-{"index": "Stone Fence", "main_category": "CraftingRecipes", "undefined_1": "390 2", "location": "Field", "undefined_2": "323", "isProduction": "false", "source": "Farming 2", "displayName": "石围栏"}
+{"index": "Stone Fence", "main_category": "CraftingRecipes", "recipeItem": "390 2", "type": "Field", "craftItem": "323", "isBigCraftItem": "false", "skill": "Farming 2", "displayName": "石围栏"}

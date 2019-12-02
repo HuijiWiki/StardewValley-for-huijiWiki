@@ -1,0 +1,67 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "겨울 별의 만찬",
+        "conditions": "Town/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/loadActors Set-Up/playerControl christmas",
+        "secretSanta": "none/-1000 -1000/farmer 30 69 0/warp Emily 37 59/warp Haley 35 74/warp secretSanta 29 75/faceDirection secretSanta 0/viewport 30 67 true/pause 2000/move secretSanta 0 -4 0/move secretSanta 1 0 0/pause 500/shake secretSanta 100/playSound stoneStep/specificTemporarySprite secretGift/pause 100/faceDirection farmer 2/pause 200/jump farmer/pause 700/emote farmer 16/pause 100/move secretSanta -1 0 0/move secretSanta 0 -2 0/pause 700/faceDirection farmer 3/pause 300/faceDirection farmer 0/pause 500/faceDirection secretSanta 1/pause 500/speak secretSanta \"dialogue1\"/pause 300/faceDirection farmer 2/pause 800/showFrame 4/pause 300/playSound cut/specificTemporarySprite secretGiftOpen/pause 400/stopAnimation farmer/faceDirection farmer 2/pause 1000/cutscene addSecretSantaItem/pause 3000/null/faceDirection farmer 3/speak secretSanta \"dialogue2\"/pause 600/eyes 1 -1500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Emily 29 72/warp Haley 30 72/warp secretSanta warpX warpY/faceDirection farmer 2/cutscene clearTempSprites/playMusic christmasTheme/viewport 30 67 true/playerControl christmas2",
+        "Abigail_spouse": "저 사탕 막대 맛보고 싶다...",
+        "Leah_spouse": "우리 농장에서 지내는 삶에 항상 감사하고 있어.$h",
+        "Maru_spouse": "안녕, @. 집에 가고 싶으면 언제든지 얘기해, 나도 갈 준비 다 됐어.",
+        "Penny_spouse": "당신을 만났다는 사실을 감사히 생각하고 있어요...$l",
+        "Haley_spouse": "나?... 오, 난 감사할만한 게... 그냥 나중에 우리 둘만 있을 때 보여주는 게 어떨까?$l",
+        "Sebastian_spouse": "안녕, @. 보다시피, 난 가족 구성원의 의무를 다하고 있지...",
+        "Sam_spouse": "*하품*... 난 선물이랑 쿠키 때문에 여기 온 건데.$h",
+        "Alex_spouse": "나는 어떤 게 감사하냐고? 집에 가면 보여줄게...$l",
+        "Harvey_spouse": "좀 기분이 벅찬걸... 공기가 상쾌해서 다행이야...$l",
+        "Elliott_spouse": "난 선물은 없어도 괜찮아, 이미 최고의 선물을 받았는걸...$l",
+        "Abigail": "추운 겨울날 뜨끈한 만찬만 한 게 없지, 그치?$h",
+        "Robin": "안녕, @. 같이 있고 싶으면 우리 가족 테이블에 앉아도 환영이야.$h",
+        "Demetrius": "난 올해도 아마 공구세트를 받겠지... *한숨*",
+        "Maru": "안녕, @.$h",
+        "Shane": "무슨 정령, 무슨 마법을 믿는 사람들을 만나봤지만... 나? 난 과학으로 설명할 수 없는 건 본 적이 없어.",
+        "Sebastian": "가족이랑 시간을 보내는 건 피곤할 때도 있어.",
+        "Pierre": "요즘 매출액이 어마어마해... 겨울 별의 만찬 덕분이지!$h#$e#정말이지, 연말연시만큼 장사에 좋은 게 없어. 새로운 공휴일을 내가 만들 수 있으려나...",
+        "Caroline": "오오오... 노그 너무 많이 마셨어.$h",
+        "Linus": "함께하고 싶지만... 내가 환영받을 것 같진 않네.$s",
+        "Alex": "오, 안녕.$s",
+        "George": "멍청한 별 하나 때문에 만찬이라고? 이런 협잡꾼 같으니라고!",
+        "Evelyn": "어머! 아가야, 안 춥니? 지금 영하인데!",
+        "Lewis": "오늘은 올해 받은 복에 대해 감사할 하루지. 하루쯤 걱정은 잊고 마음을 놓게!",
+        "Clint": "*한숨*... 다들 행복한 가정을 이루고 있네. 하지만 나한테는 그저 외로운 한 해의 끝이지.",
+        "Emily": "$y '@! 영령의 나무 밑에서 어떤 게 나왔으면 좋겠어?_새 물뿌리개._일 생각뿐이구나? 재밌는 대답은 아니네.$s_향 진한 벌꿀 술._오오... 그거 좋겠다. 나도 꼭 한입 주고.$h_멋진 신발 한 켤레._그렇구나. 그거 좋은 선물일 것 같아!'",
+        "Penny": "정말 아름다운 나무네요.$h",
+        "Pam": "흐응... 얼음낚시 대회 못 이겨서 아직도 마음 상했어.$4",
+        "Haley": "영령의 나무 밑에서 새로운 카메라를 받았으면 좋겠다!",
+        "Jodi": "다이어트하기 좋은 시기는 아니네...$s",
+        "Kent": "좋은 오후야, @. 즐거운 만찬 보내.",
+        "Sam": "내 기타와 스케이트보드에 감사하고 있어. 아, 그리고 가족도.",
+        "Leah": "거스가 장인정신을 들여 만든 사탕 막대 얘기를 해주고 있었어. *하품*$u#$e#그냥 시나몬 노그 너무 많이 마신 거 같던데.",
+        "Marnie": "겨울 별의 만찬에 온 걸 환영해!$h",
+        "Elliott": "어, 안녕 @. 쌀쌀하네, 그렇지?",
+        "Gus": "이게 되게 섬세한 작업이야, 사탕 막대를 만드는 일이. 정말 최고의 재료를 구하려면 멀리까지 갈 각오를 해야 해. 요즘 쉽게 찾긴 힘들다고!$h#$e#내 최고급 사탕에는 페른 섬 링프루트를 보통 써. 그 밝은 빨간 색감 만한 게 없지... 게다가 천연재료고!#$e#오, 그리고 내 디럭스 더블 막대의 비밀을 알고 싶나? 그래, 알려줄게, 대신 아무한테도 말하면 안 돼. *소곤* 체리 향과 조화를 이루기 위해 흰 사탕 부분에 바닐라 한 방울을 첨가해.$h#$e#물론, 페퍼민트 사탕 막대가 기본이 되니까, 그것도 항상 풍부하게 만드는 편이고.#$e#야, 너 잠드는 것 같은데, 괜찮아?$s",
+        "Willy": "$y '겨울 별의 전설을 들어보고 싶은가?_네_겨울밤 하늘에, 이 계곡에서만 보이는 별이 있네. 아무도 왜 그런지는 몰라... 하지만 예전에는 많은 사람들이 멀리서 이 별을 보러 왔었네.*그 겨울 별을 본 사람은 복이 올 것이라고 믿었어. 그들은 =Stardrop 이라고 불리는 신비한 과일이 겨울 별과 어떤 관련이 있다고 말하는 사람도 있었지._아니요, 사양할게요_그러던가 그러면.'",
+        "Wizard": "아, 신비로운 겨울 별. 이 계곡을 내... 연구의 장소로 정한 이유 중 하나지.",
+        "Harvey": "올해 긴급한 의료 상황이 없었다는 것에 감사하고 있어!",
+        "Sandy": "고향에 비가 오고 있다고 들었어. 자기 그래서 여기 온 거야?$h#$e#나 근데 사실 비가 좀 그립기는 해...$s",
+        "Jas": "오! 선물이다!$h",
+        "Vincent": "지금 선물 열어봐도 돼요?!",
+        "Marlon": "안녕, 좋은 오후야."
+    }
+}

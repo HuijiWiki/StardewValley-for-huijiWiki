@@ -1,1 +1,1 @@
-{"index": "Field Snack", "main_category": "CraftingRecipes", "undefined_1": "309 1 310 1 311 1", "location": "Home", "undefined_2": "403", "isProduction": "false", "source": "Foraging 1", "displayName": "工作小食"}
+{"index": "Field Snack", "main_category": "CraftingRecipes", "recipeItem": "309 1 310 1 311 1", "type": "Home", "craftItem": "403", "isBigCraftItem": "false", "skill": "Foraging 1", "displayName": "工作小食"}

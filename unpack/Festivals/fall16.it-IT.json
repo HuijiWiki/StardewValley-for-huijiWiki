@@ -1,0 +1,66 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Fiera di Stardew Valley",
+        "conditions": "Town/900 1500",
+        "set-up": "fallFest/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Fair/viewport -1000 -1000/loadActors Set-Up/advancedMove Vincent true -3 0 2 5000 3 0 2 5000/advancedMove Jas true 2 0 4 5000 -2 0 4 5000/advancedMove Marnie true -2 0 4 5000 2 0 2 5000/advancedMove Abigail true 4 6000 5 0 0 3 2 6000 0 -3 -5 0/advancedMove Robin true 0 1 1 5000 0 -2 3 5000 0 1 1 5000/animate Sebastian false true 200 16 16 16 16 16 16 16 16 16 16 16 16 17 18 19 20 21 21 21 21 20 22 22 23/addTemporaryActor BabyPig 32 32 65 68 2 false Animal/addTemporaryActor Pig 32 32 65 70 3 false Animal/addTemporaryActor White_Chicken 16 16 59 67 2 false Animal/addTemporaryActor Brown_Chicken 16 16 61 67 2 false Animal/addTemporaryActor White_Cow 32 32 59 72 0 false Animal/addTemporaryActor BabyWhite_Cow 32 32 61 72 1 false Animal/advancedMove BabyPig true 0 1 3 5000 0 -1 0 7000/advancedMove Pig true 3 5000 0 1 1 5000 0 -1 3 5000/advancedMove White_Chicken true 1 0 2 7000 -1 0 2 10000/animate Brown_Chicken false true 500 16 17/viewport 22 22 true unfreeze/globalFadeToClear/pause 2000/playerControl fair",
+        "Abigail_spouse": "L'anno scorso ho vinto a tutti questi giochi!$h",
+        "Leah_spouse": "L'anno scorso ho imparato tutte le tecniche di Robin, ma lei è sempre un passo avanti a me!",
+        "Maru_spouse": "mumph... Questa è l'unica occasione che ho d'ingozzarmi di panini al barbecue.",
+        "Penny_spouse": "Speriamo di vincere la gara di bancarelle!",
+        "Haley_spouse": "Hai portato dei buoni prodotti da esporre alla bancarella, sì? Spero che vinciamo, quest'anno.",
+        "Sebastian_spouse": "Ehi, @. Io mi rimetto in pari con Sam. Tu vai pure a divertirti.",
+        "Sam_spouse": "Sebastian è lo stesso di sempre. Ti stai divertendo al festival?",
+        "Alex_spouse": "Mi sto solo rimettendo in pari con qualche vecchio amico... tu vai pure a goderti la fiera.",
+        "Harvey_spouse": "Aspetto qui finché non siamo pronti per tornare a casa...",
+        "Elliott_spouse": "Il fumigoso aroma m'ha attratto qui, ma è stata la salsa succosa a segnare il mio destino... *trangugia*$s",
+        "Abigail": "Ho già vinto a tutti i giochi... e adesso?",
+        "Robin": "Lavorare il legno è una tradizione antica, e sono molto fiera di farne parte.$h",
+        "Demetrius": "Robin suda sette camicie col suo lavoro di carpenteria... Si merita un po' di riconoscimento, ogni tanto.",
+        "Maru": "*slurp* mmm... questa salsa barbecue è favolosa.$h",
+        "Sebastian": "Che confusione, oggi... Credo che rimarrò qui per un po'.",
+        "Pierre": "Il mio emporio vanta i prodotti di più alta qualità dell'intera valle. Prego, osserva da vicino la mia bancarella e giudica da te!",
+        "Caroline": "Pierre fa sul serio con la sua bancarella. Sono settimane che la prepara, mettendo da parte i prodotti migliori.#$e#Ehi, se partecipi anche tu, in bocca al lupo!",
+        "Linus": "Questi animali non giudicano mai le persone dal loro aspetto. Non si può dire lo stesso degli umani.",
+        "Alex": "Ho giocato al gioco della 'Forza' troppe volte, e ora mi sento le braccia di gomma.",
+        "George": "Hmm... coscia di tacchino affumicato? Qualcosa di questo festival si salva, suppongo.$h",
+        "Evelyn": "Vorrei che Gus includesse un'opzione vegetariana. Spiedini di zucchine, magari?",
+        "Lewis": "Beh @, Oggi è il gran giorno... Il festival più importante dell'anno, la 'Fiera di Stardew Valley'.#$b#Ti ho lasciato un posto vuoto, nel caso tu voglia partecipare con una bancarella. Fammi solo sapere quando hai preparato tutto, così passiamo a dare i giudizi.",
+        "Clint": "A volte mi lamento del mio lavoro, ma vado fiero di ciò che faccio.#$b#Questi sono tra i miei pezzi migliori. Spero ti piacciano.",
+        "Emily": "Sai, sarei potuta essere un buon clown. Forse ho perso la mia chiamata.",
+        "Penny": "Ho vinto dieci premi di fila alla ruota della fortuna, e ora il tipo non vuole farmi più giocare...$s",
+        "Pam": "Meglio sbrigarsi, giovane... Prima che la vecchia Pam ti peschi via tutti i pezzi grossi! Hehe.$h",
+        "Haley": "Hai consultato la veggente? Ha messo la sua tenda nel cimitero.#$e#Io l'ho già sentita... mi ha detto una cosa... interessante. *risatina*$h",
+        "Jodi": "Non pare molto contento... Mi sa che il sindaco Lewis ha dovuto tagliare le spese con un clown economico, quest'anno.",
+        "Kent": "Sto aspettando che questo clown faccia qualcosa di buffo.#$e#Che delusione.",
+        "Sam": "Ehi @. Te la stai passando bene?#$e#Il tiro con la fionda è divertente, e diventando bravi si puà fare una bella scorta di gettoni-stella.",
+        "Leah": "Ammiro un sacco l'abilità di Robin nella carpenteria. Nella mia professione uso molte delle stesse tecniche.",
+        "Shane": "Tutti questi animali sono amichevoli e adorano i massaggi.",
+        "Marnie": "Ho fatto del mio meglio, ma la mia bancarella non regge davanti a quella di Pierre.$s#$e#Beh, forse i giudici mi daranno dei punti bonus per la colossale forma di formaggio.",
+        "Elliott": "Sto tentando di persuadere Gus a svelarmi la ricetta della sua salsa, eppur non si smuove.",
+        "Gus": "Mangia quanto ti pare! Oggi è tutto gratis... omaggio del sindaco Lewis.$h#$e#Oh! Mettici un po' della mia salsa segreta, là sopra.",
+        "Dwarf": "Dici che piove in superficie? *sussulta*#$e#La pioggia... Per noi è quasi un mito. Alcuni non ne fanno mai esperienza per tutta la vita.",
+        "Wizard": "Io e Welwick ci conosciamo da tempo... È una bravissima veggente, e una buona amica.#$e#...#$e#Quel clown... l'ho già visto da qualche parte.#$e#Forse alla scuola d'illusioni? O al Carnevale dei Segreti? Hmm...",
+        "Harvey": "E proprio a due passi da qui, c'è Gus che cucina le costarelle alla griglia... Cielo.$s#$e#Devo guardarmi un attimo nell'animo...$11",
+        "Sandy": "Ho sentito che a casa sta piovendo. È per quello che sei qui?$h#$e#Un po' mi manca la pioggia, in realtà...$s",
+        "Jas": "Ahia! Una gallina mi ha beccato il mignolino!$u",
+        "Vincent": "Muuuuuu!",
+        "Marlon": "Le lame di Clint si fanno più taglienti ogni anno che passa.#$e#E così i suoi prezzi...",
+        "Willy": "La allestisci una bancarella della fattoria, @? È l'occasione per mettere in mostra tutte le robe buone prodotte a %farm!"
+    }
+}

@@ -1,1 +1,1 @@
-{"index": "Deluxe Scarecrow", "main_category": "CraftingRecipes", "undefined_1": "388 50 386 1 771 40", "location": "Home", "undefined_2": "167", "isProduction": "true", "source": "null", "displayName": "豪华稻草人"}
+{"index": "Deluxe Scarecrow", "main_category": "CraftingRecipes", "recipeItem": "388 50 386 1 771 40", "type": "Home", "craftItem": "167", "isBigCraftItem": "true", "skill": "null", "displayName": "豪华稻草人"}

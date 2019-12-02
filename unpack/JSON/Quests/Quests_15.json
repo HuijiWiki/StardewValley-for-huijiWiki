@@ -1,1 +1,1 @@
-{"index": "15", "main_category": "Quests", "type": "Monster", "displayName": "入门", "description": "只要击杀10只史莱姆，你就有资格进入探险家公会。", "objective": "目前杀死了10个史莱姆中的0个。", "undefined_1": "Green_Slime 10", "undefined_2": "16", "undefined_3": "0", "undefined_5": "false", "undefined_4": "-1"}
+{"index": "15", "main_category": "Quests", "type": "Monster", "displayName": "入门", "description": "只要击杀10只史莱姆，你就有资格进入探险家公会。", "objective": "目前杀死了10个史莱姆中的0个。", "objectiveID": "Green_Slime 10", "undefined_2": "16", "moneyReward": "0", "canbeCancled": "false", "rewardDescription": "-1"}

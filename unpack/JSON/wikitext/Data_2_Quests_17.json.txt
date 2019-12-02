@@ -1,1 +1,1 @@
-{"index": "17", "main_category": "Quests", "type": "Basic", "displayName": "矿场深处", "description": "看来矿场的升降机依然能用。你能够通过它快速回到你之前发现过的任何升降机门口。现在可以更加深入矿场了。", "objective": "在矿场中达到40层。", "undefined_1": "18", "undefined_2": "-1", "undefined_3": "0", "undefined_5": "false", "undefined_4": "-1"}
+{"index": "17", "main_category": "Quests", "type": "Basic", "displayName": "矿场深处", "description": "看来矿场的升降机依然能用。你能够通过它快速回到你之前发现过的任何升降机门口。现在可以更加深入矿场了。", "objective": "在矿场中达到40层。", "objectiveID": "18", "undefined_2": "-1", "moneyReward": "0", "canbeCancled": "false", "rewardDescription": "-1"}

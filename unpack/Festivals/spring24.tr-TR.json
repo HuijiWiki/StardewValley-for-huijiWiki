@@ -1,0 +1,58 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Çiçek Dansı",
+        "conditions": "Forest/900 1400",
+        "shop": "BO 48 350 -1 BO 192 350 -1 BO 204 350 -1 BO 108 250 -1 BBL 108 1000 1 O 18 50 10 O 22 50 10 BO 137 2500 1",
+        "set-up": "event1/22 22/farmer 76 17 1/changeToTemporaryMap Forest-FlowerFestival/loadActors Set-Up/advancedMove Vincent true -6 0 0 -1 6 0 0 1/advancedMove Jas true 1 0 0 1 -6 0 0 -1 5 0/advancedMove Pam true 2 25000 0 -3 4 0 4 25000 -4 0 0 3/advancedMove Haley true 0 1 2 3000 2 0 0 -1 -2 0 3 500 4 500 1 500 2 500 2 0 1 500 2 500 3 500 4 500 0 2 0 -2 -2 0/advancedMove Caroline true 7 0 0 1 1 18000 0 -1 -7 0 3 18000/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/playerControl flowerFestival",
+        "mainEvent": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp farmer1 5 21/warp farmer2 11 21/warp farmer3 23 21/warp farmer4 12 21/faceDirection farmer1 2/faceDirection farmer3 2/faceDirection farmer4 2/faceDirection farmer 2/warp Girl1 13 24/warp Girl2 15 24/warp Girl3 11 24/warp Girl4 9 24/warp Girl5 17 24/warp Girl6 19 24/warp Guy1 13 27/warp Guy2 15 27/warp Guy3 11 27/warp Guy4 9 27/warp Guy5 17 27/warp Guy6 19 27/showFrame Girl1 40/showFrame Girl3 40/showFrame Girl5 40/showFrame Girl4 40/showFrame Girl2 40/showFrame Girl6 40/showFrame Guy6 44/showFrame Guy5 44/showFrame Guy4 44/showFrame Guy3 44/showFrame Guy2 44/showFrame Guy1 44/viewport 14 25 clamp true/pause 2000/playMusic FlowerDance/pause 600/animate Girl1 false true 600 43 41 43 42/animate Girl6 false true 600 43 41 43 42/animate Girl3 false true 600 43 41 43 42/animate Girl5 false true 600 43 41 43 42/animate Girl4 false true 600 43 41 43 42/animate Girl2 false true 600 43 41 43 42/animate Guy5 false true 600 44 45/animate Guy6 false true 600 44 45/animate Guy3 false true 600 44 45/animate Guy2 false true 600 44 45/animate Guy4 false true 600 44 45/animate Guy1 false true 600 44 45/pause 9600/animate Girl1 false true 600 46 47/animate Girl6 false true 600 46 47/animate Girl3 false true 600 46 47/animate Girl5 false true 600 46 47/animate Girl4 false true 600 46 47/animate Girl2 false true 600 46 47/animate Guy5 false true 300 46 47/animate Guy6 false true 300 46 47/animate Guy3 false true 300 46 47/animate Guy2 false true 300 46 47/animate Guy4 false true 300 46 47/animate Guy1 false true 300 46 47/positionOffset Guy1 0 -2/positionOffset Guy6 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/animate Girl1 false true 600 43 41 43 42/animate Girl6 false true 600 43 41 43 42/animate Girl3 false true 600 43 41 43 42/animate Girl5 false true 600 43 41 43 42/animate Girl4 false true 600 43 41 43 42/animate Girl2 false true 600 43 41 43 42/animate Guy5 false true 600 44 45/animate Guy6 false true 600 44 45/animate Guy3 false true 600 44 45/animate Guy2 false true 600 44 45/animate Guy4 false true 600 44 45/animate Guy1 false true 600 44 45/pause 7600/stopAnimation Girl3/stopAnimation Girl6/stopAnimation Girl5/stopAnimation Girl2/stopAnimation Girl1/stopAnimation Girl4/stopAnimation Guy3/stopAnimation Guy2/stopAnimation Guy6/stopAnimation Guy1/stopAnimation Guy5/stopAnimation Guy4/pause 3000/globalFade/viewport -1000 -1000/message \"Çok eğlenceliydi! Eve dönme vakti geldi...\"/waitForOtherPlayers festivalEnd/end",
+        "Abigail": "Herkesin önünde dans etmekten hoşlanmıyorum... Çok utanç verici.#$e#Annem beni zorluyor.$u",
+        "Robin": "Ah... Hava çiceklerden ötürü çok güzel kokuyor.$h",
+        "Demetrius": "Bu bahar zamanı dansları eski dönem bereket törenlerine kadar dayanıyor.#$e#Hey... Bu tip şeyleri bilmen gerekiyor, çiftçi.",
+        "Maru": "Dans etmeyi seviyorum fakat bu dans biraz yapmacık. Eski topraklar bayılıyorlar ama.",
+        "Sebastian": "Öf...",
+        "Linus": "Ah, merhaba. Benimle konuşman çok kibarca.#$b#Bahar neredeyse sona ermek üzere... çok yazık.",
+        "Pierre": "Ne? Buraya nasıl geldin?$u#$b#Hiçbir şeye dokunma!",
+        "Caroline": "Keşke Pierre şu vaktini ailesi ile geçirse...$s",
+        "Alex": "Manzaranın tadını çıkarıyorum... hehe.",
+        "George": "Çicekler mi? Zar zor görüyorum.#$e#Burası çok aydınlık!",
+        "Evelyn": "Bu çicek aranjmanlarına bir hafta uğraştım. Beğendin mi?",
+        "Lewis": "Eğer diğer gençlerle dans etmek istiyorsan bir eş bulmalısın.",
+        "Clint": "Acaba Emily benimle dans eder mi?",
+        "Penny": "*hıçkırır*... Gerginim.$s",
+        "Pam": "Hayat işte bu... Değil mi, evlat? Şarap, kayaların üstünden akan dere ve ılık hava... Şaraptan söz etmiş miydim?",
+        "Emily": "Oh be... Tıka basa doydum. Hey, kızıl pelteyi denedin mi?",
+        "Haley": "Dans hareketlerimi çalışıyordum... Mükemmel olmalılar.#$e#Son 5 senedir Çicek Kraliçesi benim ve bu sene de tahttan inmeye niyetim yok!",
+        "Jodi": "Bugün dans edecek misin, @?$h",
+        "Kent": "Açık arazi... beni geriyor.#$e#*fısıldar* İyi düşün, Kent. İyi düşün ki iyi olsun.",
+        "Marlon": "Marnie bugün çok tatlı görünüyor...",
+        "Sam": "Biliyor musun? Kabul ediyorum... Çiceklere bayılırım!",
+        "Leah": "Selam, @. Seni burada görmek güzel.$h",
+        "Shane": "Ihım... Sos harika. *hopurdatır*#$e#Ah, bu yeşil şey acıymış *çiğner*#$b#*kütürdetir* ...ah.$s",
+        "Marnie": "*iç çeker*... Havada aşk kokusu var... ve ben hala yalnızım.$s",
+        "Elliott": "Dans için en iyi gömleğimi giydim... Bu tür şeyler çok sık olmuyor!",
+        "Gus": "Kurbağa mevsimi gelmiş.",
+        "Dwarf": "Yağmur mu yağıyor? *şaşırır*#$e#Yağmur... Bizim için neredeyse efsanevi bir durumdur. Bazılarımız hayatları boyunca yağmura şahit olmadan ölür.",
+        "Wizard": "Burada olmamalısın.",
+        "Harvey": "Birine dans etmeyi teklif etmek için cesaretimi topluyorum.$11",
+        "Sandy": "Memlekette yağmur yağdığını duydum, sen bu yüzden mi buraya geldin?$h#$e#Aslında, yağmuru özlüyorum...$s",
+        "Jas": "Bir gün, ben de Çicek Kraliçesi olacağım!",
+        "Vincent": "Adil değil... Ben neden Çicek Kraliçesi olamıyorum?",
+        "Willy": "Oltamı getirmeliydim."
+    }
+}

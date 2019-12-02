@@ -1,1 +1,1 @@
-{"index": "Cork Bobber", "main_category": "CraftingRecipes", "undefined_1": "388 10 709 5 766 10", "location": "Home", "undefined_2": "695", "isProduction": "false", "source": "Fishing 7", "displayName": "软木塞浮标"}
+{"index": "Cork Bobber", "main_category": "CraftingRecipes", "recipeItem": "388 10 709 5 766 10", "type": "Home", "craftItem": "695", "isBigCraftItem": "false", "skill": "Fishing 7", "displayName": "软木塞浮标"}

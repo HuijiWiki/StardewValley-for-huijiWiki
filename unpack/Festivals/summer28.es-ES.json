@@ -1,0 +1,57 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Danza de las medusas lunares",
+        "conditions": "Beach/2200 2400",
+        "set-up": "ocean/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Jellies/loadActors Set-Up/advancedMove Vincent true 0 12 3 3000 2 0 1 3000 0 -12 -2 0 3 3000/advancedMove Jas true 0 2 3 5000 0 -2 3 5000/advancedMove Clint false 2 50000 -2 0 3 500 2 1000 3 1000 1 0 2 1000/advancedMove Harvey True 0 -12 -10 0 0 6 2 25000 0 -6 10 0 0 12 2 25000/viewport 38 2 clamp true/pause 1000/playerControl jellies",
+        "mainEvent": "pause 500/globalFade/viewport -1000 -1000/changeLocation Beach/warp farmer1 28 36/warp spouse 29 36/faceDirection spouse 2/warp farmer2 29 35/warp farmer3 34 36/warp farmer4 35 36/faceDirection farmer1 2/faceDirection farmer2 2/faceDirection farmer3 2/faceDirection farmer4 2/specificTemporarySprite candleBoat/viewport 26 36 true/pause 2000/move Lewis 0 1 2/move Lewis -2 0 3/pause 400/showFrame Lewis 16 true/animate Lewis false false 200 25 16 17 17/pause 800/playSound parry/specificTemporarySprite candleBoatMove/pause 500/showFrame Lewis 0 true/animate Lewis false false 200 25 12/pause 400/faceDirection Lewis 2/pause 6000/specificTemporarySprite moonlightJellies/pause 10000/playMusic moonlightJellies/pause 30000/viewport move -1 0 8000/pause 10000/viewport move 1 0 20000/pause 18000/globalFade/viewport -1000 -1000/pause 2000/playMusic none/pause 1000/message \"El brillo del verano se ha desvanecido... Y las medusas lunares se dirigen a lo desconocido.\"/pause 1000/waitForOtherPlayers festivalEnd/end",
+        "Leah_spouse": "¡Ey! Estoy presentando mis respetos a otro verano que se va. Me reuniré contigo cuando botemos el barco vela.",
+        "Abigail": "Qué curioso y emocionante...",
+        "Robin": "Bawh... Ya ha pasado mi hora de irme a la cama.$s#$e#¿Has visto el barco vela? Lo he hecho yo.$h",
+        "Demetrius": "La medusa lunar... ¡Qué especie tan curiosa! Tenemos mucha suerte de que se detengan aquí durante su largo viaje al sur.#$e#No se sabe por qué las atrae la luz... Muy curioso.",
+        "Maru": "Hace un poco de frío, la verdad. Supongo que el otoño está al caer.",
+        "Sebastian": "He visto algo moviéndose ahí... Algo grande y oscuro.#$e#Solo intentaba asustarte...$h",
+        "Pierre": "Psst... ¡Acuérdate de pasar mañana por la tienda a por tus semillas de otoño!",
+        "Caroline": "Qué románticas son las velas, ¿verdad?",
+        "Linus": "Me escabulliré cuando lleguen las medusas... No quiero molestar a nadie.",
+        "Alex": "No puedo creer que el verano se haya acabado... Me da la sensación de que acaba de empezar.$s",
+        "George": "¿Qué? ¿Por qué me miras así? ¿Te parezco demasiado viejo para disfrutar de algo así?",
+        "Evelyn": "Recuerdo haberlas visto una vez, cuando era pequeña. ¡Oh, cómo saltaba de alegría cuando llegaron!#$e#Pero de eso hace ya mucho tiempo... Ahora tengo mucha menos energía.",
+        "Lewis": "Buenas tardes, @. Las medusas lunares se acercan... Ya he visto una brillando en la distancia.#$b#Cuando botemos el barco vela se acercarán al muelle a saludarnos.",
+        "Clint": "Me he puesto mis mejores zapatos esta noche. Nadie se ha dado cuenta.$s",
+        "Emily": "Mira ahí, al mar infinito. Bajo el mar hay todo tipo de formas de vida que se mueven en la oscuridad.#$b#Es inquietante, ¿no?",
+        "Penny": "Qué fácil es la vida de las medusas... Dejándote llevar siempre por las olas.",
+        "Pam": "No se lo digas a Gus, pero qué decepción que no haya buffet esta noche.",
+        "Haley": "¡Tendría que haberme traído la cámara! Siempre se me olvida.$s",
+        "Jodi": "¡Ahí! ¡He visto algo que brilla!#$b#Oh... Ya no está.$s",
+        "Kent": "Buenas tardes, @. Espero que encuentres tiempo para descansar antes de la temporada de cosecha.",
+        "Sam": "¿Serán venenosas?#$e#A lo mejor no debería tirar a Sebastian al agua...$h",
+        "Leah": "¡Ey! Estoy presentando mis respetos a otro verano que se va.",
+        "Shane": "Las medusas estuvieron aquí hace un año, y volverán el que viene... La naturaleza es increíble.",
+        "Marnie": "¡Es mucho peso para un muelle de madera tan antiguo! Me quedaré aquí, cerca de la playa.",
+        "Elliott": "Si seguimos contaminando los océanos, seguro que las medusas se extinguen. El proceso ya ha empezado.#$e#Qué pena... Ya no tenemos ningún respeto por la naturaleza.",
+        "Gus": "Medusas lunares... ¿Qué sabor tendrán?$h#$b#¡Jamás probaría una, por supuesto!$u",
+        "Dwarf": "¿Dices que está lloviendo afuera? Glups #$e#Lluvia... Es algo casi mítico para nosotros. Algunos de mi raza se pasan toda la vida sin poder verla...",
+        "Wizard": "¿Cómo me has encontrado aquí? Pensaba que estaba bien escondido.#$b#A lo mejor tienes el don de la clarividencia.#$e#Estoy aquí para observar a las Luneras... O medusas lunares, como las llamáis. Poseen un aura mágica sorprendentemente fuerte para ser una forma de vida acuática.",
+        "Harvey": "Bueno, se acabó el verano. ¡La verdad es que me alegro de deshacerme de esos malditos mosquitos!",
+        "Sandy": "Dicen que en casa está lloviendo. ¿Por eso has venido aquí?$h#$e#De hecho, echo de menos la lluvia...$s",
+        "Jas": "¡Espero que haya medusas bebé este año!",
+        "Vincent": "¡Quiero ver a la medusa verde y rara!",
+        "Willy": "A la mayoría de peces nocturnos les da miedo la luz... Estas son una excepción."
+    }
+}

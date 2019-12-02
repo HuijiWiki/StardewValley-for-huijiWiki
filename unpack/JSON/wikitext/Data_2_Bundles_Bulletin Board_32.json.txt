@@ -1,1 +1,1 @@
-{"index": "Bulletin Board/32", "main_category": "Bundles", "nameEN": "Field Research", "discription": "BO 20 1", "undefined_1": "422 1 0 392 1 0 702 1 0 536 1 0", "undefined_2": "5", "colorIndex": "土地研究", "number": "冒险家的"}
+{"index": "Bulletin Board/32", "main_category": "Bundles", "nameEN": "Field Research", "reward": "BO 20 1", "ingredient": "422 1 0 392 1 0 702 1 0 536 1 0", "colorIndex": "5", "displayName": "土地研究", "ingredientSlots": "2"}

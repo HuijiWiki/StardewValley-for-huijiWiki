@@ -1,0 +1,67 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Fête de l'Étoile Hivernale",
+        "conditions": "Town/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/loadActors Set-Up/playerControl christmas",
+        "secretSanta": "none/-1000 -1000/farmer 30 69 0/warp Emily 37 59/warp Haley 35 74/warp secretSanta 29 75/faceDirection secretSanta 0/viewport 30 67 true/pause 2000/move secretSanta 0 -4 0/move secretSanta 1 0 0/pause 500/shake secretSanta 100/playSound stoneStep/specificTemporarySprite secretGift/pause 100/faceDirection farmer 2/pause 200/jump farmer/pause 700/emote farmer 16/pause 100/move secretSanta -1 0 0/move secretSanta 0 -2 0/pause 700/faceDirection farmer 3/pause 300/faceDirection farmer 0/pause 500/faceDirection secretSanta 1/pause 500/speak secretSanta \"dialogue1\"/pause 300/faceDirection farmer 2/pause 800/showFrame 4/pause 300/playSound cut/specificTemporarySprite secretGiftOpen/pause 400/stopAnimation farmer/faceDirection farmer 2/pause 1000/cutscene addSecretSantaItem/pause 3000/null/faceDirection farmer 3/speak secretSanta \"dialogue2\"/pause 600/eyes 1 -1500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Emily 29 72/warp Haley 30 72/warp secretSanta warpX warpY/faceDirection farmer 2/cutscene clearTempSprites/playMusic christmasTheme/viewport 30 67 true/playerControl christmas2",
+        "Abigail_spouse": "J’ai envie de lécher un de ces sucres d'orge...",
+        "Leah_spouse": "J'aime tellement notre vie simple à la ferme.$h",
+        "Maru_spouse": "Salut, @. On peut rentrer à la maison quand tu veux.",
+        "Penny_spouse": "Heureusement que nous avons fait connaissance...$l",
+        "Haley_spouse": "Moi ? ... Oh, eh bien... Si on attendait d’être rentré à la maison ?$l",
+        "Sebastian_spouse": "Salut, @. Comme tu peux le voir, je remplis mes obligations familiales...",
+        "Sam_spouse": "*Bâille*... Je suis ici pour les cadeaux et les biscuits.$h",
+        "Alex_spouse": "De quoi suis-je reconnaissant ? Je te montrerai quand nous rentrerons à la maison...$l",
+        "Harvey_spouse": "J’ai un coup de chaud soudainement... Dieu merci pour cet air frais...$l",
+        "Elliott_spouse": "Tu n’as pas besoin de m’offrir quoi que ce soit ! Tu m’as déjà offert le plus beau des cadeaux...$l",
+        "Abigail": "Rien de tel qu’un repas bien chaud lors d’une froide journée d’hiver, n’est-ce pas ?$h",
+        "Robin": "Salut, @. Tu peux venir te joindre à nous pour notre repas familial si tu as besoin la compagnie.$h",
+        "Demetrius": "Je vais probablement encore avoir une nouvelle boîte à outils cette année... *Soupir*",
+        "Maru": "Bonjour, @.$h",
+        "Shane": "J’ai fait la connaissance de gens qui croient aux esprits et à la magie... Si moi j’y crois ? Je n'ai jamais rien vu que la science ne puisse expliquer.",
+        "Sebastian": "Passer du temps avec sa famille est parfois fatigant.",
+        "Pierre": "Mes chiffres de vente ont été phénoménaux ces derniers temps... grâce à la fête de l’étoile hivernale !$h#$e#Les fêtes sont bonnes pour les affaires. Je me demande si je ne pourrais pas inventer de nouvelles fêtes...",
+        "Caroline": "Oooh... Je crois que j'ai bu un peu trop de lait de poule.$h",
+        "Linus": "Je viendrais bien avec toi, mais je ne pense pas être le bienvenu.$s",
+        "Alex": "Oh, bien le bonjour.$s",
+        "George": "Une fête pour une étoile stupide ? Sottises !",
+        "Evelyn": "Oh, mon Dieu ! Tu n’as pas froid comme ça ? Il fait si froid !",
+        "Lewis": "Aujourd’hui, nous devrions tous être reconnaissants pour la bonne fortune que cette année nous a apportée. Oubliez vos soucis pendant une journée et détendez-vous !",
+        "Clint": "*Soupir*... Toutes ces familles heureuses... pour moi, c’est juste une autre année de solitude.",
+        "Emily": "$y \"@ ! Qu’espères-tu trouver sous l’arbre aux esprits ?_Un nouvel arrosoir._Du travail et pas d’amusement ? Ce n’est pas très drôle.$s_Un pichet d’hydromel épicé._Oh... j’aime beaucoup cette idée. N’oublie pas de me faire goûter.$h_Une paire de bottes à la mode._Je vois. Ce serait un beau cadeau !\"",
+        "Penny": "Quel arbre magnifique.$h",
+        "Pam": "Mmff... Je suis toujours contrariée de ne pas avoir gagné le concours de pêche sur glace.$4",
+        "Haley": "J’espère qu’il y a un nouvel appareil photo pour moi sous l’arbre aux esprits !",
+        "Jodi": "Ce n'est pas la meilleure période de l'année pour se mettre au régime...$s",
+        "Kent": "Bonjour, @. Bonnes fêtes.",
+        "Sam": "Je suis reconnaissant pour ma guitare et mon skateboard. Oh, et ma famille aussi, je suppose.",
+        "Leah": "Gus m’a raconté comment il fabrique ses sucres d'orge artisanales. *Bâille*$u#$e#JJe pense qu'il a mis trop de lait de poule à la cannelle.",
+        "Marnie": "Bienvenue à la fête de l’étoile hivernale !$h",
+        "Elliott": "Bien le bonjour @. Il fait froid, n’est-ce pas ?",
+        "Gus": "Fabriquer des sucres d'orge, est un art raffiné. Vous devez parcourir les contrées pour trouver les meilleurs ingrédients. Ils ne sont pas si faciles que ça à trouver !$h#$e#J’utilise habituellement des fruits exotiques pour ma première fournée de sucres d'orge. Cette couleur rouge vif est incomparable... Et tous les produits utilisés sont naturels !#$e#Oh, tu veux connaître le secret de mes doubles sucres d'orge de luxe ? D’accord, mais tu dois me promettre d’en garder le secret absolu. *Chuchote* J’ajoute une goutte de vanille dans la mixture pour la partie blanche du sucres d'orge ce qui relève la saveur de cerise. $h#$e#Bien sûr, les sucres d'orge à la menthe poivrée sont les plus courants, et j’en fais toujours tout un lot.#$e#Hé, tu as l’air de t’endormir. Est-ce que ça va ?$s",
+        "Willy": "$y \"Veux-tu entendre la légende de l’étoile hivernale ? _Oui_Dans le ciel étoilé d’hiver, il existe une étoile visible uniquement dans cette vallée. Personne ne sait pourquoi... mais autrefois, les gens venaient de loin pour la voir.*Ils croyaient que quiconque qui poserait les yeux sur l’étoile hivernale aurait la chance de faire bonne fortune toute l’année suivante. Certains prétendent même que le fruit mystérieux connu pour sa forme étoilé est lié d’une certaine manière à l’étoile hivernale._Non merci._Comme tu veux.\"",
+        "Wizard": "Ah, la mystérieuse étoile hivernale. L’une des raisons pour lesquelles j’ai choisi cette vallée comme lieu pour mes... recherches.",
+        "Harvey": "Je suis reconnaissant qu'il n'y ait pas eu d'urgence médicale cette année !",
+        "Sandy": "J’ai entendu dire qu’il pleut souvent là où tu habitais avant. Est-ce la raison pour laquelle tu es venu vivre ici ?$h#$e#La pluie me manque un peu, en fait...$s",
+        "Jas": "Ohh ! Des cadeaux !$h",
+        "Vincent": "Pouvons-nous ouvrir les cadeaux maintenant ?!",
+        "Marlon": "Tiens, bonjour."
+    }
+}

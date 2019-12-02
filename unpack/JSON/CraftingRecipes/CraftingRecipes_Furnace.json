@@ -1,1 +1,1 @@
-{"index": "Furnace", "main_category": "CraftingRecipes", "undefined_1": "378 20 390 25", "location": "Home", "undefined_2": "13", "isProduction": "true", "source": "l 2", "displayName": "熔炉"}
+{"index": "Furnace", "main_category": "CraftingRecipes", "recipeItem": "378 20 390 25", "type": "Home", "craftItem": "13", "isBigCraftItem": "true", "skill": "l 2", "displayName": "熔炉"}

@@ -1,1 +1,1 @@
-{"index": "Wild Bait", "main_category": "CraftingRecipes", "undefined_1": "771 10 684 5 766 5", "location": "Home", "undefined_2": "774 5", "isProduction": "false", "source": "null", "displayName": "万能鱼饵"}
+{"index": "Wild Bait", "main_category": "CraftingRecipes", "recipeItem": "771 10 684 5 766 5", "type": "Home", "craftItem": "774 5", "isBigCraftItem": "false", "skill": "null", "displayName": "万能鱼饵"}

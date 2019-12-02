@@ -1,0 +1,57 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Ayışığı Denizanalarının Dansı",
+        "conditions": "Beach/2200 2400",
+        "set-up": "ocean/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Jellies/loadActors Set-Up/advancedMove Vincent true 0 12 3 3000 2 0 1 3000 0 -12 -2 0 3 3000/advancedMove Jas true 0 2 3 5000 0 -2 3 5000/advancedMove Clint false 2 50000 -2 0 3 500 2 1000 3 1000 1 0 2 1000/advancedMove Harvey True 0 -12 -10 0 0 6 2 25000 0 -6 10 0 0 12 2 25000/viewport 38 2 clamp true/pause 1000/playerControl jellies",
+        "mainEvent": "pause 500/globalFade/viewport -1000 -1000/changeLocation Beach/warp farmer1 28 36/warp spouse 29 36/positionOffset farmer 0 16/faceDirection spouse 2/warp farmer2 29 35/warp farmer3 34 36/warp farmer4 35 36/faceDirection farmer1 2/faceDirection farmer2 2/faceDirection farmer3 2/faceDirection farmer4 2/specificTemporarySprite candleBoat/viewport 26 36 true/pause 2000/move Lewis 0 1 2/move Lewis -2 0 3/pause 400/showFrame Lewis 16 true/animate Lewis false false 200 25 16 17 17/pause 800/playSound parry/specificTemporarySprite candleBoatMove/pause 500/showFrame Lewis 0 true/animate Lewis false false 200 25 12/pause 400/faceDirection Lewis 2/pause 6000/specificTemporarySprite moonlightJellies/pause 10000/playMusic moonlightJellies/pause 30000/viewport move -1 0 8000/pause 10000/viewport move 1 0 20000/pause 18000/globalFade/viewport -1000 -1000/pause 2000/pause 1000/message \"Yazın parıltısı sönerken... ayışığı denizanaları büyük bir bilinmeze doğru yol alıyor.\"/playMusic none/pause 2000/waitForOtherPlayers festivalEnd/end",
+        "Leah_spouse": "Selam. Göçen yaz mevsimine şükranlarımı sunuyorum. Mumlu kayığı salarken yanına geleceğim.",
+        "Abigail": "Ne kadar ender görülen, heyecan verici bir şey... ",
+        "Robin": "*esner*... Yatma saatim geçti.$s#$e#Hey, mumlu kayığımı gördün mü? Kendim yaptım.$h",
+        "Demetrius": "'Ayışığı Denizanası'... ne kadar da dikkat çekici canlılar! Güneye doğru uzun yolculuklarında burada mola verdikleri için çok şanslıyız.#$e#Işığı neden bu kadar çekici bulduları bilinmiyor... çok ilginç.",
+        "Maru": "Biraz soğuk aslında. Sanırım güz gelmek üzere.",
+        "Sebastian": "Şurada hareket eden bir şey gördüm... büyük ve karanlık bir şey.#$e#Sadece seni korkutmaya çalışıyorum...$h",
+        "Pierre": "Pişt... Yarın güz tohumlarını almak için dükkana uğramayı unutma.",
+        "Caroline": "Mumlar çok romantik. Değil mi?",
+        "Linus": "Denizanalarının her gelişince sessizce uğrarım... Kimseyi rahatsız etmek istemem.",
+        "Alex": "Yaz mevsiminin sona erdiğine inanamıyorum... Daha yeni başlamış gibiydi.$s",
+        "George": "Ne var? Niye öyle bakıyorsun? Böyle bir şeyin tadını çıkarmak için çok mu yaşlıyım?",
+        "Evelyn": "Küçükken denizanalarını bir kez görmüştüm. Gördüğümde sevinçten havalara zıpladığımı hatırlıyorum!#$e#Ama uzun zaman önceydi... Şimdilerde daha az enerjiğim.",
+        "Lewis": "İyi akşamlar, @. Ayışığı denizanaları yaklaşıyor... Uzakta parıldayan bir tane gördüm bile.#$b#Mumlu kayığı denize bıraktığımız zaman gelip bize merhaba diyecekler.",
+        "Clint": "Bugün özel ayakkabılarımı giydim... Kimse farketmedi.$s",
+        "Emily": "Şu sonsuza kadar uzanan denize bakar mısın? Denizin derin karanlıklarında birçok canlı yaşıyor.#$b#Ürkütücü, değil mi?",
+        "Penny": "Bir denizanası için hayat çok kolay... sadece dalgaların seni sürüklemesine izin vermelisin...",
+        "Pam": "Gus'a söyleme ama bugün yiyecek bir şeyler olmadığı için mutsuzum...",
+        "Haley": "Kameramı getirmeliydim! Hep unutuyorum.$s",
+        "Jodi": "Şurada! Bir şeyin parladığını gördüm!#$b#Ah... Kayboluverdi.$s",
+        "Kent": "İyi akşamlar, @. Umarım hasat vaktinden önce biraz dinlenme zamanı bulabilirsin.",
+        "Sam": "Acaba zehirliler mi?#$e#Belki de Sebastian'ı suya itmemeliyim...$h",
+        "Leah": "Hey. Göçen yaz mevsimine şükranlarımı sunuyorum.",
+        "Shane": "Denizanaları bir sene önce de buradalardı, bir sene sonra da yine burada olacaklar... doğa harika bir şey.",
+        "Marnie": "Şu eski, ahşap iskelenin üzeri epey ağırlaşacak. Ben burada bekleyeceğim.",
+        "Elliott": "Eğer denizi kirletmeye devam edersek, denizanalarının nesli kesin tükenecektir. Çoktan tükenmeye başladı bile aslında.#$e#Ne kadar da yazık... artık doğaya saygımız kalmadı.",
+        "Gus": "'Ayışığı Denizanaları'... Acaba tatları nasıldır?$h#$b#Asla denemem elbette ama merak etmemek elde değil!$u",
+        "Dwarf": "Yağmur mu yağıyor? *şaşırır*#$e#Yağmur... Bizim için neredeyse efsanevi bir durumdur. Bazılarımız hayatları boyunca yağmura şahit olmadan ölür.",
+        "Wizard": "Beni burada nasıl bulabildin? İyi gizlendiğimi sanıyordum.#$b#Belki de keskin gözlülük ile kutsanmışsındır.#$e#'Lunalooları'... ya da sizin deyiminizle 'Ayışığı Denizanalarını' gözlemlemeye geldim. Su canlıları için garip olan güçlü bir büyü kuvveti yayıyorlar.",
+        "Harvey": "Eh, yaz neredeyse bitti. Bittiğine seviniyorum çünkü o lanet olasıca sineklere veda ediyorum.",
+        "Sandy": "Memlekette yağmur yağdığını duydum, sen bu yüzden mi buraya geldin?$h#$e#Aslında, yağmuru özlüyorum...$s",
+        "Jas": "Umarım bu sene yavru denizanaları da olur!",
+        "Vincent": "Nadir bulunan yeşil denizanasını görmek istiyorum!",
+        "Willy": "Gece balıklarının çoğu ışıktan korkar... bunlar biraz garip."
+    }
+}

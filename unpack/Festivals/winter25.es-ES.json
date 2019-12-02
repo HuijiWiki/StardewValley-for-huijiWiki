@@ -1,0 +1,67 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Fiesta de la estrella invernal",
+        "conditions": "Town/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/loadActors Set-Up/playerControl christmas",
+        "secretSanta": "none/-1000 -1000/farmer 30 69 0/warp Emily 37 59/warp Haley 35 74/warp secretSanta 29 75/faceDirection secretSanta 0/viewport 30 67 true/pause 2000/move secretSanta 0 -4 0/move secretSanta 1 0 0/pause 500/shake secretSanta 100/playSound stoneStep/specificTemporarySprite secretGift/pause 100/faceDirection farmer 2/pause 200/jump farmer/pause 700/emote farmer 16/pause 100/move secretSanta -1 0 0/move secretSanta 0 -2 0/pause 700/faceDirection farmer 3/pause 300/faceDirection farmer 0/pause 500/faceDirection secretSanta 1/pause 500/speak secretSanta \"dialogue1\"/pause 300/faceDirection farmer 2/pause 800/showFrame 4/pause 300/playSound cut/specificTemporarySprite secretGiftOpen/pause 400/stopAnimation farmer/faceDirection farmer 2/pause 1000/cutscene addSecretSantaItem/pause 3000/null/faceDirection farmer 3/speak secretSanta \"dialogue2\"/pause 600/eyes 1 -1500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Emily 29 72/warp Haley 30 72/warp secretSanta warpX warpY/faceDirection farmer 2/cutscene clearTempSprites/playMusic christmasTheme/viewport 30 67 true/playerControl christmas2",
+        "Abigail_spouse": "¿Pasaría algo si chupo uno de esos bastones...?",
+        "Leah_spouse": "Doy las gracias por nuestra sencilla vida en la granja.$h",
+        "Maru_spouse": "Ey, @. Podemos volver a casa cuando quieras.",
+        "Penny_spouse": "Doy las gracias por haberte conocido...$l",
+        "Haley_spouse": "¿Yo...? Yo doy las gracias... ¿Qué tal si te lo digo cuando volvamos a casa esta noche?$l",
+        "Sebastian_spouse": "Ey, @. Como ves, estoy cumpliendo con mis obligaciones familiares.",
+        "Sam_spouse": "*Bawh...* Estoy aquí por los regalos y las galletas.$h",
+        "Alex_spouse": "¿Que por qué doy las gracias? Te lo diré cuando lleguemos a casa...$l",
+        "Harvey_spouse": "Me estoy agobiando un poco... Menos mal que hace un poco de aire fresco...$l",
+        "Elliott_spouse": "No tienes que comprarme nada, ya me has dado el regalo más grande que hay...$l",
+        "Abigail": "Nada como un festival bien cálido en un frío día de invierno, ¿no?$h",
+        "Robin": "Buenas, @. Vente a nuestra mesa si necesitas compañía.$h",
+        "Demetrius": "Seguro que este año me dan otro set de herramientas... *Sigh*",
+        "Maru": "Hola, @.$h",
+        "Shane": "He conocido a gente que cree en los espíritus, la magia... Pero, ¿yo? Nunca he visto nada que la ciencia no pueda explicar.",
+        "Sebastian": "Pasar tiempo con la familia es agotador a veces.",
+        "Pierre": "Mis ventas han sido espectaculares últimamente... Gracias a la fiesta de la estrella invernal.$h#$e#Ah, las fiestas son lo mejor para mi negocio. A lo mejor podría inventarme algunas nuevas...",
+        "Caroline": "Oooh... He tomado demasiado ponche.$h",
+        "Linus": "Yo me uniría... Pero creo que no soy bien recibido.$s",
+        "Alex": "Oh, hola.$s",
+        "George": "¿Una fiesta para una estúpida estrella? ¡Tonterías!",
+        "Evelyn": "¡Madre mía! ¿No tienes frío, cariño? ¡Hace un frío que pela!",
+        "Lewis": "Hoy es el momento de dar las gracias por la fortuna de este año. ¡Olvídate de tus preocupaciones por un día y relájate!",
+        "Clint": "*Sigh...* Cuántas familias felices. Pero para mí solo significa otro año más de soledad.",
+        "Emily": "$y '¡@! ¿Qué esperas encontrar bajo el árbol de la estrella invernal?_Una nueva regadera._¿Mucho trabajo y poca diversión? No suena muy bien.$s_Una jarra de hidromiel especiada._Oooh... Suena muy bien. No olvides darme un sorbo.$h_Un par de botas elegantes._Ya veo. ¡Sería un gran regalo!'",
+        "Penny": "Qué árbol tan hermoso.$h",
+        "Pam": "Hmph... Menudo disgusto no haber ganado el concurso de pesca en el hielo de este año.$4",
+        "Haley": "¡Espero que bajo el árbol haya una cámara nueva para mí!",
+        "Jodi": "No es la temporada ideal para ponerse a dieta...$s",
+        "Kent": "Buenas tardes, @. Felices fiestas.",
+        "Sam": "Doy gracias por mi guitarra y mi monopatín. Oh, y por mi familia, supongo.",
+        "Leah": "Gus me estaba hablando de sus bastones de caramelo artesanales. *Bawh*$u#$e#Creo que ha tomado demasiado ponche de canela.",
+        "Marnie": "¡Te damos la bienvenida a la fiesta de la estrella invernal!$h",
+        "Elliott": "Ah. Hola, @. Hace fresquito, ¿verdad?",
+        "Gus": "Hacer bastones de caramelo es todo un arte. Tienes que buscar con ahínco los mejores ingredientes. ¡No son fáciles de encontrar hoy en día!$h#$e#Suelo usar fruta circular de las islas Helecho para mis mejores bastones, ¿sabes? Nada puede compararse con su color rojo brillante... ¡Y es natural del todo!#$e#Oh, ¿quieres saber el secreto de mis bastones dobles deluxe? Vale, pero tienes que prometerme confidencialidad absoluta. *Susurra* Es una gota de vainilla en el caramelo blanco para complementar el sabor a cereza.$h#$e#Por supuesto, los bastones de menta son la norma, y siempre tengo a mano un lote generoso de esos también.#$e#¡Eh, parece como si te estuvieras durmiendo! ¿Estás bien?$s",
+        "Willy": "$y '¿Quieres oír la leyenda de la estrella invernal?_¡Claro que sí!_En el cielo nocturno del invierno, hay una estrella brillante que solo se ve desde este valle. Nadie sabe por qué, pero antes la gente venía desde muy lejos para verla.*Antaño, la gente creía que todo aquel que divisara la estrella invernal sería bendecido con buena fortuna.*Dicen que la misteriosa = fruta estelar está conectada con la estrella invernal._No, gracias._Como quieras.'",
+        "Wizard": "Ah, la misteriosa estrella invernal. Uno de los motivos por los que elegí este valle para llevar a cabo mi... investigación.",
+        "Harvey": "¡Doy gracias por que no haya habido emergencias médicas este año!",
+        "Sandy": "Dicen que en casa está lloviendo. ¿Por eso has venido aquí?$h#$e#De hecho, echo de menos la lluvia...$s",
+        "Jas": "¡Ohh! ¡Regalos!$h",
+        "Vincent": "¡¿Podemos abrirlos ya?!",
+        "Marlon": "Ey, buenas tardes."
+    }
+}

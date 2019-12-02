@@ -1,0 +1,24 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "6": "土曜日",
+        "name": "サタデースペシャル",
+        "intro": "0/視聴者のみなさん、こんにちは。この番組では毎週、国の各地をまわってさまざまな分野の人々をご紹介します。人々のユニークな職業、ライフスタイルや価値観をとおして、知らない世界をのぞきこんでみましょう。「サタデースペシャル」はわたくし、トム・ラミナーがお送りします。",
+        "day": "土曜日"
+    }
+}

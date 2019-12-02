@@ -1,1 +1,1 @@
-{"index": "Basic Retaining Soil", "main_category": "CraftingRecipes", "undefined_1": "390 2", "location": "Field", "undefined_2": "370", "isProduction": "false", "source": "s Farming 4", "displayName": "初级保湿土壤"}
+{"index": "Basic Retaining Soil", "main_category": "CraftingRecipes", "recipeItem": "390 2", "type": "Field", "craftItem": "370", "isBigCraftItem": "false", "skill": "s Farming 4", "displayName": "初级保湿土壤"}

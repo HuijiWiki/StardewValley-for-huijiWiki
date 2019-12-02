@@ -1,1 +1,1 @@
-{"index": "804", "main_category": "Boots", "nameEN": "Emily's Magic Boots", "discription": "艾米丽爱心打造。100% 可降解！", "sellPrice": "250", "undefined_1": "4", "undefined_2": "6", "displayName": "艾米丽的魔法靴", "undefined_3": "13"}
+{"index": "804", "main_category": "Boots", "nameEN": "Emily's Magic Boots", "discription": "艾米丽爱心打造。100% 可降解！", "sellPrice": "250", "denfense": "4", "immunity": "6", "displayName": "艾米丽的魔法靴", "colorIndex": "13"}

@@ -1,1 +1,1 @@
-{"index": "Recycling Machine", "main_category": "CraftingRecipes", "undefined_1": "388 25 390 25 335 1", "location": "Home", "undefined_2": "20", "isProduction": "true", "source": "Fishing 4", "displayName": "回收机"}
+{"index": "Recycling Machine", "main_category": "CraftingRecipes", "recipeItem": "388 25 390 25 335 1", "type": "Home", "craftItem": "20", "isBigCraftItem": "true", "skill": "Fishing 4", "displayName": "回收机"}

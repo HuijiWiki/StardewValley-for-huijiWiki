@@ -1,0 +1,28 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "spring13": "复苏节",
+        "spring24": "花舞节",
+        "summer11": "夏威夷宴会",
+        "summer28": "月光水母起舞",
+        "fall16": "星露谷展览会",
+        "fall27": "万灵节",
+        "winter8": "冰雪节",
+        "winter25": "冬日星盛宴"
+    }
+}

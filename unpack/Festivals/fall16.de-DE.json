@@ -1,0 +1,66 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Sternentautaler Volksfest",
+        "conditions": "Town/900 1500",
+        "set-up": "fallFest/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Fair/viewport -1000 -1000/loadActors Set-Up/advancedMove Vincent true -3 0 2 5000 3 0 2 5000/advancedMove Jas true 2 0 4 5000 -2 0 4 5000/advancedMove Marnie true -2 0 4 5000 2 0 2 5000/advancedMove Abigail true 4 6000 5 0 0 3 2 6000 0 -3 -5 0/advancedMove Robin true 0 1 1 5000 0 -2 3 5000 0 1 1 5000/animate Sebastian false true 200 16 16 16 16 16 16 16 16 16 16 16 16 17 18 19 20 21 21 21 21 20 22 22 23/addTemporaryActor BabyPig 32 32 65 68 2 false Animal/addTemporaryActor Pig 32 32 65 70 3 false Animal/addTemporaryActor White_Chicken 16 16 59 67 2 false Animal/addTemporaryActor Brown_Chicken 16 16 61 67 2 false Animal/addTemporaryActor White_Cow 32 32 59 72 0 false Animal/addTemporaryActor BabyWhite_Cow 32 32 61 72 1 false Animal/advancedMove BabyPig true 0 1 3 5000 0 -1 0 7000/advancedMove Pig true 3 5000 0 1 1 5000 0 -1 3 5000/advancedMove White_Chicken true 1 0 2 7000 -1 0 2 10000/animate Brown_Chicken false true 500 16 17/viewport 22 22 true unfreeze/globalFadeToClear/pause 2000/playerControl fair",
+        "Abigail_spouse": "Ich habe diese ganzen Spiele schon letztes Jahr alle geschlagen!$h",
+        "Leah_spouse": "Ich habe alle Techniken von Robin letztes Jahr gelernt, aber sie ist mir immer einen Schritt voraus!",
+        "Maru_spouse": "Mjam... Das ist meine Chance, mich mit Barbecue-Sandwiches vollzustopfen.",
+        "Penny_spouse": "Ich hoffe, dass wir diesmal die Bauernhofschau gewinnen!",
+        "Haley_spouse": "Du hast doch daran gedacht, die guten Sachen für unsere Auslage mitzubringen? Ich hoffe, wir gewinnen dieses Jahr.",
+        "Sebastian_spouse": "Hey, @. Ich quatsche nur ein bisschen mit Sam. Geh ruhig los und vergnüg dich.",
+        "Sam_spouse": "Sebastian wird sich nie ändern. Unterhältst du dich gut?",
+        "Alex_spouse": "Ich red nur mit ein paar alten Freunden... geh ruhig vor und vergnüge dich ein wenig.",
+        "Harvey_spouse": "Ich warte hier, bis wir nach Hause gehen können...",
+        "Elliott_spouse": "Das rauchige Aroma hat mich hier hergelockt, aber es war die pikante Soße, die mein Schicksal wirklich besiegelt hat... *glugg*$s",
+        "Abigail": "Ich habe die ganzen Spiele schon gewonnen... Was jetzt?",
+        "Robin": "Holzverarbeitung ist eine alte Tradition. Ich bin stolz darauf, ein Teil davon zu sein.$h",
+        "Demetrius": "Robin arbeitet wirklich hart als Schreinerin... Sie hat die Anerkennung redlich verdient.",
+        "Maru": "*schlürf* Mmmh... diese Barbecuesoße ist unglaublich.$h",
+        "Sebastian": "Es ist heute ein wenig hektisch... Ich bleibe einfach ein wenig hier.",
+        "Pierre": "Mein Geschäft vertreibt die allerfeinsten Qualitätsprodukte des gesamten Tals. Seht euch einfach meine Auslage an!",
+        "Caroline": "Pierre nimmt die Bauernhofschau ziemlich ernst. Er hat seine besten Erzeugnisse schon Wochen zuvor beiseite gelegt.#$e#Ich wünsche dir viel Glück, falls du auch daran teilnimmst!",
+        "Linus": "Diese Tiere beurteilen Leute nie nach ihrem Aussehen. Von Menschen kann man das nicht gerade behaupten.",
+        "Alex": "Ich hab das 'Stärke'-Spiel zu oft gespielt und meine Arme fühlen sich jetzt an wie Gummi.",
+        "George": "Hmm... geräucherte Truthahnkeulen? Vielleicht ist dieses Fest doch nicht ganz so schlecht.$h",
+        "Evelyn": "Ich wünschte, Gus würde etwas Vegetarisches anbieten. Ein paar Zucchini-Spieße vielleicht?",
+        "Lewis": "Nun @, heute ist der große Tag. Unser wichtigstes Fest im ganzen Jahr, das 'Sternentautaler Volksfest'.#$b#Falls du bei der Bauernhofschau mitmachen willst, habe ich dir einen Stand freigelassen. Wenn du alles vorbereitet hast, lass es mich wissen, damit wir mit der Bewertung anfangen können.",
+        "Clint": "Ich beschwere mich hin und wieder über meinen Job, aber ich bin stolz auf meine Arbeit.#$b#Das hier sind ein paar meiner besten Stücke. Ich hoffe, sie gefallen dir.",
+        "Emily": "Weißt du, ich wäre sicher ein ziemlich guter Clown geworden. Vielleicht habe ich meine Bestimmung verpasst.",
+        "Penny": "Ich habe das Glücksrad jetzt schon zehnmal hintereinander gewonnen und der Mann will mich nicht mehr spielen lassen...$s",
+        "Pam": "Beeil dich besser, mein Kind... Bevor ich mir hier jeden einzelnen Fisch aus dem Zelt schnappe! Hehe.$h",
+        "Haley": "Warst du schon bei der Wahrsagerin? Sie hat ihren Stand am Friedhof.#$e#Ich habe sie schon besucht. Sie hat mir etwas... Interessantes verraten. *kicher*$h",
+        "Jodi": "Er sieht nicht sonderlich glücklich aus... Bürgermeister Lewis wollte wohl dieses Jahr mit einem Discount-Clown Geld sparen.",
+        "Kent": "Ich warte darauf, dass der Clown irgendetwas Lustiges macht.#$e#Ziemlich enttäuschend.",
+        "Sam": "Hey, @. Hast du Spaß?#$e#Das Zelt mit den Schleudern ist ziemlich gut. Wenn du den Bogen raus hast, kannst du eine Menge Sternenmarken verdienen.",
+        "Leah": "Ich bewundere Robins Fähigkeiten im Schreinern. Ich benutze eine Menge ähnlicher Techniken bei meiner Arbeit.",
+        "Shane": "All diese Tiere sind so freundlich und lieben es, gestreichelt zu werden.",
+        "Marnie": "Ich habe mein Bestes gegeben, aber meine Auslage ist dieses Jahr im Vergleich zu Pierres ziemlich schwach.$s#$e#Na ja, vielleicht geben mir die Richter Bonuspunkte für den massiven Käselaib.",
+        "Elliott": "Ich möchte Gus dazu bringen, mir sein Soßenrezept zu verraten, aber er gibt nicht nach.",
+        "Gus": "Iss so viel du willst! Heute ist alles kostenlos... dank Bürgermeister Lewis.$h#$e#Oh! Verwende auf jeden Fall ein wenig meiner geheimen Soße.",
+        "Dwarf": "Was, es regnet oben? *schock*#$e#Regen... Er ist schon fast ein Mythos für uns. Manche von uns erleben ihn ihr ganzes Leben lang nicht.",
+        "Wizard": "Welwick und ich kennen uns schon seit Ewigkeiten... Sie ist eine bemerkenswerte Wahrsagerin und eine gute Freundin.#$e#...#$e#Dieser Clown... Er kommt mir irgendwie bekannt vor.#$e#Vielleicht von der Schule der Illusionen? Oder aus dem Karneval der Geheimnisse? Hmm...",
+        "Harvey": "Und nur ein paar Schritte weiter grillt Gus ein paar Portionen Schweinerippchen. Huch.$s#$e#Ich muss wohl etwas in mich gehen...$11",
+        "Sandy": "Ich habe gehört, dass es zu Hause regnet. Bist du deswegen hier?$h#$e#Ich vermisse den Regen irgendwie...$s",
+        "Jas": "Autsch! Eine Henne hat mir in den kleinen Finger gepickt!$u",
+        "Vincent": "Muuuuuh!",
+        "Marlon": "Clints Klingen werden jedes Jahr schärfer.#$e#Seine Preise auch...",
+        "Willy": "Arbeitest du an deiner Auslage für die Bauernhofschau, @? Das ist die Gelegenheit, all die guten Erzeugnisse von %farm Hof anzupreisen!"
+    }
+}

@@ -1,1 +1,1 @@
-{"index": "19", "main_category": "Quests", "type": "Basic", "displayName": "骨头钥匙", "description": "你在矿场地底发现了一把奇怪的钥匙。", "objective": "寻找骨头钥匙的用途。", "undefined_1": "-1", "undefined_2": "-1", "undefined_3": "0", "undefined_5": "false", "undefined_4": "-1"}
+{"index": "19", "main_category": "Quests", "type": "Basic", "displayName": "骨头钥匙", "description": "你在矿场地底发现了一把奇怪的钥匙。", "objective": "寻找骨头钥匙的用途。", "objectiveID": "-1", "undefined_2": "-1", "moneyReward": "0", "canbeCancled": "false", "rewardDescription": "-1"}

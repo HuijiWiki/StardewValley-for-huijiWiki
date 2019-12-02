@@ -1,0 +1,68 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Buz Şöleni",
+        "conditions": "Forest/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 68 0 1/changeToTemporaryMap Forest-IceFestival/loadActors Set-Up/animate Robin false true 100 24 25 26 24 25 26 24 25 26 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27/advancedMove Pierre true -1 0 0 -1 1 5000 0 1 1 0 4 5000/advancedMove Vincent true 0 3 3 0 2 5000 0 -5 2 0 1 5000 -5 0 0 2 3 5000/advancedMove Pam true -5 0 0 1 2 5000 0 -1 5 0 2 7000/playerControl iceFestival",
+        "mainEvent": "globalFade/viewport -1000 -1000/playMusic none/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/loadActors Main-Event/faceDirection Pam 1/faceDirection Elliott 0/faceDirection Willy 0/viewport 71 35 true/pause 2000/speak Lewis \"Pekiala millet. Hadi bu yılın buzda balık tutma yarışmasını başlatalım.\"/pause 200/faceDirection Lewis 3/pause 300/faceDirection Lewis 2/faceDirection Lewis 1/pause 300/faceDirection Lewis 2/pause 400/speak Lewis \"Yarışmacılar, göreviniz sizlere verilen oltalar ile en fazla balığı yakalamak olacak.#$b#Balıklarınızı buz deliklerinden yakalamanız gerekiyor.\"/pause 600/speak Lewis \"Herkes hazır mı?\"/pause 500/waitForOtherPlayers startContest/jump Lewis/faceDirection Pam 2 true/faceDirection Elliott 1 true/faceDirection Willy 2 true/speak Lewis \"Başlayın!\"/advancedMove Lewis false 0 -4 2 1000/advancedMove Marnie true 4 6000 -2 0 4 5000 2 0/advancedMove Maru true 3 4000 0 2 3 7000 0 -2/advancedMove Jas true 2 0 0 -9 -4 0 2 20000 4 0 0 9 -2 0 3 15000/advancedMove Jodi true 1 6000 -1 0 0 2 1 8000 0 -1 1 6000 0 -1 1 0/jump Willy/shake Pam 700/showFrame Pam 16/extendSourceRect Pam 0 32/showFrame Elliott 40/extendSourceRect Elliott 16 0/shake Elliott 400/pause 300/showFrame Willy 16/extendSourceRect Willy 0 32/playMusic fallFest/playerControl iceFishing",
+        "afterIceFishing": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/restoreStashedItem/globalFade/viewport -1000 -1000/extendSourceRect Pam reset/extendSourceRect Willy reset/extendSourceRect Elliott reset/specificTemporarySprite iceFishingCatch/faceDirection Pam 0/faceDirection Willy 0/faceDirection Elliott 0/playMusic event1/loadActors MainEvent/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/pause 1000/viewport 71 35 true/pause 2000/move Lewis 0 4 2/speak Lewis \"Vay be, epey balık var!$h\"/pause 300/showFrame Lewis 18/shake Lewis 1000/speak Lewis \"*kusar*... Bu koku...$s\"/pause 500/showFrame Lewis 0/pause 600/move Lewis 0 1 2/speak Lewis \"Bu yılki buzda balık tutma yarışmasının kazananı...\"/pause 800/playMusic none/pause 3000/cutscene iceFishingWinner/null/playMusic event1/pause 500/fork DickWin/move Lewis 0 1 2/speak Lewis \"İşte ödülün!.\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"Bu seneki Buz Şöleni burada sona eriyor. Geldiğiniz için teşekkürler, millet! #$b#Artık şu zavallı balıkları salalım...$s\"/move Lewis -3 0 0/move Lewis 0 -1 0/advancedMove Willy true 0 3 -2 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/cutscene iceFishingWinnerMP/fork OtherPlayerWin/message \"Kazandığıma inanamıyorum, eve gitme zaman!\"/waitForOtherPlayers festivalEnd/end",
+        "OtherPlayerWin": "message \"Yarışmayı kazanamadım ama yine de eğlenceliydi. Eve dönme zamanı geldi.\"/waitForOtherPlayers festivalEnd/end",
+        "DickWin": "pause 100/jump Willy/faceDirection Elliott 3/pause 800/move Willy 0 -1 0/faceDirection Elliott 0/speak Lewis \"İşte ödülün Willy, tadını çıkar.\"/pause 500/move Willy 0 -2 0/move Lewis -1 0 2/move Lewis 0 1 2/playSound coin/pause 400/move Lewis 0 -1 0/pause 500/speak Lewis \"Bu seneki Buz Şöleni burada sona eriyor. Geldiğiniz için teşekkürler, millet!#$b#Artık şu zavallı balıkları salalım...$s\"/move Lewis -2 0 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/message \"Yarışmayı kazanamadım ama yine de eğlenceliydi. Eve dönme zamanı geldi.\"/waitForOtherPlayers festivalEnd/end",
+        "Abigail_spouse": "Selam, balım... işte buradasın!$h",
+        "Penny_spouse": "Bu sene balık tutma yarışmasına katılacak mısın, @? Annem kazanmakta oldukça kararlı.",
+        "Haley_spouse": "Uf... Kardanadam yapmaktan ellerim buz gibi oldu.$l",
+        "Sebastian_spouse": "Benim için endişelenme, hiç üşümem ben...",
+        "Sam_spouse": "Üşümüyorsun değil mi? Ceketimi istemediğine emin misin?",
+        "Alex_spouse": "Balık tutma yarışmasında seni tutuyor olacağım.",
+        "Harvey_spouse": "Evimizdeki sımsıcak ateşi düşlüyordum...$l",
+        "Elliott_spouse": "Balık tutma yarışmasında beni yeneceğine eminim ama önemli değil. Ben eğlenmek içn buradayım.$h",
+        "Abigail": "Kardanadamım hakkında ne düşünüyorsun?",
+        "Robin": "Üzgünüm, buzdan korkuluk yapmak için dikkatimi ayırmamalıyım.",
+        "Demetrius": "Ne var biliyor musun? Ceket giymeliydim.",
+        "Maru": "Kardanadam konusunda pek yaratıcı değilim.$s",
+        "Sebastian": "Soğuk mu? Yok, ben hiç üşümem.",
+        "Pierre": "Kar o kadar soğuk ki parmaklarımı hissetmiyorum artık...$s",
+        "Shane": "Bana kalsaydı, salonda pizza şöleni düzenlerdim, fakat onun yerine...",
+        "Caroline": "Kış nasıl gidiyor, @?$h",
+        "Linus": "Karevi yapımını, donmuş denizin ötesindeki buzullarda yaşayanlardan öğrendim .#$e#Uzun zaman önceydi elbette.$h#$e#Karevleri hiç fena değil ama yıl boyu çadırda kalmak daha kolay.",
+        "Alex": "Kardanadamlar iyi de, ben baharı gözlüyorum.",
+        "George": "Hım... Karım beni bunun için mi soğuga çıkardı?",
+        "Evelyn": "Sana George ile nasıl tanıştığımızı anlatmış mıydım? Tam olarak bu şölende bana kartopu attığında tanışmıştık.#$e#O zamanlar centilmendi. Gelip iyi miyim diye bakmıştı.$h",
+        "Lewis": "Buz Şöleni'ne hoşgeldin!#$e#Bugünün ilgi çekici etkinliği, buzda balık tutma yarışması elbette. 'Donmuş bir göl' oluşturduk ve içini balıklarla doldurduk.#$b#Yarışmaya katılmak için bana hazır olduğunu söylemen yeterli.",
+        "Clint": "Hiçbir teşvik olmadan Emily bana yardım etmeye başladı... Bunun bir anlamı var mı? *yutkunur*$4",
+        "Emily": "Vay anasını, bu kardanadamın baştan yapılması gerekli. Kim yaptı bunu?$s",
+        "Penny": "$y 'Hım... Nasıl bir kardanadam yapsak?_Sıradan bir tane. Havuçtan burun, şapka ve atkı._Sanırım klasiklere bağlı kalmak en iyisi, sence?$h_Garip bir şey olabilir. Buzdan antenler ve çam kozalağından gözler._Evet! Kulağa eğlenceli geliyor.$h_Kardanadamlar çok sıkıcı. Biraz farklı düşün!_Şey, tamam... Sanırım daha klasik bir şeyler yapacağım.'",
+        "Pam": "Buzda balık tutma yarışmasını kazanmayı planlıyorum!#$e#Gerçi Willy'i yenmek zor olacak... O, bu işi gece gündüz yapıyor.$s",
+        "Haley": "Sanırım kış mevsimi o kadar da kötü değilmiş... karda oynamak eğlenceli!",
+        "Jodi": "Kışın orman çok güzel görünüyor, değil mi?",
+        "Kent": "Kışı seviyorum. Çok huzurlu.",
+        "Sam": "Merhaba, @. Buzda balık tutma yarışmasına katılacak mısın?#$e#Şey, ben katılmayacağım. Balık tutmasını bilmiyorum.",
+        "Leah": "Ah, buz. Tam oymalık da kalıcı değil işte.#$e#Sanırım bu özelliği sanatını daha güzel yapıyor.",
+        "Marnie": "Dışarıdaki zavallı, üşüyen hayvanlar için üzülüyorum.$s",
+        "Elliott": "Bugün buzda balık tutma yarışmasına katılacağım. Neden olmasın?#$e#Gerçi Willy nadiren kaybediyor.",
+        "Gus": "Hiç yemek olmadığı için üzgünüm.#$e#Kış Yıldızı şölenine dek beklemelisin. O vakit tıka basa doyacaksın.",
+        "Willy": "$y 'Selam, @. Buzda balık tutmaya hazır mısın?_Evet. Elimden geleni yapacağım!_İşte bu!$h_Evet, seni yeneceğim!_Göreceğiz...$h_Dürüst olmak gerekirse, balık tutmada kötüyüm._Öyleyse buna iyi alıştırma gözüyle bak!$h'",
+        "Wizard": "Gizlice kulemi ziyaret etmeye mi geldin? Bir fani için fazla garipsin.",
+        "Harvey": "Ekstrem hava koşulları vücudu fazla stres altına sokabilir, kat kat giyindiğinden emin ol!#$e#Ha bir de şölenin tadını çıkar!$h",
+        "Sandy": "Memlekette yağmur yağdığını duydum, sen bu yüzden mi buraya geldin?$h#$e#Aslında, yağmuru özlüyorum...$s",
+        "Jas": "Havuçtan bir burnu olsun istiyorum!$h",
+        "Vincent": "Şurada kocaman bir balık gördüm!",
+        "Marlon": "Merhaba, tünaydın."
+    }
+}

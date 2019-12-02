@@ -1,1 +1,1 @@
-{"index": "25", "main_category": "Quests", "type": "Basic", "displayName": "交友指南", "description": "送礼物是增进友谊的好办法。了解每个人的个人喜好，你快就会人见人爱了。", "objective": "给某个人一份礼物。", "undefined_1": "-1", "undefined_2": "-1", "undefined_3": "100", "undefined_5": "true", "undefined_4": "-1"}
+{"index": "25", "main_category": "Quests", "type": "Basic", "displayName": "交友指南", "description": "送礼物是增进友谊的好办法。了解每个人的个人喜好，你快就会人见人爱了。", "objective": "给某个人一份礼物。", "objectiveID": "-1", "undefined_2": "-1", "moneyReward": "100", "canbeCancled": "true", "rewardDescription": "-1"}

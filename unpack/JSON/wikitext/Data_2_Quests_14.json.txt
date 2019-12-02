@@ -1,1 +1,1 @@
-{"index": "14", "main_category": "Quests", "type": "Basic", "displayName": "探索矿场", "description": "镇子北方山脉处有一座旧矿场。里面也许有珍贵的矿物，但是马龙说那里可能有危险。", "objective": "到达矿井的5层。", "undefined_1": "17", "undefined_2": "-1", "undefined_3": "0", "undefined_5": "false", "undefined_4": "-1"}
+{"index": "14", "main_category": "Quests", "type": "Basic", "displayName": "探索矿场", "description": "镇子北方山脉处有一座旧矿场。里面也许有珍贵的矿物，但是马龙说那里可能有危险。", "objective": "到达矿井的5层。", "objectiveID": "17", "undefined_2": "-1", "moneyReward": "0", "canbeCancled": "false", "rewardDescription": "-1"}

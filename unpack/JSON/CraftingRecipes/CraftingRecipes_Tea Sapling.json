@@ -1,1 +1,1 @@
-{"index": "Tea Sapling", "main_category": "CraftingRecipes", "undefined_1": "-777 2 771 5 388 5", "location": "Field", "undefined_2": "251", "isProduction": "false", "source": "null", "displayName": "茶苗"}
+{"index": "Tea Sapling", "main_category": "CraftingRecipes", "recipeItem": "-777 2 771 5 388 5", "type": "Field", "craftItem": "251", "isBigCraftItem": "false", "skill": "null", "displayName": "茶苗"}

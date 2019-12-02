@@ -1,0 +1,71 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Tojás Fesztivál",
+        "conditions": "Town/900 1400",
+        "shop": "BO 36 400 -1 BO 107 2000 1 O 745 100 -1 BO 184 350 -1 BO 188 350 -1",
+        "set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Pam true 0 -1 3 5000 0 2 3 5000 0 -1 3 4000/advancedMove Clint true 1 7000 0 1 3 7000 0 -1/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/advancedMove Shane true 4 40000 2 0 0 2 1 35000 0 -2 -2 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 18 0 0 -8 1 0 0 -11 -13 0 0 1 2 30000/playerControl eggFestival",
+        "afterEggHunt": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/globalFade/viewport -1000 -1000/playMusic event1/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 26 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true/pause 2000/speak Lewis \"Váó, ezt nézzétek, mennyi tojás!$h#$b#Bárcsak ilyen hatékonyan szednétek fel a szemetet is, mi lennénk a legtisztább város a Drágakő Tenger ezen oldalán! *kacag*$h\"/pause 800/playMusic none/speak Lewis \"És most, az idei tojásvadászat győztese...\"/playMusic none/pause 3000/cutscene eggHuntWinner/null/playMusic event1/pause 500/fork AbbyWin/move Lewis 0 1 2/speak Lewis \"Itt a jutalmad! Gratulálok.\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"Nos, ennyi volt az idei Tojás Fesztivál. Mindenkinek köszönöm a részvételt!\"/pause 600/viewport move 1 0 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+        "AbbyWin": "pause 100/jump Abigail/faceDirection Vincent 3/pause 800/move Abigail 0 -1 0/faceDirection Vincent 0/speak Lewis \"Itt a jutalmad, Abigail. Gratulálok!\"/pause 500/move Abigail 0 -1 0/playSound coin/pause 400/move Abigail 0 2 0/faceDirection Lewis 0/speak Lewis \"Nos, ennyi volt az idei Tojás Fesztivál. Mindenkinek köszönöm a részvételt!\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+        "mainEvent": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 27 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true unfreeze/pause 2000/speak Lewis \"És elérkezett az idő a mai ünnepség fénypontjához... Az Éves Tavaszi Tojásvadászathoz!$h\"/pause 100/jump Jas/jump Vincent/pause 1000/speak Lewis \"Csillapodjatok le gyerekek. Minden energiátokra szükség lesz, ha ti szeretnétek megtalálni a legtöbb tojást, és haza kívánjátok vinni az exkluzív ajándékot.\"/pause 100/faceDirection Vincent 3 true/faceDirection Jas 1 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0 /pause 800/faceDirection Lewis 3/faceDirection Lewis 2/faceDirection Lewis 1/faceDirection Lewis 2/pause 800/speak Lewis \"Nos... Mindenki készen áll?\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"Kezdődjék a tojásvadászat!$h\"/advancedMove Maru false -2 0 0 6 -9 0 0 -2 -9 0 0 -1 2 0 0 -12 6 0 0 -7 3 0/advancedMove Abigail false 0 21 -20 0 0 3 7 0 0 -15 -9 0 9 0 0 18/advancedMove Jas false 0 12 8 0 0 10 3 0 0 4 14 0 0 -20 -6 0 0 3/advancedMove Sam false 4 0 0 -4 2 0 0 -4 12 0 0 -6 19 0 0 20 0 -20 0 20/advancedMove Vincent false 0 3 24 0 0 21 9 0 0 4 -20 0 20 0 -20 0/playSound whistle/playMusic tickTock/playerControl eggHunt",
+        "Abigail_spouse": "Menj innét, amíg tart a tojásvadászat addig vetélytársak vagyunk!$h",
+        "Leah_spouse": "Sose volt túl sok barátom a városban, szóval az ilyen események számomra untatóak. De az étel jó.",
+        "Maru_spouse": "Próbálom legyőzni Pennyt. Te sok tojást találtál?",
+        "Penny_spouse": "Maru próbál győzködni, hogy egyek meg egy fűszeres tojást. Nem hiszem, hogy bírná a gyomrom...",
+        "Haley_spouse": "Tojást akartam enni, de rájöttem, hogy tavaszi diétán vagyok.",
+        "Sebastian_spouse": "Szurkolni fogok neked a tojásvadászaton.$h",
+        "Sam_spouse": "A skacok továbbra is a régiek. Te jól szórakozol?",
+        "Alex_spouse": "Uhhh... Azt hiszem túl sok főtt tojást ettem...$s",
+        "Harvey_spouse": "Hogy van mindenki? Én csak pihenek egy kicsit. Remélem találkozunk a tojásvadászaton!",
+        "Elliott_spouse": "Örülök, hogy ilyen nyugodtnak látlak, kedvesem.$h",
+        "Abigail": "A tojások keresése olyan, mintha kincsre vadásznál.$h",
+        "Robin": "A tavasz az év legszorgosabb időszaka... szóval jó, hogy egy napot pihenhetek és a barátaimmal lehetek.",
+        "Demetrius": "Tojás... milyen fura ehető dolog.",
+        "Maru": "Mindig is örülök az ilyen összejöveteleknek... ettől a völgy egy igazi közösségnek tűnik.",
+        "Sebastian": "Régen rothadt tojásokkal dobálóztunk...#$b#Lewis polgármester ennek hamar véget vetett.",
+        "Linus": "Senki se beszél hozzám sűrűn... Én csak a fűszeres tojásokért jöttem.",
+        "Pierre": "Micsoda! Hogy kerülsz ide?$u#$b#Ne nyúlj semmihez.",
+        "Caroline": "Abby mindig is szerette a tojásvadászatot, már egészen pici lány kora óta.",
+        "Alex": "Próbálok minden nap legalább három tojást megenni.#$e#A lábaimnak szüksége van proteinre.",
+        "George": "Minek örül annyira mindenki? Hmm...#$b#Tojások... miért pont tojások?",
+        "Evelyn": "Amióta az eszemet tudom, azóta létezik ez az ünnep.#$b#A hagyományok kötik össze a múltat és a jelent... ez megnyugtató.",
+        "Lewis": "Jól szórakozol, @?$h",
+        "Clint": "Van még kaja?$s",
+        "Penny": "A gyerekek már hetek óta várják ezt a fesztivált.",
+        "Pam": "Hehe... Valami jót tettem bele a puncsba.$h#$e#Csitt... ez köztünk marad, kölyök.",
+        "Emily": "Hajnal óta tojásokat festek... ez a kedvenc időszakom ebben az évszakban.$h",
+        "Haley": "Ez az ünnep nem rossz... de én igazából a Virágtáncot várom.",
+        "Jodi": "Vincent szereti ezt az ünnepet... olyan nagy öröm boldognak látni őt.",
+        "Kent": "Az igazat megvallva nem nagyon rajongom a tojásokért.",
+        "Marlon": "Még a rossz lábam ellenére se hagynék ki egy városi ünnepet.",
+        "Sam": "*szimat*... daj... az ojjom... allejgia...$s",
+        "Leah": "Mmmm... Ez a gyümölcsös puncs szokatlanul jó.$h",
+        "Shane": "A tyúkjaink túlóráztak a fesztivál miatt.#$b#Ma a legjobbat érdemlik... egy nagy tál édes sárga kukoricát!$h",
+        "Marnie": "Üdvözlünk a Tojás Fesztiválon... hála a temérdek tyúkjainknak.",
+        "Elliott": "A munkaszünet hosszú távon jót tesz a kreativitásnak.",
+        "Gus": "Remélem mindenki élvezi az ételeket... Napokig főztem, hogy minden kész legyen.#$b#Sült tojás, főtt tojás, buggyantott tojás, fűszeres tojás, rántott tojás, csokis tojás... válogass!$h",
+        "Dwarf": "Azt mondod, hogy odafent esik? *meghökken*#$e#Eső... Számunkra szinte rejtély. Egyesek közülünk egész életüket úgy élik le, hogy sose tapasztalják meg.",
+        "Wizard": "Hmm... És milyen lenne a nyers gyíktojás egy kis füstölt velővel?",
+        "Harvey": "A tojások fontos részét képezik a kiegyensúlyozott diétának.#$e#Hoppá... Azt hiszem egy ideig nem kéne doktorosdit játszanom.$11",
+        "Sandy": "Úgy hallottam, hogy odahaza esik. Ezért jöttél ide?$h#$e#Nekem valójában kissé hiányzik az eső...$s",
+        "Jas": "Remélem találni fogok pár tojást, mielőtt Vincent mindent felkapkodja...$s",
+        "Vincent": "Mikor kezdődik már a tojásvadászat?! Annyira izgatott vagyok!!$h",
+        "Willy": "Néha olyan jól elrejtek egy tojást, hogy senki se találja meg...#$b#Nos, egészen nyárig. Akkor a forró levegőtől rothadt szaga lesz... Hehe. $h",
+        "???": "Ah, a csatornák ma egész jól folynak. Szép párás lesz itt a levegő... pont ahogyan szeretem."
+    }
+}

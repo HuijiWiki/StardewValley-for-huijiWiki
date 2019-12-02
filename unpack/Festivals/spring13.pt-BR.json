@@ -1,0 +1,71 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Festival do Ovo",
+        "conditions": "Town/900 1400",
+        "shop": "BO 36 400 -1 BO 107 2000 1 O 745 100 -1 BO 184 350 -1 BO 188 350 -1",
+        "set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Pam true 0 -1 3 5000 0 2 3 5000 0 -1 3 4000/advancedMove Clint true 1 7000 0 1 3 7000 0 -1/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/advancedMove Shane true 4 40000 2 0 0 2 1 35000 0 -2 -2 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 18 0 0 -8 1 0 0 -11 -13 0 0 1 2 30000/playerControl eggFestival",
+        "afterEggHunt": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/globalFade/viewport -1000 -1000/playMusic event1/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 26 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true/pause 2000/speak Lewis \"Olhem só todos esses ovos!$h#$b#Ah, se eu pudesse fazer com que vocês crianças recolhessem o lixo nessa velocidade, nós teríamos a cidade mais limpa deste lado do Mar das Joias! Hi, hi... $h\"/pause 800/playMusic none/speak Lewis \"e agora, o vencedor da caçada ao ovo deste ano é...\"/playMusic none/pause 3000/cutscene eggHuntWinner/null/playMusic event1/pause 500/fork AbbyWin/move Lewis 0 1 2/speak Lewis \"aqui está seu prêmio! Divirta-se.\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"Bem, esse foi o Festival do Ovo deste ano. Obrigado por vir, pessoal!\"/pause 600/viewport move 1 0 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+        "AbbyWin": "pause 100/jump Abigail/faceDirection Vincent 3/pause 800/move Abigail 0 -1 0/faceDirection Vincent 0/speak Lewis \"Aqui está o seu prêmio, Abigail. Aproveite!\"/pause 500/move Abigail 0 -1 0/playSound coin/pause 400/move Abigail 0 2 0/faceDirection Lewis 0/speak Lewis \"Bem, esse foi o Festival do Ovo. Obrigado por vir, pessoal!\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+        "mainEvent": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 27 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true unfreeze/pause 2000/speak Lewis \"É hora de destacar as festividades de hoje... a Caça Anual de Primavera aos Ovos!$h\"/pause 100/jump Jas/jump Vincent/pause 1000/speak Lewis \"Acalmem-se, crianças. Vocês vão precisar de toda a sua energia se quiserem achar o máximo de ovos possíveis e levar para a casa o prêmio exclusivo.\"/pause 100/faceDirection Vincent 3 true/faceDirection Jas 1 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0 /pause 800/faceDirection Lewis 3/faceDirection Lewis 2/faceDirection Lewis 1/faceDirection Lewis 2/pause 800/speak Lewis \"Está todo mundo pronto?\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"Que a caça aos ovos comece!$h\"/advancedMove Maru false -2 0 0 6 -9 0 0 -2 -9 0 0 -1 2 0 0 -12 6 0 0 -7 3 0/advancedMove Abigail false 0 21 -20 0 0 3 7 0 0 -15 -9 0 9 0 0 18/advancedMove Jas false 0 12 8 0 0 10 3 0 0 4 14 0 0 -20 -6 0 0 3/advancedMove Sam false 4 0 0 -4 2 0 0 -4 12 0 0 -6 19 0 0 20 0 -20 0 20/advancedMove Vincent false 0 3 24 0 0 21 9 0 0 4 -20 0 20 0 -20 0/playSound whistle/playMusic tickTock/playerControl eggHunt",
+        "Abigail_spouse": "Vá embora. Somos adversários até que a caça aos ovos termine!$h",
+        "Leah_spouse": "Nunca tive muitos amigos na cidade, então sempre achei esses eventos meio chatos. Mas eu gosto do bufê, sabe?",
+        "Maru_spouse": "Só estou colocando a conversa em dia com a Penny. Já achou todos os ovos?",
+        "Penny_spouse": "Maru está tentando me convencer a achar um ovo endiabrado. Mas não sei se tenho estômago para isso...",
+        "Haley_spouse": "Eu ia comer alguns ovos, mas então me lembrei que estou em uma dieta de primavera.",
+        "Sebastian_spouse": "Vou torcer por você na próxima caça aos ovos.$h",
+        "Sam_spouse": "A turma continua igual. Você está se divertindo?",
+        "Alex_spouse": "Urgh! Acho que comi mais de uma dúzia de ovos cozidos...$s",
+        "Harvey_spouse": "Como está todo mundo? Só estou relaxando um pouco. Espero por você na caça aos ovos!",
+        "Elliott_spouse": "Gosto de ver você tão relaxado(a), querido(a).$h",
+        "Abigail": "Procurar por ovos é como ir numa caça ao tesouro.$h",
+        "Robin": "A primavera é uma época movimentada... então é muito bom ter um tempo para colocar a conversa em dia com os amigos.",
+        "Demetrius": "Ovo... que coisa estranha de se comer.",
+        "Maru": "Sempre fico muito feliz de participar dessas reuniões... elas me fazem sentir que o que vale é uma verdadeira comunidade.",
+        "Sebastian": "Nós costumávamos fazer guerra de ovo podre...#$b#O prefeito Lewis acabou com isso rapidinho.",
+        "Linus": "Ninguém nunca fala comigo... Eu só venho por causa dos ovos endiabrados.",
+        "Pierre": "Ei! Como você voltou aqui?$u#$b#Não toque em nada.",
+        "Caroline": "A Bibi sempre gostou da caça aos ovos desde que era uma menininha.",
+        "Alex": "Eu tento comer pelo menos três ovos por dia.#$e#Preciso dessas proteínas para minhas pernas.",
+        "George": "Por que todo mundo está tão feliz? Humf!#$b#Ovos... por que ovos?",
+        "Evelyn": "Este festival é uma tradição desde que me entendo por gente.#$b#A tradição nos conecta tanto ao passado quanto ao futuro... é reconfortante.",
+        "Lewis": "Está se divertindo, @?$h",
+        "Clint": "Tem mais comida?$s",
+        "Penny": "As crianças estão esperando por este festival há semanas.",
+        "Pam": "He, he... Eu coloquei uma coisa bem legal no ponche.$h#$e#Sssh... isso é só entre eu e você, garoto.¦Sssh... isso é só entre eu e você, garota.",
+        "Emily": "Estive acordada desde cedinho pintando os ovos... Essa é sempre minha parte favorita da estação.$h",
+        "Haley": "O festival está legal... mas estou ansiosa mesmo é pela Dança das Flores.",
+        "Jodi": "O Vincent ama este festival... é uma alegria muito grande vê-lo tão feliz.",
+        "Kent": "Não sou um grande fã de ovos, para dizer a verdade.",
+        "Marlon": "Mesmo com minha perna ruim, nunca perco um festival na cidade.",
+        "Sam": "*Sniff*... minha soneca... alergia...$s",
+        "Leah": "Mmmm... Este ponche de frutas está mais gostoso que o normal.$h",
+        "Shane": "Nossas galinhas trabalharam dia e noite para preparar este festival.#$b#Elas merecem o que há de melhor hoje à noite... tigelas cheias de milho bem amarelinho!$h",
+        "Marnie": "Bem-vindo ao Festival dos Ovos... uma cortesia de minhas maravilhosas galinhas!¦Bem-vinda ao Festival dos Ovos... uma cortesia de minhas maravilhosas galinhas!",
+        "Elliott": "Relaxar após o trabalho deixa você mais produtivo a longo prazo.",
+        "Gus": "Espero que todos estejam gostando da comida... Estou cozinhando há dias para poder deixar tudo pronto.#$b#Ovos fritos, cozidos, pochê, endiabrados, mexidos, de chocolate... pode pedir!$h",
+        "Dwarf": "Você está dizendo que está chovendo lá em cima? Gasp!#$e#A chuva... é quase mítica para nós. Alguns de nós vivem suas vidas sem nunca saber o que é.",
+        "Wizard": "Huum... E que tal ovo cru de lagarto com tutano?",
+        "Harvey": "Os ovos definitivamente têm lugar em uma dieta bem balanceada.#$e#Ops... Preciso tirar o meu chapéu de médico por um tempo.$11",
+        "Sandy": "Ouvi dizer que está chovendo lá em casa. É por isso que você veio aqui?$h#$e#Na verdade, sinto falta da chuva...$s",
+        "Jas": "Espero encontrar alguns ovos antes que o Vincent ache todos...$s",
+        "Vincent": "Quando a caça aos ovos começa?! Mal posso esperar!$h",
+        "Willy": "Às vezes escondo ovos tão bem que ninguém os encontra...#$b#Bem, pelo menos até o verão. Então o ar quente chega e traz aquele cheiro podre... He, he...$h",
+        "???": "Ah, o esgoto está fluindo rápido hoje. Vai ficar bem confortável e úmido aqui... do jeito que eu gosto."
+    }
+}

@@ -1,1 +1,1 @@
-{"index": "Campfire", "main_category": "CraftingRecipes", "undefined_1": "390 10 388 10 771 10", "location": "Home", "undefined_2": "146", "isProduction": "true", "source": "null", "displayName": "营火"}
+{"index": "Campfire", "main_category": "CraftingRecipes", "recipeItem": "390 10 388 10 771 10", "type": "Home", "craftItem": "146", "isBigCraftItem": "true", "skill": "null", "displayName": "营火"}

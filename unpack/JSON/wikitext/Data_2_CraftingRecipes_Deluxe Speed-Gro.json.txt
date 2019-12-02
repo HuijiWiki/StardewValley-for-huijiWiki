@@ -1,1 +1,1 @@
-{"index": "Deluxe Speed-Gro", "main_category": "CraftingRecipes", "undefined_1": "725 1 393 1", "location": "Field", "undefined_2": "466 5", "isProduction": "false", "source": "s Farming 8", "displayName": "高级生长激素"}
+{"index": "Deluxe Speed-Gro", "main_category": "CraftingRecipes", "recipeItem": "725 1 393 1", "type": "Field", "craftItem": "466 5", "isBigCraftItem": "false", "skill": "s Farming 8", "displayName": "高级生长激素"}

@@ -1,1 +1,1 @@
-{"index": "Mega Bomb", "main_category": "CraftingRecipes", "undefined_1": "384 4 768 1 769 1", "location": "Field", "undefined_2": "288", "isProduction": "false", "source": "Mining 8", "displayName": "超级炸弹"}
+{"index": "Mega Bomb", "main_category": "CraftingRecipes", "recipeItem": "384 4 768 1 769 1", "type": "Field", "craftItem": "288", "isBigCraftItem": "false", "skill": "Mining 8", "displayName": "超级炸弹"}

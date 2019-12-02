@@ -1,1 +1,1 @@
-{"index": "511", "main_category": "Boots", "nameEN": "Dark Boots", "discription": "使用黑色粗厚皮革所打造。", "sellPrice": "250", "undefined_1": "4", "undefined_2": "2", "displayName": "黑暗之靴", "undefined_3": "7"}
+{"index": "511", "main_category": "Boots", "nameEN": "Dark Boots", "discription": "使用黑色粗厚皮革所打造。", "sellPrice": "250", "denfense": "4", "immunity": "2", "displayName": "黑暗之靴", "colorIndex": "7"}

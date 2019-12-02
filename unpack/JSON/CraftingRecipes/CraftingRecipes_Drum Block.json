@@ -1,1 +1,1 @@
-{"index": "Drum Block", "main_category": "CraftingRecipes", "undefined_1": "390 10 378 2 771 20", "location": "Home", "undefined_2": "463", "isProduction": "false", "source": "null", "displayName": "鼓块"}
+{"index": "Drum Block", "main_category": "CraftingRecipes", "recipeItem": "390 10 378 2 771 20", "type": "Home", "craftItem": "463", "isBigCraftItem": "false", "skill": "null", "displayName": "鼓块"}

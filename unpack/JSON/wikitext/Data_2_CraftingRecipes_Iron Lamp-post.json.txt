@@ -1,1 +1,1 @@
-{"index": "Iron Lamp-post", "main_category": "CraftingRecipes", "undefined_1": "335 1 787 1", "location": "Home", "undefined_2": "153", "isProduction": "true", "source": "null", "displayName": "铁灯柱"}
+{"index": "Iron Lamp-post", "main_category": "CraftingRecipes", "recipeItem": "335 1 787 1", "type": "Home", "craftItem": "153", "isBigCraftItem": "true", "skill": "null", "displayName": "铁灯柱"}

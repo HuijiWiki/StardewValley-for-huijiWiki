@@ -1,1 +1,1 @@
-{"index": "1", "main_category": "Quests", "type": "Location", "displayName": "会见法师", "description": "你收到本地一位法师的信件。他自称拥有关于旧社区活动中心的情报。", "objective": "进入法师塔。", "undefined_1": "WizardHouse", "undefined_2": "-1", "undefined_3": "0", "undefined_5": "false"}
+{"index": "1", "main_category": "Quests", "type": "Location", "displayName": "会见法师", "description": "你收到本地一位法师的信件。他自称拥有关于旧社区活动中心的情报。", "objective": "进入法师塔。", "objectiveID": "WizardHouse", "undefined_2": "-1", "moneyReward": "0", "canbeCancled": "false"}

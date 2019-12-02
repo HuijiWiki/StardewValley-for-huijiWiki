@@ -1,0 +1,238 @@
+local getArgs = require('Module:Arguments').getArgs
+local p = {}
+--------------------------------------------------
+p.categoryTable = {            
+  ["-2"]="宝石类",
+  ["-4"]="鱼类",
+  ["-5"]="蛋类",
+  ["-6"]="乳制品",
+  ["-7"]="烹饪",
+  ["-8"]="制造",
+  ["-9"]="大型制造物品",
+  ["-12"]="矿石类",
+  ["-14"]="肉类",
+  ["-15"]="金属资源",
+  ["-16"]="建筑资源",
+  ["-17"]="皮埃尔售卖物品",
+  ["-18"]="皮埃尔与玛丽售卖物品",
+  ["-19"]="肥料",
+  ["-20"]="垃圾",
+  ["-21"]="鱼饵",
+  ["-22"]="tackleCategory",
+  ["-23"]="鱼店售卖物品",
+  ["-24"]="家具",
+  ["-25"]="原料",
+  ["-26"]="手工制品",
+  ["-27"]="糖浆",
+  ["-28"]="怪物掉落",
+  ["-29"]="装备",
+  ["-74"]="种子",
+  ["-75"]="蔬菜",
+  ["-79"]="水果",
+  ["-80"]="鲜花",
+  ["-81"]="绿色植物",
+  ["-95"]="帽子",
+  ["-96"]="指环",
+  ["-98"]="武器",
+  ["-99"]="工具"
+}
+p.buffTable ={
+    [1] = {['英文名'] = 'Farming',		['中文名'] = '耕种'},
+    [2] = {['英文名'] = 'Fishing',		['中文名'] = '钓鱼'},
+    [3] = {['英文名'] = 'Mining',		['中文名'] = '采矿'},
+    [4] = {['英文名'] = 'Combat',		['中文名'] = '战斗'},
+    [5] = {['英文名'] = 'Luck',			['中文名'] = '运气'},
+    [6] = {['英文名'] = 'Foraging',		['中文名'] = '觅食'},
+    [7] = {['英文名'] = 'Max Energy',	['中文名'] = '体力值'},
+    [8] = {['英文名'] = 'Max Energy',	['中文名'] = '体力值'},
+    [9] = {['英文名'] = 'Magnetism',	['中文名'] = '磁性'},
+    [10] = {['英文名'] = 'Speed',		['中文名'] = '速度'},
+    [11] = {['英文名'] = 'Defense',		['中文名'] = '防御'},
+    [12] = {['英文名'] = 'Attack',		['中文名'] = '攻击'},
+}
+----------------------------------------------------------------------------
+function p._getImage(path,size,link)
+	local res = ''
+	if path ~= nil and path ~= '' then
+   res = '[[file:'..mw.ustring.gsub(path,'%/.*%/','')..'|'..size..'px'..'|link='..link..']]'
+	end
+ return res
+end
+-------------------------------------------------------------
+function p._getMonsterList(frame)
+  local res = ''
+  local query ={
+    main_category	= 'Monsters'
+  }
+  local data = mw.huiji.db.find(query)
+  for _i,v in ipairs(data) do
+    res =res.._monsterBlock(v)
+  end
+
+  return res
+end
+------------------table--------------------------
+function p._getMonsterTable(frame)
+  local item_data = mw.huiji.db.find({
+    _id = 'Data:ObjIndex.json'
+  })
+  local res =''..
+   '<table class="wikitable sortable" style="text-align:center;width: auto; min-width: 0; display: table; max-width: 100%;><tr><th colspan ="2">名称</th>'..
+   '<th style="width:65px;">HP</th>'..
+   '<th style="width:65px;">伤害</th>'..
+   '<th style="width:65px;">防御</th>'..
+   '<th style="width:65px;">速度</th>'..
+   '<th style="width:65px;">EXP</th>'..
+   '<th style="width:65px;">地点</th>'..
+   '<th style="width:145px;">怪物掉落</th>'
+  local query ={
+    main_category	= 'Monsters',
+    baseDamage = {["$gt"] = "0"}
+  }
+  local data = mw.huiji.db.find(query)
+  for _i,v in ipairs(data) do
+    res =res..p._monsterRow(v,item_data[1])
+  end
+  res = res .. '</table>' 
+  --..mw.dumpObject(data)
+  return res
+end
+--------------------------------------------------------
+function p._getRecipeTable(frame)
+  local item_data = mw.huiji.db.find({
+    _id = 'Data:ObjIndex.json'
+  })
+    local res =''..
+     '<table class="wikitable sortable" style="text-align:center;width: auto; min-width: 0; display: table; max-width: 100%;><tr>'..
+     '<th>名称</th>'..
+     '<th style="width:65px;">材料</th>'..
+     '<th style="width:65px;">回复效果</th>'..
+     '<th style="width:65px;">增益状态</th>'..
+     '<th style="width:65px;">配方来源</th>'..
+     '<th style="width:65px;">价格</th>'
+    local query ={
+      main_category	= 'CookingRecipes',
+      --baseDamage = {["$gt"] = "0"}
+    }
+    local data = mw.huiji.db.find(query)
+    for _i,v in ipairs(data) do
+      res =res..p._recipeRow(v,item_data[1])
+    end
+    res = res .. '</table>'..mw.dumpObject(data)
+    return res
+end
+---------------------------------------------------
+function p._monsterRow(data,item_data)
+
+  local res_loot = ''
+  local HP = data.baseHP
+  local damage = data.baseDamage
+  local defense = data.baseDefence
+  local speed = data.baseSpeed
+  local EXP = data.baseEXP
+  local location = 'tbd'
+  local loot = ''
+  if data.toDrop ~= nil and data.toDrop ~= '' then
+    loot = mw.text.split(data.toDrop,'%s')
+    for i = 0, table.maxn(loot)-1 ,2 do
+      res_loot = res_loot.. '<div>' ..p._itemIndex(loot[i+1],item_data)..':'..100*tonumber(loot[i+2])..'%'..'</div>'
+      --res_loot = res_loot.. '<div>' ..i..':'.. (i+1) ..'</div>'
+    end
+    --res_loot = res_loot ..mw.dumpObject(loot)
+  end
+  local name = data.displayName
+  local img = p._getImage(data.index..'.png','18',name)
+  local res ='<tr>'..
+   '<td colspan ="2">'..img..' [['..name..']]'..'</td>'..
+   '<td>'..HP..'</td>'..
+   '<td>'..damage..'</td>'..
+   '<td>'..defense..'</td>'..
+   '<td>'..speed..'</td>'..
+   '<td>'..EXP..'</td>'..
+   '<td>'..location..'</td>'..
+   '<td style="text-align:left">'..res_loot..'</td>'
+return res
+end
+---------------------------------------------------
+function p._recipeRow(data,item_data)
+  local res = ''
+  local res_recipe = ''
+  local res_product = ''
+  local nameEN = data.index
+  local recipeItem = data.recipeItem
+  local pId = tonumber(data.productItemId)
+  local source = data.source
+  local displayName = data.displayName
+
+  if data.recipeItem ~= nil and data.recipeItem ~= '' then
+    local recipe = mw.text.split(data.recipeItem,'%s')
+    for i = 0, table.maxn(recipe)-1 ,2 do
+      res_recipe = res_recipe.. '<div>' ..p._itemIndex(recipe[i+1],item_data)..':'..tonumber(recipe[i+2])..'</div>'
+    end
+    --res_recipe = res_recipe ..mw.dumpObject(loot)
+  end
+
+  local name = data.displayName
+  local img = p._getImage(data.index..'.png','18',name)
+  local edibility = tonumber(item_data[pId]["edibility"])
+    local energy = edibility*2.5
+    local hp = edibility*2.5*0.45
+    local hp_text = edibility*2.5*0.4
+    local effect_res = '<div>'..p._getImage('Energy.png',"24",'能量')..'+'..energy..'体力值</div><div>'..
+    p._getImage('Health.png',"24",'生命值')..'+'..hp_text..'生命值</div>'
+
+
+  local buff_string = item_data[pId]["buff"]
+    local buff_list = mw.text.split(buff_string,'%s')
+    local buff_res = ''
+    for _i,v in ipairs(buff_list) do
+      if tonumber(v) > 0 then
+      local buff_name = p.buffTable[_i]['中文名']
+      local buff_icon = p._getImage(p.buffTable[_i]['英文名']..'.png',"24",buff_name)
+      buff_res = buff_res .. buff_icon ..' [['..buff_name..']]'
+      end
+    end
+  local buff_duration = tonumber(item_data[pId]["buffDuration"])
+  
+  if buff_duration ~= nil then
+  if buff_duration > 0 then
+    local buff_m = buff_duration%60
+    local buff_h = (buff_duration-buff_m)/60
+    local time_res = tostring(buff_h)..'小时'
+    if buff_m > 0 then
+      time_res =  time_res ..tostring(buff_m)..'分钟' 
+    end
+    buff_res = buff_res .. p._getImage('Time_Icon.png','24','')..time_res
+  end
+end
+  local price = item_data[pId]["price"]
+  local res ='<tr>'..
+   '<td>'..img..' [['..name..']]'..'</td>'..
+   '<td>'..res_recipe..'</td>'..
+   '<td>'..effect_res..'</td>'..
+   '<td>'..buff_res..'</td>'..
+   '<td>'..source..'</td>'..
+   '<td>'..price..'</td>'
+  return res
+end
+--------------------------------------------------
+function p._itemIndex(id,item_data)
+  local item = ''
+ 
+  category_data = p.categoryTable
+  if tonumber(id) < 0 then
+    item = category_data[tostring(id)]
+  end 
+  if tonumber(id) > 0 then 
+     local name =item_data[tonumber(id)]['displayName']
+     local img =item_data[tonumber(id)]['nameEN'] ..'.png'
+      --item = tostring(id)
+      item = p._getImage(img,'14',name)..'[['..name..']]'
+      --item = mw.dumpObject(item_data)
+
+  end
+  return item
+end
+
+---------------------------------------------------
+return p

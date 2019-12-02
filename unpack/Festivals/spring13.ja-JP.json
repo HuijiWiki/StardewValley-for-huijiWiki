@@ -1,0 +1,71 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "エッグフェスティバル",
+        "conditions": "Town/900 1400",
+        "shop": "BO 36 400 -1 BO 107 2000 1 O 745 100 -1 BO 184 350 -1 BO 188 350 -1",
+        "set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Pam true 0 -1 3 5000 0 2 3 5000 0 -1 3 4000/advancedMove Clint true 1 7000 0 1 3 7000 0 -1/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/advancedMove Shane true 4 40000 2 0 0 2 1 35000 0 -2 -2 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 18 0 0 -8 1 0 0 -11 -13 0 0 1 2 30000/playerControl eggFestival",
+        "afterEggHunt": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/globalFade/viewport -1000 -1000/playMusic event1/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 26 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true/pause 2000/speak Lewis \"いやあ、たくさんあつまったな！$h#$b#ゴミ拾いもこれくらい熱心にやってくれたら、ここもジェム海沿いでいちばんきれいな町になるのにな！ハッハッハ！$h\"/pause 800/playMusic none/speak Lewis \"さて、それで、今年のエッグハント優勝者は…\"/playMusic none/pause 3000/cutscene eggHuntWinner/null/playMusic event1/pause 500/fork AbbyWin/move Lewis 0 1 2/speak Lewis \"これは賞品だ！受けとってくれ。\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"さて、今年のエッグフェスティバルはこれでおしまいだ。来てくれてありがとう、みんな！\"/pause 600/viewport move 1 0 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+        "AbbyWin": "pause 100/jump Abigail/faceDirection Vincent 3/pause 800/move Abigail 0 -1 0/faceDirection Vincent 0/speak Lewis \"これは賞品だ、アビゲイル。受けとってくれ。\"/pause 500/move Abigail 0 -1 0/playSound coin/pause 400/move Abigail 0 2 0/faceDirection Lewis 0/speak Lewis \"さて、今年のエッグフェスティバルはこれでおしまいだ。来てくれてありがとう、みんな！\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+        "mainEvent": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 27 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true unfreeze/pause 2000/speak Lewis \"さあ、いよいよ今日のお待ちかね…年に一度の春のエッグハントだ！$h\"/pause 100/jump Jas/jump Vincent/pause 1000/speak Lewis \"まあ子どもたち、落ちついて。そのエネルギーはタマゴを見つけるのにとっておきなさい。豪華賞品をゲットするのは、一番多くタマゴを見つけた人だぞ。\"/pause 100/faceDirection Vincent 3 true/faceDirection Jas 1 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0 /pause 800/faceDirection Lewis 3/faceDirection Lewis 2/faceDirection Lewis 1/faceDirection Lewis 2/pause 800/speak Lewis \"それでは…みんな、準備はいいかな？\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"エッグハント、スタート！$h\"/advancedMove Maru false -2 0 0 6 -9 0 0 -2 -9 0 0 -1 2 0 0 -12 6 0 0 -7 3 0/advancedMove Abigail false 0 21 -20 0 0 3 7 0 0 -15 -9 0 9 0 0 18/advancedMove Jas false 0 12 8 0 0 10 3 0 0 4 14 0 0 -20 -6 0 0 3/advancedMove Sam false 4 0 0 -4 2 0 0 -4 12 0 0 -6 19 0 0 20 0 -20 0 20/advancedMove Vincent false 0 3 24 0 0 21 9 0 0 4 -20 0 20 0 -20 0/playSound whistle/playMusic tickTock/playerControl eggHunt",
+        "Abigail_spouse": "あっち行って。エッグハントがおわるまでは敵どうしだからね！$h",
+        "Leah_spouse": "あたし、あんまり町に友だちがいないから、こういうイベントって来ても退屈なんだよね。でも、ビュッフェがあるから来ちゃうんだ。",
+        "Maru_spouse": "ペニーと話してたの。タマゴはおなかいっぱい食べた？",
+        "Penny_spouse": "さっきから、デビルドエッグを食べないかってマルがすすめてくれるんだけど、もうおなかいっぱいなの。入る気がしないわ…",
+        "Haley_spouse": "タマゴ料理を食べようとしたんだけど、わたし、春のダイエット中だったって思い出したの。",
+        "Sebastian_spouse": "エッグハント、がんばれよ。応援してるから。$h",
+        "Sam_spouse": "ダチはみんないつもどおりだよ。そっちは楽しんでるか？",
+        "Alex_spouse": "うえっ…さすがに、かたゆでタマゴ1ダースは食いすぎたかな…$s",
+        "Harvey_spouse": "みんなの様子はどうだった？僕は少しここで休んでるよ。エッグハントがんばって。楽しみにしてるよ！",
+        "Elliott_spouse": "ふふ、そうやってくつろぐキミを見るのは楽しいな。$h",
+        "Abigail": "エッグハントって、お宝探しみたいじゃない？$h",
+        "Robin": "春はいそがしい時期なんだ…だから、休みの日にこうやって友だちと会うのが楽しいんだよね。",
+        "Demetrius": "タマゴか…食べ物として見るとふしぎな気分になるよ。",
+        "Maru": "こうやってみんなであつまるのがいつも楽しみなの…こうしてると、谷のみんながひとつになってる感じがするから。",
+        "Sebastian": "昔はくさったタマゴを投げて遊んでたんだ…#$b#ルイス町長にすぐやめさせられたよ。",
+        "Linus": "わたしと話したい人なんて、だれもいやしないよ…今日はただ、デビルドエッグを食べに来ただけさ。",
+        "Pierre": "ちょっと！どうやって入ったんです？$u#$b#品物にさわらないでくださいね。",
+        "Caroline": "アビーはエッグハントが大好きなの。小さいころからずーっとね。",
+        "Alex": "オレ、タマゴは毎日3つ食ってるんだ。#$e#足をきたえるなら、タンパク質はだいじだからな。",
+        "George": "みんなして、なにをそんなに楽しそうにしとるのだ？ううむ…#$b#タマゴ…なんでタマゴなんだ？",
+        "Evelyn": "このお祭りは、わたしが物心つくころからの伝統行事なんですよ。#$b#伝統は、いまと昔をむすびつけてくれるから…なんだか、ほっとしますねえ。",
+        "Lewis": "楽しんでいるかな、@？$h",
+        "Clint": "こっちに料理はあるかい？$s",
+        "Penny": "子どもたちは、このお祭りをずっと前から楽しみにしてたのよ。",
+        "Pam": "へへへ…フルーツポンチにいいモン入れてやったよ。$h#$e#シーッ…あんたとあたしだけのヒミツだよ、若いの。",
+        "Emily": "夜明けから、ずーっとタマゴの色ぬりをしてたわ…わたしにはずっと、これがこの季節のお気に入りなんだ$h",
+        "Haley": "このお祭りもいいけど…でもわたし、今度やるフラワーダンスのほうがずっと楽しみなの。",
+        "Jodi": "ヴィンセントはこのお祭りが大好きなの…あの子が楽しそうにしてると、わたしもうれしいわ。",
+        "Kent": "正直いうと、タマゴはそれほど好きじゃないんだ。",
+        "Marlon": "足が悪くとも、町の祭りごとには欠かさず参加するさ。",
+        "Sam": "グズッ…んあ…はな゛が…アレルギーなんだ…$s",
+        "Leah": "う～ん…このフルーツポンチ、信じられないくらいおいしい！$h",
+        "Shane": "この祭りのために、ウチのめんどりたちは残業するいきおいでがんばったんだぜ。#$b#だからボーナスをやらなきゃな…今夜のエサは、ボウルいっぱいのあまーいトウモロコシだ！$h",
+        "Marnie": "エッグフェスティバルへようこそ…うちで飼ってる血統書つきのめんどりたちのおかげよ。",
+        "Elliott": "長い目で見ると、適度に休んだほうが仕事ははかどるものさ。",
+        "Gus": "みんな料理を楽しんでくれてるかな？きょうのために何日も準備してきたんだ。#$b#目玉焼きだろ、ゆでタマゴ、ポーチドエッグにデビルドエッグ、スクランブルエッグ、チョコレートエッグ…ほかにもいろいろあるよ！$h",
+        "Dwarf": "上では雨がふってるの？へぇ…#$e#雨かあ… 伝説のなかでしか聞いたことないよ。一生雨を見ることがない仲間もいるくらい。",
+        "Wizard": "ううむ…トカゲの生タマゴに骨のズイの黒焼きを降りかけたのはどうだ？",
+        "Harvey": "タマゴはとても優れた栄養バランスをもつ食材なんだ。#$e#おっと…いまは医者の仕事から頭を離したほうがよさそうだね。$11",
+        "Sandy": "うちの方では、雨が降ってるらしいよ。だから、ここに来たの？$h#$e#わたしは、ちょっと雨が恋しいな。実はね…$s",
+        "Jas": "ヴィンセントがぜんぶとっちゃうまえにタマゴを見つけられたらいいなあ…$s",
+        "Vincent": "エッグハントはいつはじまるの？！すっごく楽しみ！！$h",
+        "Willy": "時々タマゴを上手にかくしすぎちまってね、誰も見つけられんことがあるんだ…#$b#で、夏が来るだろ。そんであたりが暑くなると、イオウみたいな匂いがぷうんと…へへへ。$h",
+        "???": "おやあ、今日は下水の流れがはやいねえ。いいねえ、じめじめするよ…ぼく好みだねえ。"
+    }
+}

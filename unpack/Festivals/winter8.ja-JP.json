@@ -1,0 +1,68 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "氷まつり",
+        "conditions": "Forest/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 68 0 1/changeToTemporaryMap Forest-IceFestival/loadActors Set-Up/animate Robin false true 100 24 25 26 24 25 26 24 25 26 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27/advancedMove Pierre true -1 0 0 -1 1 5000 0 1 1 0 4 5000/advancedMove Vincent true 0 3 3 0 2 5000 0 -5 2 0 1 5000 -5 0 0 2 3 5000/advancedMove Pam true -5 0 0 1 2 5000 0 -1 5 0 2 7000/playerControl iceFestival",
+        "mainEvent": "globalFade/viewport -1000 -1000/playMusic none/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/loadActors Main-Event/faceDirection Pam 1/faceDirection Elliott 0/faceDirection Willy 0/viewport 71 35 true/pause 2000/speak Lewis \"ではこれから、今年の氷上釣り大会をはじめるぞ。\"/pause 200/faceDirection Lewis 3/pause 300/faceDirection Lewis 2/faceDirection Lewis 1/pause 300/faceDirection Lewis 2/pause 400/speak Lewis \"渡された釣りざおを使って、2分のあいだで一番たくさん魚を釣った参加者が優勝だ。#$b#魚は、氷に開いた穴から釣り上げること。\"/pause 600/speak Lewis \"よし、準備はいいかな？\"/pause 500/waitForOtherPlayers startContest/jump Lewis/faceDirection Pam 2 true/faceDirection Elliott 1 true/faceDirection Willy 2 true/speak Lewis \"はじめ！\"/advancedMove Lewis false 0 -4 2 1000/advancedMove Marnie true 4 6000 -2 0 4 5000 2 0/advancedMove Maru true 3 4000 0 2 3 7000 0 -2/advancedMove Jas true 2 0 0 -9 -4 0 2 20000 4 0 0 9 -2 0 3 15000/advancedMove Jodi true 1 6000 -1 0 0 2 1 8000 0 -1 1 6000 0 -1 1 0/jump Willy/shake Pam 700/showFrame Pam 16/extendSourceRect Pam 0 32/showFrame Elliott 40/extendSourceRect Elliott 16 0/shake Elliott 400/pause 300/showFrame Willy 16/extendSourceRect Willy 0 32/playMusic fallFest/playerControl iceFishing",
+        "afterIceFishing": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/restoreStashedItem/globalFade/viewport -1000 -1000/extendSourceRect Pam reset/extendSourceRect Willy reset/extendSourceRect Elliott reset/specificTemporarySprite iceFishingCatch/faceDirection Pam 0/faceDirection Willy 0/faceDirection Elliott 0/playMusic event1/loadActors MainEvent/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/pause 1000/viewport 71 35 true/pause 2000/move Lewis 0 4 2/speak Lewis \"おお、たくさん釣れたな！$h\"/pause 300/showFrame Lewis 18/shake Lewis 1000/speak Lewis \"うっ…ニオイが…$s\"/pause 500/showFrame Lewis 0/pause 600/move Lewis 0 1 2/speak Lewis \"さあ、今年の氷上釣り大会、優勝者は…\"/pause 800/playMusic none/pause 3000/cutscene iceFishingWinner/null/playMusic event1/pause 500/fork DickWin/move Lewis 0 1 2/speak Lewis \"これは賞品だ！受けとってくれ。\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"これで今年の氷まつりはおしまいだ。来てくれてありがとう、みんな！#$b#それじゃ、かわいそうな魚たちを放してやろう…$s\"/move Lewis -3 0 0/move Lewis 0 -1 0/advancedMove Willy true 0 3 -2 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/cutscene iceFishingWinnerMP/fork OtherPlayerWin/message \"すごい！優勝したなんて信じられない！さてと、家に帰ろう。\"/waitForOtherPlayers festivalEnd/end",
+        "OtherPlayerWin": "message \"優勝できなかったけど楽しかった！さてと、家に帰ろう。\"/waitForOtherPlayers festivalEnd/end",
+        "DickWin": "pause 100/jump Willy/faceDirection Elliott 3/pause 800/move Willy 0 -1 0/faceDirection Elliott 0/speak Lewis \"これは賞品だ、ウィリー。受けとってくれ。\"/pause 500/move Willy 0 -2 0/move Lewis -1 0 2/move Lewis 0 1 2/playSound coin/pause 400/move Lewis 0 -1 0/pause 500/speak Lewis \"これで今年の氷まつりはおしまいだ。来てくれてありがとう、みんな！#$b#それじゃ、かわいそうな魚たちを放してやろう…$s\"/move Lewis -2 0 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/message \"優勝できなかったけど楽しかった！さてと、家に帰ろう。\"/waitForOtherPlayers festivalEnd/end",
+        "Abigail_spouse": "ハニー、見て…ほら、あなたよ！$h",
+        "Penny_spouse": "今年も釣り大会に参加するの、@？母さんは参加するって。優勝する気まんまんだったよ。",
+        "Haley_spouse": "ウウゥ、雪だるまを作ってたら手がこごえてきちゃった。$l",
+        "Sebastian_spouse": "おれのことは心配いらないよ。カゼは引いたことないんだ。",
+        "Sam_spouse": "さむくないか？オレのジャケット貸すかい？",
+        "Alex_spouse": "釣り大会、応援してるぜ。がんばれよ。",
+        "Harvey_spouse": "はやく帰って、暖炉の火にあたりたいなあ…$l",
+        "Elliott_spouse": "釣り大会ではキミに負けるだろうけど、まあ気にしないさ。ただ楽しみにきただけだからね。$h",
+        "Abigail": "あたしが作ったスノーギャング、どう？",
+        "Robin": "ごめん、あとにして…いま見はり台を彫ってるの。集中しなきゃ！",
+        "Demetrius": "なあ、上になにか着てくればよかったかもなあ。",
+        "Maru": " 雪だるまづくりだと、研究ほどうまくいかないみたい。$s",
+        "Sebastian": "カゼをひかないかって？平気さ。一度もひいたことないね。",
+        "Pierre": "雪が冷たすぎて、指の感覚がなくなっちゃいましたよ…$s",
+        "Shane": "オレだったら、酒場でひらくピザまつりにするけどな…",
+        "Caroline": "冬は楽しくすごせてる、@？$h",
+        "Linus": "イグルーづくりは、ツンドラ…凍った海を越えた先に住む人たちから教わったんだ。#$e#ずいぶん昔の話さ。$h#$e#イグルーは快適な住みかになる。まあ、1年中使えるテントのほうが便利だがね。",
+        "Alex": "まあ、雪だるまもわるくないけどさ。でもそれより、オレは春が待ちどおしいね。",
+        "George": "むう…こんなもののために、家内はわしを連れ出したのか？",
+        "Evelyn": "ジョージとはじめて会ったときのことは話したかしら？実はね、まさにこのお祭りのとき、彼はわたしにうっかり雪玉をぶつけてしまったの。#$e#当時の彼はやさしくてね。大丈夫かって、ようすを見に来てくれたんですよ。$h",
+        "Lewis": "氷まつりへようこそ！#$e#きょうの目玉は氷上釣り大会だ。凍った「湖」をつくって、魚をいっぱい放してあるんだ。#$b#大会に参加する準備ができたら声をかけてくれ。",
+        "Clint": "エ、エミリーがなにも怒らずにおれを手伝ってくれるなんて…これはまさか…？（ゴクリ）$4",
+        "Emily": "わあ、この雪だるま、作り直したほうがよさそう。いったい誰が作ったの？$s",
+        "Penny": "$y 'うーん…ねえ、どんな雪だるまを作ればいいと思う？_定番の雪だるま。ニンジンの鼻にシルクハット、首にはスカーフ。_そうね、やっぱり定番がベストかもね。$h_ファンキーな雪だるま。ツララのアンテナにマツぼっくりの目。_いいね！なんだかおもしろそう。$h_雪だるまなんてつまらない。常識なんてこわしちゃおう！_えっと、OK…でも、わたしはもうちょっと型にはまってるほうが好きかも。'",
+        "Pam": "きょうの釣り大会じゃ、わたしが優勝してやるからね！#$e#まあ、ウィリーを負かすのはラクじゃないがね…なんてったって、日がな一日釣りしてるんだから。$s",
+        "Haley": "冬もそんなに悪くないかも…雪あそびって、けっこう楽しいね！",
+        "Jodi": "冬景色の森って、すごくきれいね。そう思わない？",
+        "Kent": "冬は好きだ。静かで平和だからな。",
+        "Sam": "ああ、@。釣り大会には参加するのか？#$e#オレ？オレはやらないよ。魚の釣りかたなんて知らないからな。",
+        "Leah": "氷…うつくしい彫刻になるけど、すぐに溶けてしまうの。#$e#でも、だからこそいい作品ができるのかもね。",
+        "Marnie": "外でこごえてるかわいそうな動物たちのことを思うと、気分が晴れないの。$s",
+        "Elliott": "きょうの釣り大会には僕も参加するよ。当然だろ？#$e#まあ、ウィリーが負けるなんてまずないだろうけどね。",
+        "Gus": "きょうは料理はないんだ、ごめんよ。#$e#冬星祭まで待ってておくれ。その時になったら、おなかいっぱい食べさせてあげるよ。",
+        "Willy": "$y 'よう、 @。釣り大会には参加するのかい？_もちろん。ベストをつくすよ！_その心意気だ！$h_もちろん。あなたに勝ってみせるよ！_さあ、そいつはどうかな。$h_正直、自信がないな。釣りはヘタだから。_まあ、いい練習になると思えば問題ないさ！$h'",
+        "Wizard": "我が塔を訪れるために祭事を抜けてきたのか？平凡なものにしては妙な振る舞いをするな。",
+        "Harvey": "氷点下の寒さは、体にすごく負担をかけるんだ。あたたかいものを着て防寒してね！#$e#えっと、お祭りも楽しんでね！$h",
+        "Sandy": "うちの方では、雨が降ってるらしいよ。だから、ここに来たの？$h#$e#わたしは、ちょっと雨が恋しいな。実はね…$s",
+        "Jas": "ねえ、ニンジンのおハナつけよう！$h",
+        "Vincent": "氷の下にでっかいのがいたよ！",
+        "Marlon": "よう、こんにちは。"
+    }
+}

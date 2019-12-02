@@ -1,1 +1,1 @@
-{"index": "Cherry Bomb", "main_category": "CraftingRecipes", "undefined_1": "378 4 382 1", "location": "Field", "undefined_2": "286", "isProduction": "false", "source": "Mining 1", "displayName": "樱桃炸弹"}
+{"index": "Cherry Bomb", "main_category": "CraftingRecipes", "recipeItem": "378 4 382 1", "type": "Field", "craftItem": "286", "isBigCraftItem": "false", "skill": "Mining 1", "displayName": "樱桃炸弹"}

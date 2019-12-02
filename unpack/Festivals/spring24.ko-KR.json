@@ -1,0 +1,58 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "봄꽃 무도회",
+        "conditions": "Forest/900 1400",
+        "shop": "BO 48 350 -1 BO 192 350 -1 BO 204 350 -1 BO 108 250 -1 BBL 108 1000 1 O 18 50 10 O 22 50 10 BO 137 2500 1",
+        "set-up": "event1/22 22/farmer 76 17 1/changeToTemporaryMap Forest-FlowerFestival/loadActors Set-Up/advancedMove Vincent true -6 0 0 -1 6 0 0 1/advancedMove Jas true 1 0 0 1 -6 0 0 -1 5 0/advancedMove Pam true 2 25000 0 -3 4 0 4 25000 -4 0 0 3/advancedMove Haley true 0 1 2 3000 2 0 0 -1 -2 0 3 500 4 500 1 500 2 500 2 0 1 500 2 500 3 500 4 500 0 2 0 -2 -2 0/advancedMove Caroline true 7 0 0 1 1 18000 0 -1 -7 0 3 18000/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/playerControl flowerFestival",
+        "mainEvent": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp farmer1 5 21/warp farmer2 11 21/warp farmer3 23 21/warp farmer4 12 21/faceDirection farmer1 2/faceDirection farmer3 2/faceDirection farmer4 2/faceDirection farmer 2/warp Girl1 13 24/warp Girl2 15 24/warp Girl3 11 24/warp Girl4 9 24/warp Girl5 17 24/warp Girl6 19 24/warp Guy1 13 27/warp Guy2 15 27/warp Guy3 11 27/warp Guy4 9 27/warp Guy5 17 27/warp Guy6 19 27/showFrame Girl1 40/showFrame Girl3 40/showFrame Girl5 40/showFrame Girl4 40/showFrame Girl2 40/showFrame Girl6 40/showFrame Guy6 44/showFrame Guy5 44/showFrame Guy4 44/showFrame Guy3 44/showFrame Guy2 44/showFrame Guy1 44/viewport 14 25 clamp true/pause 2000/playMusic FlowerDance/pause 600/animate Girl1 false true 600 43 41 43 42/animate Girl6 false true 600 43 41 43 42/animate Girl3 false true 600 43 41 43 42/animate Girl5 false true 600 43 41 43 42/animate Girl4 false true 600 43 41 43 42/animate Girl2 false true 600 43 41 43 42/animate Guy5 false true 600 44 45/animate Guy6 false true 600 44 45/animate Guy3 false true 600 44 45/animate Guy2 false true 600 44 45/animate Guy4 false true 600 44 45/animate Guy1 false true 600 44 45/pause 9600/animate Girl1 false true 600 46 47/animate Girl6 false true 600 46 47/animate Girl3 false true 600 46 47/animate Girl5 false true 600 46 47/animate Girl4 false true 600 46 47/animate Girl2 false true 600 46 47/animate Guy5 false true 300 46 47/animate Guy6 false true 300 46 47/animate Guy3 false true 300 46 47/animate Guy2 false true 300 46 47/animate Guy4 false true 300 46 47/animate Guy1 false true 300 46 47/positionOffset Guy1 0 -2/positionOffset Guy6 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/animate Girl1 false true 600 43 41 43 42/animate Girl6 false true 600 43 41 43 42/animate Girl3 false true 600 43 41 43 42/animate Girl5 false true 600 43 41 43 42/animate Girl4 false true 600 43 41 43 42/animate Girl2 false true 600 43 41 43 42/animate Guy5 false true 600 44 45/animate Guy6 false true 600 44 45/animate Guy3 false true 600 44 45/animate Guy2 false true 600 44 45/animate Guy4 false true 600 44 45/animate Guy1 false true 600 44 45/pause 7600/stopAnimation Girl3/stopAnimation Girl6/stopAnimation Girl5/stopAnimation Girl2/stopAnimation Girl1/stopAnimation Girl4/stopAnimation Guy3/stopAnimation Guy2/stopAnimation Guy6/stopAnimation Guy1/stopAnimation Guy5/stopAnimation Guy4/pause 3000/globalFade/viewport -1000 -1000/message \"재밌었다! 이제 집에 돌아갈 시간이다...\"/waitForOtherPlayers festivalEnd/end",
+        "Abigail": "이렇게 사람들 다 보는데 춤추는 거 너무 싫다... 부끄러워.#$e#엄마가 자꾸 시켜서 하는 거야.$u",
+        "Robin": "아... 꽃향기가 공중에 가득하네.$h",
+        "Demetrius": "이런 봄철 춤은 고대 풍작 기원 의식에서 유래되었지.#$e#이봐... 농부라면 이런 거 알아야 해.",
+        "Maru": "나 춤은 좋아하는데, 이건 좀 너무 격식 차려야 해서. 어르신들은 정말 좋아하는 것 같아, 그래도.",
+        "Sebastian": "으...",
+        "Linus": "오, 안녕한가. 말 걸어줘서 고맙네.#$b#봄이 거의 끝났어... 유감이지.",
+        "Pierre": "야! 여기는 어떻게 온 거야?$u#$b#아무것도 만지지 마.",
+        "Caroline": "피에르가 이런 시간은 가족하고 보냈으면 좋겠는데...$s",
+        "Alex": "그냥 경치 감상하는 중이야... 헤헤.",
+        "George": "꽃? 꽃이 보이지도 않는걸.#$e#여긴 너무 밝아!",
+        "Evelyn": "일주일 동안 이 꽃들을 배치했단다. 마음에 드니?",
+        "Lewis": "다른 젊은이들과 춤을 추고 싶다면, 파트너가 필요할걸세.",
+        "Clint": "에밀리가 나와 춤을 춰줄까?",
+        "Penny": "*꿀꺽*... 긴장되네요.$s",
+        "Pam": "이게 인생이지... 안 그러냐, 꼬마야? 달콤한 와인, 물 흐르는 소리, 따뜻한 날씨... 와인 얘기했나?",
+        "Emily": "와... 배불러. 야, 빨간 젤리 먹어봤어?",
+        "Haley": "나 춤동작 연습하고 있어... 완벽해야해.#$e#지난 5년간 내가 봄꽃 여왕이었어, 아직 왕좌를 내줄 생각이 없는 걸!",
+        "Jodi": "오늘 춤출 생각이니, @?$h",
+        "Kent": "이렇게 탁 트인 공간... 불안한데.#$e#*소곤* 행복한 생각해, 켄트. 행복한 생각.",
+        "Marlon": "마니 오늘 정말 아름다운걸...",
+        "Sam": "그거 알아? 내가 먼저 인정하겠어... 나 꽃 정말 좋아해!",
+        "Leah": "안녕 @. 여기서 봐서 반갑다.$h",
+        "Shane": "음... 훌륭한 소스야. *후루룩*#$e#아, 이 초록색은 맵네! *아삭*#$b#*으드득* ...아야.$s",
+        "Marnie": "*한숨*... 사랑하기 딱 좋은 계절이네... 난 아직 싱글이고.$s",
+        "Elliott": "무도회를 위해서 내 최고의 셔츠를 입었어... 이런 일은 흔치 않으니까!",
+        "Gus": "개구리들이 요즘 점점 많이 보인단 말이지.",
+        "Dwarf": "위에 비가 오고 있다고? *헉*#$e#비... 우리에겐 거의 전설이나 다름없지. 평생 경험해보지 못하는 드워프도 있어.",
+        "Wizard": "여긴 지금 자네가 있을 곳이 아니다.",
+        "Harvey": "누군가에게 춤 신청을 할 용기를 찾는 중이야.$11",
+        "Sandy": "고향에 비가 오고 있다고 들었어. 자기 그래서 여기 온 거야?$h#$e#나 근데 사실 비가 좀 그립기는 해...$s",
+        "Jas": "언젠가는 내가 봄꽃 여왕이 될 거야!",
+        "Vincent": "불공평해... 왜 난 봄꽃 여왕 못하는거야?",
+        "Willy": "낚싯대 가져올 걸 그랬나."
+    }
+}

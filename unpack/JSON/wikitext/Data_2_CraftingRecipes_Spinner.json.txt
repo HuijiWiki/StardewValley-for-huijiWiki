@@ -1,1 +1,1 @@
-{"index": "Spinner", "main_category": "CraftingRecipes", "undefined_1": "335 2", "location": "Home", "undefined_2": "686", "isProduction": "false", "source": "Fishing 6", "displayName": "旋式鱼饵"}
+{"index": "Spinner", "main_category": "CraftingRecipes", "recipeItem": "335 2", "type": "Home", "craftItem": "686", "isBigCraftItem": "false", "skill": "Fishing 6", "displayName": "旋式鱼饵"}

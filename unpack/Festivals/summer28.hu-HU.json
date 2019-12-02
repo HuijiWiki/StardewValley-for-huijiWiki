@@ -1,0 +1,57 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "A Holdfény Medúzák Tánca",
+        "conditions": "Beach/2200 2400",
+        "set-up": "ocean/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Jellies/loadActors Set-Up/advancedMove Vincent true 0 12 3 3000 2 0 1 3000 0 -12 -2 0 3 3000/advancedMove Jas true 0 2 3 5000 0 -2 3 5000/advancedMove Clint false 2 50000 -2 0 3 500 2 1000 3 1000 1 0 2 1000/advancedMove Harvey True 0 -12 -10 0 0 6 2 25000 0 -6 10 0 0 12 2 25000/viewport 38 2 clamp true/pause 1000/playerControl jellies",
+        "mainEvent": "pause 500/globalFade/viewport -1000 -1000/changeLocation Beach/warp farmer1 28 36/warp spouse 29 36/positionOffset farmer 0 16/faceDirection spouse 2/warp farmer2 29 35/warp farmer3 34 36/warp farmer4 35 36/faceDirection farmer1 2/faceDirection farmer2 2/faceDirection farmer3 2/faceDirection farmer4 2/specificTemporarySprite candleBoat/viewport 26 36 true/pause 2000/move Lewis 0 1 2/move Lewis -2 0 3/pause 400/showFrame Lewis 16 true/animate Lewis false false 200 25 16 17 17/pause 800/playSound parry/specificTemporarySprite candleBoatMove/pause 500/showFrame Lewis 0 true/animate Lewis false false 200 25 12/pause 400/faceDirection Lewis 2/pause 6000/specificTemporarySprite moonlightJellies/pause 10000/playMusic moonlightJellies/pause 30000/viewport move -1 0 8000/pause 10000/viewport move 1 0 20000/pause 18000/globalFade/viewport -1000 -1000/pause 2000/pause 1000/message \"A nyár sugara most elhalványult... és a holdfény medúzák továbbmennek a nagy ismeretlenbe.\"/playMusic none/pause 2000/waitForOtherPlayers festivalEnd/end",
+        "Leah_spouse": "Üdv. Épp tisztelgek egy ismételten elmúlt nyárnak. Majd találkozunk, ha útnak indítjuk a gyertya-hajót.",
+        "Abigail": "Olyan ritka és izgalmas dolog... ",
+        "Robin": "*ásít*... Már aludnom kellene.$s#$e#Hé, láttad azt a gyertya-hajót? Én magam készítettem.$h",
+        "Demetrius": "A 'Holdfény Medúza'... micsoda bámulatos faj! Nagyon szerencsések vagyunk, hogy itt állnak meg hosszú, délre tartó útjuk előtt.#$e#Nem tudni, hogy miért vonzza őket a fény... nagyon érdekes.",
+        "Maru": "Kissé hideg van. Azt hiszem az ősz már itt van a sarkon.",
+        "Sebastian": "Azt hittem, hogy láttam valamit mozogni... valami nagyot és sötétet.#$e#Csak próbállak megijeszteni...$h",
+        "Pierre": "Psszt... Majd nézz be holnap a boltba, hogy beszerezd az őszi magvakat!",
+        "Caroline": "Ugye milyen romantikusak ezek a gyertyák?",
+        "Linus": "Majd idelopódzom, ha megérkeznek a medúzák... Senkit se akarok megzavarni.",
+        "Alex": "Nem hiszem el, hogy vége van a nyárnak... Úgy érzem, mintha csak most kezdődött volna.$s",
+        "George": "Mi az, miért nézel rám így? Azt hiszed túl öreg vagyok ahhoz, hogy ilyesmiket élvezzek?",
+        "Evelyn": "Emlékszem, mikor a medúzákat láttam, még kislány koromban. Ó, mennyire ugráltam örömömben, mikor megérkeztek!#$e#De ez már régen történt... Most már kevésbé vagyok tele energiával.",
+        "Lewis": "Jó estét, @. A Holdfény Medúzák közel járnak... Már láttam egyet világítani a messzeségben.#$b#Amint elindítjuk a gyertya-hajót, bejönnek a kikötőbe üdvözölni minket.",
+        "Clint": "Ma a spéci cipőmet vettem fel... De senki se vette észre.$s",
+        "Emily": "Nézz arrafelé, a végtelen tengerre. Mélyen a víz alatt mindenféle létforma mozog ide-oda a sötétben.#$b#Kísérteties, ugye?",
+        "Penny": "Az élet olyan könnyű a medúzáknak... csak hagyod, hogy a hullámok örökké tereljék utadat.",
+        "Pam": "Ne mondd el Gusnak, de kicsit csalódott vagyok, hogy ma nincs lakoma.",
+        "Haley": "El kellett volna hoznom a kamerámat! Mindig megfeledkezek róla.$s",
+        "Jodi": "Ott! Láttam valamit világítani!#$b#Oh... Eltűnt.$s",
+        "Kent": "Jó estét, @. Remélem tudsz majd kikapcsolódni a nagy aratási szezon előtt.",
+        "Sam": "Vajon mérgezőek?#$e#Talán mégse kéne belöknöm Sebastiant a vízbe...$h",
+        "Leah": "Üdv. Épp tisztelgek egy ismételten elmúlt nyárnak. ",
+        "Shane": "A medúzák egy éve is itt voltak, és egy év múlva ismét visszatérnek... a természet lenyűgöző.",
+        "Marnie": "Túl nagy a tömeg súlya egy ilyen ősi, fából készült kikötőnek! Én itt maradok a strand környékén.",
+        "Elliott": "Ha folyton beszennyezzük az óceánokat, a medúzák idővel kihalnak. Ez a folyamat már elindult.#$e#Milyen szégyenletes... az, hogy már nem tiszteljük a környezetünket.",
+        "Gus": "'Holdfény Medúzák'... Vajon milyen lehet az ízük?$h#$b#Persze sose próbálnám ki!$u",
+        "Dwarf": "Azt mondod, hogy odafent esik? *meghökken*#$e#Eső... Számunkra szinte rejtély. Egyesek közülünk egész életüket úgy élik le, hogy sose tapasztalják meg.",
+        "Wizard": "Hogyan találtál meg engem? Azt hittem alaposan elbújtam.#$b#Talán látnoki képességgel vagy megáldva.#$e#Én a Lunalookat jöttem megnézni... vagyis a 'Holdfény Medúzákat', ahogy ti nevezitek őket. Vízi létforma ellenére szokatlanul nagy mágikus aurájuk van.",
+        "Harvey": "Nos, vége a nyárnak. Hogy őszinte legyek boldogan intek búcsút ezeknek az átkozott szúnyogoknak!",
+        "Sandy": "Úgy hallottam, hogy odahaza esik. Ezért jöttél ide?$h#$e#Nekem valójában kissé hiányzik az eső...$s",
+        "Jas": "Remélem idén lesznek kicsinyek!",
+        "Vincent": "Látni akarom a ritka zöld medúzát!",
+        "Willy": "A legtöbb éjszakai hal félne a fénytől... ezek elég furák."
+    }
+}

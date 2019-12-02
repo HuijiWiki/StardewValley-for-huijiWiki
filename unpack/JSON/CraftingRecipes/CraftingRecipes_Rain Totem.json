@@ -1,1 +1,1 @@
-{"index": "Rain Totem", "main_category": "CraftingRecipes", "undefined_1": "709 1 432 1 726 5", "location": "Field", "undefined_2": "681", "isProduction": "false", "source": "Foraging 9", "displayName": "雨水图腾"}
+{"index": "Rain Totem", "main_category": "CraftingRecipes", "recipeItem": "709 1 432 1 726 5", "type": "Field", "craftItem": "681", "isBigCraftItem": "false", "skill": "Foraging 9", "displayName": "雨水图腾"}

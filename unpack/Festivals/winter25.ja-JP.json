@@ -1,0 +1,67 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "冬星祭",
+        "conditions": "Town/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/loadActors Set-Up/playerControl christmas",
+        "secretSanta": "none/-1000 -1000/farmer 30 69 0/warp Emily 37 59/warp Haley 35 74/warp secretSanta 29 75/faceDirection secretSanta 0/viewport 30 67 true/pause 2000/move secretSanta 0 -4 0/move secretSanta 1 0 0/pause 500/shake secretSanta 100/playSound stoneStep/specificTemporarySprite secretGift/pause 100/faceDirection farmer 2/pause 200/jump farmer/pause 700/emote farmer 16/pause 100/move secretSanta -1 0 0/move secretSanta 0 -2 0/pause 700/faceDirection farmer 3/pause 300/faceDirection farmer 0/pause 500/faceDirection secretSanta 1/pause 500/speak secretSanta \"dialogue1\"/pause 300/faceDirection farmer 2/pause 800/showFrame 4/pause 300/playSound cut/specificTemporarySprite secretGiftOpen/pause 400/stopAnimation farmer/faceDirection farmer 2/pause 1000/cutscene addSecretSantaItem/pause 3000/null/faceDirection farmer 3/speak secretSanta \"dialogue2\"/pause 600/eyes 1 -1500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Emily 29 72/warp Haley 30 72/warp secretSanta warpX warpY/faceDirection farmer 2/cutscene clearTempSprites/playMusic christmasTheme/viewport 30 67 true/playerControl christmas2",
+        "Abigail_spouse": "あの杖、なめてみたいなあ…",
+        "Leah_spouse": "あなたとのシンプルな牧場暮らしに感謝をささげなきゃね。$h",
+        "Maru_spouse": "ああ、@。帰りたいときに帰っていいよ、ついていくから。",
+        "Penny_spouse": "あなたとの出会いに感謝を…$l",
+        "Haley_spouse": "なにに感謝するのって？えっと、わたしは…ねえ、今夜家に帰ってから言うのはどう？$l",
+        "Sebastian_spouse": "ああ、@。ごらんのとおり、家族の義務をはたしてるところさ…",
+        "Sam_spouse": "ふわぁ…プレゼントとクッキーがなきゃ、来てないぜ。$h",
+        "Alex_spouse": "なにに感謝するかって？家に帰ったら教えてやるよ…$l",
+        "Harvey_spouse": "ちょっとのぼせてきちゃったな…空気が澄んでてよかったよ…$l",
+        "Elliott_spouse": "プレゼントはいらないよ、きみからはいつも、世界で一番すばらしい贈り物を受けとってるからね…$l",
+        "Abigail": "さむい冬の日にアツアツのごちそうを食べる、これって最高じゃない？$h",
+        "Robin": "やあ、@。だれかと同席したかったら、ウチの家族のテーブルに入っていいよ。$h",
+        "Demetrius": "ハァ…今年のプレゼントも、またツールセットなんだろうな。",
+        "Maru": "こんにちは、@。$h",
+        "Shane": "精霊やら魔法やら、信じてる知り合いもいるけどな…でもオレはそんな、科学で説明できないようなシロモノなんていままで見たことねえや。",
+        "Sebastian": "家族とすごすっていうのも、たまにはうんざりするよ。",
+        "Pierre": "今年はおどろくほど売り上げがよかったんですよ…ああ、冬の星に感謝を！$h#$e#いやあ、祭日っていうのはいい商売になりますね。わたしも自分でひとつ考えようかな…",
+        "Caroline": "ああ…ううん…エッグノッグを飲みすぎたわね。$h",
+        "Linus": "わたしも加わりたいんだが…歓迎してもらえるとは思えないからね。$s",
+        "Alex": "よう、どうも。$s",
+        "George": "くだらん星の祭りがなんだ、ばかばかしい！",
+        "Evelyn": "あらあら！あなた、寒くはない？今日はとっても寒いですからね！",
+        "Lewis": "冬星祭は、ことし一年の幸運に感謝する日なんだよ。きょう一日、悩みを忘れてくつろいでおくれ！",
+        "Clint": "ハァ…みんな、家族としあわせそうだな。なのに、おれは結局今年もひとりか….",
+        "Emily": "$y '@！あなたはどんなプレゼントがほしいの？_新しいジョウロかな。_仕事ばかりでお休みはなし？楽しくなさそう。$s_スパイスをきかせたハチミツ酒かな。_わあお…それ、すっごくいいね。もしそれだったらひと口ちょうだい。$h_カッコいいブーツ一足かな。_わかる。それって最高のプレゼントだよね！'",
+        "Penny": "ほんと、きれいなツリーね。$h",
+        "Pam": "むう…釣り大会で勝てなかったのが、まだ腹にすえかねるねえ…$4",
+        "Haley": "スピリットツリーの下、今年はカメラがおいてあるといいな！",
+        "Jodi": "今年も、あんまりダイエットできなかったわ…$s",
+        "Kent": "こんにちは、@。冬星祭おめでとう。",
+        "Sam": "オレのギターとスケートボードに感謝感謝っと。おっと、それに家族にもな。いちおう。",
+        "Leah": "ガスがさっきから杖型キャンディのつくり方について話してるんだけど…ふわあ。$u#$e#彼、シナモンいりエッグノックの飲みすぎじゃない？",
+        "Marnie": "冬星祭のお祝いへようこそ！$h",
+        "Elliott": "やあどうも、@。今夜は冷えるね。",
+        "Gus": "杖型キャンディ作りはある種のアートなんだよ。最高の材料を手に入れるには、遠くまで足を伸ばさないとね。最近はなかなか難しいんだ、これが！$h#$e#特製杖型キャンディには、いつもフェーンアイランド産のリングフルーツを使うんだ。あのあざやかな赤にはみんなイチコロだよ…それでいて自然な赤なんだ！#$e#おっと、赤白キャンディのヒミツを知りたいのかい？いいとも、でもだれにも言わないって約束してくれよ。（ヒソヒソ）サクランボの香りをつけた白いキャンディに、バニラオイルを1しずくたらすのさ。$h#$e#そう、ふつうはペパーミントキャンディをつかう。ペパーミントをつかったものももちろんひとそろいつくっておくさ。#$e#おいきみ、なんだかいまにも眠っちゃいそうだな。ねえ、聞いてるかい？$s",
+        "Willy": "$y '冬星の伝説を聞くかい？_聞かせて。_冬の夜空にひときわ明るくかがやく、この谷からしか見られない星があるんだ。どうしてなのかはだれにもわからない…だが、はるばるいろんな土地から年よりたちがやってきては、その星を見に来るんだ。*彼らは、冬星を目にすれば幸運が訪れると信じているのさ。あのふしぎなフルーツ、=スタードロップと、冬星はなにか関係があると信じてる連中もいる。_聞かない。_まあ、好きにしな。'",
+        "Wizard": "おお、神秘をまといし冬星よ。あの星が見えるからこそ、我輩はこの谷に居をかまえておるのだ。…我が研究のためにな。",
+        "Harvey": "今年も、急患が出なくてよかったよ！",
+        "Sandy": "うちの方では、雨が降ってるらしいよ。だから、ここに来たの？$h#$e#わたしは、ちょっと雨が恋しいな。実はね…$s",
+        "Jas": "わあ！プレゼントだ！$h",
+        "Vincent": "ねえ、いまプレゼント開けちゃダメ？！",
+        "Marlon": "よう、こんにちは。"
+    }
+}

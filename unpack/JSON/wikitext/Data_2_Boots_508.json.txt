@@ -1,1 +1,1 @@
-{"index": "508", "main_category": "Boots", "nameEN": "Combat Boots", "discription": "加固了铁丝作防护。", "sellPrice": "150", "undefined_1": "3", "undefined_2": "0", "displayName": "战靴", "undefined_3": "4"}
+{"index": "508", "main_category": "Boots", "nameEN": "Combat Boots", "discription": "加固了铁丝作防护。", "sellPrice": "150", "denfense": "3", "immunity": "0", "displayName": "战靴", "colorIndex": "4"}

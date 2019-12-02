@@ -1,0 +1,68 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "얼음 축제",
+        "conditions": "Forest/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 68 0 1/changeToTemporaryMap Forest-IceFestival/loadActors Set-Up/animate Robin false true 100 24 25 26 24 25 26 24 25 26 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27/advancedMove Pierre true -1 0 0 -1 1 5000 0 1 1 0 4 5000/advancedMove Vincent true 0 3 3 0 2 5000 0 -5 2 0 1 5000 -5 0 0 2 3 5000/advancedMove Pam true -5 0 0 1 2 5000 0 -1 5 0 2 7000/playerControl iceFestival",
+        "mainEvent": "globalFade/viewport -1000 -1000/playMusic none/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/loadActors Main-Event/faceDirection Pam 1/faceDirection Elliott 0/faceDirection Willy 0/viewport 71 35 true/pause 2000/speak Lewis \"좋습니다, 여러분. 올해 얼음낚시 대회를 시작합시다.\"/pause 200/faceDirection Lewis 3/pause 300/faceDirection Lewis 2/faceDirection Lewis 1/pause 300/faceDirection Lewis 2/pause 400/speak Lewis \"참가자 여러분, 목표는 제공된 낚싯대를 사용해서 2분 동안 최대한 많은 물고기를 잡는 겁니다.#$b#물고기는 여기서 잡아야 합니다, 여기 얼음에 뚫어놓은 구멍에서.\"/pause 600/speak Lewis \"자, 다들 준비되었습니까?\"/pause 500/waitForOtherPlayers startContest/jump Lewis/faceDirection Pam 2 true/faceDirection Elliott 1 true/faceDirection Willy 2 true/speak Lewis \"시작!\"/advancedMove Lewis false 0 -4 2 1000/advancedMove Marnie true 4 6000 -2 0 4 5000 2 0/advancedMove Maru true 3 4000 0 2 3 7000 0 -2/advancedMove Jas true 2 0 0 -9 -4 0 2 20000 4 0 0 9 -2 0 3 15000/advancedMove Jodi true 1 6000 -1 0 0 2 1 8000 0 -1 1 6000 0 -1 1 0/jump Willy/shake Pam 700/showFrame Pam 16/extendSourceRect Pam 0 32/showFrame Elliott 40/extendSourceRect Elliott 16 0/shake Elliott 400/pause 300/showFrame Willy 16/extendSourceRect Willy 0 32/playMusic fallFest/playerControl iceFishing",
+        "afterIceFishing": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/restoreStashedItem/globalFade/viewport -1000 -1000/extendSourceRect Pam reset/extendSourceRect Willy reset/extendSourceRect Elliott reset/specificTemporarySprite iceFishingCatch/faceDirection Pam 0/faceDirection Willy 0/faceDirection Elliott 0/playMusic event1/loadActors MainEvent/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/pause 1000/viewport 71 35 true/pause 2000/move Lewis 0 4 2/speak Lewis \"와우, 많이도 잡았구먼!$h\"/pause 300/showFrame Lewis 18/shake Lewis 1000/speak Lewis \"*웩*... 냄새가...$s\"/pause 500/showFrame Lewis 0/pause 600/move Lewis 0 1 2/speak Lewis \"자, 올해 얼음낚시 우승자를 발표하겠습니다...\"/pause 800/playMusic none/pause 3000/cutscene iceFishingWinner/null/playMusic event1/pause 500/fork DickWin/move Lewis 0 1 2/speak Lewis \"여기 상품입니다! 축하드려요.\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"그럼, 올해 얼음 축제는 여기까지입니다. 모두 와주셔서 감사합니다! #$b#자 이제 이 불쌍한 물고기들을 다시 풀어줍시다...$s\"/move Lewis -3 0 0/move Lewis 0 -1 0/advancedMove Willy true 0 3 -2 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/cutscene iceFishingWinnerMP/fork OtherPlayerWin/message \"내가 이겼다니, 놀랐어! 집에 가야지 이제.\"/waitForOtherPlayers festivalEnd/end",
+        "OtherPlayerWin": "message \"대회에서 이기진 않았지만, 재밌었다! 집에 가야지 이제.\"/waitForOtherPlayers festivalEnd/end",
+        "DickWin": "pause 100/jump Willy/faceDirection Elliott 3/pause 800/move Willy 0 -1 0/faceDirection Elliott 0/speak Lewis \"여기, 상품이네 윌리. 축하하네.\"/pause 500/move Willy 0 -2 0/move Lewis -1 0 2/move Lewis 0 1 2/playSound coin/pause 400/move Lewis 0 -1 0/pause 500/speak Lewis \"그럼, 올해 얼음 축제는 여기까지입니다. 모두 와주셔서 감사합니다!#$b#자 이제 이 불쌍한 물고기들을 다시 풀어줍시다...$s\"/move Lewis -2 0 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/message \"대회에서 이기진 않았지만, 재밌었다! 집에 가야지 이제.\"/waitForOtherPlayers festivalEnd/end",
+        "Abigail_spouse": "여보, 이거 봐라... 짜잔, 당신이야!$h",
+        "Penny_spouse": "올해 낚시대회 참가하나요, @? 어머니도 진지한 자세로 임하시려나 봐요.",
+        "Haley_spouse": "으... 눈사람 만들었더니 손이 너무 차가워.$l",
+        "Sebastian_spouse": "난 걱정하지 말고, 추위를 잘 안 타서...",
+        "Sam_spouse": "춥진 않아? 자켓 안 줘도 괜찮아?",
+        "Alex_spouse": "낚시대회 우승하길 응원할게.",
+        "Harvey_spouse": "집에 가서 불 따뜻하게 켜는 거 기대하고 있어...$l",
+        "Elliott_spouse": "낚시대회에서 나보다 당신이 잘할 거란 거 알아, 하지만 그래도 좋은 걸. 재밌어서 참가하는 거니까.$h",
+        "Abigail": "내 눈사람 어때?",
+        "Robin": "미안한데, 이 얼음조각하는데 내 온 집중을 쏟아야 해!",
+        "Demetrius": "그거 알아? 자켓 하나 더 입을 걸 싶네.",
+        "Maru": "눈사람을 창의적으로 못 만들겠어.$s",
+        "Sebastian": "춥냐고? 아냐, 나 추위 안타.",
+        "Pierre": "눈이 너무 차가워서 손가락에 감각이 없어요...$s",
+        "Shane": "나라면 주점에서 피자 축제를 했을 텐데...",
+        "Caroline": "겨울은 잘 보내고 있니, @?$h",
+        "Linus": "이글루 짓는 법은 얼어붙은 바다 건너편에 사는 툰드라 사람들에게 배웠네.#$e#아주 오래전 일이지.$h#$e#이글루도 좋은 집이지만, 그냥 내 일 년 내내 내 텐트에서 지내는 편이 수월하네.",
+        "Alex": "눈사람도 나쁘진 않아, 뭐. 그래도 봄이 제일 기대돼.",
+        "George": "흐응... 이 추운 날씨에 이런 걸 보려고 내 아내가 날 끌고 나온 거야?",
+        "Evelyn": "내가 조지랑 어떻게 처음 만났는지 얘기해준 적 있니? 바로 이 축제에서 조지가 눈덩이로 나를 맞췄단다.#$e#그때는 아주 신사였어, 내가 괜찮은지 물어보려고 바로 달려왔지.$h",
+        "Lewis": "얼음 축제에 온 걸 환영하네!#$e#오늘 축제의 주요 행사는 얼음낚시 대회지. 이 '얼어붙은 호수'를 준비하고 물고기를 풀어놨네.#$b#참가하고 싶으면 나한테 얘기하게.",
+        "Clint": "에밀리가 아무 말도 없이 날 도와주기 시작했어... 이건 무슨 의미인 걸까? *꿀꺽*$4",
+        "Emily": "와, 이 눈사람 제대로 다시 만들어야겠다. 누가 만든 거지?$s",
+        "Penny": "$y '흠... 어떤 눈사람을 만들까요?_고전적인 눈사람. 당근으로 코 만들고, 모자랑 목도리 씌우기._역시 고전적인 게 좋겠죠?$h_파격적인 걸로. 고드름 더듬이에, 솔방울 눈._좋아요! 재밌겠네요.$h_눈사람은 지루해. 발상을 바꿔보자!_어, 네... 좀 더 보편적인 걸로 만들까 싶네요.'",
+        "Pam": "얼음낚시 대회는 내가 우승하겠어!#$e#윌리보다 잘하기 어렵긴 해, 근데... 밤낮으로 낚시를 하니까 뭐.$s",
+        "Haley": "겨울이 그렇게 나쁘진 않네... 눈가지고 노니까 재밌다!",
+        "Jodi": "겨울철 숲이 정말 아름다워, 안 그래?",
+        "Kent": "난 겨울이 좋더라. 평화로워.",
+        "Sam": "야, @. 얼음낚시 대회 참가할 생각이야?#$e#어, 난 아냐. 낚시할 줄 모르거든.",
+        "Leah": "오, 얼음. 조각을 만들기 아주 아름다운 자재지만, 너무나 비영구적이야.#$e#하지만 그래서 더 멋진 예술작품이 되는 거겠지.",
+        "Marnie": "추위에 떨고 있을 불쌍한 동물들 생각하면 슬퍼.$s",
+        "Elliott": "난 얼음낚시 대회 참가하려고. 안 그럴 이유가 뭐가 있어?#$e#윌리가 지는 경우가 거의 없긴 해.",
+        "Gus": "음식이 없어서 미안하네.#$e#겨울 별의 만찬만 기다리라고. 며칠은 배부를 거야.",
+        "Willy": "$y '여어, @. 얼음낚시할 준비는 되었나?_네. 최선을 다할게요!_바로 그 태도야!$h_네, 그리고 제가 이길 겁니다!_두고 보자고.$h_안 하려고요. 낚시는 잘 못해요._그래, 그럼 연습할 기회지!$h'",
+        "Wizard": "내 이상한 탑을 방문하려고 살금살금 나온 건가? 일반인치고 참 이상하구먼, 자네.",
+        "Harvey": "극한 기온은 몸에 무리를 많이 줄 수 있기 때문에, 꼭 따뜻하게 입고!#$e#아, 그리고 축제도 재밌게 즐기고!$h",
+        "Sandy": "고향에 비가 오고 있다고 들었어. 그래서 여기 온 거야?$h#$e#나 근데 사실 비가 좀 그립기는 해...$s",
+        "Jas": "당근 코를 줄 거예요!$h",
+        "Vincent": "저 아래 엄청 큰 물고기를 봤어요!",
+        "Marlon": "안녕, 좋은 오후."
+    }
+}

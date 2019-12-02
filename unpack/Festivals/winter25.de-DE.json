@@ -1,0 +1,67 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Fest des Wintersterns",
+        "conditions": "Town/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/loadActors Set-Up/playerControl christmas",
+        "secretSanta": "none/-1000 -1000/farmer 30 69 0/warp Emily 37 59/warp Haley 35 74/warp secretSanta 29 75/faceDirection secretSanta 0/viewport 30 67 true/pause 2000/move secretSanta 0 -4 0/move secretSanta 1 0 0/pause 500/shake secretSanta 100/playSound stoneStep/specificTemporarySprite secretGift/pause 100/faceDirection farmer 2/pause 200/jump farmer/pause 700/emote farmer 16/pause 100/move secretSanta -1 0 0/move secretSanta 0 -2 0/pause 700/faceDirection farmer 3/pause 300/faceDirection farmer 0/pause 500/faceDirection secretSanta 1/pause 500/speak secretSanta \"dialogue1\"/pause 300/faceDirection farmer 2/pause 800/showFrame 4/pause 300/playSound cut/specificTemporarySprite secretGiftOpen/pause 400/stopAnimation farmer/faceDirection farmer 2/pause 1000/cutscene addSecretSantaItem/pause 3000/null/faceDirection farmer 3/speak secretSanta \"dialogue2\"/pause 600/eyes 1 -1500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Emily 29 72/warp Haley 30 72/warp secretSanta warpX warpY/faceDirection farmer 2/cutscene clearTempSprites/playMusic christmasTheme/viewport 30 67 true/playerControl christmas2",
+        "Abigail_spouse": "Ich frage mich, ob ich eine dieser Stangen anlecken sollte...",
+        "Leah_spouse": "Ich bin dankbar für das einfache Hofleben.$h",
+        "Maru_spouse": "Hey, @. Ich bin bereit für den Heimweg, sobald du fertig bist.",
+        "Penny_spouse": "Ich bin dankbar, dass ich dich getroffen habe...$l",
+        "Haley_spouse": "Ich?... Oh, ich bin dankbar für... ich werde es dir zeigen, sobald wir zu Hause sind?$l",
+        "Sebastian_spouse": "Hey, @. Wie du sehen kannst, gehe ich meinen Familienpflichten nach...",
+        "Sam_spouse": "*gähn*... Ich bin wegen der Geschenke und Kekse gekommen.$h",
+        "Alex_spouse": "Wofür ich dankbar bin? Sag ich dir, wenn wir wieder daheim sind...$l",
+        "Harvey_spouse": "Ich fühl mich ein wenig überwältigt... Gott sei Dank ist die Luft so frisch...$l",
+        "Elliott_spouse": "Du brauchst mir nichts zu schenken, das größte Geschenk hast du mir bereits gemacht...$l",
+        "Abigail": "Es geht doch nichts über ein ordentlich heißes Festmahl an einem kalten Wintertag, oder?$h",
+        "Robin": "Howdy, @. Du bist an unserem Familientisch willkommen, falls du Gesellschaft brauchst.$h",
+        "Demetrius": "Dieses Jahr bekomme ich vermutlich wieder einen Werkzeugkasten... *seufz*",
+        "Maru": "Hallo, @.$h",
+        "Shane": "Ich kenne ein paar Leute, die an Geister und Magie glauben... Aber ich? Ich habe noch nie etwas gesehen, was nicht durch Wissenschaften erklärt werden könnte.",
+        "Sebastian": "Zeit mit der Familie zu verbringen kann auch anstrengend sein.",
+        "Pierre": "Meine Verkaufszahlen sind in letzter Zeit phänomenal... alles dank dem Fest des Wintersterns!$h#$e#Oh, Feiertage sind gut fürs Geschäft. Ich frage mich, ob ich ein paar neue erfinden könnte...",
+        "Caroline": "Ooohh... Ich habe zu viel Eierflip getrunken.$h",
+        "Linus": "Ich würde dazustoßen... aber ich glaube nicht, dass ich willkommen bin.$s",
+        "Alex": "Oh, hallo.$s",
+        "George": "Ein Festessen für irgendeinen dummen Stern? Blödsinn!",
+        "Evelyn": "Ach, du meine Güte! Ist dir nicht kalt? Wir haben Minusgrade!",
+        "Lewis": "Heute zeigen wir uns dankbar für das Glück in diesem Jahr. Vergesst eure Sorgen für einen Tag und entspannt euch!",
+        "Clint": "*seufz* ... All diese glücklichen Familien. Aber für mich ist es nur ein weiteres, einsames Jahr.",
+        "Emily": "$y '@! Was würdest du gern dieses Jahr unter dem Seelenbaum finden?_Eine neue Gießkanne._Denkst du nur ans Arbeiten und nie ans Vergnügen? Klingt nicht besonders lustig.$s_Ein Krug voll würzigem Met._Oooh... Das klingt nett. Lass mich dann auch mal probieren.$h_Ein Paar stylische Stiefel._Ah, okay. Das wäre ein großartiges Geschenk!'",
+        "Penny": "Was für ein schöner Baum.$h",
+        "Pam": "Hmmpf... Ich bin immer noch verärgert, dass ich beim Eisfischen nicht gewonnen habe.$4",
+        "Haley": "Ich hoffe, es wartet eine neue Kamera für mich unter dem Seelenbaum!",
+        "Jodi": "Es ist wirklich keine gute Jahreszeit für eine Diät...$s",
+        "Kent": "Guten Abend, @. Frohes Festmahl!",
+        "Sam": "Ich bin dankbar für meine Gitarre und mein Skateboard. Oh, und meine Familie, oder so.",
+        "Leah": "Gus hat mir gerade etwas von seinen handgemachten Zuckerstangen erzählt. *gähn*$u#$e#Er hatte wohl etwas zu viel vom Zimt-Eierflip.",
+        "Marnie": "Willkommen zum Fest des Wintersterns!$h",
+        "Elliott": "Ah, hallo @. Es ist schon ziemlich kühl, was?",
+        "Gus": "Es ist eine feine Kunst, die Herstellung von Zuckerstangen. Du musst wirklich überall nach den besten Zutaten Ausschau halten. Und die bekommt man heutzutage nicht so einfach!$h#$e#Ich benutze normalerweise Ringfrüchte von der Farninsel für meine Premium-Stangen, weißt du. Du kannst diese hellrote Farbe einfach nicht toppen... Und es ist alles natürlich!#$e#Oh, willst du das Geheimnis hinter meinen Deluxe-Doppelstangen erfahren? Okay, aber du musst mir versprechen, es absolut geheim zu halten. *flüster* Es ist ein Tropfen Vanille im weißen Teil, der den Kirschgeschmack ergänzt.$h#$e#Klar, Pfefferminz ist der Standard und davon mache ich auch eine Menge.#$e#Du siehst so aus, als würdest du fast einschlafen. Alles in Ordnung?$s",
+        "Willy": "$y 'Willst du die Legende des Wintersterns hören?_Ja_Im Nachthimmel des Winters gibt es einen hellen Stern, der nur von diesem Tal aus sichtbar ist. Keiner weiß, warum... Aber in alten Zeiten kamen Menschen von nah und fern, um ihn zu sehen.*Sie glaubten, dass jeder, der den Winterstern sieht, mit Glück gesegnet würde. Manche behaupten sogar, dass die mysteriöse Frucht bekannt als Sternenfall-Frucht irgendwie mit dem Winterstern in Zusammenhang steht._Nein, danke_Wie du willst.'",
+        "Wizard": "Ah, der mysteriöse Winterstern. Einer der Gründe, warum ich dieses Tal als Standort für meine... Forschung gewählt habe.",
+        "Harvey": "Ich bin dankbar dafür, dass es dieses Jahr keine medizinischen Notfälle gab!",
+        "Sandy": "Ich habe gehört, dass es zu Hause regnet. Bist du deswegen hier?$h#$e#Ich vermisse den Regen irgendwie...$s",
+        "Jas": "Ohh! Geschenke!$h",
+        "Vincent": "Können wir die Geschenke jetzt auspacken?!",
+        "Marlon": "Guten Tag."
+    }
+}

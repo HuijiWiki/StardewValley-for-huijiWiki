@@ -1,0 +1,68 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Festival del ghiaccio",
+        "conditions": "Forest/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 68 0 1/changeToTemporaryMap Forest-IceFestival/loadActors Set-Up/animate Robin false true 100 24 25 26 24 25 26 24 25 26 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27/advancedMove Pierre true -1 0 0 -1 1 5000 0 1 1 0 4 5000/advancedMove Vincent true 0 3 3 0 2 5000 0 -5 2 0 1 5000 -5 0 0 2 3 5000/advancedMove Pam true -5 0 0 1 2 5000 0 -1 5 0 2 7000/playerControl iceFestival",
+        "mainEvent": "globalFade/viewport -1000 -1000/playMusic none/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/loadActors Main-Event/faceDirection Pam 1/faceDirection Elliott 0/faceDirection Willy 0/viewport 71 35 true/pause 2000/speak Lewis \"D'accordo, gente. Diamo il via alla gara di pesca nel ghiaccio di quest'anno.\"/pause 200/faceDirection Lewis 3/pause 300/faceDirection Lewis 2/faceDirection Lewis 1/pause 300/faceDirection Lewis 2/pause 400/speak Lewis \"Partecipanti, il vostro obiettivo è prendere più pesci che potete in due minuti, usando le canne da pesca che vi hanno fornito.#$b#Dovete prendere i pesci qui, da questi buchi nel ghiaccio.\"/pause 600/speak Lewis \"Bene, tutti pronti?\"/pause 500/waitForOtherPlayers startContest/jump Lewis/faceDirection Pam 2 true/faceDirection Elliott 1 true/faceDirection Willy 2 true/speak Lewis \"Via!\"/advancedMove Lewis false 0 -4 2 1000/advancedMove Marnie true 4 6000 -2 0 4 5000 2 0/advancedMove Maru true 3 4000 0 2 3 7000 0 -2/advancedMove Jas true 2 0 0 -9 -4 0 2 20000 4 0 0 9 -2 0 3 15000/advancedMove Jodi true 1 6000 -1 0 0 2 1 8000 0 -1 1 6000 0 -1 1 0/jump Willy/shake Pam 700/showFrame Pam 16/extendSourceRect Pam 0 32/showFrame Elliott 40/extendSourceRect Elliott 16 0/shake Elliott 400/pause 300/showFrame Willy 16/extendSourceRect Willy 0 32/playMusic fallFest/playerControl iceFishing",
+        "afterIceFishing": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/restoreStashedItem/globalFade/viewport -1000 -1000/extendSourceRect Pam reset/extendSourceRect Willy reset/extendSourceRect Elliott reset/specificTemporarySprite iceFishingCatch/faceDirection Pam 0/faceDirection Willy 0/faceDirection Elliott 0/playMusic event1/loadActors MainEvent/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/pause 1000/viewport 71 35 true/pause 2000/move Lewis 0 4 2/speak Lewis \"Wow, quanto pesce!$h\"/pause 300/showFrame Lewis 18/shake Lewis 1000/speak Lewis \"*agh*... l'odore...$s\"/pause 500/showFrame Lewis 0/pause 600/move Lewis 0 1 2/speak Lewis \"Ora, il vincitore della gara di pesca nel ghiaccio di quest'anno è...\"/pause 800/playMusic none/pause 3000/cutscene iceFishingWinner/null/playMusic event1/pause 500/fork DickWin/move Lewis 0 1 2/speak Lewis \"Ecco il tuo premio! Goditelo.\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"Bene, il Festival del ghiaccio di quest'anno finisce qui. Grazie a tutti per essere venuti! #$b#E ora liberiamo questi poveri pesci...$s\"/move Lewis -3 0 0/move Lewis 0 -1 0/advancedMove Willy true 0 3 -2 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/cutscene iceFishingWinnerMP/fork OtherPlayerWin/message \"Non ci credo, ho vinto! Beh, è ora di tornare a casa.\"/waitForOtherPlayers festivalEnd/end",
+        "OtherPlayerWin": "message \"Non ho vinto la gara, ma è stata comunque divertente! È ora di tornare a casa.\"/waitForOtherPlayers festivalEnd/end",
+        "DickWin": "pause 100/jump Willy/faceDirection Elliott 3/pause 800/move Willy 0 -1 0/faceDirection Elliott 0/speak Lewis \"Ecco il tuo premio, Willy. Goditelo.\"/pause 500/move Willy 0 -2 0/move Lewis -1 0 2/move Lewis 0 1 2/playSound coin/pause 400/move Lewis 0 -1 0/pause 500/speak Lewis \"Bene, il Festival del ghiaccio di quest'anno finisce qui. Grazie a tutti per essere venuti!#$b#Ora liberiamo questi poveri pesci...$s\"/move Lewis -2 0 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/message \"Non ho vinto la gara, ma è stata comunque divertente! È ora di tornare a casa.\"/waitForOtherPlayers festivalEnd/end",
+        "Abigail_spouse": "Ehi, tesoro... Guarda, sei tu!$h",
+        "Penny_spouse": "Quest'anno parteciperai alla gara di pesca, @? Mia madre tiene molto a vincere.",
+        "Haley_spouse": "Brr... per fare il pupazzo di neve mi si sono gelate le mani.$l",
+        "Sebastian_spouse": "Non preoccuparti per me, io non mi raffreddo mai...",
+        "Sam_spouse": "Ma non hai freddo? Davvero non la vuoi, la mia giacca?",
+        "Alex_spouse": "Farò il tifo per te nella gara di pesca.",
+        "Harvey_spouse": "Sto sognando del nostro bel fuocherello caldo, a casa...$l",
+        "Elliott_spouse": "So che mi surclasserai nella contesa di pesca, ma non importa. Sono qui soltanto per svagarmi.$h",
+        "Abigail": "Che te ne pare del mio mostro di neve?",
+        "Robin": "Mi dispiace, ma scolpire i parapetti di ghiaccio richiede tutta la mia attenzione!",
+        "Demetrius": "Sai una cosa? Probabilmente avrei dovuto mettermi una giacca.",
+        "Maru": "Non sono molto creativa, con i pupazzi di neve.$s",
+        "Sebastian": "Freddo? Nah, io non mi raffreddo mai.",
+        "Pierre": "Questa neve è così fredda che non sento più le dita...$s",
+        "Shane": "Se fosse per me, invece di questo, preferirei avere un festival della pizza al saloon...",
+        "Caroline": "Come ti va l'inverno, @?$h",
+        "Linus": "Costruire igloo è un'arte che ho appreso dagli abitanti della tundra che vivono oltre il mare ghiacciato.#$e#È stato molti anni fa.$h#$e#Un igloo non è una brutta casa, ma è più facile restare nella mia tenda per tutto l'anno.",
+        "Alex": "I pupazzi di neve sono a posto, suppongo. Ma io aspetto soprattutto la primavera.",
+        "George": "Hmmph... Mia moglie mi trascina fuori al freddo per questo?",
+        "Evelyn": "Ti ho mai detto come ci siamo incontrati io e George? Lui mi colpì con una palla di neve proprio durante questo festival.#$e#Era un gentiluomo, allora, e venne da me per vedere se stavo bene.$h",
+        "Lewis": "Ti do il benvenuto al Festival del ghiaccio!#$e#Il pezzo forte del festival di oggi è la gara di pesca nel ghiaccio. Abbiamo approntato questo 'lago gelato' e l'abbiamo riempito di pesci.#$b#Fammi sapere quando hai voglia di cominciare.",
+        "Clint": "Emily si è messa ad aiutarmi senza che le abbia chiesto niente... Vorrà dire qualcosa? *gulp*$4",
+        "Emily": "Wow, a questo pupazzo di neve serve una bella ritoccata. Ma chi l'ha fatto?$s",
+        "Penny": "$y 'Hmm... Che genere di pupazzo facciamo?_Uno classico. Naso di carota, tuba, sciarpa._Immagino sia meglio restare sul classico, eh?$h_Qualcosa di eccentrico. Antenne-ghiacciolo, pigne per occhi._Va bene! Sembra divertente.$h_Che noia i pupazzi. Ragiona fuori dagli schemi!_Ehm, ok... Credo che mi atterrò a qualcosa di più convenzionale.'",
+        "Pam": "Ho intenzione di vincere la gara di pesca!#$e#Willy sarà duro da battere, però... Fa questa roba giorno e notte.$s",
+        "Haley": "L'inverno non è poi così male, immagino... Giocare con la neve può essere divertente!",
+        "Jodi": "La foresta ha un aspetto stupendo d'inverno, vero?",
+        "Kent": "Mi piace l'inverno. È tranquillo.",
+        "Sam": "Ehi, @. Partecipi alla gara di pesca?#$e#Oh, io no. Io non so pescare.",
+        "Leah": "Oh, il ghiaccio. Bellissimo materiale da scolpire, ma così effimero.#$e#Ma forse questo rende l'arte persino migliore.",
+        "Marnie": "Mi dispiace per tutti i poveri animali infreddoliti, là fuori.$s",
+        "Elliott": "Oggi prenderò parte alla contesa di pesca. Perché no?#$e#Sebbene sia raro che Willy non vinca.",
+        "Gus": "Mi spiace, niente cibo.#$e#Pazienta fino al Banchetto della Stella d'inverno. Allora sì che ti rimpinzerai.",
+        "Willy": "$y 'Ehi, @. Ci sei per un po' di pesca nel ghiaccio?_Sì. Darò il meglio di me!_Questo è lo spirito giusto!$h_Sì, e ti batterò!_Vedremo.$h_Onestamente, no. Faccio pena a pescare._Beh, allora pensa che stai facendo pratica!$h'",
+        "Wizard": "Ti allontani di soppiatto per visitare la mia strana torre? Sei particolare, per essere una persona mondana.",
+        "Harvey": "Le temperature estreme possono affaticare molto il corpo, quindi vedi di vestirti pesante!#$e#Oh, e goditi il festival!$h",
+        "Sandy": "Ho sentito che a casa sta piovendo. È per quello che sei qui?$h#$e#Un po' mi manca la pioggia, in realtà...$s",
+        "Jas": "Voglio mettergli una carota per naso!$h",
+        "Vincent": "Ho visto un pescione laggiù!",
+        "Marlon": "Ehi, buon pomeriggio."
+    }
+}

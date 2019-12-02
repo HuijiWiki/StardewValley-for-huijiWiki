@@ -1,0 +1,67 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "冬日星盛宴",
+        "conditions": "Town/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/loadActors Set-Up/playerControl christmas",
+        "secretSanta": "none/-1000 -1000/farmer 30 69 0/warp Emily 37 59/warp Haley 35 74/warp secretSanta 29 75/faceDirection secretSanta 0/viewport 30 67 true/pause 2000/move secretSanta 0 -4 0/move secretSanta 1 0 0/pause 500/shake secretSanta 100/playSound stoneStep/specificTemporarySprite secretGift/pause 100/faceDirection farmer 2/pause 200/jump farmer/pause 700/emote farmer 16/pause 100/move secretSanta -1 0 0/move secretSanta 0 -2 0/pause 700/faceDirection farmer 3/pause 300/faceDirection farmer 0/pause 500/faceDirection secretSanta 1/pause 500/speak secretSanta \"dialogue1\"/pause 300/faceDirection farmer 2/pause 800/showFrame 4/pause 300/playSound cut/specificTemporarySprite secretGiftOpen/pause 400/stopAnimation farmer/faceDirection farmer 2/pause 1000/cutscene addSecretSantaItem/pause 3000/null/faceDirection farmer 3/speak secretSanta \"dialogue2\"/pause 600/eyes 1 -1500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Emily 29 72/warp Haley 30 72/warp secretSanta warpX warpY/faceDirection farmer 2/cutscene clearTempSprites/playMusic christmasTheme/viewport 30 67 true/playerControl christmas2",
+        "Abigail_spouse": "不知道能不能尝一尝那些甘蔗……",
+        "Leah_spouse": "我很感恩现在过着的平凡生活。$h",
+        "Maru_spouse": "嘿，@。我准备好回家了，就看你了。",
+        "Penny_spouse": "我很感恩在生命中遇到你……$l",
+        "Haley_spouse": "我吗？……嗯，我很感恩……不如今晚到家后我再用行动告诉你吧？$l",
+        "Sebastian_spouse": "嘿，@。你没看见吗，我在履行我的家庭义务……",
+        "Sam_spouse": "*哈欠*……我是为了这里的礼物和饼干才来的。$h",
+        "Alex_spouse": "我想感恩什么？等回到家后我会用行动告诉你……$l",
+        "Harvey_spouse": "我感觉有点惊慌失措……谢天谢地，这里的空气真清新……$l",
+        "Elliott_spouse": "你不需要送我什么东西，你已经给了我最好的礼物……$l",
+        "Abigail": "在寒冬中享用热气腾腾的食物，夫复何求啊？$h",
+        "Robin": "嘿，@。你要是空虚寂寞冷的话，可以跟我们一家人一起吃饭啊。$h",
+        "Demetrius": "看来今年是要破费买一套新工具了……*唉*",
+        "Maru": "你好啊，@。$h",
+        "Shane": "有人相信神明，有人相信魔法……至于我？我还从未见过科学解释不了的事情。",
+        "Sebastian": "跟家人在一起有时候是很累人的事。",
+        "Pierre": "我生意近来很红火……多亏了冬日星盛宴！$h#$e#小子，逢年过节总能赚得盆满钵满。要是我能发明些节日就好了……",
+        "Caroline": "噢噢……我喝多了。$h",
+        "Linus": "我会赴宴的……不过应该没有人会在乎。$s",
+        "Alex": "哦，你好。$s",
+        "George": "为天上的星星庆祝？有毛病！",
+        "Evelyn": "天啊！你不冷吗，亲？都要冻死我了！",
+        "Lewis": "今天是庆祝今年大丰收的日子。暂时抛却一切烦恼，尽情去享乐吧！",
+        "Clint": "*唉* ……羡煞旁人的家庭团聚。而我还是单身一人，好气哦。",
+        "Emily": "$y '@！你想在圣诞树下找到什么东西？_新的喷壶。_只用功不玩耍是很无聊的。$s_香料蜂蜜酒。_哟……很不错的样子。记得告诉我味道如何。$h_时尚的靴子。_哈，非常不错的礼物！'",
+        "Penny": "好美丽的树。$h",
+        "Pam": "唉……没有赢得冰钓比赛，我好难过。$4",
+        "Haley": "希望我的圣诞礼物是部相机！",
+        "Jodi": "此时此刻并非减肥的好日子……$s",
+        "Kent": "下午好，@。节日快乐。",
+        "Sam": "收到了吉他和滑板，感恩上帝。还有我的家人。",
+        "Leah": "格斯在跟我吹嘘他自己做的拐杖糖。*哈欠*$u#$e#我觉得他肉桂放多了。",
+        "Marnie": "欢迎来到冬日星盛宴！$h",
+        "Elliott": "哈喽，@。天气好冷啊，对不？",
+        "Gus": "做糖拐杖是一门艺术。你得漫山遍野地寻找最适合的原料。这年头可难找了！$h#$e#我通常用芬恩岛果干做糖拐杖，这样才能保证质量。那亮丽的红色实在是太合适了……还是纯天然的！#$e#哦，你想知道制作顶级双拐杖糖的秘诀？告诉你可以，不过一定要保密啊。*细语*在白色果糖里面加入一点点香草，再与樱桃混合就行了。$h#$e#当然了，薄荷味拐杖糖也是很受欢迎的，所以我也会做很多这种口味的。#$e#喂，你看起来快要睡着了。你没事吧？$s",
+        "Willy": "$y '想不想听冬日星的传说？_想_在冬日的夜空中，有一颗闪亮的星星，只能从此谷中看见。没人知道为什么……在古时候，来自四面八方的人会聚集于此来看它。*他们相信看见星星的人会交上好运。甚至有人说被称为=星之果实的神秘水果是跟冬日星有某种程度的联系。_不用_那随你吧。'",
+        "Wizard": "啊，神秘的冬日星。它正是我选择此地进行……研究的原因之一。",
+        "Harvey": "我很感恩今年没有人突发急症进医院！",
+        "Sandy": "听说家乡在下雨。你是为避雨才跑来这里的吗？$h#$e#话说我有点怀念雨景了……$s",
+        "Jas": "噢！好多礼物！$h",
+        "Vincent": "可以现在就打开吗？！",
+        "Marlon": "嗨，下午好。"
+    }
+}

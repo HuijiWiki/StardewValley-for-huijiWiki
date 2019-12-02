@@ -1,1 +1,1 @@
-{"index": "Survival Burger", "main_category": "CookingRecipes", "undefined_1": "216 1 78 1 272 1", "undefined_2": "70 1", "undefined_3": "241", "source": "s Foraging 2", "displayName": "救生汉堡"}
+{"index": "Survival Burger", "main_category": "CookingRecipes", "recipeItem": "216 1 78 1 272 1", "undefined_2": "70 1", "productItemId": "241", "source": "s Foraging 2", "displayName": "救生汉堡"}

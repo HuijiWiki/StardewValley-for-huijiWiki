@@ -1,0 +1,57 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "ゲッコウクラゲのダンス",
+        "conditions": "Beach/2200 2400",
+        "set-up": "ocean/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Jellies/loadActors Set-Up/advancedMove Vincent true 0 12 3 3000 2 0 1 3000 0 -12 -2 0 3 3000/advancedMove Jas true 0 2 3 5000 0 -2 3 5000/advancedMove Clint false 2 50000 -2 0 3 500 2 1000 3 1000 1 0 2 1000/advancedMove Harvey True 0 -12 -10 0 0 6 2 25000 0 -6 10 0 0 12 2 25000/viewport 38 2 clamp true/pause 1000/playerControl jellies",
+        "mainEvent": "pause 500/globalFade/viewport -1000 -1000/changeLocation Beach/warp farmer1 28 36/warp spouse 29 36/faceDirection spouse 2/warp farmer2 29 35/warp farmer3 34 36/warp farmer4 35 36/faceDirection farmer1 2/faceDirection farmer2 2/faceDirection farmer3 2/faceDirection farmer4 2/specificTemporarySprite candleBoat/viewport 26 36 true/pause 2000/move Lewis 0 1 2/move Lewis -2 0 3/pause 400/showFrame Lewis 16 true/animate Lewis false false 200 25 16 17 17/pause 800/playSound parry/specificTemporarySprite candleBoatMove/pause 500/showFrame Lewis 0 true/animate Lewis false false 200 25 12/pause 400/faceDirection Lewis 2/pause 6000/specificTemporarySprite moonlightJellies/pause 10000/playMusic moonlightJellies/pause 30000/viewport move -1 0 8000/pause 10000/viewport move 1 0 20000/pause 18000/globalFade/viewport -1000 -1000/pause 2000/playMusic none/pause 1000/message \"夏の輝きは去ってゆき、そして…ゲッコウクラゲはまた、大いなるナゾをくり返すのだった。\"/pause 1000/waitForOtherPlayers festivalEnd/end",
+        "Leah_spouse": "こんばんは、過ぎていく夏に敬意をあらわしてるところなの。キャンドルボートが流されたら、あなたのところに行くね。",
+        "Abigail": "こんなの、すっごくレアだしワクワクするよね…",
+        "Robin": "ふわぁ…いつもなら寝てる時間なんだよね。$s#$e#ねえ、キャンドルボートは見た？あれ、わたしが作ったんだ。$h",
+        "Demetrius": "「ゲッコウクラゲ」…なんとおどろくべき種だろう！南への長い旅をしている彼らが立ちよる土地に住んでいるなんて、わたしたちは運がいいよ。#$e#彼らがなぜ光に引きよせられるのかはまだ分かっていないんだ…非常に興味深いね。",
+        "Maru": "なんだか冷えるね。もう、秋がすぐそこまで来てるんだね…",
+        "Sebastian": "なあ、あそこでなにか動かなかったか？…なんだかデカくて、黒い…#$e#ウソだよ。おどかそうとしただけさ…$h",
+        "Pierre": "ねえ、ちょっと…明日はウチに立ち寄るのを忘れないでくださいね。秋モノのタネが入荷してますよ！",
+        "Caroline": "このキャンドルってロマンチックよね。",
+        "Linus": "クラゲがやってくるころにはいなくなるよ…だれにも迷惑はかけたくないからね。",
+        "Alex": "もう夏が終わるなんて信じられないぜ…まだはじまったばかりって気分なのにさ。$s",
+        "George": "なんだ、どうしてそんな目でこっちを見る？こんな老いぼれが行事を楽しむのはいかんとでも？",
+        "Evelyn": "まだほんの小さかったころ、あのクラゲを見たのを思い出しますねえ…そう、クラゲがきたら跳びはねてよろこんだものだったわ！#$e#でももうずいぶん昔のこと…いまはもう、そんな体力はありませんよ。",
+        "Lewis": "こんばんは、@。ゲッコウクラゲはもうそこまで来てる…もう遠くで1匹光ってるのを見たよ。#$b#キャンドルボートを沖に出したら、みんなドックにやってきて挨拶してくれるだろう。",
+        "Clint": "今夜はとっておきのクツをはいてきたんだ…だれも気づいてくれないけどな。$s",
+        "Emily": "この限りない海を見て。深い水の底で、ありとあらゆるカタチの命が闇のなかをうごめいているのね。#$b#そう思うと、なんだかぞっとしない？",
+        "Penny": "クラゲの人生って気楽よね…波に身をまかせて、ずーっとただよってればいいんだもの。",
+        "Pam": "ガスには言わないでほしいんだがね、今夜はビュッフェがないんで、ちょっとがっかりしてるんだよ。",
+        "Haley": "もう、カメラを持ってくればよかった！いつも忘れちゃうの。$s",
+        "Jodi": "見て！あそこで何か光った！#$b#ああ…消えちゃったわね。$s",
+        "Kent": "こんばんは、@。収穫でいそがしくなるまえに、一息つく時間ができてよかったな。",
+        "Sam": "あいつらって毒はあるのかな？#$e#だとしたら、セバスチャンを海につきおとしたのはマズかったかもな…$h",
+        "Leah": "こんばんは、過ぎていく夏に敬意をあらわしてるところなの。",
+        "Shane": "このクラゲたちは去年も来て、そんで今年ももどって来たんだ…自然ってすげえよな。",
+        "Marnie": "年代ものの木のデッキに、あんなに人がいっぱい乗ってるなんてこわくって！わたしはビーチのそばにいたほうが安心だな。",
+        "Elliott": "もし僕たちが海を汚しつづけたら、あのクラゲたちはきっと絶滅してしまうだろうね。残念ながら、それはもう起きつつあるんだよ。#$e#なんてことだろうね…自然に対する敬意が失われてしまったんだ。",
+        "Gus": "「ゲッコウクラゲ」か…いったいどんな味なんだろうね？$h#$b#試すつもりはないよ、もちろん！$u",
+        "Dwarf": "上では雨がふってるの？へぇ…#$e#雨かあ…伝説のなかでしか聞いたことないよ。一生雨を見ることがない仲間もいるくらい。",
+        "Wizard": "どうしてここにいると分かった？うまくかくれたと思ったのだが…#$b#もしや貴殿、透視能力の持ち主か。#$e#今夜はルナルーを観察しに来たのだ…貴殿らが言うところの「ゲッコウクラゲ」をな。彼らは、水生生物にしては並外れた魔法的オーラをまとっておるのだよ。",
+        "Harvey": "もう、夏も終わりだね。まあでも、これでもうカに刺されなくなるのはうれしいな。",
+        "Sandy": "うちの方では、雨が降ってるらしいよ。だから、ここに来たの？$h#$e#わたしは、ちょっと雨が恋しいな。実はね…$s",
+        "Jas": "今年は赤ちゃんクラゲいるかな？",
+        "Vincent": "グリーンはレアなんだよ！見たいなあ！",
+        "Willy": "夜の魚はふつう光をこわがるんだがな…ヘンなやつらだよ。"
+    }
+}

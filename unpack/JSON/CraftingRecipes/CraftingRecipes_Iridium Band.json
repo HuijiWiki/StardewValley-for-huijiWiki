@@ -1,1 +1,1 @@
-{"index": "Iridium Band", "main_category": "CraftingRecipes", "undefined_1": "337 5 768 50 769 50", "location": "Home", "undefined_2": "527", "isProduction": "false", "source": "Combat 9", "displayName": "铱环"}
+{"index": "Iridium Band", "main_category": "CraftingRecipes", "recipeItem": "337 5 768 50 769 50", "type": "Home", "craftItem": "527", "isBigCraftItem": "false", "skill": "Combat 9", "displayName": "铱环"}

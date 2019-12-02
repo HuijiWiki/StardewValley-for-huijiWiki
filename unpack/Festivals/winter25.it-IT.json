@@ -1,0 +1,67 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Banchetto della Stella d'inverno",
+        "conditions": "Town/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/loadActors Set-Up/playerControl christmas",
+        "secretSanta": "none/-1000 -1000/farmer 30 69 0/warp Emily 37 59/warp Haley 35 74/warp secretSanta 29 75/faceDirection secretSanta 0/viewport 30 67 true/pause 2000/move secretSanta 0 -4 0/move secretSanta 1 0 0/pause 500/shake secretSanta 100/playSound stoneStep/specificTemporarySprite secretGift/pause 100/faceDirection farmer 2/pause 200/jump farmer/pause 700/emote farmer 16/pause 100/move secretSanta -1 0 0/move secretSanta 0 -2 0/pause 700/faceDirection farmer 3/pause 300/faceDirection farmer 0/pause 500/faceDirection secretSanta 1/pause 500/speak secretSanta \"dialogue1\"/pause 300/faceDirection farmer 2/pause 800/showFrame 4/pause 300/playSound cut/specificTemporarySprite secretGiftOpen/pause 400/stopAnimation farmer/faceDirection farmer 2/pause 1000/cutscene addSecretSantaItem/pause 3000/null/faceDirection farmer 3/speak secretSanta \"dialogue2\"/pause 600/eyes 1 -1500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Emily 29 72/warp Haley 30 72/warp secretSanta warpX warpY/faceDirection farmer 2/cutscene clearTempSprites/playMusic christmasTheme/viewport 30 67 true/playerControl christmas2",
+        "Abigail_spouse": "Chissà se posso leccare uno di quei bastoncini...",
+        "Leah_spouse": "Sono grata per la nostra vita tranquilla alla fattoria.$h",
+        "Maru_spouse": "Ehi, @. Sono pronta a tornare a casa quando vuoi.",
+        "Penny_spouse": "Sono grata di aver incontrato te...$l",
+        "Haley_spouse": "Io?... Oh, io sono grata per... Che ne dici se te lo mostro e basta quando torniamo a casa, stanotte?$l",
+        "Sebastian_spouse": "Ehi, @. Come puoi vedere, sto adempiendo ai miei obblighi familiari...",
+        "Sam_spouse": "*sbadiglia*... Io sono qui per i biscotti e i regali.$h",
+        "Alex_spouse": "Per cosa sono grato io? Ti faccio vedere quando torniamo a casa...$l",
+        "Harvey_spouse": "Mi sento un po' soverchiato... Grazie al cielo c'è quest'aria frizzante...$l",
+        "Elliott_spouse": "Non serve che tu mi faccia un presente, mi hai già donato il regalo più bello di tutti...$l",
+        "Abigail": "Niente di meglio di un bel banchetto bollente in un gelido giorno invernale, eh?$h",
+        "Robin": "Ehilà, @. Puoi benissimo unirti al tavolo della nostra famiglia, se ti serve compagnia.$h",
+        "Demetrius": "Probabilmente quest'anno mi regaleranno l'ennesimo set di strumenti... *sospira*",
+        "Maru": "Ciao, @.$h",
+        "Shane": "Ho conosciuto gente che crede agli spiriti, alla magia... ma io? Io non ho mai visto niente che la scienza non può spiegare.",
+        "Sebastian": "Passare il tempo in famiglia è stancante, a volte.",
+        "Pierre": "Ultimamente le vendite mi vanno a gonfie vele... grazie al Banchetto della Stella d'inverno!$h#$e#Accidenti, le vacanze fanno bene agli affari. Magari potrei inventarne di nuove...",
+        "Caroline": "Ooohh... ho bevuto troppo liquore d'uovo.$h",
+        "Linus": "Mi unirei a voi... ma non credo di essere il benvenuto.$s",
+        "Alex": "Oh, salve.$s",
+        "George": "Un banchetto per qualche stupida stella? Scempiaggini!",
+        "Evelyn": "Oh, cielo! Ma non hai freddo, tesoro? Si gela!",
+        "Lewis": "Oggi è un giorno in cui essere grati per la nostra fortuna di quest'anno. Dimentica le preoccupazioni per un po', e rilassati!",
+        "Clint": "*sospira*... Tutte queste famigliole felici. Ma soltanto un altro anno da solo, per me.",
+        "Emily": "$y '@! Cosa speri di trovare sotto l'albero degli spiriti?_Un nuovo annaffiatoio._Lavoro, lavoro, lavoro? Che noia.$s_Un bricco d'idromele speziato._Ooo... sarebbe bello. Fammene assaggiare un po', semmai.$h_Un paio di stivali stilosi._Capisco. Sarebbero un bellissimo dono!'",
+        "Penny": "Che albero magnifico.$h",
+        "Pam": "Hmmph... Non mi va ancora giù di non aver vinto la gara di pesca.$4",
+        "Haley": "Spero che per me ci sia una nuova fotocamera sotto l'albero degli spiriti!",
+        "Jodi": "Non è il periodo migliore per fare la dieta...$s",
+        "Kent": "Buon pomeriggio, @. Felice Banchetto.",
+        "Sam": "Sono grato per la mia chitarra e lo skateboard. Oh, e per la mia famiglia, immagino.",
+        "Leah": "Gus mi stava giusto dicendo di questi bastoncini canditi artigianali. *sbadiglia*$u#$e#Mi sa che s'è bevuto troppo liquore d'uovo alla cannella.",
+        "Marnie": "Ti do il benvenuto al Banchetto della Stella d'inverno!$h",
+        "Elliott": "Ma salve, @. Fa freddino, non trovi?",
+        "Gus": "È un'arte raffinata, quella dei bastoncini canditi. Devi davvero cercare gli ingredienti migliori in lungo e in largo. Non è facile trovarli, di questi tempi!$h#$e#Di solito uso un Fruttanello delle isole Felce per i bastoncini primari, sai. Quel colore rosso acceso non si batte... Ed è tutto naturale!#$e#Oh, vuoi sapere il segreto dei miei doppi-bastoni deluxe? Va bene, ma promettimi assoluta segretezza. *sussurra* È una goccia di vaniglia nel caramello bianco per bilanciare il gusto di ciliegia.$h#$e#Certo, i bastoncini di menta piperita sono un classico, e preparo sempre una bella infornata anche di quelli.#$e#Ehi, hai l'aria di stare per addormentarti. Tutto bene?$s",
+        "Willy": "$y 'Vuoi sentire la leggenda della Stella d'inverno?_Sì_Nel cielo notturno invernale, c'è una stella splendente visibile solo da questa valle. Nessuno sa perché è così... ma in passato la gente veniva da ogni dove per vederla.*Credevano che, se vedevi la Stella d'inverno, venivi benedetto dalla buona sorte. C'è chi dice addirittura che il frutto misterioso chiamato =Astropomo sia in qualche modo legato alla Stella d'inverno._No grazie_Come ti pare.'",
+        "Wizard": "Ah, la misteriosa Stella d'inverno. Una delle ragioni per cui ho scelto questa valle come sito della mia... ricerca.",
+        "Harvey": "Sono grato che non ci siano state emergenze mediche, quest'anno!",
+        "Sandy": "Ho sentito che a casa sta piovendo. È per quello che sei qui?$h#$e#Un po' mi manca la pioggia, in realtà...$s",
+        "Jas": "Ohh! Regali!$h",
+        "Vincent": "Possiamo aprire i regali adesso?!",
+        "Marlon": "Ehi, buon pomeriggio."
+    }
+}

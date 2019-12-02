@@ -1,0 +1,28 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "spring13": "Festival do Ovo",
+        "spring24": "Festival das Flores",
+        "summer11": "Luau",
+        "summer28": "Dança das Medusas-da-Lua",
+        "fall16": "Feira do Vale do Orvalho",
+        "fall27": "Véspera do Dia dos Espíritos",
+        "winter8": "Festival do Gelo",
+        "winter25": "Festival da Estrela Invernal"
+    }
+}

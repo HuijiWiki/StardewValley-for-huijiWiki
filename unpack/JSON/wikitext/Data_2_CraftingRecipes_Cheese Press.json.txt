@@ -1,1 +1,1 @@
-{"index": "Cheese Press", "main_category": "CraftingRecipes", "undefined_1": "388 45 390 45 709 10 334 1", "location": "Home", "undefined_2": "16", "isProduction": "true", "source": "Farming 6", "displayName": "压酪机"}
+{"index": "Cheese Press", "main_category": "CraftingRecipes", "recipeItem": "388 45 390 45 709 10 334 1", "type": "Home", "craftItem": "16", "isBigCraftItem": "true", "skill": "Farming 6", "displayName": "压酪机"}

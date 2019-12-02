@@ -1,1 +1,1 @@
-{"index": "Fish Tank/9", "main_category": "Bundles", "nameEN": "Night Fishing", "discription": "R 516 1", "undefined_1": "140 1 0 132 1 0 148 1 0", "undefined_2": "1", "colorIndex": "夜间垂钓", "number": "异国情调觅食收集包"}
+{"index": "Fish Tank/9", "main_category": "Bundles", "nameEN": "Night Fishing", "reward": "R 516 1", "ingredient": "140 1 0 132 1 0 148 1 0", "colorIndex": "1", "displayName": "夜间垂钓", "ingredientSlots": "5"}

@@ -1,0 +1,24 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "6": "토요일",
+        "name": "토요 스포트라이트",
+        "intro": "0/시청자 여러분, 안녕하세요. 매주 저는 다양한 직업에 종사하는 분들을 만나보기 위해 온 나라를 여행합니다. 우리 함께, 독특한 직업, 라이프 스타일, 그리고 관점에 대해 배우면서 생각의 한계를 넓혀봅시다. 저는 '토요 스포트라이트'의 톰 라미나 입니다. 그리고, 여러분은 지금 '토요 스포트라이트'를 시청하고 계십니다.",
+        "day": "토요일"
+    }
+}

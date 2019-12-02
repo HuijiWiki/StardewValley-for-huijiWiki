@@ -1,1 +1,1 @@
-{"index": "Basic Fertilizer", "main_category": "CraftingRecipes", "undefined_1": "92 2", "location": "Field", "undefined_2": "368", "isProduction": "false", "source": "s Farming 1", "displayName": "初级肥料"}
+{"index": "Basic Fertilizer", "main_category": "CraftingRecipes", "recipeItem": "92 2", "type": "Field", "craftItem": "368", "isBigCraftItem": "false", "skill": "s Farming 1", "displayName": "初级肥料"}

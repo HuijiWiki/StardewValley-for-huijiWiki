@@ -1,1 +1,1 @@
-{"index": "4", "main_category": "Quests", "type": "Basic", "displayName": "神秘的齐", "description": "你发现又一张齐先生的纸条。这次的指示更加隐晦。", "objective": "给沙之巨龙送上它的最后一餐。", "undefined_1": "null", "undefined_2": "-1", "undefined_3": "0", "undefined_5": "false"}
+{"index": "4", "main_category": "Quests", "type": "Basic", "displayName": "神秘的齐", "description": "你发现又一张齐先生的纸条。这次的指示更加隐晦。", "objective": "给沙之巨龙送上它的最后一餐。", "objectiveID": "null", "undefined_2": "-1", "moneyReward": "0", "canbeCancled": "false"}
