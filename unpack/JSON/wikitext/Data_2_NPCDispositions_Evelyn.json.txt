@@ -1,0 +1,1 @@
+{"index": "Evelyn", "main_category": "NPCDispositions", "age": "adult", "manners": "polite", "socialAnxiety": "outgoing", "optimism": "positive", "gender": "female", "datable": "not-datable", "loveInterest": "George", "homeRegion": "Town", "birthday": "winter 20", "relationships": "George '丈夫' Alex '孙子'", "defaultLocation": "JoshHouse 2 17", "displayName": "艾芙琳"}

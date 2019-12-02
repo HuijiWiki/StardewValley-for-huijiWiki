@@ -1,0 +1,1 @@
+{"index": "147", "main_category": "Fish", "nameEN": "Herring", "difficulty": "25", "source": "dart", "sizeMin": "8", "sizeMax": "20", "spawnTime": "600 2600", "season": "spring winter", "weather": "both", "undefined_1": "685 .2", "minDepth": "1", "SpawnMultiplier": ".45", "DepthMultiplier": ".1", "level": "0", "displayName": "鲱鱼"}

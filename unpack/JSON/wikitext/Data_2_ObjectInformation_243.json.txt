@@ -1,0 +1,1 @@
+{"index": "243", "main_category": "ObjectInformation", "nameEN": "Miner's Treat", "price": "200", "edibility": "50", "type": "Cooking -7", "displayName": "矿工特供", "description": "让你持续充满能量。", "sub_category": "cookingCategory", "subType": "food", "undefined_1": "Item 1 127", "extra": "Day Night^Spring Summer Fall Winter", "buff": "0 0 3 0 0 0 0 0 32 0 0", "buffDuration": "480"}

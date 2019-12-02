@@ -1,0 +1,1 @@
+{"index": "19", "main_category": "hats", "nameEN": "Fedora", "description": "城里人的标准。", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "软呢帽"}

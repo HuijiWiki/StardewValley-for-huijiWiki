@@ -1,0 +1,1 @@
+{"index": "Krobus", "main_category": "NPCDispositions", "age": "adult", "manners": "polite", "socialAnxiety": "shy", "optimism": "neutral", "gender": "male", "datable": "secret", "loveInterest": "null", "homeRegion": "Other", "birthday": "winter 1", "relationships": "", "defaultLocation": "Sewer 31 17", "displayName": "科罗布斯"}

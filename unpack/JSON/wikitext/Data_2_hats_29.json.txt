@@ -1,0 +1,1 @@
+{"index": "29", "main_category": "hats", "nameEN": "Daisy", "description": "新鲜的春天发卡，用来戴在头上。", "skipHairDraw": "true", "ignoreHairstyleOffset": "false", "displayName": "雏菊发卡"}

@@ -1,0 +1,1 @@
+{"index": "473", "main_category": "ObjectInformation", "nameEN": "Bean Starter", "price": "30", "edibility": "-300", "type": "Seeds -74", "displayName": "豌豆种子", "description": "春天播种。10天成熟，但是之后会不断结果。在架子上生长。", "sub_category": "seedsCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "drink", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

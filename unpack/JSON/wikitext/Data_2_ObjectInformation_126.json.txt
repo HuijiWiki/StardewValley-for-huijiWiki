@@ -1,0 +1,1 @@
+{"index": "126", "main_category": "ObjectInformation", "nameEN": "Strange Doll", "price": "1000", "edibility": "-300", "type": "Arch", "displayName": "诡异玩偶", "description": "???", "sub_category": "greensCategory", "subType": "Farm .001 Town .001 Mountain .001 Forest .001 BusStop .001 Beach .001 UndergroundMine .001", "undefined_1": "Item 1 126"}

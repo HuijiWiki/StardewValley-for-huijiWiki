@@ -1,0 +1,1 @@
+{"index": "103", "main_category": "ObjectInformation", "nameEN": "Ancient Doll", "price": "60", "edibility": "-300", "type": "Arch", "displayName": "古代玩偶", "description": "一个满身污垢的古代玩偶。它可以用做玩具，也可以用做装饰，还可以用做某种仪式的道具。", "sub_category": "greensCategory", "subType": "Mountain .04 Forest .03 BusStop .03 Town .01", "undefined_1": "Money 1 250"}

@@ -1,0 +1,1 @@
+{"index": "1959", "main_category": "Furniture", "nameEN": "'It Howls In The Rain'", "type": "painting", "undefined_1": "1 2", "undefined_3": "1", "price": "400", "displayName": "《它在雨中嚎叫》", "undefined_2": "1 1"}

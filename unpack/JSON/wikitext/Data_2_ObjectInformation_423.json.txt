@@ -1,0 +1,1 @@
+{"index": "423", "main_category": "ObjectInformation", "nameEN": "Rice", "price": "100", "edibility": "5", "type": "Basic", "displayName": "大米", "description": "基本的粮食，可以配菜食用。", "sub_category": "greensCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "drink", "buff": "0 0 0 0 0 0 0 0 0 1 0", "buffDuration": "120"}

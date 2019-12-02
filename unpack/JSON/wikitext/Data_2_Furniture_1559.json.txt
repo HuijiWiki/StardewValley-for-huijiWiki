@@ -1,0 +1,1 @@
+{"index": "1559", "main_category": "Furniture", "nameEN": "Wallflower Pal", "type": "painting", "undefined_1": "-1", "undefined_3": "1", "price": "500", "displayName": "壁花朋友", "undefined_2": "1 1"}

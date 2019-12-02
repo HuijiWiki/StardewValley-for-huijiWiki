@@ -1,0 +1,1 @@
+{"index": "64", "main_category": "hats", "nameEN": "Elegant Turban", "description": "带金色镶边的精致黑色丝绸头巾。", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "优雅头巾"}

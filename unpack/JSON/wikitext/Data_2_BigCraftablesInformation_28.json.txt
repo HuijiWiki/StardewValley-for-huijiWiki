@@ -1,0 +1,1 @@
+{"index": "28", "main_category": "BigCraftablesInformation", "nameEN": "Skeleton Model", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "一具模型骨架。", "outdoors": "true", "fragility": "0", "displayName": "骨架模型"}

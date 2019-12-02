@@ -1,0 +1,1 @@
+{"index": "44", "main_category": "weapons", "nameEN": "Cutlass", "sub_category": "stabbing", "description": "质量上乘的刀刃。", "damageMin": "9", "damageMax": "17", "knockback": "1", "speed": "4", "type": "3", "baseMineLevel": "-1", "critChance": ".02", "displayName": "弯刀", "minMineLevel": "-1", "critMultiplier": "3", "addedPrecision": "0", "addedAOE": "1", "addDefense": "0"}

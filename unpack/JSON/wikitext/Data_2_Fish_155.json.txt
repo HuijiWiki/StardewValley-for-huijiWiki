@@ -1,0 +1,1 @@
+{"index": "155", "main_category": "Fish", "nameEN": "Super Cucumber", "difficulty": "80", "source": "sinker", "sizeMin": "12", "sizeMax": "36", "spawnTime": "1800 2600", "season": "summer winter", "weather": "both", "undefined_1": "683 .2 689 .4", "minDepth": "4", "SpawnMultiplier": ".1", "DepthMultiplier": ".25", "level": "0", "displayName": "大海参"}

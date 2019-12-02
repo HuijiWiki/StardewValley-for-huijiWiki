@@ -1,0 +1,1 @@
+{"index": "267", "main_category": "Fish", "nameEN": "Flounder", "difficulty": "50", "source": "sinker", "sizeMin": "4", "sizeMax": "16", "spawnTime": "600 2000", "season": "spring summer", "weather": "both", "undefined_1": "680 .25", "minDepth": "2", "SpawnMultiplier": ".15", "DepthMultiplier": ".05", "level": "0", "displayName": "比目鱼"}

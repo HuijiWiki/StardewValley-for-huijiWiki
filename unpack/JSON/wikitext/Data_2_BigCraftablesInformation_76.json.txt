@@ -1,0 +1,1 @@
+{"index": "76", "main_category": "BigCraftablesInformation", "nameEN": "Decorative Spears", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "不是很安全的装饰物。", "outdoors": "true", "fragility": "1", "displayName": "装饰长矛", "indoors": "false"}

@@ -1,0 +1,1 @@
+{"index": "260", "main_category": "ObjectInformation", "nameEN": "Hot Pepper", "price": "40", "edibility": "5", "type": "Basic -79", "displayName": "辣椒", "description": "超级辣，稍甜。", "sub_category": "fruitsCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "Day Night^Spring Summer Fall Winter", "buff": "0 0 0 0 0 0 0 0 0 1 0", "buffDuration": "360"}

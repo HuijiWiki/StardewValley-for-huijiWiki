@@ -1,0 +1,1 @@
+{"index": "724", "main_category": "ObjectInformation", "nameEN": "Maple Syrup", "price": "200", "edibility": "20", "type": "Basic -27", "displayName": "枫糖浆", "description": "有着独特风味的甜浆。", "sub_category": "syrupCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "Day^Spring Summer", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

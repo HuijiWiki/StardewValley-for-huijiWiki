@@ -1,0 +1,1 @@
+{"index": "80", "main_category": "ObjectInformation", "nameEN": "Quartz", "price": "25", "edibility": "-300", "type": "Minerals -2", "displayName": "石英", "description": "一种常见于洞穴和矿井里的纯净晶体。", "sub_category": "gemCategory", "subType": "Town .0001", "undefined_1": "Note"}

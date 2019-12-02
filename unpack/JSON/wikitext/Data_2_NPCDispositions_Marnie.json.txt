@@ -1,0 +1,1 @@
+{"index": "Marnie", "main_category": "NPCDispositions", "age": "adult", "manners": "polite", "socialAnxiety": "outgoing", "optimism": "positive", "gender": "female", "datable": "not-datable", "loveInterest": "Lewis", "homeRegion": "Town", "birthday": "fall 18", "relationships": "Lewis '' Shane '外甥' Jas '侄女'", "defaultLocation": "AnimalShop 12 14", "displayName": "玛妮"}

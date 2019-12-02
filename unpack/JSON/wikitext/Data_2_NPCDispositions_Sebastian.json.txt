@@ -1,0 +1,1 @@
+{"index": "Sebastian", "main_category": "NPCDispositions", "age": "teen", "manners": "rude", "socialAnxiety": "shy", "optimism": "negative", "gender": "male", "datable": "datable", "loveInterest": "Abigail", "homeRegion": "Town", "birthday": "winter 10", "relationships": "Robin '妈妈' Maru '同母异父的妹妹' Sam ''", "defaultLocation": "SebastianRoom 10 9", "displayName": "塞巴斯蒂安"}

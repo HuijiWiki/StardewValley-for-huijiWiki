@@ -1,0 +1,1 @@
+{"index": "17", "main_category": "hats", "nameEN": "Sailor's Cap", "description": "新鲜又古板", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "水手帽"}

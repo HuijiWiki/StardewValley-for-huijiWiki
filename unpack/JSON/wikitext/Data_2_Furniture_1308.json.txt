@@ -1,0 +1,1 @@
+{"index": "1308", "main_category": "Furniture", "nameEN": "Catalogue", "type": "decor", "undefined_1": "1 2", "undefined_3": "1", "price": "30000", "displayName": "目录", "undefined_2": "1 1"}

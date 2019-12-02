@@ -1,0 +1,1 @@
+{"index": "112", "main_category": "Quests", "type": "ItemDelivery", "displayName": "克林特的小忙", "description": "克林特弄了把新锤子，他想用不同的金属试试手感。", "objective": "带给克林特一个铁锭。", "undefined_1": "Clint 335", "undefined_2": "-1", "undefined_3": "500", "undefined_5": "true", "undefined_4": "-1", "unresolved_0": "嘿，是我要的铁锭。看起来硬度……正好。#$b#非常感谢。 @。我十分感激。"}

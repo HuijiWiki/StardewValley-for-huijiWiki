@@ -1,0 +1,1 @@
+{"index": "Slime Egg-Press", "main_category": "CraftingRecipes", "undefined_1": "382 25 82 1 787 1", "location": "Home", "undefined_2": "158", "isProduction": "true", "source": "Combat 6", "displayName": "史莱姆压蛋器"}

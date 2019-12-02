@@ -1,0 +1,1 @@
+{"index": "1449", "main_category": "Furniture", "nameEN": "Classic Lamp", "type": "lamp", "undefined_1": "-1", "undefined_3": "1", "price": "1000", "displayName": "经典台灯", "undefined_2": "3 2"}

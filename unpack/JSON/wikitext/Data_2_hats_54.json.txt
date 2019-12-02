@@ -1,0 +1,1 @@
+{"index": "54", "main_category": "hats", "nameEN": "Floppy Beanie", "description": "一种宽松款式的暖帽子。", "skipHairDraw": "hide", "ignoreHairstyleOffset": "true", "displayName": "宽松毛线帽"}

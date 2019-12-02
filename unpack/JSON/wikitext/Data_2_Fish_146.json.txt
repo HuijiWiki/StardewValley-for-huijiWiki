@@ -1,0 +1,1 @@
+{"index": "146", "main_category": "Fish", "nameEN": "Red Mullet", "difficulty": "55", "source": "smooth", "sizeMin": "8", "sizeMax": "22", "spawnTime": "600 1900", "season": "summer winter", "weather": "both", "undefined_1": "680 .25", "minDepth": "2", "SpawnMultiplier": ".4", "DepthMultiplier": ".15", "level": "0", "displayName": "红鲻鱼"}

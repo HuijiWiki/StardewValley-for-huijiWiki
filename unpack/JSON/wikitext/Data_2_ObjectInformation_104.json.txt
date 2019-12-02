@@ -1,0 +1,1 @@
+{"index": "104", "main_category": "ObjectInformation", "nameEN": "Elvish Jewelry", "price": "200", "edibility": "-300", "type": "Arch", "displayName": "精灵珠宝", "description": "很脏但是依然美丽。上边有被认为是古代精灵语的流畅字迹。但还没有人见过精灵的遗骸。", "sub_category": "greensCategory", "subType": "Forest .01", "undefined_1": "Debris 1 20 6"}

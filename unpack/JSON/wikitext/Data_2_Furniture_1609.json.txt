@@ -1,0 +1,1 @@
+{"index": "1609", "main_category": "Furniture", "nameEN": "J. Cola Light", "type": "painting", "undefined_1": "3 2", "undefined_3": "1", "price": "1000", "displayName": "乔家可乐灯", "undefined_2": "1 1"}

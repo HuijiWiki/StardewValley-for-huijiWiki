@@ -1,0 +1,1 @@
+{"index": "46", "main_category": "hats", "nameEN": "Wearable Dwarf Helm", "description": "稍大号的矮人所戴头盔，可供人类穿戴。", "skipHairDraw": "hide", "ignoreHairstyleOffset": "true", "displayName": "可穿戴的矮人头盔"}

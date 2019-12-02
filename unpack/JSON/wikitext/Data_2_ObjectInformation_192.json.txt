@@ -1,0 +1,1 @@
+{"index": "192", "main_category": "ObjectInformation", "nameEN": "Potato", "price": "80", "edibility": "10", "type": "Basic -75", "displayName": "土豆", "description": "一种栽种范围很广的块茎植物。", "sub_category": "vegetableCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "Day Night^Spring Summer Fall Winter", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

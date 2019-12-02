@@ -1,0 +1,1 @@
+{"index": "26", "main_category": "hats", "nameEN": "Tiara", "description": "一粒巨大的紫水晶，旁边围绕着黄金。", "skipHairDraw": "true", "ignoreHairstyleOffset": "true", "displayName": "三重冕"}

@@ -1,0 +1,1 @@
+{"index": "1124", "main_category": "Furniture", "nameEN": "Birch Table", "type": "table", "undefined_1": "-1", "undefined_3": "1", "price": "750", "displayName": "桦木桌", "undefined_2": "3 1"}

@@ -1,0 +1,1 @@
+{"index": "165", "main_category": "BigCraftablesInformation", "nameEN": "Auto-Grabber", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "每天早晨自动从你的动物处采集。适用于奶牛、绵羊和山羊。", "outdoors": "true", "fragility": "0", "displayName": "自动采集器", "indoors": "false"}

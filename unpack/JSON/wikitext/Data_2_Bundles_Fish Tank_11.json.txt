@@ -1,0 +1,1 @@
+{"index": "Fish Tank/11", "main_category": "Bundles", "nameEN": "Crab Pot", "discription": "O 710 3", "undefined_1": "715 1 0 716 1 0 717 1 0 718 1 0 719 1 0 720 1 0 721 1 0 722 1 0 723 1 0 372 1 0", "undefined_2": "1", "colorIndex": "5", "number": "蟹笼"}

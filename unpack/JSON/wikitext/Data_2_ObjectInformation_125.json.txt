@@ -1,0 +1,1 @@
+{"index": "125", "main_category": "ObjectInformation", "nameEN": "Golden Relic", "price": "250", "edibility": "-300", "type": "Arch", "displayName": "黄金遗物", "description": "是一个黄金板，它的正面刻绘着象形文字和图画。", "sub_category": "greensCategory", "subType": "Desert .08", "undefined_1": "Debris 1 40 6"}

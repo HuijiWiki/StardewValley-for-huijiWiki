@@ -1,0 +1,1 @@
+{"index": "Sandy", "main_category": "NPCDispositions", "age": "adult", "manners": "neutral", "socialAnxiety": "outgoing", "optimism": "positive", "gender": "female", "datable": "not-datable", "loveInterest": "null", "homeRegion": "Desert", "birthday": "fall 15", "relationships": "Emily ''", "defaultLocation": "SandyHouse 2 5", "displayName": "桑迪"}

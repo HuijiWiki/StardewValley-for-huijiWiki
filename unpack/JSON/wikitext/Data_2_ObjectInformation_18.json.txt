@@ -1,0 +1,1 @@
+{"index": "18", "main_category": "ObjectInformation", "nameEN": "Daffodil", "price": "30", "edibility": "0", "type": "Basic -81", "displayName": "黄水仙", "description": "一种传统的春天花朵，适合送礼。", "sub_category": "greensCategory"}

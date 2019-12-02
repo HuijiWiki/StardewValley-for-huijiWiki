@@ -1,0 +1,1 @@
+{"index": "1802", "main_category": "Furniture", "nameEN": "My First Painting", "type": "painting", "undefined_1": "-1", "undefined_3": "1", "price": "500", "displayName": "我的第一幅画", "undefined_2": "1 1"}

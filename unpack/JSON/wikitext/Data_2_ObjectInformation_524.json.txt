@@ -1,0 +1,1 @@
+{"index": "524", "main_category": "ObjectInformation", "nameEN": "Ring of Yoba", "price": "1500", "edibility": "-300", "type": "Ring", "displayName": "由巴的戒指", "description": "偶尔为佩戴者抵挡伤害。", "sub_category": "seedsCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "drink", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

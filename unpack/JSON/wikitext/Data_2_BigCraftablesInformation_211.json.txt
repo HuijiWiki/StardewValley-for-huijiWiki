@@ -1,0 +1,1 @@
+{"index": "211", "main_category": "BigCraftablesInformation", "nameEN": "Wood Chipper", "price": "500", "edibility": "-300", "type": "Crafting -9", "description": "放入一块硬木，把它分解成普通的木头。", "outdoors": "true", "fragility": "0", "displayName": "碎木机", "indoors": "false"}

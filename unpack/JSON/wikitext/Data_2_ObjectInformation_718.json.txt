@@ -1,0 +1,1 @@
+{"index": "718", "main_category": "ObjectInformation", "nameEN": "Cockle", "price": "50", "edibility": "-300", "type": "Fish -4", "displayName": "鸟蛤", "description": "一种常见的咸水蛤。", "sub_category": "fishCategory", "subType": "food", "undefined_1": "Item 1 127", "extra": "Day^Spring Summer", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

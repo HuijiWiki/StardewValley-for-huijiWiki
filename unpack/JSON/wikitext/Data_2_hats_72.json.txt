@@ -1,0 +1,1 @@
+{"index": "72", "main_category": "hats", "nameEN": "Green Turban", "description": "绿色的丝织头巾，前面有一个金色装饰。", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "绿色头巾"}

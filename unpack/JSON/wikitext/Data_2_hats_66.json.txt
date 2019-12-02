@@ -1,0 +1,1 @@
+{"index": "66", "main_category": "hats", "nameEN": "Garbage Hat", "description": "垃圾桶盖“升级改造”变为一顶帽子……", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "垃圾帽"}

@@ -1,0 +1,1 @@
+{"index": "82", "main_category": "ObjectInformation", "nameEN": "Fire Quartz", "price": "100", "edibility": "-300", "type": "Minerals -2", "displayName": "火水晶", "description": "一种常见于熔岩附近的火红色晶体。", "sub_category": "gemCategory", "subType": "Town .0001", "undefined_1": "Note"}

@@ -1,0 +1,1 @@
+{"index": "158", "main_category": "Fish", "nameEN": "Stonefish", "difficulty": "65", "source": "sinker", "sizeMin": "15", "sizeMax": "30", "spawnTime": "600 2600", "season": "spring summer fall winter", "weather": "both", "undefined_1": "689 .2", "minDepth": "2", "SpawnMultiplier": ".1", "DepthMultiplier": ".25", "level": "3", "displayName": "石鱼"}

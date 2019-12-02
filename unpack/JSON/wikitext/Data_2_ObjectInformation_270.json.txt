@@ -1,0 +1,1 @@
+{"index": "270", "main_category": "ObjectInformation", "nameEN": "Corn", "price": "50", "edibility": "10", "type": "Basic -75", "displayName": "玉米", "description": "最常见的庄稼之一。甜甜的新鲜玉米棒是夏天最好的小吃。", "sub_category": "vegetableCategory", "subType": "food", "undefined_1": "Item 1 127", "extra": "Night^Fall Winter", "buff": "0 4 0 0 0 0 0 0 0 0 0", "buffDuration": "360"}

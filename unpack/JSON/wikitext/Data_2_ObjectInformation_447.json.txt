@@ -1,0 +1,1 @@
+{"index": "447", "main_category": "ObjectInformation", "nameEN": "Aged Roe", "price": "100", "edibility": "40", "type": "Basic -26", "displayName": "腌鱼籽", "description": "在盐中腌制使之入味的鱼籽。", "sub_category": "artisanGoodsCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "drink", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

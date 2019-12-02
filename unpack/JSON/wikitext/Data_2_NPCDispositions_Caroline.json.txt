@@ -1,0 +1,1 @@
+{"index": "Caroline", "main_category": "NPCDispositions", "age": "adult", "manners": "polite", "socialAnxiety": "neutral", "optimism": "neutral", "gender": "female", "datable": "not-datable", "loveInterest": "Pierre", "homeRegion": "Town", "birthday": "winter 7", "relationships": "Pierre '丈夫' Abigail ''", "defaultLocation": "SeedShop 22 5", "displayName": "卡洛琳"}

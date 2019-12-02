@@ -1,0 +1,1 @@
+{"index": "4", "main_category": "weapons", "nameEN": "Galaxy Sword", "sub_category": "stabbing", "description": "谁与争锋。", "damageMin": "60", "damageMax": "80", "knockback": "1", "speed": "8", "type": "3", "baseMineLevel": "-1", "critChance": ".02", "displayName": "银河剑", "minMineLevel": "45", "critMultiplier": "3", "addedPrecision": "0", "addedAOE": "2"}

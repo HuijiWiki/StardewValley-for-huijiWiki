@@ -1,0 +1,1 @@
+{"index": "459", "main_category": "ObjectInformation", "nameEN": "Mead", "price": "200", "edibility": "30", "type": "Basic -26", "displayName": "蜜蜂酒", "description": "蜂蜜制成的发酵饮料。适度饮用。", "sub_category": "artisanGoodsCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "drink", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

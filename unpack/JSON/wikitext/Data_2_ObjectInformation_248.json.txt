@@ -1,0 +1,1 @@
+{"index": "248", "main_category": "ObjectInformation", "nameEN": "Garlic", "price": "60", "edibility": "8", "type": "Basic -75", "displayName": "蒜", "description": "给菜肴增加一些风味。质量好的大蒜可能会特别辣。", "sub_category": "vegetableCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "Day Night^Spring Summer Fall Winter", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

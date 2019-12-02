@@ -1,0 +1,1 @@
+{"index": "64", "main_category": "ObjectInformation", "nameEN": "Ruby", "price": "250", "edibility": "-300", "type": "Minerals -2", "displayName": "红宝石", "description": "一种因其浓艳的颜色和美丽的光泽受人追捧的珍贵宝石。", "sub_category": "gemCategory"}

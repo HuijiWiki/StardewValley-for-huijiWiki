@@ -1,0 +1,1 @@
+{"index": "42", "main_category": "BigCraftablesInformation", "nameEN": "Mixed Cane", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "农场的装饰件。", "outdoors": "true", "fragility": "0", "displayName": "混色杖", "indoors": "true"}

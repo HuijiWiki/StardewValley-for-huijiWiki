@@ -1,0 +1,1 @@
+{"index": "50", "main_category": "hats", "nameEN": "Knight's Helmet", "description": "看起来跟真品一模一样！", "skipHairDraw": "hide", "ignoreHairstyleOffset": "true", "displayName": "骑士头盔"}

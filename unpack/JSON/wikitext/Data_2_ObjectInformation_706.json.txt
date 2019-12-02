@@ -1,0 +1,1 @@
+{"index": "706", "main_category": "ObjectInformation", "nameEN": "Shad", "price": "60", "edibility": "10", "type": "Fish -4", "displayName": "西鲱", "description": "结群生活在海里，但会回到河里产卵。", "sub_category": "fishCategory", "subType": "food", "undefined_1": "Item 1 127", "extra": "Day^Spring Summer Fall", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

@@ -1,0 +1,1 @@
+{"index": "124", "main_category": "ObjectInformation", "nameEN": "Golden Mask", "price": "500", "edibility": "-300", "type": "Arch", "displayName": "黄金面具", "description": "一个大概被用于古代法术仪式的恐怖黄金面具。前额部位嵌着一个巨大的紫色宝石。", "sub_category": "greensCategory", "subType": "Desert .04", "undefined_1": "Money 1 1000"}

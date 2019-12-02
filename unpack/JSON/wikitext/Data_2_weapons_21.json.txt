@@ -1,0 +1,1 @@
+{"index": "21", "main_category": "weapons", "nameEN": "Crystal Dagger", "sub_category": "dagger", "description": "此刀由纯石英打造。", "damageMin": "4", "damageMax": "10", "knockback": "1", "speed": "0", "type": "1", "baseMineLevel": "-1", "critChance": ".03", "displayName": "水晶匕首", "minMineLevel": "50", "critMultiplier": "3", "addedPrecision": "5", "addedAOE": "0", "addDefense": "2"}

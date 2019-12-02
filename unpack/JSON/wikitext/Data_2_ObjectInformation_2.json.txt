@@ -1,0 +1,1 @@
+{"index": "2", "main_category": "ObjectInformation", "nameEN": "Stone", "price": "0", "edibility": "-300", "type": "Basic", "displayName": "石头", "description": "那些可以用丁字镐敲碎的有用材料。"}

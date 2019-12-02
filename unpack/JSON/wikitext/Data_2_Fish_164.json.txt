@@ -1,0 +1,1 @@
+{"index": "164", "main_category": "Fish", "nameEN": "Sandfish", "difficulty": "65", "source": "mixed", "sizeMin": "8", "sizeMax": "24", "spawnTime": "600 2000", "season": "spring summer fall winter", "weather": "both", "undefined_1": "682 .2", "minDepth": "1", "SpawnMultiplier": ".65", "DepthMultiplier": ".1", "level": "0", "displayName": "沙鱼"}

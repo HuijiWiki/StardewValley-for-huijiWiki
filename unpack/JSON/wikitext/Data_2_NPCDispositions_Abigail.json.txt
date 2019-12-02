@@ -1,0 +1,1 @@
+{"index": "Abigail", "main_category": "NPCDispositions", "age": "teen", "manners": "rude", "socialAnxiety": "outgoing", "optimism": "neutral", "gender": "female", "datable": "datable", "loveInterest": "Sebastian", "homeRegion": "Town", "birthday": "fall 13", "relationships": "Caroline '妈妈' Pierre '爸爸'", "defaultLocation": "SeedShop 1 9", "displayName": "阿比盖尔"}

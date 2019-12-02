@@ -1,0 +1,1 @@
+{"index": "148", "main_category": "Fish", "nameEN": "Eel", "difficulty": "70", "source": "smooth", "sizeMin": "12", "sizeMax": "80", "spawnTime": "1600 2600", "season": "spring fall", "weather": "rainy", "undefined_1": "689 .35 680 .1", "minDepth": "3", "SpawnMultiplier": ".55", "DepthMultiplier": ".1", "level": "0", "displayName": "鳗鱼"}

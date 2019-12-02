@@ -1,0 +1,1 @@
+{"index": "62", "main_category": "BigCraftablesInformation", "nameEN": "Garden Pot", "price": "1000", "edibility": "-300", "type": "Crafting -9", "description": "在室内时，可种植任何季节的作物在户外时，只能容纳季节性作物。", "outdoors": "true", "fragility": "0", "displayName": "花盆", "indoors": "false"}

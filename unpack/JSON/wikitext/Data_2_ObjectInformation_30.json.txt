@@ -1,0 +1,1 @@
+{"index": "30", "main_category": "ObjectInformation", "nameEN": "Lumber", "price": "2", "edibility": "10", "type": "Basic", "displayName": "木材", "description": "建房子以及当燃料的常用资源。", "sub_category": "vegetableCategory"}

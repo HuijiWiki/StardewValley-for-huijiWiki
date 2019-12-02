@@ -1,0 +1,1 @@
+{"index": "Bulletin Board/33", "main_category": "Bundles", "nameEN": "Enchanter's", "discription": "O 336 5", "undefined_1": "725 1 0 348 1 0 446 1 0 637 1 0", "undefined_2": "1", "colorIndex": "魔法师", "number": "冒险家的"}

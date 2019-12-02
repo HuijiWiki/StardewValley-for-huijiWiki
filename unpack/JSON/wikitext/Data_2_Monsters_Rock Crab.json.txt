@@ -1,0 +1,1 @@
+{"index": "Rock Crab", "main_category": "Monsters", "baseHP": "30", "baseDamage": "5", "undefined_1": "0", "isAir": "false", "undefined_3": "1000", "undefined_4": "717 .15 286 .4 96 .005 99 .001", "baseDefence": "1", "undefined_5": ".01", "undefined_6": "1", "baseSpeed": "2", "undefined_7": ".0", "killable": "true", "baseEXP": "4", "displayName": "岩石蟹", "undefined_2": "3"}

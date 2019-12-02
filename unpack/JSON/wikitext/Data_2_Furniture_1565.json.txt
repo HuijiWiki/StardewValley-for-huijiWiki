@@ -1,0 +1,1 @@
+{"index": "1565", "main_category": "Furniture", "nameEN": "Calico Falls", "type": "painting", "undefined_1": "-1", "undefined_3": "1", "price": "750", "displayName": "卡利科瀑布", "undefined_2": "1 1"}

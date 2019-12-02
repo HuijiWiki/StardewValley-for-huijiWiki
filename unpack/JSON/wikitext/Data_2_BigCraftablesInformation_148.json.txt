@@ -1,0 +1,1 @@
+{"index": "148", "main_category": "BigCraftablesInformation", "nameEN": "Carved Brazier", "price": "200", "edibility": "-300", "type": "Crafting -9", "description": "提供一点亮光。", "outdoors": "true", "fragility": "0", "displayName": "镂空火炬", "indoors": "true"}

@@ -1,0 +1,1 @@
+{"index": "525", "main_category": "ObjectInformation", "nameEN": "Sturdy Ring", "price": "1500", "edibility": "-300", "type": "Ring", "displayName": "结实戒指", "description": "减少负状态影响持续时间的一半。", "sub_category": "seedsCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "drink", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

@@ -1,0 +1,1 @@
+{"index": "984", "main_category": "Furniture", "nameEN": "Long Cactus", "type": "decor", "undefined_1": "1 3", "undefined_3": "1", "price": "500", "displayName": "长仙人掌", "undefined_2": "1 1"}

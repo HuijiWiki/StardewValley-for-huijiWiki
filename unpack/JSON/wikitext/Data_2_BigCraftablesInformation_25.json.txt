@@ -1,0 +1,1 @@
+{"index": "25", "main_category": "BigCraftablesInformation", "nameEN": "Seed Maker", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "将谷物放入，将会产出各种各样的种子。对水果树类的谷物无效。", "outdoors": "true", "fragility": "0", "displayName": "种子生产器"}

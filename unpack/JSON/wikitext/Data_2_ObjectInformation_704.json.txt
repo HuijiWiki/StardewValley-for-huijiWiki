@@ -1,0 +1,1 @@
+{"index": "704", "main_category": "ObjectInformation", "nameEN": "Dorado", "price": "100", "edibility": "10", "type": "Fish -4", "displayName": "麻哈脂鲤", "description": "凶猛的肉食鱼，有着绚烂的橙色鳞片。", "sub_category": "fishCategory", "subType": "food", "undefined_1": "Item 1 127", "extra": "Day^Summer", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

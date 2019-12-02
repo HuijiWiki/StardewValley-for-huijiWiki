@@ -1,0 +1,1 @@
+{"index": "68", "main_category": "BigCraftablesInformation", "nameEN": "Grandfather Clock", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "很古老……钟摆都生锈卡着了。", "outdoors": "true", "fragility": "1", "displayName": "祖父的钟", "indoors": "false"}

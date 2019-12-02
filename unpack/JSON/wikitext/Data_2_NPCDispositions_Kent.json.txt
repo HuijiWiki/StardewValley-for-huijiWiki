@@ -1,0 +1,1 @@
+{"index": "Kent", "main_category": "NPCDispositions", "age": "adult", "manners": "neutral", "socialAnxiety": "shy", "optimism": "negative", "gender": "male", "datable": "not-datable", "loveInterest": "Jodi", "homeRegion": "Town", "birthday": "spring 4", "relationships": "Jodi '妻子' Sam '长子' Vincent '最小的男孩'", "defaultLocation": "SamHouse 22 5", "displayName": "肯特"}

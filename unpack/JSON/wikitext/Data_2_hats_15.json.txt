@@ -1,0 +1,1 @@
+{"index": "15", "main_category": "hats", "nameEN": "Hunter's Cap", "description": "动物毛线即使在森林深处都能保暖。", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "猎人帽"}

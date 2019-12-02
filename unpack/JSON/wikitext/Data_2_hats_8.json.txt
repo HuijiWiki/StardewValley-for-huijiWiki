@@ -1,0 +1,1 @@
+{"index": "8", "main_category": "hats", "nameEN": "Skeleton Mask", "description": "红红的眼睛散发着神秘的亮光。", "skipHairDraw": "true", "ignoreHairstyleOffset": "true", "displayName": "骷髅面具"}

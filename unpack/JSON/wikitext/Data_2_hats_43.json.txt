@@ -1,0 +1,1 @@
+{"index": "43", "main_category": "hats", "nameEN": "Dinosaur Hat", "description": "一种看起来像小恐龙的帽子。", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "恐龙帽"}

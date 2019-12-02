@@ -1,0 +1,1 @@
+{"index": "1298", "main_category": "Furniture", "nameEN": "Standing Geode", "type": "decor", "undefined_1": "1 2", "undefined_3": "1", "price": "500", "displayName": "直立的晶洞", "undefined_2": "1 1"}

@@ -1,0 +1,1 @@
+{"index": "20", "main_category": "ObjectInformation", "nameEN": "Leek", "price": "60", "edibility": "16", "type": "Basic -81", "displayName": "韭葱", "description": "洋葱的美味近亲。", "sub_category": "greensCategory"}

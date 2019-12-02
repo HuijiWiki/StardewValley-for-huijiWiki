@@ -1,0 +1,1 @@
+{"index": "Boiler Room/20", "main_category": "Bundles", "nameEN": "Blacksmith's", "discription": "BO 13 1", "undefined_1": "334 1 0 335 1 0 336 1 0", "undefined_2": "2", "colorIndex": "铁匠的", "number": "蟹笼"}

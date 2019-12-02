@@ -1,0 +1,1 @@
+{"index": "588", "main_category": "ObjectInformation", "nameEN": "Palm Fossil", "price": "100", "edibility": "-300", "type": "Arch", "displayName": "棕榈化石", "description": "棕榈化石比较常见，但这一个恰好是比较完整的。", "sub_category": "mineralsCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "Desert .1 Beach .01 Forest .01", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

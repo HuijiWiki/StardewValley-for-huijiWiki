@@ -1,0 +1,1 @@
+{"index": "790", "main_category": "ObjectInformation", "nameEN": "Berry Basket", "price": "0", "edibility": "-300", "type": "Quest", "displayName": "浆果篮", "description": "编条上占满了浆果汁。", "sub_category": "buildingResources", "subType": "drink", "undefined_1": "Item 1 127", "extra": "Day^Winter", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

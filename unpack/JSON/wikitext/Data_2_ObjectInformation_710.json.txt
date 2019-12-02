@@ -1,0 +1,1 @@
+{"index": "710", "main_category": "ObjectInformation", "nameEN": "Crab Pot", "price": "50", "edibility": "-300", "type": "Crafting", "displayName": "蟹笼", "description": "放在水中，装上诱饵，隔一天再检查有没有抓到东西。可以在溪流、湖泊和大海使用。", "sub_category": "buildingResources", "subType": "food", "undefined_1": "Item 1 127", "extra": "Day^Spring Summer", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

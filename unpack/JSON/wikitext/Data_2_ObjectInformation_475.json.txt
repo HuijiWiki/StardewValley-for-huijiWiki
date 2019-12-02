@@ -1,0 +1,1 @@
+{"index": "475", "main_category": "ObjectInformation", "nameEN": "Potato Seeds", "price": "25", "edibility": "-300", "type": "Seeds -74", "displayName": "土豆种子", "description": "春天播种。6天成熟，有一定几率一次收获多个土豆。", "sub_category": "seedsCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "drink", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

@@ -1,0 +1,1 @@
+{"index": "50", "main_category": "weapons", "nameEN": "Steel Falchion", "sub_category": "stabbing", "description": "轻便，威力强大。", "damageMin": "28", "damageMax": "46", "knockback": "1", "speed": "8", "type": "2", "baseMineLevel": "142", "critChance": ".02", "displayName": "钢刀", "minMineLevel": "100", "critMultiplier": "3.4", "addedPrecision": "5", "addedAOE": "2", "addDefense": "0"}

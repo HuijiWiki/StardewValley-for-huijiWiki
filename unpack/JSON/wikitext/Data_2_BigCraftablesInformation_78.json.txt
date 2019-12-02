@@ -1,0 +1,1 @@
+{"index": "78", "main_category": "BigCraftablesInformation", "nameEN": "Boulder", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "一块非常沉重的石头。", "outdoors": "true", "fragility": "1", "displayName": "圆石", "indoors": "false"}

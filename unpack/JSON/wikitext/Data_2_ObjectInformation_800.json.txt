@@ -1,0 +1,1 @@
+{"index": "800", "main_category": "ObjectInformation", "nameEN": "Blobfish", "price": "500", "edibility": "15", "type": "Fish -4", "displayName": "水滴鱼", "description": "这些古怪的生物漂浮在海底上，吃掉所经之地的任何可食材料。", "sub_category": "fishCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "Day^Spring Summer", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

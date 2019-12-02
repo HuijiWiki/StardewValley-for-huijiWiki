@@ -1,0 +1,1 @@
+{"index": "1917", "main_category": "Furniture", "nameEN": "Wall Pumpkin", "type": "painting", "undefined_1": "1 2", "undefined_3": "1", "price": "750", "displayName": "壁挂南瓜", "undefined_2": "1 1"}

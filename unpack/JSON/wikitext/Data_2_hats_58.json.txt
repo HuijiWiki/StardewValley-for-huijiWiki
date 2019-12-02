@@ -1,0 +1,1 @@
+{"index": "58", "main_category": "hats", "nameEN": "Party Hat", "description": "一种让任何庆祝活动都更有趣的傻乎乎的蓝帽子。", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "派对帽"}

@@ -1,0 +1,1 @@
+{"index": "Bomb", "main_category": "CraftingRecipes", "undefined_1": "380 4 382 1", "location": "Field", "undefined_2": "287", "isProduction": "false", "source": "Mining 6", "displayName": "炸弹"}

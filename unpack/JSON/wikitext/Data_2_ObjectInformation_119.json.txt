@@ -1,0 +1,1 @@
+{"index": "119", "main_category": "ObjectInformation", "nameEN": "Bone Flute", "price": "100", "edibility": "-300", "type": "Arch", "displayName": "骨笛", "description": "一个用动物骨头雕刻而成的史前管乐器。它发出的声音很诡异。", "sub_category": "greensCategory", "subType": "Mountain .01 Forest .01 UndergroundMine .02 Town .005", "undefined_1": "Recipe 2 Flute_Block 150"}

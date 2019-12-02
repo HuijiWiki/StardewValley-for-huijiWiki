@@ -1,0 +1,1 @@
+{"index": "13", "main_category": "weapons", "nameEN": "Insect Head", "sub_category": "stabbing", "description": "挥起来很不舒服。", "damageMin": "10", "damageMax": "20", "knockback": "1", "speed": "4", "type": "3", "baseMineLevel": "-1", "critChance": ".04", "displayName": "昆虫头部", "minMineLevel": "-1", "critMultiplier": "3", "addedPrecision": "9", "addedAOE": "2", "addDefense": "0"}

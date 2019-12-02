@@ -1,0 +1,1 @@
+{"index": "2", "main_category": "BigCraftablesInformation", "nameEN": "House Plant", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "为你的房子或农场添加一些角色。", "outdoors": "true", "fragility": "0", "displayName": "家居植物"}

@@ -1,0 +1,1 @@
+{"index": "46", "main_category": "weapons", "nameEN": "Kudgel", "sub_category": "stunt", "description": "野蛮人的最佳伙伴。", "damageMin": "27", "damageMax": "40", "knockback": "1.6", "speed": "-10", "type": "2", "baseMineLevel": "107", "critChance": ".02", "displayName": "长柄锤", "minMineLevel": "100", "critMultiplier": "3.1", "addedPrecision": "0", "addedAOE": "2", "addDefense": "0"}

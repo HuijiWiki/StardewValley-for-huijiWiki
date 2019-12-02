@@ -1,0 +1,1 @@
+{"index": "1283", "main_category": "Furniture", "nameEN": "Artist Bookcase", "type": "bookcase", "undefined_1": "-1", "undefined_3": "1", "price": "1200", "displayName": "艺术家书架", "undefined_2": "3 1"}

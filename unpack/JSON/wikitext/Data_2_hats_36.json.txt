@@ -1,0 +1,1 @@
+{"index": "36", "main_category": "hats", "nameEN": "Panda Hat", "description": "一顶萌萌的熊猫帽子，这是Eric给TGP玩家的礼物", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "熊猫帽子（TGP 玩家专属）"}

@@ -1,0 +1,1 @@
+{"index": "264", "main_category": "ObjectInformation", "nameEN": "Radish", "price": "90", "edibility": "18", "type": "Basic -75", "displayName": "萝卜", "description": "新鲜清爽的块茎蔬菜，生吃的时候加一点胡椒。", "sub_category": "vegetableCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "Day Night^Spring Summer Fall Winter", "buff": "0 0 0 0 0 0 0 0 0 1 0", "buffDuration": "360"}

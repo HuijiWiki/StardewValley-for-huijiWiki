@@ -1,0 +1,1 @@
+{"index": "26", "main_category": "Quests", "type": "Basic", "displayName": "“老鼠肆虐”", "description": "社区活动中心里面好像在发生一些奇怪的事情……", "objective": "调查社区活动中心", "undefined_1": "-1", "undefined_2": "-1", "undefined_3": "0", "undefined_5": "true", "undefined_4": "-1"}

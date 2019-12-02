@@ -1,0 +1,1 @@
+{"index": "Willy", "main_category": "NPCDispositions", "age": "adult", "manners": "neutral", "socialAnxiety": "neutral", "optimism": "positive", "gender": "male", "datable": "not-datable", "loveInterest": "null", "homeRegion": "Town", "birthday": "summer 24", "relationships": "Elliott ''", "defaultLocation": "FishShop 5 4", "displayName": "威利"}

@@ -1,0 +1,1 @@
+{"index": "82", "main_category": "BigCraftablesInformation", "nameEN": "Locked Door", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "一种使它缩回地面的隐蔽装置。", "outdoors": "true", "fragility": "2", "displayName": "上锁的门", "indoors": "false"}

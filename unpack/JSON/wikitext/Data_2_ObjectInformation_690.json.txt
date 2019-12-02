@@ -1,0 +1,1 @@
+{"index": "690", "main_category": "ObjectInformation", "nameEN": "Warp Totem: Beach", "price": "20", "edibility": "-300", "type": "Crafting", "displayName": "传送图腾：海滩", "description": "直接将你传送到海滩。消耗品。", "sub_category": "tackleCategory", "subType": "food", "undefined_1": "Item 1 127", "extra": "Day^Spring Summer", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

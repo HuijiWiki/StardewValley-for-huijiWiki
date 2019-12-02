@@ -1,0 +1,1 @@
+{"index": "49", "main_category": "weapons", "nameEN": "Rapier", "sub_category": "stabbing", "description": "一把优雅的剑。", "damageMin": "15", "damageMax": "25", "knockback": "1", "speed": "4", "type": "2", "baseMineLevel": "100", "critChance": ".02", "displayName": "细剑", "minMineLevel": "95", "critMultiplier": "3", "addedPrecision": "0", "addedAOE": "2", "addDefense": "4"}

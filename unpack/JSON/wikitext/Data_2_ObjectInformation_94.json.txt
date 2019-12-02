@@ -1,0 +1,1 @@
+{"index": "94", "main_category": "ObjectInformation", "nameEN": "Spirit Torch", "price": "5", "edibility": "-300", "type": "Crafting", "displayName": "精灵火把", "description": "不清楚这些蓝色的亮光是从哪来的……", "sub_category": "greensCategory", "subType": "Town .0001", "undefined_1": "Note"}

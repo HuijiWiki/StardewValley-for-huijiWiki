@@ -1,0 +1,1 @@
+{"index": "Carved Brazier", "main_category": "CraftingRecipes", "undefined_1": "709 10 382 1", "location": "Home", "undefined_2": "148", "isProduction": "true", "source": "null", "displayName": "镂空火炬"}

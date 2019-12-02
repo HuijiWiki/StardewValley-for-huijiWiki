@@ -1,0 +1,1 @@
+{"index": "259", "main_category": "ObjectInformation", "nameEN": "Fiddlehead Fern", "price": "90", "edibility": "10", "type": "Basic -75", "displayName": "蕨菜", "description": "这些嫩芽是一种可食用的特产。", "sub_category": "vegetableCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "Day Night^Spring Summer Fall Winter", "buff": "0 0 0 0 0 0 0 0 0 1 0", "buffDuration": "360"}

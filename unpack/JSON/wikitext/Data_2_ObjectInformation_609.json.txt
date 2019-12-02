@@ -1,0 +1,1 @@
+{"index": "609", "main_category": "ObjectInformation", "nameEN": "Radish Salad", "price": "300", "edibility": "80", "type": "Cooking -7", "displayName": "萝卜沙拉", "description": "萝卜真的太脆了！", "sub_category": "cookingCategory", "subType": "food", "undefined_1": "Item 1 127", "extra": "Beach .03 Mountain .03 Forest .03", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

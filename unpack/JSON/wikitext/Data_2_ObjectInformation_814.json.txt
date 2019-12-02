@@ -1,0 +1,1 @@
+{"index": "814", "main_category": "ObjectInformation", "nameEN": "Squid Ink", "price": "110", "edibility": "-300", "type": "Basic -23", "displayName": "鱿鱼墨汁", "description": "鱿鱼使用这种墨汁来迷惑可能的掠食者。", "sub_category": "sellAtFishShopCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "Day^Spring Summer", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

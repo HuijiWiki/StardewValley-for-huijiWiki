@@ -1,0 +1,1 @@
+{"index": "79", "main_category": "Furniture", "nameEN": "Winter Chair", "type": "chair", "undefined_1": "-1", "undefined_3": "4", "price": "750", "displayName": "凛冬座椅"}

@@ -1,0 +1,1 @@
+{"index": "16", "main_category": "ObjectInformation", "nameEN": "Wild Horseradish", "price": "50", "edibility": "5", "type": "Basic -81", "displayName": "野山葵", "description": "春天生长的一种根茎香料。", "sub_category": "greensCategory"}

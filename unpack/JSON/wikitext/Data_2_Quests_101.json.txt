@@ -1,0 +1,1 @@
+{"index": "101", "main_category": "Quests", "type": "ItemDelivery", "displayName": "乔迪的请求", "description": "乔迪需要用一株新鲜的花椰菜做菜。她让你带给她一株。", "objective": "带给乔迪一株花椰菜。", "undefined_1": "Jodi 190", "undefined_2": "-1", "undefined_3": "350", "undefined_5": "true", "undefined_4": "-1", "unresolved_0": "哦，看起来很美味！谢谢你，我正需要这个。用它来做黄咖喱简直完美。"}

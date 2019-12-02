@@ -1,0 +1,1 @@
+{"index": "1224", "main_category": "Furniture", "nameEN": "Modern Tea-Table", "type": "table", "undefined_1": "2 2", "undefined_3": "1", "price": "1000", "displayName": "现代茶几", "undefined_2": "-1"}

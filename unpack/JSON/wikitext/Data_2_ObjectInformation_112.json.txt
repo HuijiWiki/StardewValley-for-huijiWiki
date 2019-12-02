@@ -1,0 +1,1 @@
+{"index": "112", "main_category": "ObjectInformation", "nameEN": "Rusty Cog", "price": "25", "edibility": "-300", "type": "Arch", "displayName": "生锈的齿轮", "description": "一个保存完好的齿轮，它一定是某个古代机器的一部分。这可能是矮人工艺出品。", "sub_category": "greensCategory", "subType": "Mountain .05", "undefined_1": "Debris 1 20 4"}

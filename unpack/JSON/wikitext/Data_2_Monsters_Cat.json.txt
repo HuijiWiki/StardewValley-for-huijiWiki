@@ -1,0 +1,1 @@
+{"index": "Cat", "main_category": "Monsters", "baseHP": "300", "baseDamage": "0", "undefined_1": "1", "isAir": "false", "undefined_3": "0", "undefined_4": "-6 .001", "baseDefence": "3", "undefined_5": ".01", "undefined_6": "6", "baseSpeed": "2", "undefined_7": ".0", "killable": "true", "baseEXP": "15", "displayName": "猫", "undefined_2": "3"}

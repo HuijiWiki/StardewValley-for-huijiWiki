@@ -1,0 +1,1 @@
+{"index": "122", "main_category": "Quests", "type": "ItemDelivery", "displayName": "潘姆需要电池", "description": "潘姆的电视遥控器没电了。她在沙发和电视控制面板之间来来回回地走太累了。", "objective": "带给潘姆一个电池组。", "undefined_1": "Pam 787", "undefined_2": "-1", "undefined_3": "400", "undefined_5": "true", "undefined_4": "-1", "unresolved_0": "嘿，你真的弄到了电池组！谢谢你，孩子……你真是我的救星!$h"}

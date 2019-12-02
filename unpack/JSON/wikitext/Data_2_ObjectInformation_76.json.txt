@@ -1,0 +1,1 @@
+{"index": "76", "main_category": "ObjectInformation", "nameEN": "Stone", "price": "50", "edibility": "-300", "type": "Basic", "displayName": "石头", "description": "……", "sub_category": "gemCategory"}

@@ -1,0 +1,1 @@
+{"index": "47", "main_category": "hats", "nameEN": "Fashion Hat", "description": "边缘有羽毛的时尚帽子。", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "时尚帽"}

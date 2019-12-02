@@ -1,0 +1,1 @@
+{"index": "1842", "main_category": "Furniture", "nameEN": "'Solar Kingdom'", "type": "painting", "undefined_1": "-1", "undefined_3": "1", "price": "1000", "displayName": "太阳能王国", "undefined_2": "1 1"}

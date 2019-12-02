@@ -1,0 +1,1 @@
+{"index": "96", "main_category": "BigCraftablesInformation", "nameEN": "Strange Capsule", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "里面的液体有点不对劲…………", "outdoors": "true", "fragility": "2", "displayName": "奇怪的胶囊", "indoors": "false"}

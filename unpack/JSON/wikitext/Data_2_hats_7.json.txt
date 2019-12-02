@@ -1,0 +1,1 @@
+{"index": "7", "main_category": "hats", "nameEN": "Plum Chapeau", "description": "看上去不错。", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "紫红小帽"}

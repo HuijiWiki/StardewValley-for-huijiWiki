@@ -1,0 +1,1 @@
+{"index": "101", "main_category": "BigCraftablesInformation", "nameEN": "Incubator", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "将蛋孵化为小鸡和小鸭。", "outdoors": "true", "fragility": "2", "displayName": "孵化器", "indoors": "false"}

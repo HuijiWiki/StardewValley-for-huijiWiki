@@ -1,0 +1,1 @@
+{"index": "161", "main_category": "Fish", "nameEN": "Ice Pip", "difficulty": "85", "source": "dart", "sizeMin": "8", "sizeMax": "30", "spawnTime": "600 2600", "season": "spring summer fall winter", "weather": "both", "undefined_1": "682 .1", "minDepth": "2", "SpawnMultiplier": ".05", "DepthMultiplier": ".1", "level": "5", "displayName": "冰柱鱼"}

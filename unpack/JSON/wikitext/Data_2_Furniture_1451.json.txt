@@ -1,0 +1,1 @@
+{"index": "1451", "main_category": "Furniture", "nameEN": "Red Rug", "type": "rug", "undefined_1": "-1", "undefined_3": "2", "price": "1000", "displayName": "红色地毯", "undefined_2": "3 2"}

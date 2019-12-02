@@ -1,0 +1,1 @@
+{"index": "1616", "main_category": "Furniture", "nameEN": "Small Window", "type": "window", "undefined_1": "-1", "undefined_3": "1", "price": "300", "displayName": "小型窗户", "undefined_2": "1 1"}

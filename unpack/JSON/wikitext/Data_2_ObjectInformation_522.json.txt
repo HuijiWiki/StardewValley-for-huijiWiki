@@ -1,0 +1,1 @@
+{"index": "522", "main_category": "ObjectInformation", "nameEN": "Vampire Ring", "price": "1500", "edibility": "-300", "type": "Ring", "displayName": "吸血戒指", "description": "每次杀死一个怪物后获得一点生命值。", "sub_category": "seedsCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "drink", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

@@ -1,0 +1,1 @@
+{"index": "715", "main_category": "ObjectInformation", "nameEN": "Lobster", "price": "120", "edibility": "-300", "type": "Fish -4", "displayName": "龙虾", "description": "居住在海中、尾部强壮的大型甲壳纲动物。", "sub_category": "fishCategory", "subType": "food", "undefined_1": "Item 1 127", "extra": "Day^Spring Summer", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

@@ -1,0 +1,1 @@
+{"index": "160", "main_category": "BigCraftablesInformation", "nameEN": "Statue Of Perfection", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "由纯铱打造而成。", "outdoors": "true", "fragility": "0", "displayName": "完美雕像", "indoors": "false"}

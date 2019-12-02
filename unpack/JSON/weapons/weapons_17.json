@@ -1,0 +1,1 @@
+{"index": "17", "main_category": "weapons", "nameEN": "Iron Dirk", "sub_category": "dagger", "description": "一把普通的匕首。", "damageMin": "2", "damageMax": "4", "knockback": ".5", "speed": "0", "type": "1", "baseMineLevel": "62", "critChance": ".03", "displayName": "铁制短剑", "minMineLevel": "50", "critMultiplier": "3", "addedPrecision": "5", "addedAOE": "0", "addDefense": "2"}

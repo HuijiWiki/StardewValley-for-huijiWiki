@@ -1,0 +1,1 @@
+{"index": "1226", "main_category": "Furniture", "nameEN": "Furniture Catalogue", "type": "table", "undefined_1": "2 2", "undefined_3": "1", "price": "200000", "displayName": "家具目录", "undefined_2": "-1"}

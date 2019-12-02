@@ -1,0 +1,1 @@
+{"index": "84", "main_category": "ObjectInformation", "nameEN": "Frozen Tear", "price": "75", "edibility": "-300", "type": "Minerals -2", "displayName": "泪晶", "description": "传说是由雪怪眼泪结成的晶体。", "sub_category": "gemCategory", "subType": "Town .0001", "undefined_1": "Note"}

@@ -1,0 +1,1 @@
+{"index": "54", "main_category": "BigCraftablesInformation", "nameEN": "Stone Owl", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "适合农场的园艺。", "outdoors": "true", "fragility": "0", "displayName": "石猫头鹰", "indoors": "true"}

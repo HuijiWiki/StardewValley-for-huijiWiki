@@ -1,0 +1,1 @@
+{"index": "239", "main_category": "ObjectInformation", "nameEN": "Stuffing", "price": "165", "edibility": "68", "type": "Cooking -7", "displayName": "塞料面包", "description": "啊……热面包和鼠尾草的香味。", "sub_category": "cookingCategory", "subType": "food", "undefined_1": "Item 1 127", "extra": "Day Night^Spring Summer Fall Winter", "buff": "0 0 0 0 0 0 0 0 0 0 2", "buffDuration": "480"}

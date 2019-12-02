@@ -1,0 +1,1 @@
+{"index": "36", "main_category": "BigCraftablesInformation", "nameEN": "Lawn Flamingo", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "农场的装饰件。", "outdoors": "true", "fragility": "0", "displayName": "草坪火烈鸟", "indoors": "true"}

@@ -1,0 +1,1 @@
+{"index": "Wizard", "main_category": "NPCDispositions", "age": "adult", "manners": "rude", "socialAnxiety": "neutral", "optimism": "negative", "gender": "male", "datable": "not-datable", "loveInterest": "null", "homeRegion": "Other", "birthday": "winter 17", "relationships": "", "defaultLocation": "WizardHouse 3 17", "displayName": "法师"}

@@ -1,0 +1,1 @@
+{"index": "2", "main_category": "hats", "nameEN": "Top Hat", "description": "绅士的经典。", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "大礼帽"}

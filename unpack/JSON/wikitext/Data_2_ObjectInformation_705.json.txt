@@ -1,0 +1,1 @@
+{"index": "705", "main_category": "ObjectInformation", "nameEN": "Albacore", "price": "75", "edibility": "10", "type": "Fish -4", "displayName": "青花鱼", "description": "喜欢温度的\"交界处\"，即指冷水与温水交界的地方。", "sub_category": "fishCategory", "subType": "food", "undefined_1": "Item 1 127", "extra": "Day^Spring Fall", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

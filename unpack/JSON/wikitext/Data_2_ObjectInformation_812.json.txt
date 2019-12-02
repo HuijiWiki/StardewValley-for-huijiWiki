@@ -1,0 +1,1 @@
+{"index": "812", "main_category": "ObjectInformation", "nameEN": "Roe", "price": "30", "edibility": "20", "type": "Basic -23", "displayName": "鱼籽", "description": "新鲜的鱼卵。可以把它们在一个罐头瓶中腌制，从而产生特殊风味。", "sub_category": "sellAtFishShopCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "Day^Spring Summer", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

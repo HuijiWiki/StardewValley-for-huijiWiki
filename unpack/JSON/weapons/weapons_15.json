@@ -1,0 +1,1 @@
+{"index": "15", "main_category": "weapons", "nameEN": "Forest Sword", "sub_category": "stabbing", "description": "由森林魔法打造的强力之剑。", "damageMin": "8", "damageMax": "18", "knockback": "1", "speed": "4", "type": "0", "baseMineLevel": "-1", "critChance": ".02", "displayName": "森林剑", "minMineLevel": "-1", "critMultiplier": "3", "addedPrecision": "5", "addedAOE": "0", "addDefense": "2"}

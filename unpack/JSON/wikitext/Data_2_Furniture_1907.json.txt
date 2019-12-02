@@ -1,0 +1,1 @@
+{"index": "1907", "main_category": "Furniture", "nameEN": "Strawberry Decal", "type": "painting", "undefined_1": "-1", "undefined_3": "1", "price": "2500", "displayName": "草莓贴花", "undefined_2": "1 1"}

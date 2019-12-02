@@ -1,0 +1,1 @@
+{"index": "3", "main_category": "hats", "nameEN": "Sombrero", "description": "节日性的装饰草帽", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "墨西哥帽"}

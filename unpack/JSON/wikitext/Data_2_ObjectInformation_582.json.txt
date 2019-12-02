@@ -1,0 +1,1 @@
+{"index": "582", "main_category": "ObjectInformation", "nameEN": "Skeletal Hand", "price": "100", "edibility": "-300", "type": "Arch", "displayName": "手部骨骼", "description": "这些史前遗迹能够存在这么久真是个奇迹。", "sub_category": "mineralsCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "Beach .01", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

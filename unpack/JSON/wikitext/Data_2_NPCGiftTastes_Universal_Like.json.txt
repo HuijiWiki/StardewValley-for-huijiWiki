@@ -1,0 +1,1 @@
+{"index": "Universal_Like", "main_category": "NPCGiftTastes", "strings": "-2 -7 -26 -75 -80 72 395 613 634 635 636 637 638 724 459"}

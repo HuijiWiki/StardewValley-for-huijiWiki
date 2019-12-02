@@ -1,0 +1,1 @@
+{"index": "86", "main_category": "BigCraftablesInformation", "nameEN": "Sloth Skeleton M", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "史前树懒的肋骨。 ", "outdoors": "true", "fragility": "2", "displayName": "中树懒骨头", "indoors": "false"}

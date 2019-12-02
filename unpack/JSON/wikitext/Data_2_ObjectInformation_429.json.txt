@@ -1,0 +1,1 @@
+{"index": "429", "main_category": "ObjectInformation", "nameEN": "Jazz Seeds", "price": "15", "edibility": "-300", "type": "Seeds -74", "displayName": "蓝爵士种子", "description": "春天下种。7天产出蓝色绒球花朵。", "sub_category": "seedsCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "drink", "buff": "0 0 0 0 0 0 0 0 0 1 0", "buffDuration": "120"}

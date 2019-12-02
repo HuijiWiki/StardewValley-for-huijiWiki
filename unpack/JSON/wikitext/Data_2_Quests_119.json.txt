@@ -1,0 +1,1 @@
+{"index": "119", "main_category": "Quests", "type": "ItemDelivery", "displayName": "士兵的星星", "description": "肯特想送一个杨桃给妻子当结婚纪念礼物。", "objective": "带给肯特一个杨桃。", "undefined_1": "Kent 268", "undefined_2": "-1", "undefined_3": "500", "undefined_5": "true", "undefined_4": "-1", "unresolved_0": "嘿。嘘……别让乔迪看见。#$b#啊，看起来多汁美味。她会喜欢的。太感谢你了。$h"}

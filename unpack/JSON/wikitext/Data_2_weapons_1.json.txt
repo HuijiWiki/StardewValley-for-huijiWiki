@@ -1,0 +1,1 @@
+{"index": "1", "main_category": "weapons", "nameEN": "Silver Saber", "sub_category": "stabbing", "description": "镀银以防锈。", "damageMin": "8", "damageMax": "15", "knockback": "1", "speed": "0", "type": "3", "baseMineLevel": "50", "critChance": ".02", "displayName": "镀银军刀", "minMineLevel": "45", "critMultiplier": "3"}

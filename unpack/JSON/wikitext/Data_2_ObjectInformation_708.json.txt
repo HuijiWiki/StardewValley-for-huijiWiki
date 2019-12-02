@@ -1,0 +1,1 @@
+{"index": "708", "main_category": "ObjectInformation", "nameEN": "Halibut", "price": "80", "edibility": "10", "type": "Fish -4", "displayName": "大比目鱼", "description": "形状扁平、居住在大洋底的鱼。", "sub_category": "fishCategory", "subType": "food", "undefined_1": "Item 1 127", "extra": "Day^Spring Summer", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

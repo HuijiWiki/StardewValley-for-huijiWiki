@@ -1,0 +1,1 @@
+{"index": "10", "main_category": "weapons", "nameEN": "Claymore", "sub_category": "slashing", "description": "非常沉重。", "damageMin": "20", "damageMax": "32", "knockback": "1.3", "speed": "-8", "type": "3", "baseMineLevel": "86", "critChance": ".02", "displayName": "双刃大剑", "minMineLevel": "50", "critMultiplier": "3.5", "addedPrecision": "0", "addedAOE": "2", "addDefense": "2"}

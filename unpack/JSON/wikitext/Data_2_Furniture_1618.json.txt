@@ -1,0 +1,1 @@
+{"index": "1618", "main_category": "Furniture", "nameEN": "Red Cottage Rug", "type": "rug", "undefined_1": "-1", "undefined_3": "2", "price": "750", "displayName": "红色木屋地毯", "undefined_2": "1 1"}

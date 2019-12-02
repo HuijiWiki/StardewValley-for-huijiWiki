@@ -1,0 +1,1 @@
+{"index": "114", "main_category": "BigCraftablesInformation", "nameEN": "Charcoal Kiln", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "将10块木头转换成一块煤炭。", "outdoors": "true", "fragility": "2", "displayName": "煤炭窑", "indoors": "true"}

@@ -1,0 +1,1 @@
+{"index": "38", "main_category": "hats", "nameEN": "Red Cowboy Hat", "description": "醒目的红绒面革牛仔帽。", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "红色牛仔帽"}

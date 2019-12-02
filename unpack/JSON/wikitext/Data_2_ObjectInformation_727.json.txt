@@ -1,0 +1,1 @@
+{"index": "727", "main_category": "ObjectInformation", "nameEN": "Chowder", "price": "135", "edibility": "90", "type": "Cooking -7", "displayName": "海鲜杂烩汤", "description": "在寒冷的海边过夜后，用它来暖身再好不过了。", "sub_category": "cookingCategory", "subType": "food", "undefined_1": "Item 1 127", "extra": "Day^Spring Summer", "buff": "0 1 0 0 0 0 0 0 0 0 0", "buffDuration": "1440"}

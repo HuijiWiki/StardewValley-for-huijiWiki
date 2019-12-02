@@ -1,0 +1,1 @@
+{"index": "10", "main_category": "hats", "nameEN": "Chicken Mask", "description": "戴上它，你肯定会被笑死。", "skipHairDraw": "true", "ignoreHairstyleOffset": "true", "displayName": "小鸡面具"}

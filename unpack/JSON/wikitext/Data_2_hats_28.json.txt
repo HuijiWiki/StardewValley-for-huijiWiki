@@ -1,0 +1,1 @@
+{"index": "28", "main_category": "hats", "nameEN": "Sou'wester", "description": "让水手在暴风雨中不会淋湿。", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "防雨帽"}

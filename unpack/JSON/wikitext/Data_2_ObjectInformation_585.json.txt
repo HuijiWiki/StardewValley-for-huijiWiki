@@ -1,0 +1,1 @@
+{"index": "585", "main_category": "ObjectInformation", "nameEN": "Skeletal Tail", "price": "100", "edibility": "-300", "type": "Arch", "displayName": "尾部骨骼", "description": "这尾巴还真短。", "sub_category": "mineralsCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "UndergroundMine .01", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

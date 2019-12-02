@@ -1,0 +1,1 @@
+{"index": "41", "main_category": "hats", "nameEN": "Emily's Magic Hat", "description": "艾米丽爱心打造。100% 有机！", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "艾米丽的魔法帽"}

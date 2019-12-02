@@ -1,0 +1,1 @@
+{"index": "6", "main_category": "weapons", "nameEN": "Iron Edge", "sub_category": "slashing", "description": "很重的阔剑。", "damageMin": "12", "damageMax": "25", "knockback": "1.2", "speed": "-4", "type": "3", "baseMineLevel": "44", "critChance": ".02", "displayName": "铁刃", "minMineLevel": "-1", "critMultiplier": "3", "addedPrecision": "0", "addedAOE": "2", "addDefense": "1"}

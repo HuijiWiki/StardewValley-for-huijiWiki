@@ -1,0 +1,1 @@
+{"index": "11", "main_category": "hats", "nameEN": "Earmuffs", "description": "让你的耳朵暖烘烘的。装饰用的是城堡村的手工天鹅绒。", "skipHairDraw": "true", "ignoreHairstyleOffset": "false", "displayName": "护耳"}

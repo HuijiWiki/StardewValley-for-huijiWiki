@@ -1,0 +1,1 @@
+{"index": "1978", "main_category": "Furniture", "nameEN": "Snowy Rug", "type": "rug", "undefined_1": "-1", "undefined_3": "2", "price": "1000", "displayName": "雪地地毯", "undefined_2": "2 1"}

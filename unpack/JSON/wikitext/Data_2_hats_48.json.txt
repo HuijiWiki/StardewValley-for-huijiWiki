@@ -1,0 +1,1 @@
+{"index": "48", "main_category": "hats", "nameEN": "Pumpkin Mask", "description": "这东西以前肯定是个非常大的南瓜……", "skipHairDraw": "hide", "ignoreHairstyleOffset": "true", "displayName": "南瓜面具"}

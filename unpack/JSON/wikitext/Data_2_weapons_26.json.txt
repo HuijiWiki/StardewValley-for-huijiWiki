@@ -1,0 +1,1 @@
+{"index": "26", "main_category": "weapons", "nameEN": "Lead Rod", "sub_category": "stunt", "description": "异常的沉。", "damageMin": "18", "damageMax": "27", "knockback": "1.5", "speed": "-16", "type": "2", "baseMineLevel": "56", "critChance": ".02", "displayName": "铅棒", "minMineLevel": "50", "critMultiplier": "3", "addedPrecision": "0", "addedAOE": "1", "addDefense": "2"}

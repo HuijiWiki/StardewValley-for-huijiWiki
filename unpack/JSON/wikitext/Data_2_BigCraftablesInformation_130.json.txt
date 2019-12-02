@@ -1,0 +1,1 @@
+{"index": "130", "main_category": "BigCraftablesInformation", "nameEN": "Chest", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "收藏你的物品的地方。", "outdoors": "true", "fragility": "2", "displayName": "宝箱", "indoors": "true"}

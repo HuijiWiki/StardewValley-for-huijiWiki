@@ -1,0 +1,1 @@
+{"index": "24", "main_category": "hats", "nameEN": "Eye Patch", "description": "难以看出是的还是服装店买来的。", "skipHairDraw": "true", "ignoreHairstyleOffset": "true", "displayName": "眼罩"}

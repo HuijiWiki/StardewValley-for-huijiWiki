@@ -1,0 +1,1 @@
+{"index": "31", "main_category": "Quests", "type": "Basic", "displayName": "冬日谜团", "description": "你在巴士站遇到了一个形迹可疑的身影。它看到你后，便向城镇逃去。那里会有线索指明它的下落吗？", "objective": "找到这个模糊的身影。", "undefined_1": "-1", "undefined_2": "-1", "undefined_3": "0", "undefined_5": "true", "undefined_4": "-1"}

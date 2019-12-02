@@ -1,0 +1,1 @@
+{"index": "118", "main_category": "ObjectInformation", "nameEN": "Glass Shards", "price": "20", "edibility": "-300", "type": "Arch", "displayName": "玻璃碎片", "description": "被几个世纪海浪冲刷光滑的玻璃碎片混合物。可能是古代拼花装饰或者项链上的东西。", "sub_category": "greensCategory", "subType": "Beach .1", "undefined_1": "Item 1 462"}

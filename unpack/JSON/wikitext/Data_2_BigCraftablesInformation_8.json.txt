@@ -1,0 +1,1 @@
+{"index": "8", "main_category": "BigCraftablesInformation", "nameEN": "Scarecrow", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "防止乌鸦袭击你的农作物。范围有限（大概8块“地块”）。", "outdoors": "true", "fragility": "0", "displayName": "稻草人"}

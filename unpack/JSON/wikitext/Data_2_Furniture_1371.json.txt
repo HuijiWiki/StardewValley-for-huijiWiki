@@ -1,0 +1,1 @@
+{"index": "1371", "main_category": "Furniture", "nameEN": "Wumbus Statue", "type": "decor", "undefined_1": "2 3", "undefined_3": "1", "price": "500", "displayName": "温布斯雕像", "undefined_2": "2 1"}

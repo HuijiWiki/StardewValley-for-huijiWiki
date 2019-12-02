@@ -1,0 +1,1 @@
+{"index": "1305", "main_category": "Furniture", "nameEN": "Chicken Statue", "type": "decor", "undefined_1": "1 2", "undefined_3": "1", "price": "500", "displayName": "鸡雕像", "undefined_2": "1 1"}

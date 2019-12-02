@@ -1,0 +1,1 @@
+{"index": "85", "main_category": "BigCraftablesInformation", "nameEN": "Sloth Skeleton L", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "这种已经灭绝的树懒曾经生活在星露谷的史前森林中。它强大的上下顎可以咬断最坚硬的植物纤维。", "outdoors": "true", "fragility": "2", "displayName": "左倾树懒骨头", "indoors": "false"}

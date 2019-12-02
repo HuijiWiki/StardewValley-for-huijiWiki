@@ -1,0 +1,1 @@
+{"index": "5", "main_category": "weapons", "nameEN": "Bone Sword", "sub_category": "stabbing", "description": "磨尖的骨头打造的轻剑。", "damageMin": "20", "damageMax": "30", "knockback": ".8", "speed": "8", "type": "3", "baseMineLevel": "74", "critChance": ".02", "displayName": "骨剑", "minMineLevel": "50", "critMultiplier": "3", "addedPrecision": "5", "addedAOE": "2", "addDefense": "0"}

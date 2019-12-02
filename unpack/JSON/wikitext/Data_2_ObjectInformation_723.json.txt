@@ -1,0 +1,1 @@
+{"index": "723", "main_category": "ObjectInformation", "nameEN": "Oyster", "price": "40", "edibility": "-300", "type": "Fish -4", "displayName": "牡蛎", "description": "以滤水的方式觅食。在这个过程中，会清除环境中的有毒有害物质。", "sub_category": "fishCategory", "subType": "food", "undefined_1": "Item 1 127", "extra": "Day^Spring Summer", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

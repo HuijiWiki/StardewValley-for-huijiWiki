@@ -1,0 +1,1 @@
+{"index": "Skeleton Mage", "main_category": "Monsters", "baseHP": "60", "baseDamage": "5", "undefined_1": "0", "isAir": "false", "undefined_3": "2000", "undefined_4": "80 0", "baseDefence": "1", "undefined_5": ".01", "undefined_6": "8", "baseSpeed": "3", "undefined_7": ".0", "killable": "true", "baseEXP": "15", "displayName": "骨头法师", "undefined_2": "2"}

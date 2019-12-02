@@ -1,0 +1,1 @@
+{"index": "12", "main_category": "weapons", "nameEN": "Wooden Blade", "sub_category": "stabbing", "description": "对于一块木雕来说不错了。", "damageMin": "3", "damageMax": "7", "knockback": "1", "speed": "0", "type": "3", "baseMineLevel": "26", "critChance": ".02", "displayName": "木剑", "minMineLevel": "-1", "critMultiplier": "3", "addedPrecision": "0", "addedAOE": "2", "addDefense": "2"}

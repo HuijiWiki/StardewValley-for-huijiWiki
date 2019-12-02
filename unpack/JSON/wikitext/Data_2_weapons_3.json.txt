@@ -1,0 +1,1 @@
+{"index": "3", "main_category": "weapons", "nameEN": "Holy Blade", "sub_category": "slashing", "description": "握在手里，充满正能量。", "damageMin": "18", "damageMax": "24", "knockback": "1.2", "speed": "0", "type": "3", "baseMineLevel": "-1", "critChance": ".02", "displayName": "圣剑", "minMineLevel": "45", "critMultiplier": "3", "addedPrecision": "5", "addedAOE": "2"}

@@ -1,0 +1,1 @@
+{"index": "12", "main_category": "Furniture", "nameEN": "Red Diner Chair", "type": "chair", "undefined_1": "-1", "undefined_3": "4", "price": "750", "displayName": "红色餐椅"}

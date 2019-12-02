@@ -1,0 +1,1 @@
+{"index": "16", "main_category": "hats", "nameEN": "Trucker Hat", "description": "帽后带网孔以通风。", "skipHairDraw": "false", "ignoreHairstyleOffset": "true", "displayName": "司机帽"}

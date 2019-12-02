@@ -1,0 +1,1 @@
+{"index": "Ancient Seeds", "main_category": "CraftingRecipes", "undefined_1": "114 1", "location": "Field", "undefined_2": "499", "isProduction": "false", "source": "null", "displayName": "上古种子"}

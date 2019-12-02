@@ -1,0 +1,1 @@
+{"index": "31", "main_category": "weapons", "nameEN": "Femur", "sub_category": "stunt", "description": "一根古老沉重的骨头，覆盖着数个世纪的尘垢。", "damageMin": "6", "damageMax": "11", "knockback": "1.5", "speed": "-4", "type": "2", "baseMineLevel": "10", "critChance": ".02", "displayName": "股骨", "minMineLevel": "-1", "critMultiplier": "3", "addedPrecision": "0", "addedAOE": "1", "addDefense": "0"}

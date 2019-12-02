@@ -1,0 +1,1 @@
+{"index": "George", "main_category": "NPCDispositions", "age": "adult", "manners": "rude", "socialAnxiety": "neutral", "optimism": "negative", "gender": "male", "datable": "not-datable", "loveInterest": "Evelyn", "homeRegion": "Town", "birthday": "fall 24", "relationships": "Evelyn '妻子' Alex '孙子'", "defaultLocation": "JoshHouse 16 22", "displayName": "乔治"}

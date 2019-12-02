@@ -1,0 +1,1 @@
+{"index": "531", "main_category": "ObjectInformation", "nameEN": "Aquamarine Ring", "price": "400", "edibility": "-300", "type": "Ring", "displayName": "海蓝宝石戒指", "description": "增加10%的致命一击机会。", "sub_category": "seedsCategory", "subType": "drink", "undefined_1": "Item 1 127", "extra": "drink", "buff": "0 0 0 0 0 0 0 0 0 0 0", "buffDuration": "0"}

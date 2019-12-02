@@ -1,0 +1,1 @@
+{"index": "98", "main_category": "BigCraftablesInformation", "nameEN": "Empty Capsule", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "一部分玻璃被击碎了。", "outdoors": "true", "fragility": "2", "displayName": "空置的胶囊", "indoors": "false"}
