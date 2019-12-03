@@ -109,15 +109,6 @@
         }
     },
     "cookingrecipes" : {
-<<<<<<< HEAD
-        "5":[
-            "undefined_1",
-            "undefined_2",
-            "undefined_3",
-            "source",
-            "displayName"
-            ]
-=======
         "5":{
           "recipeList": {
             "itemId": 0,
@@ -128,7 +119,6 @@
           "source": 3,
           "displayName": 4
         }
->>>>>>> 6e50d5390f84bb03e143cd9a72615ad97ad9d1d4
     },
     "craftingrecipes" : {
         "6": {
