@@ -2,39 +2,46 @@ local getArgs = require('Module:Arguments').getArgs
 local p = {}
 --------------------------------------------------
 p.categoryTable = {            
-  ["-2"]="宝石类",
-  ["-4"]="鱼类",
-  ["-5"]="蛋类",
-  ["-6"]="乳制品",
-  ["-7"]="烹饪",
-  ["-8"]="制造",
-  ["-9"]="大型制造物品",
-  ["-12"]="矿石类",
+  ["-2"]="宝石类矿物",
+  ["-4"]="水产类物品",
+  ["-5"]="蛋类物品",
+  ["-6"]="奶类物品",
+  ["-7"]="烹饪美食",
+  ["-8"]="农矿类物品",
+  ["-9"]="原石类矿物",
+  ["-12"]="资源类矿物",
   ["-14"]="肉类",
   ["-15"]="金属资源",
-  ["-16"]="建筑资源",
-  ["-17"]="皮埃尔售卖物品",
-  ["-18"]="皮埃尔与玛丽售卖物品",
+  ["-16"]="建造资源",
+  ["-17"]="贵重食品",
+  ["-18"]="动物制品",
   ["-19"]="肥料",
-  ["-20"]="垃圾",
-  ["-21"]="鱼饵",
-  ["-22"]="tackleCategory",
-  ["-23"]="鱼店售卖物品",
-  ["-24"]="家具",
+  ["-20"]="垃圾物品",
+  ["-21"]="鱼饵类物品",
+  ["-22"]="浮标类物品",
+  ["-23"]="采集类海产",
+  ["-24"]="地块装饰",
   ["-25"]="原料",
-  ["-26"]="手工制品",
-  ["-27"]="糖浆",
-  ["-28"]="怪物掉落",
+  ["-26"]="工匠物品",
+  ["-27"]="树脂",
+  ["-28"]="怪物搜刮",
   ["-29"]="装备",
   ["-74"]="种子",
-  ["-75"]="蔬菜",
+  ["-75"]="菜类作物",
   ["-79"]="水果",
-  ["-80"]="鲜花",
-  ["-81"]="绿色植物",
+  ["-80"]="花",
+  ["-81"]="野外采集类植物",
   ["-95"]="帽子",
   ["-96"]="指环",
   ["-98"]="武器",
   ["-99"]="工具"
+}
+p.skillTable = {
+  ['Farming'] = '耕种',
+  ['Mining'] = '采矿',
+  ['Foraging'] = '觅食',
+  ['Fishing'] = '钓鱼',
+  ['Combat'] = '战斗',
 }
 p.buffTable ={
     [1] = {['英文名'] = 'Farming',		['中文名'] = '耕种'},
@@ -155,6 +162,10 @@ return res
 end
 ---------------------------------------------------
 function p._recipeRow(data,item_data)
+  local cookingTV = mw.huiji.db.find{
+    _id = "Data:CookingTV.json"
+  }
+  cookingTV = cookingTV[1]
   local res = ''
   local res_recipe = ''
   local res_product = ''
@@ -167,21 +178,22 @@ function p._recipeRow(data,item_data)
   if data.recipeItem ~= nil and data.recipeItem ~= '' then
     local recipe = mw.text.split(data.recipeItem,'%s')
     for i = 0, table.maxn(recipe)-1 ,2 do
-      res_recipe = res_recipe.. '<div>' ..p._itemIndex(recipe[i+1],item_data)..':'..tonumber(recipe[i+2])..'</div>'
+      res_recipe = res_recipe.. '<div>' ..p._itemIndex(recipe[i+1],item_data)..'('..tonumber(recipe[i+2])..')</div>'
     end
     --res_recipe = res_recipe ..mw.dumpObject(loot)
   end
-
+  
   local name = data.displayName
-  local img = p._getImage(data.index..'.png','18',name)
+  local img = p._getImage(data.index..'.png','24',name)
+
+  ---------------edibility---------------------------------------------------
   local edibility = tonumber(item_data[pId]["edibility"])
     local energy = edibility*2.5
     local hp = edibility*2.5*0.45
     local hp_text = edibility*2.5*0.4
     local effect_res = '<div>'..p._getImage('Energy.png',"24",'能量')..'+'..energy..'体力值</div><div>'..
-    p._getImage('Health.png',"24",'生命值')..'+'..hp_text..'生命值</div>'
-
-
+    p._getImage('Health.png',"24",'生命值')..'+'..hp..'生命值</div>'
+  ---------------buff type------------------------------
   local buff_string = item_data[pId]["buff"]
     local buff_list = mw.text.split(buff_string,'%s')
     local buff_res = ''
@@ -189,30 +201,103 @@ function p._recipeRow(data,item_data)
       if tonumber(v) > 0 then
       local buff_name = p.buffTable[_i]['中文名']
       local buff_icon = p._getImage(p.buffTable[_i]['英文名']..'.png',"24",buff_name)
-      buff_res = buff_res .. buff_icon ..' [['..buff_name..']]'
+      buff_res = buff_res .. buff_icon ..' [['..buff_name..']](+'..v..')'
       end
     end
   local buff_duration = tonumber(item_data[pId]["buffDuration"])
-  
+  -------------buff duration----------------------------
   if buff_duration ~= nil then
-  if buff_duration > 0 then
-    local buff_m = buff_duration%60
-    local buff_h = (buff_duration-buff_m)/60
-    local time_res = tostring(buff_h)..'小时'
-    if buff_m > 0 then
-      time_res =  time_res ..tostring(buff_m)..'分钟' 
+    if buff_duration > 0 then
+      local buff_m = buff_duration%60
+      local buff_h = (buff_duration-buff_m)/60
+      local time_res = tostring(buff_h)..'小时'
+      if buff_m > 0 then
+        time_res =  time_res ..tostring(buff_m)..'分钟' 
+      end
+      buff_res = buff_res .. p._getImage('Time_Icon.png','24','')..time_res
     end
-    buff_res = buff_res .. p._getImage('Time_Icon.png','24','')..time_res
   end
-end
-  local price = item_data[pId]["price"]
+  --------------source------------------------------------
+  local res_source = ''
+  local res_year = ''
+  local res_season = ''
+  local res_day = ''
+  local source_text = mw.text.split(source,'%s')
+  if tostring(source_text[1]) == "f" then
+    res_source = source_text[1] .. source_text[2]
+  end
+
+  if tostring(source_text[1]) == "l" then
+    local tv_index = 0
+    for k,v in pairs(cookingTV) do
+      if tostring(v.nameEN) == tostring(nameEN) then
+        tv_index =tonumber(k)
+        break
+      end
+    end
+    local tv_year = math.ceil(tv_index / 16)
+    if tv_year == 1 then
+      res_year = "奇数年"
+      else
+      res_year = "偶数年"
+    end
+    local tv_season = math.ceil ((tv_index - 16*(tv_year-1)) /4)
+
+    if tv_season == 1 then
+     res_season = "春季"
+      else
+        if tv_season == 2 then
+          res_season = "夏季"
+        else
+          if tv_season == 3 then
+            res_season = "秋季"
+          else
+            if tv_season == 4 then
+              res_season = "冬季"
+            end
+          end
+        end
+    end
+    local tv_day =  (tv_index % 4) 
+    if tv_day == 1 then
+      res_day = 7
+    else
+      if tv_day == 2 then
+        res_day = 14
+      else
+        if tv_day == 3 then
+          res_day = 21
+        else
+          if tv_day == 0 then
+            res_day = 28
+          end
+        end
+      end
+    end
+    res_source = '<div>'..p._getImage('Cooking Channel.png',"16",'电视节目')..' [[电视节目]]</div><div>'..
+    res_year..'-[['..res_season..']]'..res_day..'</div>'
+    ----------------------------------------------------
+    if displayName == '三倍速溶咖啡' then
+      res_source ='<div>'..p._getImage('Gus Icon.png',"24",'星之果实餐吧')..
+      '[[星之果实餐吧]] '..p._getImage('Gold.png',"24",'')..'5000 购买</div>'
+    end
+  end
+  
+  if tostring(source_text[1]) == "s" then
+    res_source = source_text[1] .. source_text[2]
+  end
+  
+  local price = item_data[pId]["price"]..p._getImage('Gold.png',"24",'')
+  local description = item_data[pId]["description"]
+
   local res ='<tr>'..
-   '<td>'..img..' [['..name..']]'..'</td>'..
-   '<td>'..res_recipe..'</td>'..
-   '<td>'..effect_res..'</td>'..
-   '<td>'..buff_res..'</td>'..
-   '<td>'..source..'</td>'..
-   '<td>'..price..'</td>'
+   '<td style="width: 120px;text-align:left"><div>'..img..' [['..name..']]'..'</div><div>'..description..'</div></td>'..
+   '<td style="text-align:left">'..res_recipe..'</td>'..
+   '<td style="text-align:left">'..effect_res..'</td>'..
+   '<td style="text-align:left">'..buff_res..'</td>'..
+   '<td style="text-align:left">'..res_source..'</td>'..
+  -- '<td>'..mw.dumpObject(source_text)..'</td>'..
+   '<td style="text-align:left">'..price..'</td>'
   return res
 end
 --------------------------------------------------
@@ -221,13 +306,13 @@ function p._itemIndex(id,item_data)
  
   category_data = p.categoryTable
   if tonumber(id) < 0 then
-    item = category_data[tostring(id)]
+    item = '任意[['..category_data[tostring(id)]..']]'
   end 
   if tonumber(id) > 0 then 
      local name =item_data[tonumber(id)]['displayName']
      local img =item_data[tonumber(id)]['nameEN'] ..'.png'
       --item = tostring(id)
-      item = p._getImage(img,'14',name)..'[['..name..']]'
+      item = p._getImage(img,'16',name)..' [['..name..']]'
       --item = mw.dumpObject(item_data)
 
   end
