@@ -2,46 +2,16 @@ local getArgs = require('Module:Arguments').getArgs
 local p = {}
 --------------------------------------------------
 p.categoryTable = {            
-  ["-2"]="宝石类矿物",
-  ["-4"]="水产类物品",
-  ["-5"]="蛋类物品",
-  ["-6"]="奶类物品",
-  ["-7"]="烹饪美食",
-  ["-8"]="农矿类物品",
-  ["-9"]="原石类矿物",
-  ["-12"]="资源类矿物",
-  ["-14"]="肉类",
-  ["-15"]="金属资源",
-  ["-16"]="建造资源",
-  ["-17"]="贵重食品",
-  ["-18"]="动物制品",
-  ["-19"]="肥料",
-  ["-20"]="垃圾物品",
-  ["-21"]="鱼饵类物品",
-  ["-22"]="浮标类物品",
-  ["-23"]="采集类海产",
-  ["-24"]="地块装饰",
-  ["-25"]="原料",
-  ["-26"]="工匠物品",
-  ["-27"]="树脂",
-  ["-28"]="怪物搜刮",
-  ["-29"]="装备",
-  ["-74"]="种子",
-  ["-75"]="菜类作物",
-  ["-79"]="水果",
-  ["-80"]="花",
-  ["-81"]="野外采集类植物",
-  ["-95"]="帽子",
-  ["-96"]="指环",
-  ["-98"]="武器",
-  ["-99"]="工具"
+  ["-2"]="宝石类矿物",  ["-4"]="水产类物品",  ["-5"]="蛋类物品",  ["-6"]="奶类物品",  ["-7"]="烹饪美食",
+  ["-8"]="农矿类物品",  ["-9"]="原石类矿物",  ["-12"]="资源类矿物",  ["-14"]="肉类",  ["-15"]="金属资源",
+  ["-16"]="建造资源",  ["-17"]="贵重食品",  ["-18"]="动物制品",  ["-19"]="肥料",  ["-20"]="垃圾物品",
+  ["-21"]="鱼饵类物品",  ["-22"]="浮标类物品",  ["-23"]="采集类海产",  ["-24"]="地块装饰",  ["-25"]="原料",
+  ["-26"]="工匠物品",  ["-27"]="树脂",  ["-28"]="怪物搜刮",  ["-29"]="装备",  ["-74"]="种子",  ["-75"]="菜类作物",
+  ["-79"]="水果",  ["-80"]="花",  ["-81"]="野外采集类植物",  ["-95"]="帽子",  ["-96"]="指环",  ["-98"]="武器",
+  ["-99"]="工具",  ["-777"]="野生种子"
 }
 p.skillTable = {
-  ['Farming'] = '耕种',
-  ['Mining'] = '采矿',
-  ['Foraging'] = '觅食',
-  ['Fishing'] = '钓鱼',
-  ['Combat'] = '战斗',
+  ['Farming'] = '耕种',  ['Mining'] = '采矿',  ['Foraging'] = '觅食',  ['Fishing'] = '钓鱼',  ['Combat'] = '战斗',
 }
 p.buffTable ={
     [1] = {['英文名'] = 'Farming',		['中文名'] = '耕种'},
@@ -57,6 +27,10 @@ p.buffTable ={
     [11] = {['英文名'] = 'Defense',		['中文名'] = '防御'},
     [12] = {['英文名'] = 'Attack',		['中文名'] = '攻击'},
 }
+function p._showCookingBook(data,item_data,c_data,cookingTV)
+  local res = ''
+  return res
+end
 ----------------------------------------------------------------------------
 function p._getImage(path,size,link)
 	local res = ''
@@ -106,10 +80,28 @@ function p._getMonsterTable(frame)
 end
 --------------------------------------------------------
 function p._getRecipeTable(frame)
+  local c_data = mw.huiji.db.find{
+    _id = "Data:Characters.json"
+  }
+  local cookingTV = mw.huiji.db.find{
+    _id = "Data:CookingTV.json"
+  }
   local item_data = mw.huiji.db.find({
     _id = 'Data:ObjIndex.json'
   })
-    local res =''..
+  local query ={
+    main_category	= 'CookingRecipes',
+    --baseDamage = {["$gt"] = "0"}
+  }
+  local options = {
+    sort ={
+      index = -1,
+    }
+  }
+  local data = mw.huiji.db.find(query,options)
+
+    local res_book =p._showCookingBook(data,item_data[1],c_data[1],cookingTV[1])
+    local res = res_book..
      '<table class="wikitable sortable" style="text-align:center;width: auto; min-width: 0; display: table; max-width: 100%;><tr>'..
      '<th>名称</th>'..
      '<th style="width:65px;">材料</th>'..
@@ -117,16 +109,175 @@ function p._getRecipeTable(frame)
      '<th style="width:65px;">增益状态</th>'..
      '<th style="width:65px;">配方来源</th>'..
      '<th style="width:65px;">价格</th>'
+    
+    for _i,v in ipairs(data) do
+      res =res..p._recipeRow(v,item_data[1],c_data[1],cookingTV[1])
+    end
+    res = res .. '</table>'
+    --..mw.dumpObject(cookingTV[1])
+    return res
+end
+---------------CRAFT TABLE-------------------------------
+function p._getCraftTable(frame)
+  local c_data = mw.huiji.db.find{
+    _id = "Data:Characters.json"
+  }
+  local cookingTV = mw.huiji.db.find{
+    _id = "Data:CookingTV.json"
+  }
+  local item_data = mw.huiji.db.find({
+    _id = 'Data:ObjIndex.json'
+  })
+    local th =''..
+     '<table class="wikitable sortable" style="text-align:center;width: auto; min-width: 0; display: table; max-width: 100%;><tr>'..
+     '<th>名称</th>'..
+     '<th style="width:120px;">描述</th>'..
+     '<th style="width:120px;">材料</th>'..
+     '<th style="width:65px;">配方来源</th>'..
+     '<th style="width:65px;">备注</th>'
     local query ={
-      main_category	= 'CookingRecipes',
+      main_category	= 'CraftingRecipes',
       --baseDamage = {["$gt"] = "0"}
     }
-    local data = mw.huiji.db.find(query)
-    for _i,v in ipairs(data) do
-      res =res..p._recipeRow(v,item_data[1])
+    local options = {
+      ['sort'] = {
+        ['craft_category'] = -1,
+      --  ['craftItem'] = -1,
+      }
+    }
+    -----------------------------------------------------------------------
+    local titleEnum = {
+      ['Seeds'] = "种子",
+      ['Ring'] = "戒指",
+      ['Quest'] = "任务",
+      ['Minerals'] = "矿石",
+      ['Fish'] = "钓鱼",
+      ['Crafting'] = "制造",
+      ['Cooking'] = "烹饪",
+      ['Basic'] = "基础",
+      ['Arch'] = "特殊",
+      ['999'] = "其他",
+    }
+    ----------------------------------------------------------------------
+    local data = mw.huiji.db.find(query,options)
+    for i = 1,table.maxn(data),1 do
+      if i == 1 then
+        local title = data[i]['craft_category']
+      res = th..'<h3>'..titleEnum[title]..'</h3>'
+      end
+      if i > 1 then
+        if data[i]['craft_category'] == data[i-1]['craft_category'] then
+        res = res .. p._craftRow(data[i],item_data[1],c_data[1],cookingTV[1])
+        else 
+          local title = data[i]['craft_category']
+        res = res ..'</table>'..'<h3>'..titleEnum[title]..'</h3>'..th..p._craftRow(data[i],item_data[1],c_data[1],cookingTV[1])
+        end
+      end 
+      --res =res..p._craftRow(v,item_data[1],c_data[1],cookingTV[1])
     end
-    res = res .. '</table>'..mw.dumpObject(data)
+    res = res .. '</table>'
+    --..mw.dumpObject(item_data)
+    --..mw.dumpObject(cookingTV[1])
     return res
+end
+---------------CRAFT ROW----------------------------------
+function p._craftRow(data,item_data,c_data,tv_data)
+  local name = data.displayName
+  local img = p._getImage(data.index..'.png','24',name)
+  local craft = mw.text.split(data.craftItem,'%s')
+  local quantity = craft[2] or '1'
+  local recipeItem = data.recipeItem
+  local pId = tonumber(craft[1])
+  local description = ''
+  if item_data[pId] ~=nil then
+    description = item_data[pId]["description"]
+  end
+  ------------------recipe--------------------------------------------------------
+  local res_recipe = p._getRecipeItems(recipeItem,item_data)  
+  ------------------source---------------------------------
+  local res_source = ''
+  local source = mw.text.split(data.skill,'%s')
+  if source[1] ~= 'l' and source[1] ~= 's' and data.skill ~= 'null' then
+    if p.skillTable[source[1]] ~= nil then
+    res_source = p._getImage(source[1]..' Skill Icon.png','18','')..' [['..p.skillTable[source[1]]..']] 等级'..source[2]
+    else
+    res_source = source[1]..'!!!'
+    end
+  end
+
+  if source[1] == 's' then
+    if p.skillTable[source[2]] ~= nil then 
+    res_source = p._getImage(source[2]..' Skill Icon.png','18','')..' [['..p.skillTable[source[2]]..']] 等级'..source[3]
+    else
+    res_source = source[2]..'!!!'
+    end
+  end
+  
+  local enumTable = {
+    ['Ancient Seeds'] = "向[[博物馆]]捐赠[[上古种子]]",
+    ['Wood Floor'] = "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 500）",
+    ['Straw Floor'] = "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 1000）",
+    ['Weathered Floor'] = "[[file:Drawf Icon.png|18px|link=]] [[矮人]]处购买（[[file:Gold.png|18px|link=]] 500）",
+    ['Crystal Floor'] = "[[file:Krobus Icon.png|18px|link=]] [[科罗布斯]]处购买（[[file:Gold.png|18px|link=]] 500）",
+    ['Stone Floor'] = "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 500）",
+    ['Brick Floor'] = "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 500）",
+    ['Wood Path'] = "游戏开始时自带",
+    ['Gravel Path'] = "游戏开始时自带",
+    ['Cobblestone Path'] = "游戏开始时自带",
+    ['Stepping Stone Path'] =  "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 500）",
+    ['Crystal Path'] = "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 1000）",
+    ['Wild Bait'] = "[[file:Linus Icon.png|18px|link=]] [[莱纳斯]]4[[file:Heart.png|18px|link=]]",
+    ['Wedding Ring'] = "[[旅行货车]]购买（[[file:Gold.png|18px|link=]] 500）",
+    ['Torch'] = "游戏开始时自带",
+    ['Campfire'] = "游戏开始时自带",
+    ['Wooden Brazier']  = "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 250）",
+    ['Stone Brazier']  = "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 400）",
+    ['Gold Brazier']  = "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 1000）",
+    ['Carved Brazier']  = "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 2000）",
+    ['Stump Brazier']  = "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 800）",
+    ['Barrel Brazier'] = "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 800）",
+    ['Skull Brazier'] = "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 3000）",
+    ['Marble Brazier'] = "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 5000）",
+    ['Wood Lamp-post'] ="[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 5000）",
+    ['Iron Lamp-post'] = "[[木匠的商店]]购买（[[file:Gold.png|18px|link=]] 1000）",
+    ["Jack-O-Lantern"] = "[[file:Pierre Icon.png|18px|link=]] [[万灵节]][[皮埃尔]]处购买（[[file:Gold.png|18px|link=]] 2000）",
+    ['Furnace'] = "[[file:Clint Icon.png|18px|link=]] [[克林特]](进入矿井一层之后)",
+    ["Tub o' Flowers"] = "[[file:Pierre Icon.png|18px|link=]] [[花舞节]][[皮埃尔]]处购买（[[file:Gold.png|18px|link=]] 2000）",
+    ['Flute Block'] = "[[file:Robin Icon.png|18px|link=]] [[罗宾]]6[[file:Heart.png|18px|link=]]",
+    ['Drum Block'] = "[[file:Robin Icon.png|18px|link=]] [[罗宾]]6[[file:Heart.png|18px|link=]]",
+    ['Wicked Statue'] =  "[[file:Krobus Icon.png|18px|link=]] [[科罗布斯]]处购买（[[file:Gold.png|18px|link=]] 1000）",
+    ['Chest'] ="游戏开始时自带",
+    ['Wood Sign'] ="游戏开始时自带",
+    ['Stone Sign'] ="游戏开始时自带",
+    ['Garden Pot'] = "完成温室后从[[艾芙琳]]处获得",
+    ['Warp Totem: Desert'] = "从[[沙漠商人]]处购买（10[[file:Iridium Bar.png|18px|link=]] 铱锭）",
+    ['Gate'] = "游戏开始时自带",
+    ['Wood Fence'] = "游戏开始时自带",
+    ['Cask'] = "[[农场]]地窖升级"
+  }
+
+  if source[1] == 'l' or data.skill == 'null' then
+    if enumTable[data.index] ~= nil then
+    res_source = enumTable[data.index]
+    end
+  end
+  local res_info = ''
+  if tostring(data.isBigCraftItem) == "true" then
+    res_info = "<div>大型物品</div>"
+  end
+  if tostring(data.type) == "Home" then
+    res_info = res_info.."<div>室内</div>"
+  end
+  if tostring(data.type) == "Field" then
+    res_info = res_info.."<div>室外</div>"
+  end
+  local res ='<tr>'..
+  '<td style="width: 140px;text-align:left"><div>'..img..' [['..name..']](×'..quantity..')</div></td>'..
+  '<td style="text-align:left">'..description..'</td>'..
+  '<td style="text-align:left">'..res_recipe..'</td>'..
+  '<td style="text-align:left">'..res_source..'</td>'..
+  '<td style="text-align:left">'..res_info..'</td>'
+ return res
 end
 ---------------------------------------------------
 function p._monsterRow(data,item_data)
@@ -160,12 +311,8 @@ function p._monsterRow(data,item_data)
    '<td style="text-align:left">'..res_loot..'</td>'
 return res
 end
----------------------------------------------------
-function p._recipeRow(data,item_data)
-  local cookingTV = mw.huiji.db.find{
-    _id = "Data:CookingTV.json"
-  }
-  cookingTV = cookingTV[1]
+------------------食谱------------------------
+function p._recipeRow(data,item_data,c_data,tv_data)
   local res = ''
   local res_recipe = ''
   local res_product = ''
@@ -174,18 +321,10 @@ function p._recipeRow(data,item_data)
   local pId = tonumber(data.productItemId)
   local source = data.source
   local displayName = data.displayName
-
-  if data.recipeItem ~= nil and data.recipeItem ~= '' then
-    local recipe = mw.text.split(data.recipeItem,'%s')
-    for i = 0, table.maxn(recipe)-1 ,2 do
-      res_recipe = res_recipe.. '<div>' ..p._itemIndex(recipe[i+1],item_data)..'('..tonumber(recipe[i+2])..')</div>'
-    end
-    --res_recipe = res_recipe ..mw.dumpObject(loot)
-  end
-  
   local name = data.displayName
   local img = p._getImage(data.index..'.png','24',name)
-
+  -------------------recipe list--------------------------------------------------
+  res_recipe = p._getRecipeItems(recipeItem,item_data)  
   ---------------edibility---------------------------------------------------
   local edibility = tonumber(item_data[pId]["edibility"])
     local energy = edibility*2.5
@@ -200,12 +339,12 @@ function p._recipeRow(data,item_data)
     for _i,v in ipairs(buff_list) do
       if tonumber(v) > 0 then
       local buff_name = p.buffTable[_i]['中文名']
-      local buff_icon = p._getImage(p.buffTable[_i]['英文名']..'.png',"24",buff_name)
-      buff_res = buff_res .. buff_icon ..' [['..buff_name..']](+'..v..')'
+      local buff_icon = '<div>'..p._getImage(p.buffTable[_i]['英文名']..'.png',"24",buff_name)
+      buff_res = buff_res .. buff_icon ..' [['..buff_name..']](+'..v..')</div>'
       end
     end
-  local buff_duration = tonumber(item_data[pId]["buffDuration"])
   -------------buff duration----------------------------
+  local buff_duration = tonumber(item_data[pId]["buffDuration"])
   if buff_duration ~= nil then
     if buff_duration > 0 then
       local buff_m = buff_duration%60
@@ -214,79 +353,10 @@ function p._recipeRow(data,item_data)
       if buff_m > 0 then
         time_res =  time_res ..tostring(buff_m)..'分钟' 
       end
-      buff_res = buff_res .. p._getImage('Time_Icon.png','24','')..time_res
+      buff_res = buff_res .. '<div>'..p._getImage('Time_Icon.png','24','')..time_res..'</div>'
     end
   end
-  --------------source------------------------------------
-  local res_source = ''
-  local res_year = ''
-  local res_season = ''
-  local res_day = ''
-  local source_text = mw.text.split(source,'%s')
-  if tostring(source_text[1]) == "f" then
-    res_source = source_text[1] .. source_text[2]
-  end
-
-  if tostring(source_text[1]) == "l" then
-    local tv_index = 0
-    for k,v in pairs(cookingTV) do
-      if tostring(v.nameEN) == tostring(nameEN) then
-        tv_index =tonumber(k)
-        break
-      end
-    end
-    local tv_year = math.ceil(tv_index / 16)
-    if tv_year == 1 then
-      res_year = "奇数年"
-      else
-      res_year = "偶数年"
-    end
-    local tv_season = math.ceil ((tv_index - 16*(tv_year-1)) /4)
-
-    if tv_season == 1 then
-     res_season = "春季"
-      else
-        if tv_season == 2 then
-          res_season = "夏季"
-        else
-          if tv_season == 3 then
-            res_season = "秋季"
-          else
-            if tv_season == 4 then
-              res_season = "冬季"
-            end
-          end
-        end
-    end
-    local tv_day =  (tv_index % 4) 
-    if tv_day == 1 then
-      res_day = 7
-    else
-      if tv_day == 2 then
-        res_day = 14
-      else
-        if tv_day == 3 then
-          res_day = 21
-        else
-          if tv_day == 0 then
-            res_day = 28
-          end
-        end
-      end
-    end
-    res_source = '<div>'..p._getImage('Cooking Channel.png',"16",'电视节目')..' [[电视节目]]</div><div>'..
-    res_year..'-[['..res_season..']]'..res_day..'</div>'
-    ----------------------------------------------------
-    if displayName == '三倍速溶咖啡' then
-      res_source ='<div>'..p._getImage('Gus Icon.png',"24",'星之果实餐吧')..
-      '[[星之果实餐吧]] '..p._getImage('Gold.png',"24",'')..'5000 购买</div>'
-    end
-  end
-  
-  if tostring(source_text[1]) == "s" then
-    res_source = source_text[1] .. source_text[2]
-  end
-  
+  ---------------------------------------------------
   local price = item_data[pId]["price"]..p._getImage('Gold.png',"24",'')
   local description = item_data[pId]["description"]
 
@@ -295,18 +365,33 @@ function p._recipeRow(data,item_data)
    '<td style="text-align:left">'..res_recipe..'</td>'..
    '<td style="text-align:left">'..effect_res..'</td>'..
    '<td style="text-align:left">'..buff_res..'</td>'..
-   '<td style="text-align:left">'..res_source..'</td>'..
+   '<td style="text-align:left">'..p._getSource(source,c_data,tv_data,displayName,nameEN)..'</td>'..
   -- '<td>'..mw.dumpObject(source_text)..'</td>'..
    '<td style="text-align:left">'..price..'</td>'
   return res
 end
---------------------------------------------------
+------------------------------------------------------
+function p._getRecipeItems(recipeItem,item_data)
+  local res = ''
+  if recipeItem ~= nil and recipeItem ~= '' then
+    local recipe = mw.text.split(recipeItem,'%s')
+    for i = 0, table.maxn(recipe)-1 ,2 do
+      res = res .. '<div>' .. p._itemIndex(recipe[i+1],item_data) .. '(' .. tonumber(recipe[i+2]) ..')</div>'
+    end
+  end
+  return res
+end
+--------------get Item by Index----------------------
 function p._itemIndex(id,item_data)
   local item = ''
  
   category_data = p.categoryTable
   if tonumber(id) < 0 then
+    if category_data[tostring(id)] ~= nil then
     item = '任意[['..category_data[tostring(id)]..']]'
+    else
+      item = tostring(id)..'!!!!'
+    end
   end 
   if tonumber(id) > 0 then 
      local name =item_data[tonumber(id)]['displayName']
@@ -318,6 +403,72 @@ function p._itemIndex(id,item_data)
   end
   return item
 end
+--------------get source infomation----------------------
+function p._getSource(source,c_data,tv_data,displayName,nameEN)
+    local res_source = ''
+  ---------------------------------------------------------------
+    local source_text = mw.text.split(source,'%s')
+  ------------------character------------------------------------
+    if tostring(source_text[1]) == "f" then
+      local c_img = source_text[2]..' Icon.png'
+      local c_name = c_data[source_text[2]]['displayName']
+      res_source = p._getImage(c_img,'24','')..'[['..c_name ..']] ('.. 
+      source_text[3]..p._getImage('Heart.png','18','')..')'
+    end
+----------------------tv show------------------------------------
+  if tostring(source_text[1]) == "l" or displayName == '幸运午餐' then
+    local res_year,res_season ,res_day , tv_index ,tv_year ,tv_season ,tv_day 
 
+    for k,v in ipairs(tv_data) do
+      if tostring(v.nameEN) == tostring(nameEN) then
+        tv_index = tonumber(k)
+        break
+      else
+        tv_index = 0
+      end
+    end
+
+    if tv_index ~= nil and tv_index > 0 then
+        tv_year = math.ceil(tv_index / 16)
+
+        if tv_year == 1 then
+          res_year = "奇数年"
+        end
+        if tv_year == 2 then
+          res_year = "偶数年"
+        end
+
+        tv_season = math.ceil ((tv_index - 16*(tv_year-1)) /4)
+        local tvtable = {
+           [1] = "春季",[2] = "夏季",[3] = "秋季",[4] = "冬季",
+        }
+        res_season = tvtable[tv_season]
+
+        tv_day =  (tv_index % 4) 
+        local tvtable2 ={
+          ["1"] = "7",["2"] = "14",["3"] = "21",["0"] = "28",
+        }
+        res_day = tvtable2[tostring(tv_day)] 
+      end
+      if tv_index > 0 then
+        res_source = '<div>'..p._getImage('Cooking Channel.png',"16",'电视节目')..' [[电视节目]]</div><div>'..
+        res_year..',[['..res_season..']]'..res_day..'</div>'
+      end
+    ----------------------------------------------------
+    if displayName == '三倍速溶咖啡' then
+      res_source ='<div>'..p._getImage('Gus Icon.png',"24",'星之果实餐吧')..
+      '[[星之果实餐吧]] '..p._getImage('Gold.png',"24",'')..'5000 购买</div>'
+    end
+  end
+  ----------------------------------------------
+  if tostring(source_text[1]) == "s" and displayName ~= '幸运午餐' then
+    local s_table = p.skillTable
+    local sid = tostring(source_text[2])
+    local s_name = s_table[sid]
+    --res_source = s_name .. source_text[3]
+    res_source =  res_source ..'[['..s_name..']]等级' ..source_text[3]
+  end
+  return res_source
+end
 ---------------------------------------------------
 return p

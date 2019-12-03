@@ -1,1 +1,1 @@
-{"index": "Mayonnaise Machine", "main_category": "CraftingRecipes", "recipeItem": "388 15 390 15 86 1 334 1", "type": "Home", "craftItem": "24", "isBigCraftItem": "true", "skill": "Farming 2", "displayName": "蛋黄酱机"}
+{"index": "Mayonnaise Machine", "main_category": "CraftingRecipes", "recipeItem": "388 15 390 15 86 1 334 1", "craft_category": "Basic", "type": "Home", "craftItem": "24", "isBigCraftItem": "true", "skill": "Farming 2", "displayName": "蛋黄酱机"}

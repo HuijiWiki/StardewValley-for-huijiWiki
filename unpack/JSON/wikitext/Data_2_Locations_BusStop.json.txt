@@ -1,0 +1,1 @@
+{"index": "BusStop", "main_category": "Locations", "undefined_1": "18 .9 20 .4 22 .7", "debris": "584 .08 378 .15 102 .15 390 .25 330 1", "fishSpawn_1": "-1", "undefined_2": "396 .4 398 .4 402 .7", "undefined_3": "406 .6 408 .4", "undefined_4": "414 .33 418 .6 283 .5"}

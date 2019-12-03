@@ -1,1 +1,1 @@
-{"index": "Wedding Ring", "main_category": "CraftingRecipes", "recipeItem": "337 5 74 1", "type": "Home", "craftItem": "801", "isBigCraftItem": "false", "skill": "null", "displayName": "结婚戒指"}
+{"index": "Wedding Ring", "main_category": "CraftingRecipes", "recipeItem": "337 5 74 1", "craft_category": "Ring", "type": "Home", "craftItem": "801", "isBigCraftItem": "false", "skill": "null", "displayName": "结婚戒指"}

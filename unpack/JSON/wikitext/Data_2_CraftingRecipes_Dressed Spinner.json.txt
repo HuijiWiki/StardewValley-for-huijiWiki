@@ -1,1 +1,1 @@
-{"index": "Dressed Spinner", "main_category": "CraftingRecipes", "recipeItem": "335 2 428 1", "type": "Home", "craftItem": "687", "isBigCraftItem": "false", "skill": "Fishing 8", "displayName": "精装旋式鱼饵"}
+{"index": "Dressed Spinner", "main_category": "CraftingRecipes", "recipeItem": "335 2 428 1", "craft_category": "Basic", "type": "Home", "craftItem": "687", "isBigCraftItem": "false", "skill": "Fishing 8", "displayName": "精装旋式鱼饵"}

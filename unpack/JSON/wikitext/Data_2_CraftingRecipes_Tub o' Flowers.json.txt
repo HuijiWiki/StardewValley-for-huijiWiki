@@ -1,1 +1,1 @@
-{"index": "Tub o' Flowers", "main_category": "CraftingRecipes", "recipeItem": "388 15 427 1 429 1 453 1 455 1", "type": "Home", "craftItem": "108", "isBigCraftItem": "true", "skill": "null", "displayName": "一簇鲜花"}
+{"index": "Tub o' Flowers", "main_category": "CraftingRecipes", "recipeItem": "388 15 427 1 429 1 453 1 455 1", "craft_category": "Arch", "type": "Home", "craftItem": "108", "isBigCraftItem": "true", "skill": "null", "displayName": "一簇鲜花"}

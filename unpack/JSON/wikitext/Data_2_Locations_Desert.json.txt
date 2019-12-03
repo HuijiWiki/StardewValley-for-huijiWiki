@@ -1,0 +1,1 @@
+{"index": "Desert", "main_category": "Locations", "undefined_1": "88 .5 90 .5", "debris": "390 .25 330 1", "fishSpawn_1": "153 -1 164 -1 165 -1"}

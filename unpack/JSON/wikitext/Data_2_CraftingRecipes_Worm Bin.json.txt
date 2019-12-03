@@ -1,1 +1,1 @@
-{"index": "Worm Bin", "main_category": "CraftingRecipes", "recipeItem": "709 25 336 1 335 1 771 50", "type": "Home", "craftItem": "154", "isBigCraftItem": "true", "skill": "Fishing 8", "displayName": "虫饵盒"}
+{"index": "Worm Bin", "main_category": "CraftingRecipes", "recipeItem": "709 25 336 1 335 1 771 50", "craft_category": "Fish", "type": "Home", "craftItem": "154", "isBigCraftItem": "true", "skill": "Fishing 8", "displayName": "虫饵盒"}

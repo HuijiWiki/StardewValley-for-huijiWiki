@@ -1,1 +1,1 @@
-{"index": "Oil Of Garlic", "main_category": "CraftingRecipes", "recipeItem": "248 10 247 1", "type": "Home", "craftItem": "772 1", "isBigCraftItem": "false", "skill": "Combat 6", "displayName": "蒜油"}
+{"index": "Oil Of Garlic", "main_category": "CraftingRecipes", "recipeItem": "248 10 247 1", "craft_category": "Cooking", "type": "Home", "craftItem": "772 1", "isBigCraftItem": "false", "skill": "Combat 6", "displayName": "蒜油"}

@@ -1,1 +1,1 @@
-{"index": "Trap Bobber", "main_category": "CraftingRecipes", "recipeItem": "334 1 92 10", "type": "Home", "craftItem": "694", "isBigCraftItem": "false", "skill": "Fishing 6", "displayName": "陷阱浮标"}
+{"index": "Trap Bobber", "main_category": "CraftingRecipes", "recipeItem": "334 1 92 10", "craft_category": "Basic", "type": "Home", "craftItem": "694", "isBigCraftItem": "false", "skill": "Fishing 6", "displayName": "陷阱浮标"}

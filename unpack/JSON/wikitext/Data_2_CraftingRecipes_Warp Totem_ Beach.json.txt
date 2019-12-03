@@ -1,0 +1,1 @@
+{"index": "Warp Totem: Beach", "main_category": "CraftingRecipes", "recipeItem": "709 1 393 2 771 10", "craft_category": "Crafting", "type": "Field", "craftItem": "690", "isBigCraftItem": "false", "skill": "Foraging 6", "displayName": "传送图腾：海滩"}

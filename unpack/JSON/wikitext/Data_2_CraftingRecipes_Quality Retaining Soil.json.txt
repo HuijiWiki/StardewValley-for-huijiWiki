@@ -1,1 +1,1 @@
-{"index": "Quality Retaining Soil", "main_category": "CraftingRecipes", "recipeItem": "390 3 330 1", "type": "Field", "craftItem": "371 2", "isBigCraftItem": "false", "skill": "s Farming 7", "displayName": "高级保湿土壤"}
+{"index": "Quality Retaining Soil", "main_category": "CraftingRecipes", "recipeItem": "390 3 330 1", "craft_category": "Basic", "type": "Field", "craftItem": "371 2", "isBigCraftItem": "false", "skill": "s Farming 7", "displayName": "高级保湿土壤"}

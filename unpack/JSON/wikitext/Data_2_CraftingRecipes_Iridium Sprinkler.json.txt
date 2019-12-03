@@ -1,1 +1,1 @@
-{"index": "Iridium Sprinkler", "main_category": "CraftingRecipes", "recipeItem": "336 1 337 1 787 1", "type": "Home", "craftItem": "645", "isBigCraftItem": "false", "skill": "Farming 9", "displayName": "铱制洒水器"}
+{"index": "Iridium Sprinkler", "main_category": "CraftingRecipes", "recipeItem": "336 1 337 1 787 1", "craft_category": "Crafting", "type": "Home", "craftItem": "645", "isBigCraftItem": "false", "skill": "Farming 9", "displayName": "铱制洒水器"}

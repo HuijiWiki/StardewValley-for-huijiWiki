@@ -1,1 +1,1 @@
-{"index": "Magnet", "main_category": "CraftingRecipes", "recipeItem": "335 1", "type": "Home", "craftItem": "703 3", "isBigCraftItem": "false", "skill": "Fishing 9", "displayName": "磁铁"}
+{"index": "Magnet", "main_category": "CraftingRecipes", "recipeItem": "335 1", "craft_category": "Basic", "type": "Home", "craftItem": "703 3", "isBigCraftItem": "false", "skill": "Fishing 9", "displayName": "磁铁"}

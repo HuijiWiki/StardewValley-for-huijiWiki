@@ -1,1 +1,1 @@
-{"index": "Straw Floor", "main_category": "CraftingRecipes", "recipeItem": "388 1 771 1", "type": "Field", "craftItem": "401", "isBigCraftItem": "false", "skill": "l 0", "displayName": "稻草地板"}
+{"index": "Straw Floor", "main_category": "CraftingRecipes", "recipeItem": "388 1 771 1", "craft_category": "Crafting", "type": "Field", "craftItem": "401", "isBigCraftItem": "false", "skill": "l 0", "displayName": "稻草地板"}

@@ -1,1 +1,1 @@
-{"index": "Keg", "main_category": "CraftingRecipes", "recipeItem": "388 30 334 1 335 1 725 1", "type": "Home", "craftItem": "12", "isBigCraftItem": "true", "skill": "Farming 8", "displayName": "小桶"}
+{"index": "Keg", "main_category": "CraftingRecipes", "recipeItem": "388 30 334 1 335 1 725 1", "craft_category": "999", "type": "Home", "craftItem": "12", "isBigCraftItem": "true", "skill": "Farming 8", "displayName": "小桶"}

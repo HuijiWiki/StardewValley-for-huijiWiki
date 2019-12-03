@@ -1,1 +1,1 @@
-{"index": "Crystal Floor", "main_category": "CraftingRecipes", "recipeItem": "338 1", "type": "Field", "craftItem": "333 5", "isBigCraftItem": "false", "skill": "l 0", "displayName": "水晶地板"}
+{"index": "Crystal Floor", "main_category": "CraftingRecipes", "recipeItem": "338 1", "craft_category": "Crafting", "type": "Field", "craftItem": "333 5", "isBigCraftItem": "false", "skill": "l 0", "displayName": "水晶地板"}

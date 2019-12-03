@@ -1,1 +1,1 @@
-{"index": "Wooden Brazier", "main_category": "CraftingRecipes", "recipeItem": "388 10 382 1 771 5", "type": "Home", "craftItem": "143", "isBigCraftItem": "true", "skill": "null", "displayName": "木头火炬"}
+{"index": "Wooden Brazier", "main_category": "CraftingRecipes", "recipeItem": "388 10 382 1 771 5", "craft_category": "Fish", "type": "Home", "craftItem": "143", "isBigCraftItem": "true", "skill": "null", "displayName": "木头火炬"}

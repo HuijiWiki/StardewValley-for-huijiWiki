@@ -1,1 +1,1 @@
-{"index": "Gold Brazier", "main_category": "CraftingRecipes", "recipeItem": "336 1 382 1 771 5", "type": "Home", "craftItem": "145", "isBigCraftItem": "true", "skill": "null", "displayName": "金制火炬"}
+{"index": "Gold Brazier", "main_category": "CraftingRecipes", "recipeItem": "336 1 382 1 771 5", "craft_category": "Fish", "type": "Home", "craftItem": "145", "isBigCraftItem": "true", "skill": "null", "displayName": "金制火炬"}

@@ -1,1 +1,1 @@
-{"index": "Grass Starter", "main_category": "CraftingRecipes", "recipeItem": "771 10", "type": "Field", "craftItem": "297", "isBigCraftItem": "false", "skill": "null", "displayName": "草籽"}
+{"index": "Grass Starter", "main_category": "CraftingRecipes", "recipeItem": "771 10", "craft_category": "Crafting", "type": "Field", "craftItem": "297", "isBigCraftItem": "false", "skill": "null", "displayName": "草籽"}

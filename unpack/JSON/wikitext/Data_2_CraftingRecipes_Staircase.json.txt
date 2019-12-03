@@ -1,1 +1,1 @@
-{"index": "Staircase", "main_category": "CraftingRecipes", "recipeItem": "390 99", "type": "Field", "craftItem": "71", "isBigCraftItem": "true", "skill": "Mining 2", "displayName": "楼梯"}
+{"index": "Staircase", "main_category": "CraftingRecipes", "recipeItem": "390 99", "craft_category": "Quest", "type": "Field", "craftItem": "71", "isBigCraftItem": "true", "skill": "Mining 2", "displayName": "楼梯"}

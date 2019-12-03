@@ -1,1 +1,1 @@
-{"index": "Cask", "main_category": "CraftingRecipes", "recipeItem": "388 20 709 1", "type": "Home", "craftItem": "163", "isBigCraftItem": "true", "skill": "null", "displayName": "木桶"}
+{"index": "Cask", "main_category": "CraftingRecipes", "recipeItem": "388 20 709 1", "craft_category": "Fish", "type": "Home", "craftItem": "163", "isBigCraftItem": "true", "skill": "null", "displayName": "木桶"}

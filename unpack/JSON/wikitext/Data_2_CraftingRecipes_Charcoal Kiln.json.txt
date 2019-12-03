@@ -1,1 +1,1 @@
-{"index": "Charcoal Kiln", "main_category": "CraftingRecipes", "recipeItem": "388 20 334 2", "type": "Home", "craftItem": "114", "isBigCraftItem": "true", "skill": "Foraging 4", "displayName": "煤炭窑"}
+{"index": "Charcoal Kiln", "main_category": "CraftingRecipes", "recipeItem": "388 20 334 2", "craft_category": "Arch", "type": "Home", "craftItem": "114", "isBigCraftItem": "true", "skill": "Foraging 4", "displayName": "煤炭窑"}

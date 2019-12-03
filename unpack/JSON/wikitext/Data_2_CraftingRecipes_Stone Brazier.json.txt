@@ -1,1 +1,1 @@
-{"index": "Stone Brazier", "main_category": "CraftingRecipes", "recipeItem": "390 10 382 1 771 5", "type": "Home", "craftItem": "144", "isBigCraftItem": "true", "skill": "null", "displayName": "石头火炬"}
+{"index": "Stone Brazier", "main_category": "CraftingRecipes", "recipeItem": "390 10 382 1 771 5", "craft_category": "Fish", "type": "Home", "craftItem": "144", "isBigCraftItem": "true", "skill": "null", "displayName": "石头火炬"}

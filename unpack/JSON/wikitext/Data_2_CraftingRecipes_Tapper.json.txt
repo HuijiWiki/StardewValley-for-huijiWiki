@@ -1,1 +1,1 @@
-{"index": "Tapper", "main_category": "CraftingRecipes", "recipeItem": "388 40 334 2", "type": "Home", "craftItem": "105", "isBigCraftItem": "true", "skill": "Foraging 3", "displayName": "树液采集器"}
+{"index": "Tapper", "main_category": "CraftingRecipes", "recipeItem": "388 40 334 2", "craft_category": "Arch", "type": "Home", "craftItem": "105", "isBigCraftItem": "true", "skill": "Foraging 3", "displayName": "树液采集器"}

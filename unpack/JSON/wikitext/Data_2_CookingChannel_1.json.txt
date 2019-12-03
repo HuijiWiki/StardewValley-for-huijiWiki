@@ -1,0 +1,1 @@
+{"index": "1", "main_category": "CookingChannel", "nameEN": "Stir Fry", "description": "蔬菜什锦盖饭！这是一种能吃到健康蔬菜的最佳方式。用少许芝麻油炒一下蔬菜，再加入足够的新鲜生姜和大蒜。现在，深吸一口气……嗷，味道果然很不错。", "displayName": "蔬菜什锦盖饭"}

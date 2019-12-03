@@ -1,0 +1,1 @@
+{"index": "17", "main_category": "CookingChannel", "nameEN": "Pizza", "description": "披萨！披萨是永恒的烹饪经典，这也是有其原因的。金黄色的精美饼胚已经出炉了，先浇一层蒜香浓郁的番茄酱，然后，再浇上一层让人口水直流的奶酪。这才刚刚开始！让我们在上面撒些新鲜胡椒和番茄。我的天！", "displayName": "披萨"}

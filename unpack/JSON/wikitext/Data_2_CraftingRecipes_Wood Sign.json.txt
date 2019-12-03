@@ -1,1 +1,1 @@
-{"index": "Wood Sign", "main_category": "CraftingRecipes", "recipeItem": "388 25", "type": "Home", "craftItem": "37", "isBigCraftItem": "true", "skill": "null", "displayName": "木牌"}
+{"index": "Wood Sign", "main_category": "CraftingRecipes", "recipeItem": "388 25", "craft_category": "999", "type": "Home", "craftItem": "37", "isBigCraftItem": "true", "skill": "null", "displayName": "木牌"}

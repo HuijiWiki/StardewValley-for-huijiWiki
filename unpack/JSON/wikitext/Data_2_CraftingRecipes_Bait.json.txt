@@ -1,1 +1,1 @@
-{"index": "Bait", "main_category": "CraftingRecipes", "recipeItem": "684 1", "type": "Home", "craftItem": "685 5", "isBigCraftItem": "false", "skill": "Fishing 2", "displayName": "鱼饵"}
+{"index": "Bait", "main_category": "CraftingRecipes", "recipeItem": "684 1", "craft_category": "Basic", "type": "Home", "craftItem": "685 5", "isBigCraftItem": "false", "skill": "Fishing 2", "displayName": "鱼饵"}

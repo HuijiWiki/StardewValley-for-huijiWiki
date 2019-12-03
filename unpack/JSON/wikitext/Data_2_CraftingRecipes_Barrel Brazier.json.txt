@@ -1,1 +1,1 @@
-{"index": "Barrel Brazier", "main_category": "CraftingRecipes", "recipeItem": "388 50 768 1 382 1", "type": "Home", "craftItem": "150", "isBigCraftItem": "true", "skill": "null", "displayName": "木桶火炬"}
+{"index": "Barrel Brazier", "main_category": "CraftingRecipes", "recipeItem": "388 50 768 1 382 1", "craft_category": "Fish", "type": "Home", "craftItem": "150", "isBigCraftItem": "true", "skill": "null", "displayName": "木桶火炬"}

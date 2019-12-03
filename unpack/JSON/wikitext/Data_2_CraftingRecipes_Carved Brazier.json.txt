@@ -1,1 +1,1 @@
-{"index": "Carved Brazier", "main_category": "CraftingRecipes", "recipeItem": "709 10 382 1", "type": "Home", "craftItem": "148", "isBigCraftItem": "true", "skill": "null", "displayName": "镂空火炬"}
+{"index": "Carved Brazier", "main_category": "CraftingRecipes", "recipeItem": "709 10 382 1", "craft_category": "Fish", "type": "Home", "craftItem": "148", "isBigCraftItem": "true", "skill": "null", "displayName": "镂空火炬"}

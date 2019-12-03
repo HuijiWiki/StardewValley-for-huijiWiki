@@ -1,1 +1,1 @@
-{"index": "Preserves Jar", "main_category": "CraftingRecipes", "recipeItem": "388 50 390 40 382 8", "type": "Home", "craftItem": "15", "isBigCraftItem": "true", "skill": "Farming 4", "displayName": "罐头瓶"}
+{"index": "Preserves Jar", "main_category": "CraftingRecipes", "recipeItem": "388 50 390 40 382 8", "craft_category": "999", "type": "Home", "craftItem": "15", "isBigCraftItem": "true", "skill": "Farming 4", "displayName": "罐头瓶"}

@@ -1,1 +1,1 @@
-{"index": "Crystalarium", "main_category": "CraftingRecipes", "recipeItem": "390 99 336 5 337 2 787 1", "type": "Home", "craftItem": "21", "isBigCraftItem": "true", "skill": "Mining 9", "displayName": "宝石复制机"}
+{"index": "Crystalarium", "main_category": "CraftingRecipes", "recipeItem": "390 99 336 5 337 2 787 1", "craft_category": "999", "type": "Home", "craftItem": "21", "isBigCraftItem": "true", "skill": "Mining 9", "displayName": "宝石复制机"}

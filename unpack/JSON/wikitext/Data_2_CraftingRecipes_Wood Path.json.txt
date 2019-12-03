@@ -1,1 +1,1 @@
-{"index": "Wood Path", "main_category": "CraftingRecipes", "recipeItem": "388 1", "type": "Field", "craftItem": "405", "isBigCraftItem": "false", "skill": "l 0", "displayName": "木头小径"}
+{"index": "Wood Path", "main_category": "CraftingRecipes", "recipeItem": "388 1", "craft_category": "Crafting", "type": "Field", "craftItem": "405", "isBigCraftItem": "false", "skill": "l 0", "displayName": "木头小径"}

@@ -1,1 +1,1 @@
-{"index": "Loom", "main_category": "CraftingRecipes", "recipeItem": "388 60 771 30 726 1", "type": "Home", "craftItem": "17", "isBigCraftItem": "true", "skill": "Farming 7", "displayName": "织布机"}
+{"index": "Loom", "main_category": "CraftingRecipes", "recipeItem": "388 60 771 30 726 1", "craft_category": "999", "type": "Home", "craftItem": "17", "isBigCraftItem": "true", "skill": "Farming 7", "displayName": "织布机"}

@@ -1,1 +1,1 @@
-{"index": "Brick Floor", "main_category": "CraftingRecipes", "recipeItem": "330 2 390 5", "type": "Field", "craftItem": "293 5", "isBigCraftItem": "false", "skill": "l 0", "displayName": "红砖地板"}
+{"index": "Brick Floor", "main_category": "CraftingRecipes", "recipeItem": "330 2 390 5", "craft_category": "Crafting", "type": "Field", "craftItem": "293 5", "isBigCraftItem": "false", "skill": "l 0", "displayName": "红砖地板"}

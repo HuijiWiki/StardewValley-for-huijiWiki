@@ -261,6 +261,19 @@
             "displayName"
             ]
     },
+    "locations" : {
+        "9":[
+            "undefined_1",
+            "undefined_2",
+            "undefined_3",
+            "undefined_4",
+            "fishSpawn_1",
+            "fishSpawn_2",
+            "fishSpawn_3",
+            "fishSpawn_4",
+            "debris"
+            ]
+    },
     "monsters" : {
         "15":[
             "baseHP",

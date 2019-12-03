@@ -1,1 +1,1 @@
-{"index": "Stepping Stone Path", "main_category": "CraftingRecipes", "recipeItem": "390 1", "type": "Field", "craftItem": "415", "isBigCraftItem": "false", "skill": "l 0", "displayName": "垫脚石小径"}
+{"index": "Stepping Stone Path", "main_category": "CraftingRecipes", "recipeItem": "390 1", "craft_category": "Crafting", "type": "Field", "craftItem": "415", "isBigCraftItem": "false", "skill": "l 0", "displayName": "垫脚石小径"}

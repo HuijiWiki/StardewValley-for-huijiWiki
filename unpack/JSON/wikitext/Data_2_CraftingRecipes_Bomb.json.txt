@@ -1,1 +1,1 @@
-{"index": "Bomb", "main_category": "CraftingRecipes", "recipeItem": "380 4 382 1", "type": "Field", "craftItem": "287", "isBigCraftItem": "false", "skill": "Mining 6", "displayName": "炸弹"}
+{"index": "Bomb", "main_category": "CraftingRecipes", "recipeItem": "380 4 382 1", "craft_category": "Crafting", "type": "Field", "craftItem": "287", "isBigCraftItem": "false", "skill": "Mining 6", "displayName": "炸弹"}
