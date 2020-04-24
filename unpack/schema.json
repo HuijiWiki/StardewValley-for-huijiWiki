@@ -109,15 +109,6 @@
         }
     },
     "cookingrecipes" : {
-<<<<<<< HEAD
-        "5":[
-            "undefined_1",
-            "undefined_2",
-            "undefined_3",
-            "source",
-            "displayName"
-            ]
-=======
         "5":{
           "recipeList": {
             "itemId": 0,
@@ -128,7 +119,6 @@
           "source": 3,
           "displayName": 4
         }
->>>>>>> 6e50d5390f84bb03e143cd9a72615ad97ad9d1d4
     },
     "craftingrecipes" : {
         "6": {
@@ -167,90 +157,90 @@
         }
     },
     "farmanimals" : {
-        "27":[
-            "daysToProduce",
-            "matureAge",
-            "defaultProduceIndex",
-            "deluxeProduceIndex",
-            "sound",
-            "box-x",
-            "box-y",
-            "box-w",
-            "box-h",
-            "sidewayBox-x",
-            "sidewayBox-y",
-            "sidewayBox-w",
-            "sidewayBox-h",
-            "harvestType",
-            "showDiffTexturewhenReadyToHarvest",
-            "buildingType",
-            "sprite-w",
-            "sprite-h",
-            "sidewaySprite-w",
-            "sidewaySprite-h",
-            "fullnessDrain",
-            "happinessDrain",
-            "harvestTool",
-            "meatIndex",
-            "price",
-            "displayType",
-            "displayBuilding"
-            ]
+        "27": {
+          "daysToLay":  0,
+          "ageWhenMature": 1,
+          "defaultProduceIndex": 2,
+          "deluxeProduceIndex": 3,
+          "sound": 4,
+          "box-x": 5,
+          "box-y": 6,
+          "box-w": 7,
+          "box-h": 8,
+          "sidewayBox-x": 9,
+          "sidewayBox-y": 10,
+          "sidewayBox-w": 11,
+          "sidewayBox-h": 12,
+          "harvestType": 13,
+          "showDiffTexturewhenReadyToHarvest": 14,
+          "buildingType": 15,
+          "sprite-w": 16,
+          "sprite-h": 17,
+          "sidewaySprite-w": 18,
+          "sidewaySprite-h": 19,
+          "fullnessDrain": 20,
+          "happinessDrain": 21,
+          "harvestTool": 22,
+          "meatIndex": 23,
+          "price": 24,
+          "displayType": 25,
+          "displayBuilding": 26
+        }
     },    
     "fish" : {
-        "14":[
-            "nameEN",
-            "difficulty",
-            "source",
-            "sizeMin",
-            "sizeMax",
-            "spawnTime",
-            "season",
-            "weather",
-            "undefined_1",
-            "minDepth",
-            "SpawnMultiplier",
-            "DepthMultiplier",
-            "level",
-            "displayName"
-            ],
-        "8":[
-            "nameEN",
-            "source",
-            "undefined_1",
-            "undefined_2",
-            "location",
-            "undefined_3",
-            "undefined_4",
-            "displayName"
-        ]
+        "14": {
+          "nameEN": 0,
+          "difficulty": 1,
+          "fishMotion": 2,
+          "sizeMin": 3,
+          "sizeMax": 4,
+          "spawnTime": 5,
+          "season": 6,
+          "weather": 7,
+          "undefined_1": 8,
+          "minDepth": 9,
+          "SpawnMultiplier": 10,
+          "DepthMultiplier": 11,
+          "level": 12,
+          "displayName": 13
+        },
+        "8": {
+          "nameEN": 0,
+          "source": 1,
+          "difficulty": 2,
+          "undefined_2": 3,
+          "location": 4,
+          "undefined_3": 5,
+          "undefined_4": 6,
+          "displayName": 7
+        }
     },
     "fruittrees" : {
-        "4":[
-            "undefined_1",
-            "season",
-            "undefined_3",
-            "undefined_4"
-            ]
+        "4": {
+            "type": 0,
+            "season": 1,
+            "fruitId": 2,
+            "undefined_4": 3
+        }
     },
     "furniture" : {
-        "7":[
-            "nameEN",
-            "type",
-            "undefined_1",
-            "undefined_2",
-            "undefined_3",
-            "price",
-            "displayName"
-            ]
+        "7": {
+          "nameEN": 0,
+          "type": 1,
+          "sourceRect": 2,
+          "boundingBox": 3,
+          "rotations": 4,
+          "price": 5,
+          "displayName": 6
+        }
     },
     "hats" : {
-        "5":[
-            "nameEN",
-            "description",
-            "skipHairDraw",
-            "ignoreHairstyleOffset",
-            "displayName"
-            ]
+        "5": {
+          "nameEN": 0,
+          "description": 1,
+          "skipHairDraw": 2,
+          "ignoreHairstyleOffset": 3,
+          "displayName": 4
+        }
     }
 }
