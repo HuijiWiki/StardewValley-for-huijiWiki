@@ -1,0 +1,1 @@
+{"index": "74", "main_category": "BigCraftablesInformation", "nameEN": "Bonfire", "craft_category": "999", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "余烬徐徐燃烧。", "outdoors": "true", "fragility": "1", "displayName": "篝火", "indoors": "false"}

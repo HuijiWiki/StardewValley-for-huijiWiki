@@ -1,0 +1,1 @@
+{"index": "13", "main_category": "BigCraftablesInformation", "nameEN": "Furnace", "craft_category": "999", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "将矿石和煤炭转换为金属方块。", "outdoors": "true", "fragility": "0", "displayName": "熔炉"}

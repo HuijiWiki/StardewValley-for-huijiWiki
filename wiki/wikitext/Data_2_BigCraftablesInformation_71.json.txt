@@ -1,0 +1,1 @@
+{"index": "71", "main_category": "BigCraftablesInformation", "nameEN": "Staircase", "craft_category": "999", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "前往矿场的下一层。", "outdoors": "true", "fragility": "1", "displayName": "楼梯", "indoors": "false"}

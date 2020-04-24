@@ -1,0 +1,1 @@
+{"index": "65", "main_category": "BigCraftablesInformation", "nameEN": "Fancy Table", "craft_category": "999", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "制作精良的圆桌。", "outdoors": "true", "fragility": "1", "displayName": "漂亮的桌子", "indoors": "false"}

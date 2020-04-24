@@ -1,0 +1,1 @@
+{"index": "84", "main_category": "BigCraftablesInformation", "nameEN": "Wicked Statue", "craft_category": "999", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "这个雕像有点不太对劲。", "outdoors": "true", "fragility": "2", "displayName": "邪恶雕像", "indoors": "false"}

@@ -1,0 +1,1 @@
+{"index": "94", "main_category": "BigCraftablesInformation", "nameEN": "Singing Stone", "craft_category": "999", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "被击中就会发出纯音。", "outdoors": "true", "fragility": "2", "displayName": "唱歌的石头", "indoors": "false"}

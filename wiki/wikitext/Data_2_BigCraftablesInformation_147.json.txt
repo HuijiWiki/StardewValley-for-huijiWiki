@@ -1,0 +1,1 @@
+{"index": "147", "main_category": "BigCraftablesInformation", "nameEN": "Stump Brazier", "craft_category": "999", "price": "80", "edibility": "-300", "type": "Crafting -9", "description": "提供一点亮光。", "outdoors": "true", "fragility": "0", "displayName": "树桩火炬", "indoors": "true"}

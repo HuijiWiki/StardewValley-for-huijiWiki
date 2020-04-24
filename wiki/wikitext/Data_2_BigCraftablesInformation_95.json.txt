@@ -1,0 +1,1 @@
+{"index": "95", "main_category": "BigCraftablesInformation", "nameEN": "Stone Owl", "craft_category": "999", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "不知道从哪儿来，但是挺耐看。", "outdoors": "true", "fragility": "2", "displayName": "石猫头鹰", "indoors": "false"}

@@ -1,0 +1,1 @@
+{"index": "34", "main_category": "BigCraftablesInformation", "nameEN": "Sign Of The Vessel", "craft_category": "999", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "农场的装饰件。", "outdoors": "true", "fragility": "0", "displayName": "船标", "indoors": "true"}

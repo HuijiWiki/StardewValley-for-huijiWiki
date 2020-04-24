@@ -1,0 +1,1 @@
+{"index": "31", "main_category": "BigCraftablesInformation", "nameEN": "Chicken Statue", "craft_category": "999", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "一只母鸡的木质雕像。", "outdoors": "true", "fragility": "0", "displayName": "鸡雕像", "indoors": "true"}

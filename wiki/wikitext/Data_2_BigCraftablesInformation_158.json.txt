@@ -1,0 +1,1 @@
+{"index": "158", "main_category": "BigCraftablesInformation", "nameEN": "Slime Egg-Press", "craft_category": "999", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "压制100块史莱姆为一粒史莱姆蛋。简直是奇迹！", "outdoors": "true", "fragility": "0", "displayName": "史莱姆压蛋器", "indoors": "false"}

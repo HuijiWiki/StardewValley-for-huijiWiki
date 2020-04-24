@@ -1,0 +1,1 @@
+{"index": "167", "main_category": "BigCraftablesInformation", "nameEN": "Deluxe Scarecrow", "craft_category": "999", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "阻止乌鸦攻击你的庄稼。范围很大（大约16格）。", "outdoors": "true", "fragility": "0", "displayName": "豪华稻草人", "indoors": "false"}

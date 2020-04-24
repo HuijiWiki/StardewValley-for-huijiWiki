@@ -1,0 +1,1 @@
+{"index": "45", "main_category": "BigCraftablesInformation", "nameEN": "Ornamental Hay Bale", "craft_category": "999", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "农场的装饰件。", "outdoors": "true", "fragility": "0", "displayName": "装饰干草捆", "indoors": "true"}

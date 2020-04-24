@@ -1,0 +1,1 @@
+{"index": "23", "main_category": "BigCraftablesInformation", "nameEN": "Table Piece R", "craft_category": "999", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "一张大桌子的右角。", "outdoors": "true", "fragility": "0", "displayName": "桌子部件R"}

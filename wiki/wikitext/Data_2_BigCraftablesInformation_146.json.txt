@@ -1,0 +1,1 @@
+{"index": "146", "main_category": "BigCraftablesInformation", "nameEN": "Campfire", "craft_category": "999", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "提供一点亮光。", "outdoors": "true", "fragility": "0", "displayName": "营火", "indoors": "true"}

@@ -1,0 +1,1 @@
+{"index": "164", "main_category": "BigCraftablesInformation", "nameEN": "Solid Gold Lewis", "craft_category": "999", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "市长的秘密项目。", "outdoors": "true", "fragility": "0", "displayName": "刘易斯黄金像", "indoors": "false"}

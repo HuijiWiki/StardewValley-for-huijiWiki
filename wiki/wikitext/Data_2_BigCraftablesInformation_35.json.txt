@@ -1,0 +1,1 @@
+{"index": "35", "main_category": "BigCraftablesInformation", "nameEN": "Basic Log", "craft_category": "999", "price": "125", "edibility": "-300", "type": "Crafting -9", "description": "农场的装饰件。", "outdoors": "true", "fragility": "0", "displayName": "普通圆木", "indoors": "true"}

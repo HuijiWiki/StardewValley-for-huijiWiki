@@ -1,0 +1,1 @@
+{"index": "29", "main_category": "BigCraftablesInformation", "nameEN": "Obelisk", "craft_category": "999", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "一个散发着邪恶能量的可怕传送阵。", "outdoors": "false", "fragility": "0", "displayName": "方尖碑", "indoors": "true"}

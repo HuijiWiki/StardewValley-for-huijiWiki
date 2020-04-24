@@ -1,0 +1,1 @@
+{"index": "107", "main_category": "BigCraftablesInformation", "nameEN": "Plush Bunny", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "很大、很软、很可爱。", "outdoors": "false", "fragility": "2", "displayName": "绒毛兔子", "indoors": "true"}

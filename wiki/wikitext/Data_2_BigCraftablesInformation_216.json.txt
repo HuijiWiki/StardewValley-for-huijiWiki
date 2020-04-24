@@ -1,0 +1,1 @@
+{"index": "216", "main_category": "BigCraftablesInformation", "nameEN": "Mini-Fridge", "craft_category": "999", "price": "1500", "edibility": "-300", "type": "Crafting -9", "description": "可以储存额外的烹饪原材料。", "outdoors": "true", "fragility": "0", "displayName": "迷你冰箱", "indoors": "false"}

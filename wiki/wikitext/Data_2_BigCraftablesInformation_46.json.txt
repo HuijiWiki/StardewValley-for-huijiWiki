@@ -1,0 +1,1 @@
+{"index": "46", "main_category": "BigCraftablesInformation", "nameEN": "Log Section", "craft_category": "999", "price": "175", "edibility": "-300", "type": "Crafting -9", "description": "农场的装饰件。", "outdoors": "true", "fragility": "0", "displayName": "圆木段", "indoors": "true"}

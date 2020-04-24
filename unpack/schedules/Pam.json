@@ -1,0 +1,25 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "rain": "GOTO spring",
+        "spring_25": "800 Trailer 15 4 2 pam_sit_down/1130 Hospital 4 17 2 pam_sit_down \"Strings\\schedules\\Pam:spring_25.000\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Pam:spring_25.001\"/1600 Saloon 7 18 1/2400 Trailer 15 4 2 pam_sleep",
+        "bus": "800 Trailer 15 4 2 pam_sit_down/830 BusStop 11 10 2/1700 Saloon 7 18 1/2400 Trailer 15 4 2 pam_sleep",
+        "spring": "800 Trailer 15 4 2 pam_sit_down/1200 JojaMart 6 19 1/1600 Saloon 7 18 1/2400 Trailer 15 4 2 pam_sleep",
+        "JojaMart_Replacement": "SeedShop 2 24 3"
+    }
+}

@@ -1,0 +1,1 @@
+{"index": "219", "main_category": "BigCraftablesInformation", "nameEN": "Cursed P.K. Arcade System", "craft_category": "999", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "这台草原之王街机系统有哪里不对劲……", "outdoors": "true", "fragility": "0", "displayName": "被诅咒的P.K.街机系统", "indoors": "false"}

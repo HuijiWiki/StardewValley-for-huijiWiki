@@ -1,0 +1,1 @@
+{"index": "208", "main_category": "BigCraftablesInformation", "nameEN": "Workbench", "craft_category": "999", "price": "1500", "edibility": "-300", "type": "Crafting -9", "description": "在这里制作物品时，你可以使用任何相邻箱子中的材料。", "outdoors": "true", "fragility": "0", "displayName": "工作台", "indoors": "false"}

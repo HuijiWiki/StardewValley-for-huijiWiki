@@ -1,0 +1,1 @@
+{"index": "161", "main_category": "BigCraftablesInformation", "nameEN": "??Pinky Lemon??", "craft_category": "999", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "??粉色柠檬??", "outdoors": "true", "fragility": "0", "displayName": "完美雕像", "indoors": "false"}

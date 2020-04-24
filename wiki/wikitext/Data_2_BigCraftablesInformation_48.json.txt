@@ -1,0 +1,1 @@
+{"index": "48", "main_category": "BigCraftablesInformation", "nameEN": "Seasonal Decor", "craft_category": "999", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "此装饰随季节变化。", "outdoors": "true", "fragility": "0", "displayName": "季节性装饰", "indoors": "true"}

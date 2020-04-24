@@ -1,0 +1,3 @@
+local p = {}
+local getArgs = require('Module:Arguments').getArgs
+return p

@@ -1,1 +1,1 @@
-{"index": "6", "main_category": "CookingChannel", "nameEN": "Pancakes", "description": "薄煎饼！有的时候，我会被精致、复杂的菜肴吸引……不过，一块简单的薄煎饼也可以抚慰我的心灵。建议在这一层层热煎饼上涂上黄油和枫糖浆。", "displayName": "薄煎饼"}
+{"index": "6", "main_category": "CookingChannel", "nameEN": "Pancakes", "sort_key": 6, "description": "薄煎饼！有的时候，我会被精致、复杂的菜肴吸引……不过，一块简单的薄煎饼也可以抚慰我的心灵。建议在这一层层热煎饼上涂上黄油和枫糖浆。", "displayName": "薄煎饼"}

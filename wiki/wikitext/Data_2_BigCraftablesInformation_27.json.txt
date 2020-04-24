@@ -1,0 +1,1 @@
+{"index": "27", "main_category": "BigCraftablesInformation", "nameEN": "Wood Chair", "craft_category": "999", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "一种可面朝四个方向的椅子。", "outdoors": "true", "fragility": "0", "displayName": "木椅"}

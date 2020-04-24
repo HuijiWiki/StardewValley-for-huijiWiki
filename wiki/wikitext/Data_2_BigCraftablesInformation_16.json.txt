@@ -1,0 +1,1 @@
+{"index": "16", "main_category": "BigCraftablesInformation", "nameEN": "Cheese Press", "craft_category": "999", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "将牛奶转换成乳酪。", "outdoors": "true", "fragility": "0", "displayName": "压酪机"}

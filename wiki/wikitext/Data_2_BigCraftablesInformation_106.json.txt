@@ -1,0 +1,1 @@
+{"index": "106", "main_category": "BigCraftablesInformation", "nameEN": "Camera", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "装在三脚架上的旧相机。", "outdoors": "true", "fragility": "2", "displayName": "相机", "indoors": "false"}

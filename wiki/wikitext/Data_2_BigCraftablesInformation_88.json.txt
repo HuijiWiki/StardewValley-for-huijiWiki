@@ -1,0 +1,1 @@
+{"index": "88", "main_category": "BigCraftablesInformation", "nameEN": "Standing Geode", "craft_category": "999", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "一块巨大的晶洞镶嵌在一个基座上。成千上百的紫色水晶在其中闪闪发光。", "outdoors": "true", "fragility": "2", "displayName": "直立的晶洞", "indoors": "false"}

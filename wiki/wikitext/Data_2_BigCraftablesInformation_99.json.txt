@@ -1,0 +1,1 @@
+{"index": "99", "main_category": "BigCraftablesInformation", "nameEN": "Feed Hopper", "craft_category": "999", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "可以轻易进入饲料筒仓。", "outdoors": "true", "fragility": "2", "displayName": "喂料斗", "indoors": "false"}

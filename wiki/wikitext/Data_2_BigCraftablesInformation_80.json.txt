@@ -1,0 +1,1 @@
+{"index": "80", "main_category": "BigCraftablesInformation", "nameEN": "Door", "craft_category": "999", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "一种使它缩回地面的隐蔽装置。", "outdoors": "true", "fragility": "1", "displayName": "门", "indoors": "false"}

@@ -1,0 +1,5 @@
+local p = {}
+local getArgs = require('Module:Arguments').getArgs
+--------------默认的浮层-------------
+
+return p

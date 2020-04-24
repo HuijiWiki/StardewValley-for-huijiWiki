@@ -1,0 +1,1 @@
+{"index": "163", "main_category": "BigCraftablesInformation", "nameEN": "Cask", "craft_category": "999", "price": "0", "edibility": "-300", "type": "Crafting -9", "description": "在地窖中使用以使产品变陈，如葡萄酒和奶酪。", "outdoors": "true", "fragility": "0", "displayName": "木桶", "indoors": "false"}

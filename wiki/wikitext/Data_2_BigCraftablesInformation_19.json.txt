@@ -1,0 +1,1 @@
+{"index": "19", "main_category": "BigCraftablesInformation", "nameEN": "Oil Maker", "craft_category": "999", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "生产松露美食油", "outdoors": "true", "fragility": "0", "displayName": "产油机"}

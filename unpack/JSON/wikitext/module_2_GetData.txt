@@ -29,6 +29,64 @@ p.buffTable ={
 }
 function p._showCookingBook(data,item_data,c_data,cookingTV)
   local res = ''
+  return res 
+end
+----------------------------------------------------------------------------
+function p._getCookingChannel(frame)
+  local query ={
+    main_category	= 'CookingChannel'
+  }
+
+  local options ={
+    sort = {
+      sort_key = 1
+    }
+  }
+  local res = '<table class="wikitable sortable" style="text-align:center;width: auto; min-width: 0; display: table; max-width: 100%;><tr>'..
+  '<th>食谱</th>'..
+  '<th style="width:120px;">节目中的描述</th>'..
+  '<th style="width:120px;">播出日期</th>'
+  
+  local tvtable = {
+    [1] = "春季",[2] = "夏季",[3] = "秋季",[4] = "冬季",
+  }
+  local tvtable2 ={
+    ["1"] = "7",["2"] = "14",["3"] = "21",["0"] = "28",
+  }
+
+  local data = mw.huiji.db.find(query,options)
+
+  for _i,v in ipairs(data) do
+    local tv_index = tonumber(v.index)
+    local tv_year = math.ceil(tv_index / 16)
+    local tv_season = math.ceil ((tv_index - 16*(tv_year-1)) /4)
+    local tv_day =  (tv_index % 4) 
+    local res_year,res_season,res_day,res_source
+
+    if tv_year == 1 then
+      res_year = "奇数年"
+    end
+
+    if tv_year == 2 then
+      res_year = "偶数年"
+    end
+
+    res_season = tvtable[tv_season]
+    res_day = tvtable2[tostring(tv_day)] 
+
+    if tv_index > 0 then
+      res_source = '<div>'..res_year..',[['..res_season..']]'..res_day..'</div>'
+    end
+    local img = p._getImage(v.nameEN..'.png','18','')
+    local name = v.displayName
+    local description = v.description
+    res = res..'<tr>'..
+    '<td style="width: 140px;text-align:left">'..img..' [['..name..']]</td>'..
+    '<td style="text-align:left">'..description..'</td>'..
+    '<td style="text-align:left">'..res_source..'</td>'
+  end
+  res = res ..'</table>'
+  --res = mw.dumpObject(data)
   return res
 end
 ----------------------------------------------------------------------------

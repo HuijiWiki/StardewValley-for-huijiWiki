@@ -1,0 +1,1 @@
+{"index": "15", "main_category": "BigCraftablesInformation", "nameEN": "Preserves Jar", "craft_category": "999", "price": "50", "edibility": "-300", "type": "Crafting -9", "description": "将蔬菜转换成泡菜，水果为果酱。", "outdoors": "true", "fragility": "0", "displayName": "罐头瓶"}
